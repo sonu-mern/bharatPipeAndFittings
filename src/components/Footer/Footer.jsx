@@ -1,67 +1,114 @@
-
-import React from 'react';
-import styles from './Footer.module.css';
+import React from "react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const quickLinks = [
+    { name: "Home", href: "#home" },
+    { name: "About Us", href: "#about" },
+    { name: "Products", href: "#products" },
+    { name: "Contact", href: "#contact" },
+    { name: "Privacy Policy", href: "#privacy" },
+    { name: "Terms of Service", href: "#terms" },
+  ];
+
+  const socialLinks = [
+    { icon: <Facebook size={20} />, href: "#", name: "Facebook" },
+    { icon: <Twitter size={20} />, href: "#", name: "Twitter" },
+    { icon: <Instagram size={20} />, href: "#", name: "Instagram" },
+    { icon: <Linkedin size={20} />, href: "#", name: "LinkedIn" },
+  ];
+
   return (
     <footer className={styles.footer} id="contact">
       <div className={styles.container}>
         <div className={styles.footerContent}>
-          <div className={styles.footerColumn}>
-            <h3 className={styles.columnTitle}>About Us</h3>
-            <p className={styles.columnText}>
-              ModernShop is your trusted destination for premium quality products. 
-              We're committed to providing exceptional customer service and carefully 
-              curated items that enhance your lifestyle.
+          <div className={styles.column}>
+            <h3 className={styles.columnTitle}>About ModernStore</h3>
+            <p className={styles.aboutText}>
+              We are dedicated to providing high-quality products and
+              exceptional customer service. Our mission is to make shopping
+              convenient, enjoyable, and accessible for everyone.
             </p>
             <div className={styles.socialLinks}>
-              <a href="#" className={styles.socialLink}>Facebook</a>
-              <a href="#" className={styles.socialLink}>Twitter</a>
-              <a href="#" className={styles.socialLink}>Instagram</a>
+              {socialLinks.map((social, index) => (
+                <a
+                  key={index}
+                  href={social.href}
+                  className={styles.socialLink}
+                  aria-label={social.name}
+                >
+                  {social.icon}
+                </a>
+              ))}
             </div>
           </div>
 
-          <div className={styles.footerColumn}>
+          <div className={styles.column}>
             <h3 className={styles.columnTitle}>Quick Links</h3>
             <ul className={styles.linksList}>
-              <li><a href="#home" className={styles.footerLink}>Home</a></li>
-              <li><a href="#about" className={styles.footerLink}>About</a></li>
-              <li><a href="#products" className={styles.footerLink}>Products</a></li>
-              <li><a href="#contact" className={styles.footerLink}>Contact</a></li>
-              <li><a href="#" className={styles.footerLink}>Privacy Policy</a></li>
-              <li><a href="#" className={styles.footerLink}>Terms of Service</a></li>
+              {quickLinks.map((link, index) => (
+                <li key={index}>
+                  <a href={link.href} className={styles.footerLink}>
+                    {link.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
-          <div className={styles.footerColumn}>
+          <div className={styles.column}>
             <h3 className={styles.columnTitle}>Contact Info</h3>
             <div className={styles.contactInfo}>
-              <p className={styles.contactItem}>
-                <strong>Address:</strong><br />
-                123 Modern Street<br />
-                City, State 12345
-              </p>
-              <p className={styles.contactItem}>
-                <strong>Phone:</strong><br />
-                (123) 456-7890
-              </p>
-              <p className={styles.contactItem}>
-                <strong>Email:</strong><br />
-                info@modernshop.com
-              </p>
-              <p className={styles.contactItem}>
-                <strong>Hours:</strong><br />
-                Mon - Fri: 9AM - 6PM<br />
-                Sat - Sun: 10AM - 4PM
-              </p>
+              <div className={styles.contactItem}>
+                <MapPin size={18} />
+                <span>123 Fashion Street, Style City, SC 12345</span>
+              </div>
+              <div className={styles.contactItem}>
+                <Phone size={18} />
+                <span>(555) 123-4567</span>
+              </div>
+              <div className={styles.contactItem}>
+                <Mail size={18} />
+                <span>info@modernstore.com</span>
+              </div>
+            </div>
+            <div className={styles.newsletter}>
+              <h4 className={styles.newsletterTitle}>
+                Subscribe to Newsletter
+              </h4>
+              <div className={styles.newsletterForm}>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className={styles.newsletterInput}
+                />
+                <button className={styles.newsletterButton}>Subscribe</button>
+              </div>
             </div>
           </div>
         </div>
 
         <div className={styles.footerBottom}>
-          <p className={styles.copyright}>
-            &copy; 2024 ModernShop. All rights reserved.
-          </p>
+          <div className={styles.copyright}>
+            <p>&copy; 2024 ModernStore. All rights reserved.</p>
+          </div>
+          <div className={styles.paymentMethods}>
+            <span>We Accept:</span>
+            <div className={styles.paymentIcons}>
+              <span className={styles.paymentIcon}>💳</span>
+              <span className={styles.paymentIcon}>💰</span>
+              <span className={styles.paymentIcon}>📱</span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
