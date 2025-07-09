@@ -15,22 +15,18 @@ const Navbar = () => {
         <div className={styles.logo}>
           <h2>ModernShop</h2>
         </div>
-        
-        <div className={`${styles.navLinks} ${isMenuOpen ? styles.navLinksOpen : ''}`}>
+
+        <div className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
           <a href="#home" className={styles.navLink}>Home</a>
           <a href="#about" className={styles.navLink}>About</a>
           <a href="#products" className={styles.navLink}>Products</a>
           <a href="#contact" className={styles.navLink}>Contact</a>
         </div>
-        
-        <button 
-          className={styles.hamburger}
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
+
+        <button className={styles.hamburger} onClick={toggleMenu}>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
         </button>
       </div>
     </nav>

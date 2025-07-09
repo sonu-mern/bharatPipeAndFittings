@@ -43,7 +43,7 @@ const HeroSlider = () => {
     return () => clearInterval(interval);
   }, [isAutoPlaying]);
 
-  const goToSlide = (index: number) => {
+  const goToSlide = (index) => {
     setCurrentSlide(index);
     setIsAutoPlaying(false);
     setTimeout(() => setIsAutoPlaying(true), 10000);
