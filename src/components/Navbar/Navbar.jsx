@@ -9,6 +9,8 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  console.log('Navbar rendering, isMenuOpen:', isMenuOpen);
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>

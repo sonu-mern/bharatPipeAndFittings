@@ -8,6 +8,8 @@ import ProductSection from '../components/ProductSection/ProductSection';
 import Footer from '../components/Footer/Footer';
 
 const Index = () => {
+  console.log('Index page rendering');
+  
   return (
     <div>
       <TopBar />
