@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './ProductSection.module.css';
 
 const categories = ['All', 'Electronics', 'Fashion', 'Home & Garden', 'Sports'];
@@ -90,7 +91,7 @@ const ProductSection = () => {
               <div className={styles.productImage}>
                 <img src={product.image} alt={product.name} />
                 <div className={styles.productOverlay}>
-                  <button className={styles.viewButton}>View Details</button>
+                  <Link to={`/product/${product.id}`} className={styles.viewButton}>View Details</Link>
                 </div>
               </div>
               <div className={styles.productInfo}>
