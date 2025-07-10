@@ -1,62 +1,70 @@
-
-import React from 'react';
-import styles from './AboutSection.module.css';
+import React from "react";
+import styles from "./AboutSection.module.css";
 
 const aboutCards = [
   {
     id: 1,
-    title: "Premium Quality",
-    description: "We source only the finest materials and work with trusted manufacturers to ensure every product meets our high standards.",
-    icon: "⭐"
+    title: "Industrial-Grade Quality",
+    description:
+      "Our products are built to last, crafted with the highest-grade materials suitable for industrial use.",
+    icon: "🏭",
   },
   {
     id: 2,
-    title: "Fast Shipping",
-    description: "Get your orders delivered quickly with our express shipping options. Free shipping on orders over $50.",
-    icon: "🚚"
+    title: "Timely Delivery",
+    description:
+      "We ensure fast and reliable delivery across India with strong logistic partnerships.",
+    icon: "🚚",
   },
   {
     id: 3,
-    title: "Customer Support",
-    description: "Our dedicated support team is here to help you 24/7 with any questions or concerns you may have.",
-    icon: "💬"
+    title: "Certified Products",
+    description:
+      "All our pipes and fittings are ISO 9001:2015 certified to meet strict industry standards.",
+    icon: "📄",
   },
   {
     id: 4,
-    title: "Secure Payment",
-    description: "Shop with confidence using our secure payment system that protects your personal information.",
-    icon: "🔒"
+    title: "Customer-Centric Support",
+    description:
+      "Our experienced support team is always ready to assist with your technical and order-related queries.",
+    icon: "📞",
   },
   {
     id: 5,
-    title: "Easy Returns",
-    description: "Not satisfied? Return any item within 30 days for a full refund, no questions asked.",
-    icon: "↩️"
+    title: "Trusted by Professionals",
+    description:
+      "We're the preferred supplier for contractors, builders, and manufacturers nationwide.",
+    icon: "🤝",
   },
   {
     id: 6,
-    title: "Eco-Friendly",
-    description: "We're committed to sustainability with eco-friendly packaging and environmentally conscious practices.",
-    icon: "🌱"
+    title: "Wide Product Range",
+    description:
+      "From PVC to GI, we offer an extensive range of pipes, fittings, and accessories under one roof.",
+    icon: "📦",
   },
   {
     id: 7,
-    title: "Expert Curation",
-    description: "Our team of experts carefully selects each product to ensure it meets our quality and style standards.",
-    icon: "👥"
+    title: "Secure Transactions",
+    description:
+      "Our billing and payment system ensures a smooth and secure experience for every client.",
+    icon: "💳",
   },
   {
     id: 8,
-    title: "Global Reach",
-    description: "We ship worldwide and have customers in over 50 countries who trust our products and service.",
-    icon: "🌍"
+    title: "Pan-India Presence",
+    description:
+      "With clients across multiple states, we deliver trust and quality beyond city boundaries.",
+    icon: "🗺️",
   },
   {
     id: 9,
-    title: "Innovation",
-    description: "We're constantly innovating and adding new products to keep up with the latest trends and technologies.",
-    icon: "💡"
-  }
+    title: "Decades of Experience",
+    description:
+      "We bring over 15+ years of expertise in supplying quality pipe solutions to various sectors.",
+    icon: "⏳",
+  },
 ];
 
 const AboutSection = () => {
@@ -64,19 +72,18 @@ const AboutSection = () => {
     <section className={styles.aboutSection} id="about">
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.title}>Why Choose ModernShop?</h2>
+          <h2 className={styles.title}>Why Choose Bharat Pipe & Fittings?</h2>
           <p className={styles.subtitle}>
-            We're committed to providing the best shopping experience with quality products, 
-            exceptional service, and values you can trust.
+            At Bharat Pipe & Fittings, we combine industrial-grade quality,
+            certified standards, and exceptional service to support your project
+            needs with confidence.
           </p>
         </div>
-        
+
         <div className={styles.cardsGrid}>
           {aboutCards.map((card) => (
             <div key={card.id} className={styles.card}>
-              <div className={styles.cardIcon}>
-                {card.icon}
-              </div>
+              <div className={styles.cardIcon}>{card.icon}</div>
               <h3 className={styles.cardTitle}>{card.title}</h3>
               <p className={styles.cardDescription}>{card.description}</p>
             </div>

@@ -17,7 +17,7 @@ const Index = () => {
       <HeroSlider />
       <AboutSection />
       <ProductSection />
-      <ThirdPartyInspection />
+      {/* <ThirdPartyInspection /> */}
       <Footer />
     </div>
   );

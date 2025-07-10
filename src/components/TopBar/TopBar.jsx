@@ -1,15 +1,25 @@
-
-import React from 'react';
-import styles from './TopBar.module.css';
+import React from "react";
+import styles from "./TopBar.module.css";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const TopBar = () => {
   return (
     <div className={styles.topBar}>
       <div className={styles.container}>
-        <span className={styles.message}>Free shipping on orders over $50!</span>
+        <span className={styles.message}>
+          <FaMapMarkerAlt className={styles.icon} /> India, Mumbai
+        </span>
         <div className={styles.links}>
-          <a href="tel:+1234567890" className={styles.link}>Call: (123) 456-7890</a>
-          <a href="mailto:info@example.com" className={styles.link}>Email Us</a>
+          <a href="tel:+919119171675" className={styles.link}>
+            <FaPhoneAlt className={styles.icon} /> +91 78773 78773
+          </a>
+          <a
+            href="mailto:sales@bharatpipeandfitting.com"
+            className={styles.link}
+          >
+            <FaEnvelope className={styles.icon} />{" "}
+            sales@bharatpipeandfitting.com
+          </a>
         </div>
       </div>
     </div>

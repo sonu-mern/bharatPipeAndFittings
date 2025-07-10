@@ -31,8 +31,8 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          <ShoppingBag size={28} />
-          <span>ModernStore</span>
+          {/* <ShoppingBag size={28} /> */}
+          <span>Bharat Pipe & Fittings</span>
         </Link>
 
         <div
@@ -40,7 +40,7 @@ const Navbar = () => {
             isMenuOpen ? styles.navLinksOpen : ""
           }`}
         >
-          {navLinks.map((link, index) => (
+          {navLinks.map((link, index) =>
             link.isRoute ? (
               <Link
                 key={index}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             )
-          ))}
+          )}
         </div>
 
         <button className={styles.menuToggle} onClick={toggleMenu}>
