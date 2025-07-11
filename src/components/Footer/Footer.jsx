@@ -35,11 +35,9 @@ const Footer = () => {
         <div className={styles.container}>
           <div className={styles.footerContent}>
             <div className={styles.column}>
-              <h3 className={styles.columnTitle}>About ModernStore</h3>
+              <h3 className={styles.columnTitle}>About Bharat Pipe & Fittings</h3>
               <p className={styles.aboutText}>
-                We are dedicated to providing high-quality products and
-                exceptional customer service. Our mission is to make shopping
-                convenient, enjoyable, and accessible for everyone.
+                Bharat Pipe & Fittings is a trusted name in the manufacturing and supply of industrial pipes, fittings, rods, plates, and structural products across India. We are committed to delivering top-quality solutions with unmatched service.
               </p>
               <div className={styles.socialLinks}>
                 {socialLinks.map((social, index) => (
@@ -69,29 +67,27 @@ const Footer = () => {
             </div>
 
             <div className={styles.column}>
-              <h3 className={styles.columnTitle}>Contact Info</h3>
+              <h3 className={styles.columnTitle}>Contact Information</h3>
               <div className={styles.contactInfo}>
                 <div className={styles.contactItem}>
                   <MapPin size={18} />
-                  <span>123 Fashion Street, Style City, SC 12345</span>
+                  <span>Plot No. 45, Industrial Estate, Mumbai, MH 400001</span>
                 </div>
                 <div className={styles.contactItem}>
                   <Phone size={18} />
-                  <span>(555) 123-4567</span>
+                  <span>+91 98765 43210</span>
                 </div>
                 <div className={styles.contactItem}>
                   <Mail size={18} />
-                  <span>info@modernstore.com</span>
+                  <span>sales@bharatpipefittings.com</span>
                 </div>
               </div>
               <div className={styles.newsletter}>
-                <h4 className={styles.newsletterTitle}>
-                  Subscribe to Newsletter
-                </h4>
+                <h4 className={styles.newsletterTitle}>Subscribe for Updates</h4>
                 <div className={styles.newsletterForm}>
                   <input
                     type="email"
-                    placeholder="Enter your email"
+                    placeholder="Your email address"
                     className={styles.newsletterInput}
                   />
                   <button className={styles.newsletterButton}>Subscribe</button>
@@ -102,13 +98,13 @@ const Footer = () => {
 
           <div className={styles.footerBottom}>
             <div className={styles.copyright}>
-              <p>&copy; 2024 ModernStore. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Bharat Pipe & Fittings. All rights reserved.</p>
             </div>
             <div className={styles.paymentMethods}>
               <span>We Accept:</span>
               <div className={styles.paymentIcons}>
                 <span className={styles.paymentIcon}>💳</span>
-                <span className={styles.paymentIcon}>💰</span>
+                <span className={styles.paymentIcon}>🏦</span>
                 <span className={styles.paymentIcon}>📱</span>
               </div>
             </div>
