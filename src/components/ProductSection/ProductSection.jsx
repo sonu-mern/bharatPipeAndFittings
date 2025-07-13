@@ -78,20 +78,6 @@ const ProductSection = () => {
           </p>
         </div>
 
-        {/* <div className={styles.categoryTabs}>
-          {categories.map((category) => (
-            <button
-              key={category}
-              className={`${styles.categoryTab} ${
-                activeCategory === category ? styles.active : ""
-              }`}
-              onClick={() => setActiveCategory(category)}
-            >
-              {category}
-            </button>
-          ))}
-        </div> */}
-
         <div className={styles.productsGrid}>
           {filteredProducts.map((product) => (
             <div key={product.id} className={styles.productCard}>

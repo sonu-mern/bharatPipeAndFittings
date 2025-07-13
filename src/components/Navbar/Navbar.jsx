@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { Menu, X, ShoppingBag } from "lucide-react";
+import { NavLink, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -18,7 +18,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -30,37 +29,43 @@ const Navbar = () => {
   return (
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
-        <Link to="/" className={styles.logo}>
-          {/* <ShoppingBag size={28} /> */}
+        <NavLink to="/" className={styles.logo}>
           <span>Bharat Pipe & Fittings</span>
-        </Link>
+        </NavLink>
 
         <div
           className={`${styles.navLinks} ${
             isMenuOpen ? styles.navLinksOpen : ""
           }`}
         >
-          {navLinks.map((link, index) =>
-            link.isRoute ? (
-              <Link
-                key={index}
-                to={link.href}
-                className={styles.navLink}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ) : (
-              <a
-                key={index}
-                href={link.href}
-                className={styles.navLink}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.name}
-              </a>
-            )
-          )}
+          {navLinks.map((link, index) => {
+            if (link.isRoute) {
+              return (
+                <NavLink
+                  key={index}
+                  to={link.href}
+                  end
+                  className={({ isActive }) =>
+                    `${styles.navLink} ${isActive ? styles.active : ""}`
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {link.name}
+                </NavLink>
+              );
+            } else {
+              return (
+                <a
+                  key={index}
+                  href={link.href}
+                  className={styles.navLink}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {link.name}
+                </a>
+              );
+            }
+          })}
         </div>
 
         <button className={styles.menuToggle} onClick={toggleMenu}>

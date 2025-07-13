@@ -72,6 +72,16 @@
   width: 100%;
 }
 
+/* ✅ This highlights the active link */
+.active {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.active::after {
+  width: 100%;
+}
+
 .menuToggle {
   display: none;
   background: none;

@@ -1,3 +1,32 @@
+/* Responsive layout for ProductPage */
+.responsiveLayout {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.sidebarResponsive {
+  min-width: 220px;
+  max-width: 280px;
+}
+
+@media (max-width: 900px) {
+  .responsiveLayout {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sidebarResponsive {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .productDetails {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
 .pageContainer {
   min-height: 100vh;
   display: flex;
@@ -178,34 +207,38 @@
   color: #666;
   margin-bottom: 30px;
 }
-
+.productPageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .main {
     padding-top: 100px;
   }
-  
+
   .productDetails {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .productImage img {
     height: 300px;
   }
-  
+
   .productTitle {
     font-size: 2rem;
   }
-  
+
   .productPrice {
     font-size: 1.5rem;
   }
-  
+
   .productActions {
     flex-direction: column;
   }
-  
+
   .container {
     padding: 0 15px;
   }
