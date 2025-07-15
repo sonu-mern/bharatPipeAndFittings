@@ -97,7 +97,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Smart Watch",
+    name: "Angles, Channels & Flat Manufacturers, Suppliers & Stockist in India",
     price: "$199.99",
     category: "Electronics",
     images: [
@@ -105,8 +105,9 @@ const products = [
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=600&h=600&fit=crop",
       "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=600&h=600&fit=crop",
     ],
-    description:
-      "Advanced fitness tracking and smartphone integration with heart rate monitoring, GPS, and water resistance.",
+    description: `   Bharat pipe & fittings mainly use high-quality raw material and advanced machinery to produced world class products. Our production unit manufactured these Angles, Channels & Flats as per Indian and International Standards. Various types of angles & channels including Equal Angles, Unequal Angles, C-Channels, and U-Channels are provided with excellent surface finish and dimensional accuracy.
+
+The different types of industries where our high-quality angles & channels used are paper & pulp, construction, piping, water treatment applications, raceways, braces and frames for machinery and housing in corrosive environments, etc.`,
     features: [
       "Heart rate monitoring",
       "GPS tracking",
@@ -114,6 +115,8 @@ const products = [
       "7-day battery life",
       "Sleep tracking",
     ],
+    connectDivDetails:
+      "Yes, Angles, Channels & Flat is in Stock and Ready to Deliver. If you require customized solutions then Contact Us with your requirement and get a free quote from us.",
   },
   {
     id: 3,
@@ -249,9 +252,11 @@ const ProductPage = () => {
           <div className={styles.productPageHeader}>
             <div className={styles.responsiveLayout}>
               {!isMobile && (
-                <aside className={styles.sidebarResponsive}>
-                  <ServiceSidebar />
-                </aside>
+                <>
+                  <aside className={styles.sidebarResponsive}>
+                    <ServiceSidebar />
+                  </aside>
+                </>
               )}
               <div className={styles.productDetails}>
                 <div className={styles.productImage}>
@@ -259,17 +264,34 @@ const ProductPage = () => {
                     images={product.images}
                     name={product.name}
                   />
+                  <br />
+                  {!isMobile && (
+                    <div className={styles.connectDiv}>
+                      <h3>Connect with Us</h3>
+                      <p>{product.connectDivDetails}</p>
+                    </div>
+                  )}
                 </div>
+
                 <div className={styles.productInfo}>
-                  <h1 className={styles.productTitle}>{product.name}</h1>
-                  <div className={styles.productCategory}>
+                  <h6 className={styles.productTitle}>{product.name}</h6>
+                  <hr />
+                  <br />
+                  {/* <div className={styles.productCategory}>
                     {product.category}
-                  </div>
-                  <div className={styles.productPrice}>{product.price}</div>
+                  </div> */}
+                  {/* <div className={styles.productPrice}>{product.price}</div> */}
                   <div className={styles.productDescription}>
                     <h3>Description</h3>
                     <p>{product.description}</p>
                   </div>
+                  <br />
+                  {isMobile && (
+                    <div className={styles.connectDiv}>
+                      <h3>Connect with Us</h3>
+                      <p>{product.connectDivDetails}</p>
+                    </div>
+                  )}
                   <div className={styles.productFeatures}>
                     <h3>Features</h3>
                     <ul>

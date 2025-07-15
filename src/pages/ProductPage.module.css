@@ -9,6 +9,14 @@
   min-width: 220px;
   max-width: 280px;
 }
+.connectDiv {
+  /* border: 2px solid red; */
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
 
 @media (max-width: 900px) {
   .responsiveLayout {
@@ -83,10 +91,10 @@
 }
 
 .productTitle {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #333;
+  color: var(--color-primary);
 }
 
 .productCategory {
