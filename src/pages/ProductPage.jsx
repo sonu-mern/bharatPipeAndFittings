@@ -73,7 +73,11 @@ import styles from "./ProductPage.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ServiceSidebar from "../components/Sidebar/ServiceSidebar";
-
+import { allProducts } from "../utils/allproducts";
+import { Key } from "lucide-react";
+import KeyValueTable from "../components/ui/KeyValueTable";
+import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
+let demoProduct = allProducts[0];
 const products = [
   {
     id: 1,
@@ -258,49 +262,50 @@ const ProductPage = () => {
                   </aside>
                 </>
               )}
-              <div className={styles.productDetails}>
-                <div className={styles.productImage}>
-                  <ProductImageCarousel
-                    images={product.images}
-                    name={product.name}
-                  />
-                  <br />
-                  {!isMobile && (
-                    <div className={styles.connectDiv}>
-                      <h3>Connect with Us</h3>
-                      <p>{product.connectDivDetails}</p>
-                    </div>
-                  )}
-                </div>
+              <div className={styles.productPageContent}>
+                <div className={styles.productDetails}>
+                  <div className={styles.productImage}>
+                    <ProductImageCarousel
+                      images={product.images}
+                      name={product.name}
+                    />
+                    <br />
+                    {!isMobile && (
+                      <div className={styles.connectDiv}>
+                        <h3>Connect with Us</h3>
+                        <p>{product.connectDivDetails}</p>
+                      </div>
+                    )}
+                  </div>
 
-                <div className={styles.productInfo}>
-                  <h6 className={styles.productTitle}>{product.name}</h6>
-                  <hr />
-                  <br />
-                  {/* <div className={styles.productCategory}>
+                  <div className={styles.productInfo}>
+                    <h6 className={styles.productTitle}>{product.name}</h6>
+                    <hr />
+                    <br />
+                    {/* <div className={styles.productCategory}>
                     {product.category}
                   </div> */}
-                  {/* <div className={styles.productPrice}>{product.price}</div> */}
-                  <div className={styles.productDescription}>
-                    <h3>Description</h3>
-                    <p>{product.description}</p>
-                  </div>
-                  <br />
-                  {isMobile && (
-                    <div className={styles.connectDiv}>
-                      <h3>Connect with Us</h3>
-                      <p>{product.connectDivDetails}</p>
+                    {/* <div className={styles.productPrice}>{product.price}</div> */}
+                    <div className={styles.productDescription}>
+                      <h3>Description</h3>
+                      <p>{product.description}</p>
                     </div>
-                  )}
-                  <div className={styles.productFeatures}>
+                    <br />
+                    {isMobile && (
+                      <div className={styles.connectDiv}>
+                        <h3>Connect with Us</h3>
+                        <p>{product.connectDivDetails}</p>
+                      </div>
+                    )}
+                    {/* <div className={styles.productFeatures}>
                     <h3>Features</h3>
                     <ul>
                       {product.features.map((feature, index) => (
                         <li key={index}>{feature}</li>
                       ))}
                     </ul>
-                  </div>
-                  {/* <div className={styles.productActions}>
+                  </div> */}
+                    {/* <div className={styles.productActions}>
                     <button className={styles.addToCartButton}>
                       Add to Cart
                     </button>
@@ -308,8 +313,37 @@ const ProductPage = () => {
                       Continue Shopping
                     </Link>
                   </div> */}
+                  </div>
+                </div>
+                <div className={styles.productFeatures}>
+                  <h3>{demoProduct.productDetails.tableData.tableName}</h3>
+                  <KeyValueTable
+                    tableData={
+                      demoProduct.productDetails.tableData
+                        .materialSpecifications
+                    }
+                  />
+                  <hr />
+                  <hr />
+                  <hr />
+                  <div>
+                    {demoProduct?.subProducts?.map((subProduct, index) => (
+                      <div key={subProduct.id || index}>
+                        <h1>{subProduct.name}</h1>
+
+                        <ThirdPartyInspection img={subProduct.images} />
+
+                        <p>{subProduct.description}</p>
+
+                        <KeyValueTable
+                          tableData={subProduct.materialSpecifications}
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
+
               {isMobile && (
                 <aside className={styles.sidebarResponsive}>
                   <ServiceSidebar />

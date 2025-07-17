@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const ThirdPartyInspection = () => {
+const ThirdPartyInspection = ({ img }) => {
   const imageUrls = [
     "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=600&q=80",
     "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=600&q=80",
@@ -16,11 +16,15 @@ const ThirdPartyInspection = () => {
   ];
 
   return (
-    <section style={{ padding: "60px 20px" }}>
-      <div style={{ textAlign: "center", marginBottom: "30px" }}>
-        <h1>Third Party Inspection</h1>
-      </div>
-
+    <section
+      style={{
+        padding: "20px 0",
+        width: "60vw",
+        maxWidth: "100%",
+        // borderRadius: "8px",
+      }}
+      className="third-party-section"
+    >
       <Swiper
         modules={[Autoplay, FreeMode, Navigation, Pagination]}
         autoplay={{ delay: 2000 }}
@@ -31,23 +35,25 @@ const ThirdPartyInspection = () => {
         spaceBetween={10} // Set gap between slides to max 10px
         // pagination={{ clickable: true }}
         // navigation={true}
-        style={{ height: 180 }} // Increased carousel height
+        // style={{ height: 180 }}
+        // Increased carousel height
         breakpoints={{
-          0: { slidesPerView: 1 },
-          576: { slidesPerView: 1 },
+          0: { slidesPerView: 2 }, // Show 2 images on mobile
+          576: { slidesPerView: 2 },
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
           1200: { slidesPerView: 5 },
         }}
       >
-        {imageUrls.map((url, index) => (
+        {img.map((url, index) => (
           <SwiperSlide key={index}>
             <div
               style={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                height: 160, // Increased slide height
+                height: 100,
+                // Increased slide height
                 // border: "2px solid #ccc",
               }}
             >
@@ -70,3 +76,17 @@ const ThirdPartyInspection = () => {
 };
 
 export default ThirdPartyInspection;
+
+// Responsive style for full width on mobile
+const style = document.createElement("style");
+style.innerHTML = `
+  @media (max-width: 576px) {
+    .third-party-section {
+      width: 90vw !important;
+      max-width: 90vw !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+`;
+document.head.appendChild(style);

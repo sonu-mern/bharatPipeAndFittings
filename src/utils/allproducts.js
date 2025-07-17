@@ -1,5 +1,12 @@
 import { constantValue } from "./constantValue"
-
+import steel1 from "../assets/images/products/stainless-steel-sheets-plates1.jpg"
+import steel2 from "../assets/images/products/stainless-steel-sheets-plates2.jpg"
+import steel3 from "../assets/images/products/stainless-steel-sheets-plates3.jpg"
+import steel4 from "../assets/images/products/stainless-steel-sheets-plates4.jpg"
+import steel5 from "../assets/images/products/stainless-steel-sheets-plates5.jpg"
+import steel6 from "../assets/images/products/stainless-steel-sheets-plates6.jpg"
+import steel7 from "../assets/images/products/stainless-steel-sheets-plates7.jpg"
+import steel8 from "../assets/images/products/stainless-steel-sheets-plates8.jpg"
 let companyName = constantValue.companyName;
 export const allProducts = [
   {
@@ -28,8 +35,8 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
       {
         id: 1,
         name: "Stainless Steel Sheets, Plates & Coils Specifications",
-        images: [],
-        description: "${companyName} is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.",
+        images: [steel1, steel2, steel3, steel4, steel5, steel6, steel7, steel8],
+        description: `${companyName} is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.`,
         materialSpecifications: {
           Standards: "ASTM A240 / ASME SA240",
           Grades: "201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 17-4PH, 904L, 253MA, 353MA, AL-6XN (N08367), Alloy 28 (N08028), A286 (S66286)"
@@ -39,7 +46,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
         id: 2,
         name: "Alloy Steel Sheets, Plates & Coils Specifications",
         images: [],
-        description: "${companyName} manufactures and stocks a diverse range of Alloy Steel Sheets, Plates & Coils in various sizes, thicknesses, and grades. Our products are crafted to meet stringent quality standards and fulfill specific industrial requirements. We supply across domestic and international markets.",
+        description: `${companyName} manufactures and stocks a diverse range of Alloy Steel Sheets, Plates & Coils in various sizes, th icknesses, and grades. Our products are crafted to meet stringent quality standards and fulfill specific industrial requirements. We supply across domestic and international markets.`,
         materialSpecifications: {
           Standards: "ASTM A387 / ASME SA387",
           Grades: "11, 12, 22, 5, 9, 91, A283 Gr. C, 16Mo3"
@@ -49,7 +56,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
         id: 3,
         name: "Nickel Alloy Steel Sheets, Plates & Coils Specifications",
         images: [],
-        description: "${companyName} is a prominent exporter and supplier of high-grade Nickel Alloy Sheets, Plates & Coils. These products are available in different dimensions and specifications and are ideal for high-temperature and high-strength applications. Nickel's versatility enables superior corrosion resistance and mechanical performance.",
+        description: `${companyName} is a prominent exporter and supplier of high-grade Nickel Alloy Sheets, Plates & Coils. These products are available in different dimensions and specifications and are ideal for high-temperature and high-strength applications. Nickel's versatility enables superior corrosion resistance and mechanical performance.`,
         materialSpecifications: {
           Standards: "ASTM / ASME B161, B162, B163, B725, B730",
           Grades: "Nickel 200/201, Monel 400, Monel K500, Inconel 600, Inconel 625, Inconel 718, Incoloy 800, Incoloy 825, Hastelloy C276, C22, B2, Alloy 20, 904L, Titanium Gr 2, Gr 5, Cu-Ni 90/10 (C70600), Cu-Ni 70/30 (C71500), Brass, Bronze, Titanium, Tantalum, Bismuth, Aluminium, High-Speed Steel, Zinc, Lead"
@@ -59,7 +66,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
         id: 4,
         name: "Carbon Steel Sheets, Plates & Coils Specifications",
         images: [],
-        description: "With years of industry experience, ${companyName} delivers high-quality Carbon Steel Sheets, Plates & Coils manufactured from top-grade raw materials using advanced technology. Our carbon steel range is valued for its excellent weldability and formability, making it suitable for a wide array of structural and industrial applications.",
+        description: `With years of industry experience, ${companyName} delivers high-quality Carbon Steel Sheets, Plates & Coils manufactured from top-grade raw materials using advanced technology. Our carbon steel range is valued for its excellent weldability and formability, making it suitable for a wide array of structural and industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A36, IS 2062, CK60, Wear Resistant Steel, Boiler Quality ASTM A516",
           Grades: "ASTM A283, A285, A515, A516, A105, A234, LF1, LF2, A106, A333, A53, API 5L, 400 HB, 450 HB, 500 HB, 60, 70, Corten A, Corten B, Hadfield Manganese Steel"

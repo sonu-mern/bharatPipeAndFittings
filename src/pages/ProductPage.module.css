@@ -3,11 +3,17 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
+  /* border: 2px solid red; */
 }
 
 .sidebarResponsive {
   min-width: 220px;
   max-width: 280px;
+}
+.productPageContent {
+  height: fit-content;
+  /* border: 2px solid pink; */
+  width: 100%;
 }
 .connectDiv {
   /* border: 2px solid red; */
@@ -72,6 +78,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   margin-bottom: 60px;
+  /* border: 2px solid blue; */
 }
 
 .productImage {
@@ -88,6 +95,7 @@
 
 .productInfo {
   padding: 20px 0;
+  /* border: 2px solid green; */
 }
 
 .productTitle {
@@ -219,6 +227,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 2px solid yellow; */
 }
 /* Responsive Design */
 @media (max-width: 768px) {
