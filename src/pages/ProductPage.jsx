@@ -68,7 +68,7 @@ const ProductImageCarousel = ({ images, name }) => {
     </div>
   );
 };
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import styles from "./ProductPage.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
@@ -77,7 +77,7 @@ import { allProducts } from "../utils/allproducts";
 import { Key } from "lucide-react";
 import KeyValueTable from "../components/ui/KeyValueTable";
 import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
-let demoProduct = allProducts[0];
+import { use } from "react";
 const products = [
   {
     id: 1,
@@ -205,11 +205,16 @@ The different types of industries where our high-quality angles & channels used 
 ];
 
 const ProductPage = () => {
+  const param = useParams();
+  console.log("----", param);
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to top when page loads
   }, []);
   const { id } = useParams();
-  const product = products.find((p) => p.id === parseInt(id));
+  const product = allProducts.find(
+    (p) => p.productShortName.toLowerCase() === param.id.toLowerCase()
+  );
+  // const product = products.find((p) => p.id === parseInt(id));
   if (!product) {
     return (
       <div className={styles.pageContainer}>
@@ -273,7 +278,13 @@ const ProductPage = () => {
                     {!isMobile && (
                       <div className={styles.connectDiv}>
                         <h3>Connect with Us</h3>
-                        <p>{product.connectDivDetails}</p>
+                        <p>
+                          {product.connectDivDetails}
+                          Absolutely, {product.productShortName} is in stock and
+                          ready to deliver. Need a custom solution? Contact us
+                          with your requirements to get a free quote. Make an
+                          enquiry &rarr;
+                        </p>
                       </div>
                     )}
                   </div>
@@ -316,20 +327,45 @@ const ProductPage = () => {
                   </div>
                 </div>
                 <div className={styles.productFeatures}>
-                  <h3>{demoProduct.productDetails.tableData.tableName}</h3>
+                  <h3>
+                    <span
+                      style={{
+                        color: "#22c55e",
+                        fontSize: "1em",
+                        verticalAlign: "middle",
+                        marginRight: 8,
+                      }}
+                    >
+                      &#10003;
+                    </span>
+                    {product.productDetails.tableData.tableName}
+                  </h3>
                   <KeyValueTable
                     tableData={
-                      demoProduct.productDetails.tableData
-                        .materialSpecifications
+                      product.productDetails.tableData.materialSpecifications
                     }
                   />
                   <hr />
                   <hr />
                   <hr />
                   <div>
-                    {demoProduct?.subProducts?.map((subProduct, index) => (
+                    <br />
+
+                    {product?.subProducts?.map((subProduct, index) => (
                       <div key={subProduct.id || index}>
-                        <h1>{subProduct.name}</h1>
+                        <h1 className={styles.subProductHeading}>
+                          <span
+                            style={{
+                              color: "#22c55e",
+                              fontSize: "1em",
+                              verticalAlign: "middle",
+                              marginRight: 8,
+                            }}
+                          >
+                            &#10003;
+                          </span>
+                          {subProduct.name}
+                        </h1>
 
                         <ThirdPartyInspection img={subProduct.images} />
 
@@ -347,6 +383,7 @@ const ProductPage = () => {
               {isMobile && (
                 <aside className={styles.sidebarResponsive}>
                   <ServiceSidebar />
+                  <br />
                 </aside>
               )}
             </div>

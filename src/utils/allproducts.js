@@ -11,6 +11,7 @@ let companyName = constantValue.companyName;
 export const allProducts = [
   {
     id: 1,
+    productShortName: "Sheets, Plates & Coils",
     name: "Leading Sheets, Plates & Coils Manufacturer, Supplier & Stockist in India",
     description: `${companyName} is a reputed manufacturer, supplier, and stockist of high-quality Sheets, Plates & Coils in India. These products are available in various sizes, thicknesses, and materials to meet diverse industrial requirements. We offer a wide range of types including Shim Sheets, Perforated Sheets, Hot Rolled Sheets & Plates, Cold Rolled Sheets & Plates, Chequered Plates, and Foils in multiple grades.
 
@@ -34,6 +35,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
     subProducts: [
       {
         id: 1,
+        productShortName: "SHEETS, PLATES & COILS",
         name: "Stainless Steel Sheets, Plates & Coils Specifications",
         images: [steel1, steel2, steel3, steel4, steel5, steel6, steel7, steel8],
         description: `${companyName} is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.`,
@@ -78,6 +80,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
   {
     id: 2,
     name: "Round Bars & Rods Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Round Bars & Rods",
     description: `${companyName} is a renowned manufacturer, supplier, and stockist of a wide range of Round Bars & Rods in India. Our products are manufactured using premium-grade raw materials and undergo strict quality testing at every stage. Each bar and rod conforms to both national and international standards to ensure performance and reliability.
 
 We stock and supply various types of Round Bars & Rods made from materials such as Stainless Steel, Alloy Steel, Duplex & Super Duplex Steel, Hastelloy, Monel, Inconel, Titanium, Aluminum, and more.`,
@@ -147,6 +150,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
   {
     id: 3,
     name: "Pipes & Tubes Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Pipes & Tubes",
     description: `${companyName} is a trusted manufacturer, supplier, and exporter of a wide range of Pipes & Tubes available in different forms, shapes, dimensions, and material grades. 
 
 We utilize high-grade raw materials and advanced machinery to deliver products that meet exact client specifications. Our wide portfolio of Pipes & Tubes is widely used across multiple industries. These products are available in material variants such as Stainless Steel, Duplex & Super Duplex Steel, Hastelloy, Monel, Inconel, Nickel, Carbon Steel, Alloy Steel, and Cupronickel.`,
@@ -213,6 +217,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
   {
     id: 4,
     name: "Buttweld Pipe Fittings Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Buttweld Pipe Fittings",
     description: `${companyName} is a reputed manufacturer, supplier, and stockist of premium-quality Buttweld Pipe Fittings in India. Known for their high tensile strength, corrosion resistance, and excellent finish, our fittings are widely demanded across industries. We manufacture, export, and supply Buttweld Fittings that conform to national and international quality standards, supported by advanced refining and fabrication equipment.
 
 We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, Nipples, and Couplings in various materials including Stainless Steel, Carbon Steel, and High Nickel Alloys.`,
@@ -283,6 +288,7 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
   {
     id: 5,
     name: "Flanges Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Flanges",
     description: `${companyName} is a trusted manufacturer, supplier, and stockist of high-quality steel flanges in India. We offer a wide variety of flanges in different types, shapes, sizes, dimensions, and material grades. Depending on the connection method, our range includes Slip-On Flanges, Orifice Flanges, Spectacle Flanges, Lap Joint Flanges, Raised Face Flanges, Ring Joint Flanges, Weld Neck Flanges, Socket Weld Flanges, and more.
 
 Flanges are essential components used to connect pipes, valves, pumps, and other equipment to form a complete piping system. These connections are typically made through bolting and welding methods.`,
@@ -347,6 +353,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
   {
     id: 6,
     name: "Forged Fittings Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Forged Fittings",
     description: `${companyName} is one of the most preferred manufacturers, suppliers, and exporters of premium-quality Forged Fittings known for their outstanding durability and reliable performance. These fittings are offered in a variety of types, forms, sizes, material grades, and specifications. Known for their long operational life and superior build, our forged pipe fittings include 90° elbows, 45° elbows, half couplings, lateral outlets, unions, crosses, full couplings, and more.
 
 Forged Fittings are a conventional and robust solution for joining pipes, especially suitable for piping systems with sizes up to NPS 2. Engineered to perform under various pressure and temperature conditions, our forged fittings conform to stringent global standards and ensure dependable operation in critical applications.`,
@@ -410,6 +417,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
   {
     id: 7,
     name: "Fasteners Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Fasteners",
     description: `${companyName}, an ISO 9001:2015 Certified Company, is one of the leading manufacturers, stockists, and suppliers of high-quality Fasteners in India. Our fasteners are manufactured in compliance with stringent industrial standards and are available in a comprehensive range of sizes from M2 to M150, with lengths up to 6 meters.
 
 Renowned for their corrosion resistance, excellent tensile strength, and long-lasting performance, our range includes nuts, bolts, screws, and washers made from a variety of materials such as Stainless Steel, Inconel, Monel, Brass, Duplex, Aluminum, and more.
@@ -477,6 +485,7 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
   {
     id: 8,
     name: "Valves Manufacturers, Suppliers & Stockist in India",
+    productShortName: "Valves",
     description: `${companyName} is a leading manufacturer and supplier of high-quality industrial valves, catering to both domestic and international markets. Our valves are designed to meet global standards including AISI, BS, IS, ASME, and ANSI. They efficiently regulate, control, and direct fluid flow through mechanisms like full closure, partial opening, or directional changes.
 
 We offer a diverse range of valves such as Ball Valves, Gate Valves, Needle Valves, Globe Valves, Butterfly Valves, Check Valves, Control Valves, and Safety Valves. Manufactured using premium materials like Stainless Steel, High Nickel Alloys, Carbon Steel, and more, our valves are known for excellent corrosion and wear resistance, making them suitable for high-pressure and high-temperature applications.

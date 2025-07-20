@@ -39,7 +39,7 @@ const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  console.log("HeroSlider rendering, currentSlide:", currentSlide);
+  // console.log("HeroSlider rendering, currentSlide:", currentSlide);
 
   useEffect(() => {
     if (!isAutoPlaying) return;

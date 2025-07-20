@@ -85,7 +85,7 @@ const ProductSection = () => {
                 <img src={product.image} alt={product.name} />
                 <div className={styles.productOverlay}>
                   <Link
-                    to={`/product/${product.id}`}
+                    to={`/product/${product.name.toLowerCase()}`}
                     className={styles.viewButton}
                   >
                     View Details
