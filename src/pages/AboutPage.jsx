@@ -2,43 +2,44 @@ import React from "react";
 import styles from "./AboutPage.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-
+import { constantValue } from "../utils/constantValue";
+let companyName = constantValue.companyName;
 const coreValues = [
   {
-    icon: "🎯",
-    title: "Quality First",
+    icon: "🏗️",
+    title: "Unmatched Quality",
     description:
-      "We never compromise on quality. Every product is carefully selected and tested.",
+      "We uphold the highest manufacturing standards to deliver durable and reliable pipe solutions.",
   },
   {
-    icon: "🤝",
-    title: "Customer Focus",
+    icon: "👷",
+    title: "Customer Commitment",
     description:
-      "Our customers are at the heart of everything we do. Your satisfaction is our priority.",
+      "Every client is our partner. We focus on understanding your needs and exceeding expectations.",
   },
   {
-    icon: "🚀",
-    title: "Innovation",
+    icon: "⚙️",
+    title: "Innovation & Efficiency",
     description:
-      "We constantly seek new and innovative products that improve your daily life.",
+      "We continuously improve our production methods to ensure efficiency and product performance.",
   },
   {
-    icon: "🌱",
-    title: "Sustainability",
+    icon: "🌿",
+    title: "Sustainable Practices",
     description:
-      "We're committed to sustainable practices and eco-friendly products.",
+      "We implement environmentally responsible practices across our operations.",
   },
   {
-    icon: "🧪",
-    title: "Certified Quality",
+    icon: "📜",
+    title: "Certified Excellence",
     description:
-      "All our products meet ISO standards, ensuring reliability in every order.",
+      "Our products conform to ISI and ISO standards to ensure lasting quality and safety.",
   },
   {
     icon: "📞",
-    title: "Dedicated Support",
+    title: "Prompt Support",
     description:
-      "Our support team is here to assist you at every stage — before and after your order.",
+      "Our technical team is ready to support you through every project phase — from inquiry to installation.",
   },
 ];
 
@@ -51,9 +52,10 @@ const AboutPage = () => {
         <div className={styles.container}>
           {/* Hero Section */}
           <div className={styles.hero}>
-            <h1 className={styles.heroTitle}>About ModernStore</h1>
+            <h1 className={styles.heroTitle}>About {companyName}</h1>
             <p className={styles.heroSubtitle}>
-              Your trusted partner for premium products and exceptional service
+              Delivering excellence in plumbing and infrastructure solutions
+              since 1995
             </p>
           </div>
 
@@ -63,16 +65,15 @@ const AboutPage = () => {
               <div className={styles.textContent}>
                 <h2 className={styles.sectionTitle}>Our Mission</h2>
                 <p className={styles.sectionText}>
-                  At ModernStore, we are committed to bringing you the finest
-                  selection of products that enhance your lifestyle. Our mission
-                  is to provide exceptional quality, innovative design, and
-                  outstanding customer service in everything we do.
+                  At {companyName}, our mission is to provide top-grade piping
+                  solutions that power infrastructure across India. Whether it's
+                  residential, commercial, or industrial projects — quality,
+                  durability, and trust define our offerings.
                 </p>
                 <p className={styles.sectionText}>
-                  We believe that great products should be accessible to
-                  everyone, which is why we carefully curate our collection to
-                  offer the perfect balance of quality, functionality, and
-                  value.
+                  We aim to lead the pipe industry through our constant
+                  commitment to innovation, precision engineering, and customer
+                  satisfaction.
                 </p>
               </div>
               <div className={styles.imageContent}>
@@ -96,25 +97,23 @@ const AboutPage = () => {
                 />
               </div>
               <div className={styles.textContent}>
-                <h2 className={styles.sectionTitle}>Our Story</h2>
+                <h2 className={styles.sectionTitle}>Our Journey</h2>
                 <p className={styles.sectionText}>
-                  Founded in 2020, ModernStore began as a small passion project
-                  with a simple goal: to make high-quality products accessible
-                  to everyone. What started as a small online store has grown
-                  into a trusted destination for thousands of customers
-                  worldwide.
+                  Established in 1995, {companyName} started with a vision to
+                  become a trusted name in the pipe industry. With a modest
+                  beginning, we've grown into a leading manufacturer and
+                  supplier known for quality and dependability.
                 </p>
                 <p className={styles.sectionText}>
-                  Our journey has been driven by our commitment to excellence
-                  and our dedication to understanding what our customers truly
-                  need. Every product in our store is carefully selected and
-                  tested to ensure it meets our high standards.
+                  From local builders to nationwide contractors, we’ve earned
+                  the confidence of professionals by consistently delivering
+                  high-performance piping solutions.
                 </p>
               </div>
             </div>
           </section>
 
-          {/* Values Section */}
+          {/* Core Values Section */}
           <section className={styles.valuesSection}>
             <h2 className={styles.valuesSectionTitle}>Our Core Values</h2>
             <div className={styles.valuesGrid}>
@@ -133,10 +132,9 @@ const AboutPage = () => {
             <div className={styles.teamContent}>
               <h2 className={styles.teamTitle}>Meet Our Team</h2>
               <p className={styles.teamDescription}>
-                Behind ModernStore is a passionate team of professionals
-                dedicated to bringing you the best shopping experience possible.
-                Our diverse team combines expertise in product curation,
-                customer service, and technology to serve you better.
+                Our success is driven by a skilled and dedicated team of
+                engineers, technicians, and support professionals. Together, we
+                ensure {companyName} stands for reliability and service.
               </p>
               <div className={styles.teamImage}>
                 <img

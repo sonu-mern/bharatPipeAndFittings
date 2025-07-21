@@ -37,9 +37,10 @@
 }
 
 .active {
-  color: var(--color-secondary); /* red */
+  color: var(--color-primary-accent); /* red */
   font-weight: 700;
   background-color: #fff5f5;
-  border-left: 3px solid var(--color-secondary);
+  border-left: 3px solid var(--color-primary-accent);
+  background-color: #f0f4ff; /* very soft blue */
   padding-left: 11px;
 }

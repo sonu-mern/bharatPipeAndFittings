@@ -1,41 +1,35 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import styles from "./ServiceSidebar.module.css";
 import { FiChevronRight } from "react-icons/fi";
 
 const services = [
-  {
-    label: "Sheet, Plate & Coil",
-    path: "/sheet-plate-coil-supplier-stockist-india",
-  },
-  {
-    label: "Angles & Channels",
-    path: "/angles-channels-flat-supplier-stockist-india",
-  },
-  { label: "Bars & Rods", path: "/bars-rods-supplier-stockist-india" },
-  { label: "Pipes & Tubes", path: "/pipes-tubes-supplier-stockist-india" },
-  { label: "Pipe Fittings", path: "/pipe-fittings-supplier-stockist-india" },
-  { label: "Flanges", path: "/flanges-supplier-stockist-india" },
-  {
-    label: "Forged Fittings",
-    path: "/forged-fittings-supplier-stockist-india",
-  },
-  { label: "Fasteners", path: "/fasteners-supplier-stockist-india" },
-  { label: "Valves", path: "/valves-supplier-stockist-india" },
+  { label: "Sheets, Plates & Coils" },
+  { label: "Angles & Channels" },
+  { label: "Pipes & Tubes" },
+  { label: "Pipe Fittings" },
+  { label: "Flanges" },
+  { label: "Forged Fittings" },
+  { label: "Fasteners" },
+  { label: "Valves" },
+  { label: "Round Bars & Rods" },
 ];
 
 const ServiceSidebar = () => {
-  const location = useLocation();
+  const { id: location } = useParams();
 
   return (
     <div className={styles.sidebarContainer}>
       <ul className={styles.serviceList}>
         {services.map((service, index) => {
-          const isActive = location.pathname === service.path;
+          const slug = service.label.toLowerCase(); // same as ProductSection
+          const path = `/product/${slug}`;
+          const isActive = location?.toLowerCase() === slug;
+
           return (
             <li key={index} className={styles.serviceItem}>
               <Link
-                to={service.path}
+                to={path}
                 className={`${styles.serviceLink} ${
                   isActive ? styles.active : ""
                 }`}
