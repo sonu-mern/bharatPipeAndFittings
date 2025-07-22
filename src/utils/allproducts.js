@@ -1,4 +1,6 @@
 import { constantValue } from "./constantValue"
+import { productImages, bannerImages } from "../utils/loadImages";
+
 import steel1 from "../assets/images/products/stainless-steel-sheets-plates1.jpg"
 import steel2 from "../assets/images/products/stainless-steel-sheets-plates2.jpg"
 import steel3 from "../assets/images/products/stainless-steel-sheets-plates3.jpg"
@@ -7,11 +9,26 @@ import steel5 from "../assets/images/products/stainless-steel-sheets-plates5.jpg
 import steel6 from "../assets/images/products/stainless-steel-sheets-plates6.jpg"
 import steel7 from "../assets/images/products/stainless-steel-sheets-plates7.jpg"
 import steel8 from "../assets/images/products/stainless-steel-sheets-plates8.jpg"
+import SheetsBanner1 from "../assets/images/banners/sheets-plates-coils1.jpg"
+import SheetsBanner2 from "../assets/images/banners/sheets-plates-coils2.jpg"
+import SheetsBanner3 from "../assets/images/banners/sheets-plates-coils3.jpg"
+import SheetSub2img1 from "../assets/images/products/alloy-steel-sheets-plates1.jpg";
+import SheetSub2img2 from "../assets/images/products/alloy-steel-sheets-plates2.jpg";
+import SheetSub2img3 from "../assets/images/products/alloy-steel-sheets-plates3.jpg";
+import SheetSub2img4 from "../assets/images/products/alloy-steel-sheets-plates4.jpg";
+import SheetSub2img5 from "../assets/images/products/alloy-steel-sheets-plates5.jpg";
+import SheetSub2img6 from "../assets/images/products/alloy-steel-sheets-plates6.jpg";
+import SheetSub2img7 from "../assets/images/products/alloy-steel-sheets-plates7.jpg";
+import SheetSub2img8 from "../assets/images/products/alloy-steel-sheets-plates8.jpg";
+
 let companyName = constantValue.companyName;
 export const allProducts = [
   {
     id: 1,
     productShortName: "Sheets, Plates & Coils",
+    images: [bannerImages["sheets-plates-coils1"],
+    bannerImages["sheets-plates-coils2"],
+    bannerImages["sheets-plates-coils3"],],
     name: "Leading Sheets, Plates & Coils Manufacturer, Supplier & Stockist in India",
     description: `${companyName} is a reputed manufacturer, supplier, and stockist of high-quality Sheets, Plates & Coils in India. These products are available in various sizes, thicknesses, and materials to meet diverse industrial requirements. We offer a wide range of types including Shim Sheets, Perforated Sheets, Hot Rolled Sheets & Plates, Cold Rolled Sheets & Plates, Chequered Plates, and Foils in multiple grades.
 
@@ -37,7 +54,16 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
         id: 1,
         productShortName: "SHEETS, PLATES & COILS",
         name: "Stainless Steel Sheets, Plates & Coils Specifications",
-        images: [steel1, steel2, steel3, steel4, steel5, steel6, steel7, steel8],
+        images: [
+          productImages["stainless-steel-sheets-plates1"],
+          productImages["stainless-steel-sheets-plates2"],
+          productImages["stainless-steel-sheets-plates3"],
+          productImages["stainless-steel-sheets-plates4"],
+          productImages["stainless-steel-sheets-plates5"],
+          productImages["stainless-steel-sheets-plates6"],
+          productImages["stainless-steel-sheets-plates7"],
+          productImages["stainless-steel-sheets-plates8"]
+        ],
         description: `${companyName} is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.`,
         materialSpecifications: {
           Standards: "ASTM A240 / ASME SA240",
@@ -47,7 +73,16 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
       {
         id: 2,
         name: "Alloy Steel Sheets, Plates & Coils Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-sheets-plates1"],
+          productImages["alloy-steel-sheets-plates2"],
+          productImages["alloy-steel-sheets-plates3"],
+          productImages["alloy-steel-sheets-plates4"],
+          productImages["alloy-steel-sheets-plates5"],
+          productImages["alloy-steel-sheets-plates6"],
+          productImages["alloy-steel-sheets-plates7"],
+          productImages["alloy-steel-sheets-plates8"]
+        ],
         description: `${companyName} manufactures and stocks a diverse range of Alloy Steel Sheets, Plates & Coils in various sizes, th icknesses, and grades. Our products are crafted to meet stringent quality standards and fulfill specific industrial requirements. We supply across domestic and international markets.`,
         materialSpecifications: {
           Standards: "ASTM A387 / ASME SA387",
@@ -57,7 +92,16 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
       {
         id: 3,
         name: "Nickel Alloy Steel Sheets, Plates & Coils Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-sheets-plates1"],
+          productImages["nickel-alloy-sheets-plates2"],
+          productImages["nickel-alloy-sheets-plates3"],
+          productImages["nickel-alloy-sheets-plates4"],
+          productImages["nickel-alloy-sheets-plates5"],
+          productImages["nickel-alloy-sheets-plates6"],
+          productImages["nickel-alloy-sheets-plates7"],
+          productImages["nickel-alloy-sheets-plates8"]
+        ],
         description: `${companyName} is a prominent exporter and supplier of high-grade Nickel Alloy Sheets, Plates & Coils. These products are available in different dimensions and specifications and are ideal for high-temperature and high-strength applications. Nickel's versatility enables superior corrosion resistance and mechanical performance.`,
         materialSpecifications: {
           Standards: "ASTM / ASME B161, B162, B163, B725, B730",
@@ -67,7 +111,16 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
       {
         id: 4,
         name: "Carbon Steel Sheets, Plates & Coils Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-sheets-plates1"],
+          productImages["carbon-steel-sheets-plates2"],
+          productImages["carbon-steel-sheets-plates3"],
+          productImages["carbon-steel-sheets-plates4"],
+          productImages["carbon-steel-sheets-plates5"],
+          productImages["carbon-steel-sheets-plates6"],
+          productImages["carbon-steel-sheets-plates7"],
+          productImages["carbon-steel-sheets-plates8"]
+        ],
         description: `With years of industry experience, ${companyName} delivers high-quality Carbon Steel Sheets, Plates & Coils manufactured from top-grade raw materials using advanced technology. Our carbon steel range is valued for its excellent weldability and formability, making it suitable for a wide array of structural and industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A36, IS 2062, CK60, Wear Resistant Steel, Boiler Quality ASTM A516",
@@ -80,6 +133,11 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
   {
     id: 2,
     name: "Round Bars & Rods Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["round-bars-rods1"],
+      bannerImages["round-bars-rods2"],
+      bannerImages["round-bars-rods3"]
+    ],
     productShortName: "Round Bars & Rods",
     description: `${companyName} is a renowned manufacturer, supplier, and stockist of a wide range of Round Bars & Rods in India. Our products are manufactured using premium-grade raw materials and undergo strict quality testing at every stage. Each bar and rod conforms to both national and international standards to ensure performance and reliability.
 
@@ -108,7 +166,17 @@ We stock and supply various types of Round Bars & Rods made from materials such 
       {
         id: 1,
         name: "Stainless Steel Round Bars & Rods Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-bars-rods1"],
+          productImages["stainless-steel-bars-rods2"],
+          productImages["stainless-steel-bars-rods3"],
+          productImages["stainless-steel-bars-rods4"],
+          productImages["stainless-steel-bars-rods5"],
+          productImages["stainless-steel-bars-rods6"],
+          productImages["stainless-steel-bars-rods7"],
+          productImages["stainless-steel-bars-rods8"]
+        ],
+
         description: `${companyName} offers premium-grade Stainless Steel Round Bars & Rods known for excellent toughness at cryogenic temperatures, superior strength-to-weight ratio, corrosion resistance, and ease of fabrication. These bars are manufactured in a variety of sizes and grades using advanced processes to ensure consistent performance in demanding environments.`,
         materialSpecifications: {
           Standards: "ASTM A276 / A182 / A479",
@@ -118,7 +186,16 @@ We stock and supply various types of Round Bars & Rods made from materials such 
       {
         id: 2,
         name: "Alloy Steel Round Bars & Rods Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-bars-rods1"],
+          productImages["alloy-steel-bars-rods2"],
+          productImages["alloy-steel-bars-rods3"],
+          productImages["alloy-steel-bars-rods4"],
+          productImages["alloy-steel-bars-rods5"],
+          productImages["alloy-steel-bars-rods6"],
+          productImages["alloy-steel-bars-rods7"],
+          productImages["alloy-steel-bars-rods8"]
+        ],
         description: `${companyName} manufactures and supplies top-grade Alloy Steel Round Bars & Rods using high-quality materials and cutting-edge technology. These bars offer superior strength, hardenability, and resistance to wear and pressure. Available in various grades, sizes, and types, they are well-suited for use in multiple industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
@@ -128,7 +205,16 @@ We stock and supply various types of Round Bars & Rods made from materials such 
       {
         id: 3,
         name: "Nickel Alloy Steel Round Bars & Rods Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-bars-rods1"],
+          productImages["nickel-alloy-bars-rods2"],
+          productImages["nickel-alloy-bars-rods3"],
+          productImages["nickel-alloy-bars-rods4"],
+          productImages["nickel-alloy-bars-rods5"],
+          productImages["nickel-alloy-bars-rods6"],
+          productImages["nickel-alloy-bars-rods7"],
+          productImages["nickel-alloy-bars-rods8"]
+        ],
         description: `${companyName} offers high-performance Nickel Alloy Round Bars & Rods with exceptional durability, corrosion resistance, and strength at elevated temperatures. These alloys are highly versatile and can be customized to specific client requirements in terms of size, shape, and specification — all at competitive prices.`,
         materialSpecifications: {
           Standards: "ASTM B160, B164, B166, B574, B473 / SB160, SB164, SB166, SB574, SB473",
@@ -138,7 +224,17 @@ We stock and supply various types of Round Bars & Rods made from materials such 
       {
         id: 4,
         name: "Carbon Steel Round Bars & Rods Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-bars-rods1"],
+          productImages["carbon-steel-bars-rods2"],
+          productImages["carbon-steel-bars-rods3"],
+          productImages["carbon-steel-bars-rods4"],
+          productImages["carbon-steel-bars-rods5"],
+          productImages["carbon-steel-bars-rods6"],
+          productImages["carbon-steel-bars-rods7"],
+          productImages["carbon-steel-bars-rods8"]
+        ]
+        ,
         description: `${companyName} is one of India’s largest manufacturers of Carbon Steel Bars & Rods. Using advanced production techniques and high-grade raw materials, we deliver durable and precision-engineered bars in multiple sizes and grades. These bars possess strong mechanical properties such as elongation, density, thermal conductivity, and corrosion resistance — making them ideal for structural and mechanical use.`,
         materialSpecifications: {
           Standards: "ASTM A105 / ASME SA105, ASTM A350 / ASME SA350",
@@ -150,6 +246,11 @@ We stock and supply various types of Round Bars & Rods made from materials such 
   {
     id: 3,
     name: "Pipes & Tubes Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["pipes-tubes1"],
+      bannerImages["pipes-tubes2"],
+      bannerImages["pipes-tubes3"]
+    ],
     productShortName: "Pipes & Tubes",
     description: `${companyName} is a trusted manufacturer, supplier, and exporter of a wide range of Pipes & Tubes available in different forms, shapes, dimensions, and material grades. 
 

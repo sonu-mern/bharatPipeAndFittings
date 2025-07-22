@@ -11,6 +11,7 @@ const Navbar = () => {
     { name: "Home", href: "/", isRoute: true },
     { name: "About", href: "/about", isRoute: true },
     { name: "Products", href: "/#products", isRoute: false },
+    { name: "Catalogue", href: "/catalog.pdf", isRoute: false, isPdf: true },
     { name: "Contact", href: "/contact", isRoute: true },
   ];
 
@@ -26,6 +27,12 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handlePdfOpen = (e, href) => {
+    e.preventDefault();
+    window.open(href, "_blank");
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
@@ -39,7 +46,19 @@ const Navbar = () => {
           }`}
         >
           {navLinks.map((link, index) => {
-            if (link.isRoute) {
+            if (link.isPdf) {
+              // For Catalogue PDF
+              return (
+                <a
+                  key={index}
+                  href={link.href}
+                  className={styles.navLink}
+                  onClick={(e) => handlePdfOpen(e, link.href)}
+                >
+                  {link.name}
+                </a>
+              );
+            } else if (link.isRoute) {
               return (
                 <NavLink
                   key={index}
