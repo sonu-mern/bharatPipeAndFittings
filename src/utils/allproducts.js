@@ -1,26 +1,6 @@
 import { constantValue } from "./constantValue"
 import { productImages, bannerImages } from "../utils/loadImages";
 
-import steel1 from "../assets/images/products/stainless-steel-sheets-plates1.jpg"
-import steel2 from "../assets/images/products/stainless-steel-sheets-plates2.jpg"
-import steel3 from "../assets/images/products/stainless-steel-sheets-plates3.jpg"
-import steel4 from "../assets/images/products/stainless-steel-sheets-plates4.jpg"
-import steel5 from "../assets/images/products/stainless-steel-sheets-plates5.jpg"
-import steel6 from "../assets/images/products/stainless-steel-sheets-plates6.jpg"
-import steel7 from "../assets/images/products/stainless-steel-sheets-plates7.jpg"
-import steel8 from "../assets/images/products/stainless-steel-sheets-plates8.jpg"
-import SheetsBanner1 from "../assets/images/banners/sheets-plates-coils1.jpg"
-import SheetsBanner2 from "../assets/images/banners/sheets-plates-coils2.jpg"
-import SheetsBanner3 from "../assets/images/banners/sheets-plates-coils3.jpg"
-import SheetSub2img1 from "../assets/images/products/alloy-steel-sheets-plates1.jpg";
-import SheetSub2img2 from "../assets/images/products/alloy-steel-sheets-plates2.jpg";
-import SheetSub2img3 from "../assets/images/products/alloy-steel-sheets-plates3.jpg";
-import SheetSub2img4 from "../assets/images/products/alloy-steel-sheets-plates4.jpg";
-import SheetSub2img5 from "../assets/images/products/alloy-steel-sheets-plates5.jpg";
-import SheetSub2img6 from "../assets/images/products/alloy-steel-sheets-plates6.jpg";
-import SheetSub2img7 from "../assets/images/products/alloy-steel-sheets-plates7.jpg";
-import SheetSub2img8 from "../assets/images/products/alloy-steel-sheets-plates8.jpg";
-
 let companyName = constantValue.companyName;
 export const allProducts = [
   {
@@ -276,7 +256,16 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
       {
         id: 1,
         name: "Stainless Steel Pipes & Tubes Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-pipes-tubes1"],
+          productImages["stainless-steel-pipes-tubes2"],
+          productImages["stainless-steel-pipes-tubes3"],
+          productImages["stainless-steel-pipes-tubes4"],
+          productImages["stainless-steel-pipes-tubes5"],
+          productImages["stainless-steel-pipes-tubes6"],
+          productImages["stainless-steel-pipes-tubes7"],
+          productImages["stainless-steel-pipes-tubes8"]
+        ],
         description: `${companyName} offers high-quality Stainless Steel Pipes & Tubes in a wide range of grades, sizes, thicknesses, and specifications. We also provide customization options to meet specific client needs. These pipes and tubes are widely used in oil & gas, chemical processing, pulp & paper, boiler, heat exchanger, and nuclear industries.`,
         materialSpecifications: {
           Standards: "ASTM A312 / A213 / A269 / A358 / A778",
@@ -286,7 +275,16 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
       {
         id: 2,
         name: "Alloy Steel Pipes & Tubes Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-pipes-tubes1"],
+          productImages["alloy-steel-pipes-tubes2"],
+          productImages["alloy-steel-pipes-tubes3"],
+          productImages["alloy-steel-pipes-tubes4"],
+          productImages["alloy-steel-pipes-tubes5"],
+          productImages["alloy-steel-pipes-tubes6"],
+          productImages["alloy-steel-pipes-tubes7"],
+          productImages["alloy-steel-pipes-tubes8"]
+        ],
         description: `${companyName} manufactures Alloy Steel Seamless Pipes & Tubes composed of chromium, molybdenum, and additional elements like silicon and manganese. These pipes are known for excellent strength, corrosion resistance, and durability under high temperatures and pressure. They are highly demanded across numerous industrial sectors for their robustness and weldability.`,
         materialSpecifications: {
           Standards: "ASTM A335 / A213",
@@ -296,7 +294,16 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
       {
         id: 3,
         name: "Nickel Alloy Steel Pipes & Tubes Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-pipes-tubes1"],
+          productImages["nickel-alloy-pipes-tubes2"],
+          productImages["nickel-alloy-pipes-tubes3"],
+          productImages["nickel-alloy-pipes-tubes4"],
+          productImages["nickel-alloy-pipes-tubes5"],
+          productImages["nickel-alloy-pipes-tubes6"],
+          productImages["nickel-alloy-pipes-tubes7"],
+          productImages["nickel-alloy-pipes-tubes8"]
+        ],
         description: `${companyName} supplies Nickel Alloy Pipes & Tubes known for excellent magnetic properties, thermal conductivity, and corrosion resistance. These pipes are ideal for applications requiring cleanliness, purity, and high performance under thermal stress. We provide both standard and custom sizes to meet specific project needs.`,
         materialSpecifications: {
           Standards: "ASTM B161, B165, B167, B444, B407, B423 / ASME SB161, SB165, SB167, SB444, SB407, SB423",
@@ -306,7 +313,17 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
       {
         id: 4,
         name: "Carbon Steel Pipes & Tubes Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-pipes-tubes1"],
+          productImages["carbon-steel-pipes-tubes2"],
+          productImages["carbon-steel-pipes-tubes3"],
+          productImages["carbon-steel-pipes-tubes4"],
+          productImages["carbon-steel-pipes-tubes5"],
+          productImages["carbon-steel-pipes-tubes6"],
+          productImages["carbon-steel-pipes-tubes7"],
+          productImages["carbon-steel-pipes-tubes8"]
+        ]
+        ,
         description: `${companyName} is a leading provider of Carbon Steel Pipes & Tubes in India. These products are manufactured using high carbon content steel, offering excellent strength, weldability, and formability. Widely used in industrial piping systems, these pipes are available in different grades, sizes, shapes, and specifications.`,
         materialSpecifications: {
           Standards: "ASTM A106 / A53 / A179 / A333 / A210",
@@ -318,6 +335,11 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
   {
     id: 4,
     name: "Buttweld Pipe Fittings Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["pipe-fittings1"],
+      bannerImages["pipe-fittings2"],
+      bannerImages["pipe-fittings3"]
+    ],
     productShortName: "Pipe Fittings",
     description: `${companyName} is a reputed manufacturer, supplier, and stockist of premium-quality Buttweld Pipe Fittings in India. Known for their high tensile strength, corrosion resistance, and excellent finish, our fittings are widely demanded across industries. We manufacture, export, and supply Buttweld Fittings that conform to national and international quality standards, supported by advanced refining and fabrication equipment.
 
@@ -346,7 +368,17 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
       {
         id: 1,
         name: "Stainless Steel Pipe Fittings Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-pipe-fittings1"],
+          productImages["stainless-steel-pipe-fittings2"],
+          productImages["stainless-steel-pipe-fittings3"],
+          productImages["stainless-steel-pipe-fittings4"],
+          productImages["stainless-steel-pipe-fittings5"],
+          productImages["stainless-steel-pipe-fittings6"],
+          productImages["stainless-steel-pipe-fittings7"],
+          productImages["stainless-steel-pipe-fittings8"]
+        ]
+        ,
         description: `${companyName} offers Stainless Steel Buttweld Fittings in a wide range of shapes, sizes, grades, and specifications in compliance with ANSI/ASME and DIN standards. Our SS fittings range includes reducers, elbows, tees, crosses, stub ends, and pipe bends, designed for durability and long-term performance in demanding applications.`,
         materialSpecifications: {
           Standards: "ASTM A403 / ASME SA403",
@@ -356,7 +388,16 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
       {
         id: 2,
         name: "Alloy Steel Buttweld Fittings Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-pipe-fittings1"],
+          productImages["alloy-steel-pipe-fittings2"],
+          productImages["alloy-steel-pipe-fittings3"],
+          productImages["alloy-steel-pipe-fittings4"],
+          productImages["alloy-steel-pipe-fittings5"],
+          productImages["alloy-steel-pipe-fittings6"],
+          productImages["alloy-steel-pipe-fittings7"],
+          productImages["alloy-steel-pipe-fittings8"]
+        ],
         description: `We produce high-quality Alloy Steel Buttweld Fittings, including custom-fabricated pieces up to 48”. Our product range includes elbows, tees, reducers, crosses, stub ends, and pipe bends. Alloy Steel fittings are ideal for applications where corrosion resistance is less critical but strength and durability are essential.`,
         materialSpecifications: {
           Standards: "ASTM A335 / ASME SA335",
@@ -366,7 +407,17 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
       {
         id: 3,
         name: "Nickel Alloy Steel Buttweld Fittings Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-pipe-fittings1"],
+          productImages["nickel-alloy-pipe-fittings2"],
+          productImages["nickel-alloy-pipe-fittings3"],
+          productImages["nickel-alloy-pipe-fittings4"],
+          productImages["nickel-alloy-pipe-fittings5"],
+          productImages["nickel-alloy-pipe-fittings6"],
+          productImages["nickel-alloy-pipe-fittings7"],
+          productImages["nickel-alloy-pipe-fittings8"]
+        ]
+        ,
         description: `${companyName} offers a comprehensive range of Nickel Alloy Buttweld Fittings available in various sizes, grades, and thicknesses. These fittings provide excellent corrosion resistance, strength, and heat resistance, making them suitable for industries like aerospace, chemical processing, and power generation.`,
         materialSpecifications: {
           Standards: "ASTM B366 / ASME SB366",
@@ -377,7 +428,16 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
         id: 4,
         name: "Carbon Steel Pipe Fittings Specifications",
 
-        images: [],
+        images: [
+          productImages["carbon-steel-pipe-fittings1"],
+          productImages["carbon-steel-pipe-fittings2"],
+          productImages["carbon-steel-pipe-fittings3"],
+          productImages["carbon-steel-pipe-fittings4"],
+          productImages["carbon-steel-pipe-fittings5"],
+          productImages["carbon-steel-pipe-fittings6"],
+          productImages["carbon-steel-pipe-fittings7"],
+          productImages["carbon-steel-pipe-fittings8"]
+        ],
         description: `${companyName} is a leading manufacturer and supplier of Carbon Steel Buttweld Fittings, offering outstanding strength and weldability. These fittings are available in various shapes and dimensions and are widely used in structural and pressure applications. Our CS fittings include elbows, tees, reducers, crosses, nipples, and more.`,
         materialSpecifications: {
           Standards: "ASTM A234 / A420 / A860",
@@ -390,6 +450,12 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
   {
     id: 5,
     name: "Flanges Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["flanges1"],
+      bannerImages["flanges2"],
+      bannerImages["flanges3"]
+    ]
+    ,
     productShortName: "Flanges",
     description: `${companyName} is a trusted manufacturer, supplier, and stockist of high-quality steel flanges in India. We offer a wide variety of flanges in different types, shapes, sizes, dimensions, and material grades. Depending on the connection method, our range includes Slip-On Flanges, Orifice Flanges, Spectacle Flanges, Lap Joint Flanges, Raised Face Flanges, Ring Joint Flanges, Weld Neck Flanges, Socket Weld Flanges, and more.
 
@@ -413,7 +479,16 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
       {
         id: 1,
         name: "Stainless Steel Flanges Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-flanges1"],
+          productImages["stainless-steel-flanges2"],
+          productImages["stainless-steel-flanges3"],
+          productImages["stainless-steel-flanges4"],
+          productImages["stainless-steel-flanges5"],
+          productImages["stainless-steel-flanges6"],
+          productImages["stainless-steel-flanges7"],
+          productImages["stainless-steel-flanges8"]
+        ],
         description: `${companyName} offers an extensive range of stainless steel flanges in various sizes and pressure classes to meet your specific project needs, including rare configurations. Our Stainless Steel Pipe Flanges offer excellent corrosion resistance, high strength, and mechanical durability. For example, SS Blind Flanges are ideal for sealing off piping systems or vessel openings with secure and leak-proof connections.`,
         materialSpecifications: {
           Standards: "ASTM A403 / ASME SA403",
@@ -423,7 +498,16 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
       {
         id: 2,
         name: "Alloy Steel Flanges Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-flanges1"],
+          productImages["alloy-steel-flanges2"],
+          productImages["alloy-steel-flanges3"],
+          productImages["alloy-steel-flanges4"],
+          productImages["alloy-steel-flanges5"],
+          productImages["alloy-steel-flanges6"],
+          productImages["alloy-steel-flanges7"],
+          productImages["alloy-steel-flanges8"],
+        ],
         description: `${companyName} is a top manufacturer and supplier of Alloy Steel Flanges in India. These flanges offer excellent strength and chemical resistance and are suitable for high-temperature environments (1725–1850°F). The Alloy Steel Slip-On Flanges are resistant to water, atmospheric conditions, and chemicals, making them suitable for various critical applications.`,
         materialSpecifications: {
           Standards: "ASTM A335 / ASME SA335",
@@ -433,7 +517,16 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
       {
         id: 3,
         name: "Nickel Alloy Steel Flanges Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-flanges1"],
+          productImages["nickel-alloy-flanges2"],
+          productImages["nickel-alloy-flanges3"],
+          productImages["nickel-alloy-flanges4"],
+          productImages["nickel-alloy-flanges5"],
+          productImages["nickel-alloy-flanges6"],
+          productImages["nickel-alloy-flanges7"],
+          productImages["nickel-alloy-flanges8"],
+        ],
         description: `${companyName} has earned a solid reputation for producing high-quality Nickel Alloy Flanges. These flanges offer outstanding thermal and electrical conductivity, low vapor pressure, and excellent weldability. Nickel Alloy 200 and 201 are commonly used in industries requiring high corrosion resistance and formability.`,
         materialSpecifications: {
           Standards: "ASTM B366 / ASME SB366",
@@ -443,7 +536,16 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
       {
         id: 4,
         name: "Carbon Steel Flanges Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-flanges1"],
+          productImages["carbon-steel-flanges2"],
+          productImages["carbon-steel-flanges3"],
+          productImages["carbon-steel-flanges4"],
+          productImages["carbon-steel-flanges5"],
+          productImages["carbon-steel-flanges6"],
+          productImages["carbon-steel-flanges7"],
+          productImages["carbon-steel-flanges8"],
+        ],
         description: `${companyName} manufactures premium-grade Carbon Steel Flanges that deliver excellent mechanical strength and corrosion resistance. These flanges are designed to withstand high pressures and temperatures, making them ideal for applications in power plants, petrochemical industries, and more.`,
         materialSpecifications: {
           Standards: "ASTM A234 / A420 / A860",
@@ -455,6 +557,11 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
   {
     id: 6,
     name: "Forged Fittings Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["forged-fittings1"],
+      bannerImages["forged-fittings2"],
+      bannerImages["forged-fittings3"],
+    ],
     productShortName: "Forged Fittings",
     description: `${companyName} is one of the most preferred manufacturers, suppliers, and exporters of premium-quality Forged Fittings known for their outstanding durability and reliable performance. These fittings are offered in a variety of types, forms, sizes, material grades, and specifications. Known for their long operational life and superior build, our forged pipe fittings include 90° elbows, 45° elbows, half couplings, lateral outlets, unions, crosses, full couplings, and more.
 
@@ -477,7 +584,18 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
       {
         id: 1,
         name: "Stainless Steel Forged Fittings Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-forged-fittings1"],
+          productImages["stainless-steel-forged-fittings2"],
+          productImages["stainless-steel-forged-fittings3"],
+          productImages["stainless-steel-forged-fittings4"],
+          productImages["stainless-steel-forged-fittings5"],
+          productImages["stainless-steel-forged-fittings6"],
+          productImages["stainless-steel-forged-fittings7"],
+          productImages["stainless-steel-forged-fittings8"],
+          productImages["stainless-steel-forged-fittings9"],
+          productImages["stainless-steel-forged-fittings10"],
+        ],
         description: `${companyName} provides a comprehensive range of stainless steel forged fittings in multiple grades and dimensions. With a reputation for consistent quality and on-time delivery, we manufacture forged fittings that are widely used across industries for their excellent corrosion resistance, strength, and long service life.`,
         materialSpecifications: {
           Standards: "ASTM A182 & ASME SA182",
@@ -487,7 +605,19 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
       {
         id: 2,
         name: "Alloy Steel Forged Fittings Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-forged-fittings1"],
+          productImages["alloy-steel-forged-fittings2"],
+          productImages["alloy-steel-forged-fittings3"],
+          productImages["alloy-steel-forged-fittings4"],
+          productImages["alloy-steel-forged-fittings5"],
+          productImages["alloy-steel-forged-fittings6"],
+          productImages["alloy-steel-forged-fittings7"],
+          productImages["alloy-steel-forged-fittings8"],
+          productImages["alloy-steel-forged-fittings9"],
+          productImages["alloy-steel-forged-fittings10"],
+        ],
+
         description: `${companyName} manufactures and supplies an extensive variety of alloy steel forged fittings using advanced machinery and skilled technicians. Designed for high-temperature and high-pressure applications, these fittings are engineered to perform reliably in demanding environments.`,
         materialSpecifications: {
           Standards: "ASTM A182 & ASME SA182",
@@ -497,7 +627,19 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
       {
         id: 3,
         name: "Nickel Alloy Forged Fittings Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-forged-fittings1"],
+          productImages["nickel-alloy-forged-fittings2"],
+          productImages["nickel-alloy-forged-fittings3"],
+          productImages["nickel-alloy-forged-fittings4"],
+          productImages["nickel-alloy-forged-fittings5"],
+          productImages["nickel-alloy-forged-fittings6"],
+          productImages["nickel-alloy-forged-fittings7"],
+          productImages["nickel-alloy-forged-fittings8"],
+          productImages["nickel-alloy-forged-fittings9"],
+          productImages["nickel-alloy-forged-fittings10"],
+        ],
+
         description: `As a leading manufacturer and exporter, ${companyName} delivers high-performance Nickel Alloy Forged Fittings known for their exceptional corrosion resistance and strength in extreme environments. These fittings are widely used in industries such as aerospace, marine, petrochemical, and chemical processing.`,
         materialSpecifications: {
           Standards: "ASTM / ASME SB 564, SB 160, SB 366, SB 472",
@@ -507,7 +649,19 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
       {
         id: 4,
         name: "Carbon Steel Forged Fittings Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-forged-fittings1"],
+          productImages["carbon-steel-forged-fittings2"],
+          productImages["carbon-steel-forged-fittings3"],
+          productImages["carbon-steel-forged-fittings4"],
+          productImages["carbon-steel-forged-fittings5"],
+          productImages["carbon-steel-forged-fittings6"],
+          productImages["carbon-steel-forged-fittings7"],
+          productImages["carbon-steel-forged-fittings8"],
+          productImages["carbon-steel-forged-fittings9"],
+          productImages["carbon-steel-forged-fittings10"],
+        ],
+
         description: `${companyName} has been a pioneer in manufacturing Carbon Steel Forged Fittings. These fittings are widely used in high-pressure systems for their strength and mechanical durability. Suitable for extreme temperature conditions—whether cold, annealed, or high-heat—they are produced with precision using state-of-the-art technology.`,
         materialSpecifications: {
           Standards: "ASTM A105 / A350",
@@ -519,6 +673,12 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
   {
     id: 7,
     name: "Fasteners Manufacturers, Suppliers & Stockist in India",
+    images: [
+      bannerImages["fasteners1"],
+      bannerImages["fasteners2"],
+      bannerImages["fasteners3"],
+    ],
+
     productShortName: "Fasteners",
     description: `${companyName}, an ISO 9001:2015 Certified Company, is one of the leading manufacturers, stockists, and suppliers of high-quality Fasteners in India. Our fasteners are manufactured in compliance with stringent industrial standards and are available in a comprehensive range of sizes from M2 to M150, with lengths up to 6 meters.
 
@@ -545,7 +705,19 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
       {
         id: 1,
         name: "Stainless Steel Fasteners Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-fasteners1"],
+          productImages["stainless-steel-fasteners2"],
+          productImages["stainless-steel-fasteners3"],
+          productImages["stainless-steel-fasteners4"],
+          productImages["stainless-steel-fasteners5"],
+          productImages["stainless-steel-fasteners6"],
+          productImages["stainless-steel-fasteners7"],
+          productImages["stainless-steel-fasteners8"],
+          productImages["stainless-steel-fasteners9"],
+          productImages["stainless-steel-fasteners10"],
+        ],
+
         description: `${companyName} offers a comprehensive inventory of stainless steel fasteners suitable for a wide range of industrial applications. These fasteners are available in multiple grades and provide excellent strength and corrosion resistance. We maintain ready stock of all major grades including SS 304, 316, 310, 904L, and others.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
@@ -555,7 +727,19 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
       {
         id: 2,
         name: "Alloy Steel Fasteners Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-fasteners1"],
+          productImages["alloy-steel-fasteners2"],
+          productImages["alloy-steel-fasteners3"],
+          productImages["alloy-steel-fasteners4"],
+          productImages["alloy-steel-fasteners5"],
+          productImages["alloy-steel-fasteners6"],
+          productImages["alloy-steel-fasteners7"],
+          productImages["alloy-steel-fasteners8"],
+          productImages["alloy-steel-fasteners9"],
+          productImages["alloy-steel-fasteners10"],
+        ],
+
         description: `${companyName} manufactures alloy steel fasteners in a variety of grades, dimensions, and finishes to meet critical performance requirements. These fasteners are widely used in power plants, petrochemical industries, and high-temperature environments.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
@@ -565,7 +749,19 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
       {
         id: 3,
         name: "Nickel Alloy Fasteners Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-fasteners1"],
+          productImages["nickel-alloy-fasteners2"],
+          productImages["nickel-alloy-fasteners3"],
+          productImages["nickel-alloy-fasteners4"],
+          productImages["nickel-alloy-fasteners5"],
+          productImages["nickel-alloy-fasteners6"],
+          productImages["nickel-alloy-fasteners7"],
+          productImages["nickel-alloy-fasteners8"],
+          productImages["nickel-alloy-fasteners9"],
+          productImages["nickel-alloy-fasteners10"],
+        ],
+
         description: `We offer a broad selection of Nickel Alloy Fasteners that include premium-grade materials such as Inconel, Monel, Hastelloy, and more. These fasteners are engineered for superior resistance to corrosion, oxidation, and extreme heat, making them suitable for critical applications in aerospace, marine, and chemical industries.`,
         materialSpecifications: {
           Standards: "ASTM B160, B164, B425, B166, B446, B574, B472 / ASME SB160, SB164, SB425, SB166, SB446, SB574, SB472",
@@ -575,7 +771,19 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
       {
         id: 4,
         name: "Carbon Steel Fasteners Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-fasteners1"],
+          productImages["carbon-steel-fasteners2"],
+          productImages["carbon-steel-fasteners3"],
+          productImages["carbon-steel-fasteners4"],
+          productImages["carbon-steel-fasteners5"],
+          productImages["carbon-steel-fasteners6"],
+          productImages["carbon-steel-fasteners7"],
+          productImages["carbon-steel-fasteners8"],
+          productImages["carbon-steel-fasteners9"],
+          productImages["carbon-steel-fasteners10"],
+        ],
+
         description: `${companyName} produces durable and high-strength carbon steel fasteners that are widely used in high-pressure and high-temperature environments. Manufactured in compliance with ASTM and ASME standards, these fasteners are an economical solution for structural and industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A193, A194, ASME SA193, SA194",
@@ -588,6 +796,13 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
     id: 8,
     name: "Valves Manufacturers, Suppliers & Stockist in India",
     productShortName: "Valves",
+    images: [
+      bannerImages["valves1"],
+      bannerImages["valves2"],
+      bannerImages["valves3"],
+      bannerImages["valves4"],
+      bannerImages["valves5"],
+    ],
     description: `${companyName} is a leading manufacturer and supplier of high-quality industrial valves, catering to both domestic and international markets. Our valves are designed to meet global standards including AISI, BS, IS, ASME, and ANSI. They efficiently regulate, control, and direct fluid flow through mechanisms like full closure, partial opening, or directional changes.
 
 We offer a diverse range of valves such as Ball Valves, Gate Valves, Needle Valves, Globe Valves, Butterfly Valves, Check Valves, Control Valves, and Safety Valves. Manufactured using premium materials like Stainless Steel, High Nickel Alloys, Carbon Steel, and more, our valves are known for excellent corrosion and wear resistance, making them suitable for high-pressure and high-temperature applications.
@@ -613,7 +828,16 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       {
         id: 1,
         name: "Stainless Steel Valves Specifications",
-        images: [],
+        images: [
+          productImages["stainless-steel-valves1"],
+          productImages["stainless-steel-valves2"],
+          productImages["stainless-steel-valves3"],
+          productImages["stainless-steel-valves4"],
+          productImages["stainless-steel-valves5"],
+          productImages["stainless-steel-valves6"],
+          productImages["stainless-steel-valves7"],
+          productImages["stainless-steel-valves8"],
+        ],
         description: `${companyName} is one of India's largest exporters of stainless steel valves. These valves are widely used in industries such as petrochemicals, chemicals, water treatment, gas distribution, and general engineering. Our Stainless Steel Ball Valves are easy to maintain, highly durable, and corrosion-resistant.`,
         materialSpecifications: {
           Grades: "304, 304L, 309, 310, 316, 316L, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L"
@@ -622,7 +846,19 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       {
         id: 2,
         name: "Alloy Steel Valves Specifications",
-        images: [],
+        images: [
+          productImages["alloy-steel-valves1"],
+          productImages["alloy-steel-valves2"],
+          productImages["alloy-steel-valves3"],
+          productImages["alloy-steel-valves4"],
+          productImages["alloy-steel-valves5"],
+          productImages["alloy-steel-valves6"],
+          productImages["alloy-steel-valves7"],
+          productImages["alloy-steel-valves8"],
+          productImages["alloy-steel-valves9"],
+          productImages["alloy-steel-valves10"],
+        ],
+
         description: `Our Alloy Steel Valves, including Butterfly and Gate Valves, are manufactured using premium ASTM A217 grade materials. With advanced production capabilities, we offer customizable sizes and configurations suited for high-pressure, high-temperature applications across a wide range of industries.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
@@ -632,7 +868,19 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       {
         id: 3,
         name: "Nickel Alloy Valves Specifications",
-        images: [],
+        images: [
+          productImages["nickel-alloy-valves1"],
+          productImages["nickel-alloy-valves2"],
+          productImages["nickel-alloy-valves3"],
+          productImages["nickel-alloy-valves4"],
+          productImages["nickel-alloy-valves5"],
+          productImages["nickel-alloy-valves6"],
+          productImages["nickel-alloy-valves7"],
+          productImages["nickel-alloy-valves8"],
+          productImages["nickel-alloy-valves9"],
+          productImages["nickel-alloy-valves10"],
+        ],
+
         description: `${companyName} manufactures precision-engineered Nickel Alloy Valves ideal for handling corrosive fluids in chemical processing, marine, steam, and gas systems. These valves are engineered for optimal resistance and longevity, available in custom sizes and pressure ratings.`,
         materialSpecifications: {
           Standards: "ASTM B160, B164, B425, B166, B446, B574, B472 / ASME SB160, SB164, SB425, SB166, SB446, SB574, SB472",
@@ -642,7 +890,19 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       {
         id: 4,
         name: "Carbon Steel Valves Specifications",
-        images: [],
+        images: [
+          productImages["carbon-steel-valves1"],
+          productImages["carbon-steel-valves2"],
+          productImages["carbon-steel-valves3"],
+          productImages["carbon-steel-valves4"],
+          productImages["carbon-steel-valves5"],
+          productImages["carbon-steel-valves6"],
+          productImages["carbon-steel-valves7"],
+          productImages["carbon-steel-valves8"],
+          productImages["carbon-steel-valves9"],
+          productImages["carbon-steel-valves10"],
+        ],
+
         description: `${companyName} offers robust and cost-effective Carbon Steel Valves, including ASTM A105 and A350 grades. Designed for durability and performance under pressure, these valves are widely used in power generation, oil & gas, water treatment, and other heavy-duty applications.`,
         materialSpecifications: {
           Standards: "ASTM A105 / A350",

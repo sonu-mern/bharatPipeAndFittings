@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./HeroSlider.module.css";
+// import c1 from "../../assets/images/heroSlider/bharat-factory2.jpg";
+import c0 from "../../assets/images/heroSlider/bharat-factory.jpg";
 import c1 from "../../assets/images/heroSlider/c1.jpg";
 import c2 from "../../assets/images/heroSlider/c2.jpg";
 import c3 from "../../assets/images/heroSlider/c3.jpg";
@@ -8,6 +10,14 @@ import c4 from "../../assets/images/heroSlider/c4.jpg";
 const slides = [
   {
     id: 1,
+    title: "",
+    subtitle: "",
+    description: "",
+    buttonText: "",
+    backgroundImage: c0,
+  },
+  {
+    id: 2,
     title: "Welcome to Bharat Pipe & Fittings",
     subtitle: "Your Trusted Industrial Partner",
     description:
@@ -16,7 +26,7 @@ const slides = [
     backgroundImage: c1,
   },
   {
-    id: 2,
+    id: 3,
     title: "ISO Certified Products",
     subtitle: "Quality You Can Rely On",
     description:
@@ -25,7 +35,7 @@ const slides = [
     backgroundImage: c2,
   },
   {
-    id: 3,
+    id: 4,
     title: "Nationwide Delivery",
     subtitle: "Fast & Reliable Logistics",
     description:
@@ -89,7 +99,9 @@ const HeroSlider = () => {
               <h1 className={styles.title}>{slide.title}</h1>
               <h2 className={styles.subtitle}>{slide.subtitle}</h2>
               <p className={styles.description}>{slide.description}</p>
-              <button className={styles.ctaButton}>{slide.buttonText}</button>
+              {slide.buttonText && (
+                <button className={styles.ctaButton}>{slide.buttonText}</button>
+              )}
             </div>
           </div>
         ))}

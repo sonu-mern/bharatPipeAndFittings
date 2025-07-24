@@ -1,6 +1,9 @@
 export const constantValue = {
   companyName: "Bharat Pipe & Fittings",
-  companyAddress: "Bharat Pipe & Fittings, 1234 Street Name, City, State, Zip",
-  companyPhone: "+1 (555) 123-4567",
+  companyAddress: `GROUND FLOOR, SHOP NO. 105, 103/105 JAMANDAS
+PRABHUDAS BUILDING, DR. MITRASEN MAHIMTURA
+MARG, DURGADEVI UDYAN, 3RD KUMBHARWADA,
+GIRGAON, Mumbai, Mumbai, Maharashtra, 400004`,
+  companyPhone: "+917877399226",
   companyEmail: "info@bharatpipe.com"
 };

@@ -11,6 +11,7 @@ import {
 import styles from "./Footer.module.css";
 import TrustedManufacturer from "../TrustedManufacturer/TrustedManufacturer";
 import FloatingWhatsappButton from "../FloatingWhatsappButton/FloatingWhatsappButton";
+import { constantValue } from "../../utils/constantValue";
 
 const Footer = () => {
   const quickLinks = [
@@ -78,15 +79,15 @@ const Footer = () => {
               <div className={styles.contactInfo}>
                 <div className={styles.contactItem}>
                   <MapPin size={18} />
-                  <span>Plot No. 45, Industrial Estate, Mumbai, MH 400001</span>
+                  <span>{constantValue.companyAddress}</span>
                 </div>
                 <div className={styles.contactItem}>
                   <Phone size={18} />
-                  <span>+91 98765 43210</span>
+                  <span>{constantValue.companyPhone}</span>
                 </div>
                 <div className={styles.contactItem}>
                   <Mail size={18} />
-                  <span>sales@bharatpipefittings.com</span>
+                  <span>{constantValue.companyEmail}</span>
                 </div>
               </div>
               {/* <div className={styles.newsletter}>

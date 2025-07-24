@@ -20,7 +20,12 @@ const ProductImageCarousel = ({ images, name }) => {
       <img
         src={images[current]}
         alt={name}
-        style={{ maxWidth: "100%", maxHeight: 400, borderRadius: 8 }}
+        style={{
+          maxWidth: "100%",
+          maxHeight: 400,
+          borderRadius: 8,
+          objectFit: "contain",
+        }}
       />
       {images.length > 1 && (
         <>
