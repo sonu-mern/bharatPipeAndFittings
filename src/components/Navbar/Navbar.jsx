@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
+import logo from "../../assets//images/logo/comanylogo2.jpeg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +38,10 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
         <NavLink to="/" className={styles.logo}>
-          <span>Bharat Pipe & Fittings</span>
+          <span>
+            <img src={logo} alt="Bharat Pipe & Fittings Logo" /> Bharat Pipe &
+            Fittings
+          </span>
         </NavLink>
 
         <div

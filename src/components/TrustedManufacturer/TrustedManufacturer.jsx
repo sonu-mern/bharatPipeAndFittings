@@ -1,9 +1,18 @@
 import React from "react";
 import styles from "./TrustedManufacturer.module.css";
-import { Link } from "react-router-dom"; // Optional if using React Router
 import ThemedButton from "../ui/ThemedButton";
+import { constantValue } from "../../utils/constantValue";
 
 const TrustedManufacturer = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = constantValue.companyPhone; // Change this to your WhatsApp number (with country code)
+    const message = constantValue.whatsAppMessage;
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
     <div className={styles.container}>
       <div className={`${styles.row} ${styles.alignItemsCenter}`}>
@@ -24,7 +33,10 @@ const TrustedManufacturer = () => {
         </div>
         <div className={styles.colRight}>
           <div className={styles.btnWrapper}>
-            <ThemedButton style={{ backgroundColor: "var(--color-primary)" }}>
+            <ThemedButton
+              style={{ backgroundColor: "var(--color-primary)" }}
+              onClick={handleWhatsAppClick}
+            >
               Get In Touch
             </ThemedButton>
           </div>

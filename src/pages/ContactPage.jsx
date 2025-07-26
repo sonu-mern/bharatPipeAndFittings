@@ -23,7 +23,6 @@ const ContactPage = () => {
       [name]: value,
     }));
 
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors((prevErrors) => ({
         ...prevErrors,
@@ -65,13 +64,26 @@ const ContactPage = () => {
     const newErrors = validateForm();
 
     if (Object.keys(newErrors).length === 0) {
-      // Form is valid, simulate submission
-      console.log("Form submitted:", formData);
-      setIsSubmitted(true);
+      const toEmail = constantValue.companyEmail;
+      const subject = "New Contact Form Submission";
+      const body = `
+Full Name: ${formData.fullName}
+Company Name: ${formData.companyName}
+Email: ${formData.email}
+Phone Number: ${formData.phoneNumber}
+Message:
+${formData.message}
+      `;
 
-      // Reset form after 3 seconds
+      const mailtoLink = `mailto:${toEmail}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(body)}`;
+
+      // Redirect to default mail client
+      window.location.href = mailtoLink;
+
+      // Reset form after short delay
       setTimeout(() => {
-        setIsSubmitted(false);
         setFormData({
           fullName: "",
           companyName: "",
@@ -79,7 +91,8 @@ const ContactPage = () => {
           phoneNumber: "",
           message: "",
         });
-      }, 3000);
+        setIsSubmitted(true);
+      }, 1000);
     } else {
       setErrors(newErrors);
     }

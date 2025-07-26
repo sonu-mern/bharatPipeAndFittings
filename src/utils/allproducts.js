@@ -878,7 +878,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           productImages["nickel-alloy-valves7"],
           productImages["nickel-alloy-valves8"],
           productImages["nickel-alloy-valves9"],
-          productImages["nickel-alloy-valves10"],
+          // productImages["nickel-alloy-valves10"],
         ],
 
         description: `${companyName} manufactures precision-engineered Nickel Alloy Valves ideal for handling corrosive fluids in chemical processing, marine, steam, and gas systems. These valves are engineered for optimal resistance and longevity, available in custom sizes and pressure ratings.`,
@@ -910,7 +910,80 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         }
       }
     ]
+  },
+  {
+    id: 9,
+    productShortName: "Angles, Channels & Flat",
+    images: ["", "", ""],
+    name: "Angles, Channels & Flat Manufacturers, Suppliers & Stockist in India",
+    description: `Metal-Link Steel & Alloys mainly use high-quality raw material and advanced machinery to produced world class products. Our production unit manufactured these Angles, Channels & Flats as per Indian and International Standards. Various types of angles & channels including Equal Angles, Unequal Angles, C-Channels, and U-Channels are provided with excellent surface finish and dimensional accuracy.
+
+The different types of industries where our high-quality angles & channels used are paper & pulp, construction, piping, water treatment applications, raceways, braces and frames for machinery and housing in corrosive environments, etc.`,
+    productDetails: {
+      tableData: {
+        tableName: "Specifications for Angles, Channels & Flat",
+        materialSpecifications: {
+          Width: "20mm to 150mm",
+          Thickness: "03mm To 10mm",
+          Length: "upto 12 Feet",
+          Finish: "Mill, Customer specific finish",
+          Surface: "Anodize, electrophoresis, powder coating, PVDF coating, wood grain painting, matted, etc.",
+          Type: "Angles, Channels, Flat",
+          Processing: "Cutting, Forming, Drilling/Machining, Grinding, Testing",
+          "Type of material": "stainless steel, nickel alloy, titanium, aluminum",
+          Dimensions: "EN, DIN, JIS, ASTM, BS, ASME, AISI",
+          Standards: "ASTM A 276/A 276M,A 484/A 484M,A 564/A 564M,A 582/A582M,A 638 /A 638M,A705/A705M",
+          Size: "angle – 5mm to 9mm, channel – 40mm*20mm~300mm*300mm",
+          Types: "Equal angle, Unequal angle, U channel, C channel"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: 1,
+        productShortName: "Angles",
+        name: "Angles Specifications",
+        images: ["", "", ""],
+        description: `The most commonly found steel angles are formed at a 90 degree angle and has two legs of equal length. The sides are either equal or of different sizes, if one leg is longer than the other then it is known as UNEQUAL angle. The steel angles of various strength like HT/MS are formed as required by different applications. The steel angle are used in various applications like reinforcement, transmission towers, Bridges, Sheds etc.`,
+        materialSpecifications: {
+          Standards: "",
+          Grades: ""
+        }
+      },
+      {
+        id: 2,
+        name: "Channels Specifications",
+        images: ["", "", "", "", "", ""],
+        description: `A channel is a right angle "C" section. They are also called C Channels. Along with beams, channels are mainly used in structural applications. Mostly MS Channels are used as supports and guide. These are roll-formed products. MS Channels has wide range of applications like Purling for Sheds, Scaffoldings in construction Industries, and Supporting frames for Structures, Base frames of heavy machinery and automotives etc.
+
+U-steel channels sport a simple ‘U’ shape with two flanges that are parallel and perpendicular to the base. They are great materials for manufacturing since they are made to assist heavy machinery and equipment, especially in metal rolling. They are often used to support windows, doors, and flat panels.
+
+C-steel channels are the most common type of channels. They are similar to the shape of U-steel channels with the only difference being that they have two parallel flanges. This is a result of continuous rolling during their production. They have a consistent size from the web to the tip of the flange, sporting a flatter profile.
+
+Z-steel channels are known as purlins. Apart from construction, they are often used in DIY projects, such as shelving units, workbenches, plant hangers, and more. Their main purposes in projects are as supports, slides, tracks, and framing. That’s why they are typically found in garage doors, window frames, store fixtures, toolboxes, or fences.
+
+Hat-steel channel resembles a hat when turned upside down. They are steel channels with outward flanges that are perpendicular to the usual steel channel flanges. This design makes them ideal for framing roofs. Besides that, they make a good addition as supports in ceilings or floors, ensuring the durability of these constructions. Their shape makes them a good furring material or channels in wall construction.
+
+Like many other steel channels, the J-steel channel sport the letter that they are named after with one side longer than the other. They have a wide range of sizes and can be customized to any project specifications. They come in hemmed, hemless, and with nailer variations that are manufactured to make construction more secure. Their shape makes them ideal for mounting siding or roofing materials. That’s why they are used in installations of windows and doors to support and secure the panel edges. They hide the cut lines or cover the gaps of panels such as glass, mirrors, or thin laminates, making your project more seamless.`,
+        materialSpecifications: {
+          Standards: "",
+          Grades: ""
+        }
+      },
+      {
+        id: 3,
+        name: "Flat Specifications",
+        images: ["", "", ""],
+        description: `The Stainless Steel Flat Bars can be manufactured using different types of ss including ferritic, austenitic, martensitic and duplex. The material of the flat bars can vary according to its composition, however, the most used among them is the austenitic type. Depending on the steel grade with which the flat bars are made, it can be used in a wide range of applications. For example, the 316 grade ss helps to resist chloride ion corrosion and hence they are widely used in several marine applications. They are also used in applications that require higher structural strength. They can withstand elevated temperatures of up to 870 degrees C.`,
+        materialSpecifications: {
+          Standards: "",
+          Grades: "Stainless steel: 201, 202, 304, 304l, 310, 310s, 316, 316l, 317, 317l, 321, 321h, 347, 347h, 410 | Nickel Alloy: UNS 2200 (NICKEL 200), UNS 2201 (NICKEL 201) | Aluminium: 1050,1100, 2017, 7150, 7178, 7575, 2050, 7085, 2011 A92011, 2014A A92014, 2024 A92024, 2219, 5052 A95052, 5083 A95083, 5754, 6061 A96061 A86061, 6063, 6082 A96082, 7071 7020, 7050 A97050, 7075 A97075 A87075, 7175 | Titanium: Grade 1, Grade 4, Grade 5(Ti 6Al-4V), Grade 6(Ti 5Al-2.5Sn), Grade 7, Grade 11, Grade 12, 8Ai-1Mo-1V, Grade 9(3Al-2.5V), 6Al-6V-25n, 6Al-2Sn-4Zr-2Mo, 6Al-7Nb, Grade 23(Ti 6AL-4V ELI), Grade 5 ELI"
+        }
+      }
+    ]
   }
+
+
 
 ]
 
