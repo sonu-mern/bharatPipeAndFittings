@@ -1,4 +1,6 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect } from "react";
+import { constantValue } from "./utils/constantValue";
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -19,7 +21,9 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => {
   console.log("App rendering");
-
+  useEffect(() => {
+    document.title = constantValue.companyName;
+  }, []);
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
