@@ -1,7 +1,27 @@
 import React from "react";
+import { hasEmptyKey } from "../../utils/helperFunction";
 
 const KeyValueTable = ({ tableData, title }) => {
-  if (!tableData || typeof tableData !== "object") return null;
+  const isEmptyData =
+    !tableData ||
+    typeof tableData !== "object" ||
+    Object.keys(tableData).length === 0 ||
+    Object.values(tableData).every(
+      (v) => v === "" || v === null || v === undefined
+    );
+
+  if (isEmptyData || hasEmptyKey(tableData)) {
+    return <div style={{ margin: "10px 0" }}></div>;
+  }
+
+  // Now it's safe to run Object.entries
+  const filteredEntries = Object.entries(tableData).filter(
+    ([, value]) => value !== "" && value !== null && value !== undefined
+  );
+
+  if (filteredEntries.length === 0) {
+    return <div style={{ margin: "10px 0" }}></div>;
+  }
 
   return (
     <div style={{ overflowX: "auto", margin: "20px 0" }}>
@@ -30,7 +50,7 @@ const KeyValueTable = ({ tableData, title }) => {
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tableData).map(([key, value]) => (
+          {filteredEntries.map(([key, value]) => (
             <tr key={key}>
               <td
                 style={{

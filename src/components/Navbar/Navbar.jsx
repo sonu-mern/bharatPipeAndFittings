@@ -1,17 +1,31 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
-import logo from "../../assets//images/logo/comanylogo2.jpeg";
+import logo from "../../assets/images/logo/comanylogo2.jpeg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMaterialsOpen, setIsMaterialsOpen] = useState(false);
+
+  const material = [
+    { label: "Stainless Steel" },
+    { label: "Carbon Steel" },
+    { label: "Hastelloy" },
+    { label: "Titanium" },
+    { label: "Inconel" },
+    { label: "Monel" },
+    { label: "Alloy Steel" },
+    { label: "Copper" },
+    { label: "Super Duplex Steel" },
+  ];
 
   const navLinks = [
     { name: "Home", href: "/", isRoute: true },
     { name: "About", href: "/about", isRoute: true },
     { name: "Products", href: "/#products", isRoute: false },
+    { name: "Materials", isDropdown: true },
     { name: "Catalogue", href: "/catalog.pdf", isRoute: false, isPdf: true },
     { name: "Contact", href: "/contact", isRoute: true },
   ];
@@ -26,6 +40,12 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    setIsMaterialsOpen(false);
+  };
+
+  const toggleMaterials = () => {
+    setIsMaterialsOpen(!isMaterialsOpen);
+    setIsMenuOpen(true);
   };
 
   const handlePdfOpen = (e, href) => {
@@ -50,8 +70,40 @@ const Navbar = () => {
           }`}
         >
           {navLinks.map((link, index) => {
-            if (link.isPdf) {
-              // For Catalogue PDF
+            if (link.isDropdown) {
+              return (
+                <div key={index} className={styles.navDropdown}>
+                  <button
+                    className={`${styles.navLink} ${styles.dropdownToggle}`}
+                    type="button"
+                    onClick={toggleMaterials}
+                  >
+                    {link.name}
+                    <span className={styles.toggleIcon}>
+                      {isMaterialsOpen ? "−" : "+"}
+                    </span>
+                  </button>
+
+                  {(isMaterialsOpen || window.innerWidth >= 769) && (
+                    <div className={styles.dropdownMenu}>
+                      {material.map((item, idx) => (
+                        <a
+                          key={idx}
+                          href={`/product/${item.label.toLowerCase()}`}
+                          className={styles.dropdownItem}
+                          onClick={() => {
+                            setIsMenuOpen(false);
+                            setIsMaterialsOpen(false);
+                          }}
+                        >
+                          {item.label}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            } else if (link.isPdf) {
               return (
                 <a
                   key={index}

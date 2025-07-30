@@ -8,11 +8,31 @@ import { allProducts } from "../utils/allproducts";
 import KeyValueTable from "../components/ui/KeyValueTable";
 import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
 import ProductImageCarousel from "../components/ProductImageCarousel/ProductImageCarousel";
-
+import ImageGridWithLabel from "../components/ImageGridWithTitle/ImageGridWithLabel";
+const services = [
+  { label: "Sheets, Plates & Coils" },
+  { label: "Angles, Channels & Flat" },
+  { label: "Pipes & Tubes" },
+  { label: "Pipe Fittings" },
+  { label: "Flanges" },
+  { label: "Forged Fittings" },
+  { label: "Fasteners" },
+  { label: "Valves" },
+  { label: "Round Bars & Rods" },
+];
+const material = [
+  { label: "Stainless Steel" },
+  { label: "Carbon Steel" },
+  { label: "Hastelloy" },
+  { label: "Titanium" },
+  { label: "Inconel" },
+  { label: "Monel" },
+  { label: "Alloy Steel" },
+  { label: "Copper" },
+  { label: "Super Duplex Steel" },
+];
 const ProductPage = () => {
   const { id } = useParams();
-
-  // ✅ Always declare all hooks FIRST
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -23,17 +43,15 @@ const ProductPage = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 900);
     };
-    handleResize(); // run once
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // ✅ Only lookup product AFTER hooks
   const product = allProducts.find(
     (p) => p.productShortName.toLowerCase() === id.toLowerCase()
   );
 
-  // ✅ 404 page (after hooks)
   if (!product) {
     return (
       <div className={styles.pageContainer}>
@@ -71,7 +89,10 @@ const ProductPage = () => {
             <div className={styles.responsiveLayout}>
               {!isMobile && (
                 <aside className={styles.sidebarResponsive}>
-                  <ServiceSidebar />
+                  <ServiceSidebar data={services} title="Our Products" />
+                  <br />
+
+                  <ServiceSidebar data={material} title="Our Materials" />
                 </aside>
               )}
 
@@ -102,13 +123,23 @@ const ProductPage = () => {
                     <br />
                     <div className={styles.productDescription}>
                       <h3>Description</h3>
-                      <p>{product.description}</p>
+                      {/* 🔥 Allow bold and inline HTML */}
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: product.description,
+                        }}
+                      />
                     </div>
                     <br />
                     {isMobile && (
                       <div className={styles.connectDiv}>
                         <h3>Connect with Us</h3>
-                        <p>{product.connectDivDetails}</p>
+                        <p>
+                          {product.connectDivDetails} Absolutely,{" "}
+                          {product.productShortName} is in stock and ready to
+                          deliver. Need a custom solution? Contact us with your
+                          requirements to get a free quote. Make an enquiry →
+                        </p>
                       </div>
                     )}
                   </div>
@@ -157,8 +188,20 @@ const ProductPage = () => {
                           {subProduct.name}
                         </h1>
 
-                        <ThirdPartyInspection img={subProduct.images} />
-                        <p>{subProduct.description}</p>
+                        {subProduct?.images?.length > 0 ? (
+                          <ThirdPartyInspection img={subProduct.images} />
+                        ) : (
+                          <ImageGridWithLabel
+                            imagesWithLabel={subProduct.imagesWithLabel}
+                          />
+                        )}
+
+                        {/* 🔥 Allow bold headings in subProduct description */}
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: subProduct.description,
+                          }}
+                        />
 
                         <KeyValueTable
                           tableData={subProduct.materialSpecifications}
@@ -168,11 +211,12 @@ const ProductPage = () => {
                   </div>
                 </div>
               </div>
-
               {isMobile && (
                 <aside className={styles.sidebarResponsive}>
-                  <ServiceSidebar />
+                  <ServiceSidebar data={services} title="Our Products" />
                   <br />
+
+                  <ServiceSidebar data={material} title="Our Materials" />
                 </aside>
               )}
             </div>

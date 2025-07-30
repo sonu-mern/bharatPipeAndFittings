@@ -36,7 +36,7 @@ const ThirdPartyInspection = ({ img }) => {
           1200: { slidesPerView: 5 },
         }}
       >
-        {img.map((url, index) => (
+        {img?.map((url, index) => (
           <SwiperSlide key={index}>
             <div
               style={{

@@ -10,7 +10,7 @@ export const allProducts = [
     bannerImages["sheets-plates-coils2"],
     bannerImages["sheets-plates-coils3"],],
     name: "Leading Sheets, Plates & Coils Manufacturer, Supplier & Stockist in India",
-    description: `${companyName} is a reputed manufacturer, supplier, and stockist of high-quality Sheets, Plates & Coils in India. These products are available in various sizes, thicknesses, and materials to meet diverse industrial requirements. We offer a wide range of types including Shim Sheets, Perforated Sheets, Hot Rolled Sheets & Plates, Cold Rolled Sheets & Plates, Chequered Plates, and Foils in multiple grades.
+    description: `<strong>${companyName}</strong> is a reputed manufacturer, supplier, and stockist of high-quality Sheets, Plates & Coils in India. These products are available in various sizes, thicknesses, and materials to meet diverse industrial requirements. We offer a wide range of types including Shim Sheets, Perforated Sheets, Hot Rolled Sheets & Plates, Cold Rolled Sheets & Plates, Chequered Plates, and Foils in multiple grades.
 
 Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and other high-performance alloy Sheets, Plates & Coils tailored for multiple industry applications.`,
     productDetails: {
@@ -44,7 +44,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
           productImages["stainless-steel-sheets-plates7"],
           productImages["stainless-steel-sheets-plates8"]
         ],
-        description: `${companyName} is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.`,
+        description: `<strong>${companyName}</strong> is a trusted manufacturer and supplier of premium quality Stainless Steel Sheets, Plates & Coils. Renowned for excellent corrosion resistance, tensile strength, and durability, our SS range is ideal for various industrial applications. Their non-corrosive and anti-abrasive properties ensure low maintenance and long-lasting performance.`,
         materialSpecifications: {
           Standards: "ASTM A240 / ASME SA240",
           Grades: "201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 17-4PH, 904L, 253MA, 353MA, AL-6XN (N08367), Alloy 28 (N08028), A286 (S66286)"
@@ -63,7 +63,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
           productImages["alloy-steel-sheets-plates7"],
           productImages["alloy-steel-sheets-plates8"]
         ],
-        description: `${companyName} manufactures and stocks a diverse range of Alloy Steel Sheets, Plates & Coils in various sizes, th icknesses, and grades. Our products are crafted to meet stringent quality standards and fulfill specific industrial requirements. We supply across domestic and international markets.`,
+        description: `<strong>${companyName}</strong> manufactures and stocks a diverse range of Alloy Steel Sheets, Plates & Coils in various sizes, th icknesses, and grades. Our products are crafted to meet stringent quality standards and fulfill specific industrial requirements. We supply across domestic and international markets.`,
         materialSpecifications: {
           Standards: "ASTM A387 / ASME SA387",
           Grades: "11, 12, 22, 5, 9, 91, A283 Gr. C, 16Mo3"
@@ -82,7 +82,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
           productImages["nickel-alloy-sheets-plates7"],
           productImages["nickel-alloy-sheets-plates8"]
         ],
-        description: `${companyName} is a prominent exporter and supplier of high-grade Nickel Alloy Sheets, Plates & Coils. These products are available in different dimensions and specifications and are ideal for high-temperature and high-strength applications. Nickel's versatility enables superior corrosion resistance and mechanical performance.`,
+        description: `<strong>${companyName}</strong> is a prominent exporter and supplier of high-grade Nickel Alloy Sheets, Plates & Coils. These products are available in different dimensions and specifications and are ideal for high-temperature and high-strength applications. Nickel's versatility enables superior corrosion resistance and mechanical performance.`,
         materialSpecifications: {
           Standards: "ASTM / ASME B161, B162, B163, B725, B730",
           Grades: "Nickel 200/201, Monel 400, Monel K500, Inconel 600, Inconel 625, Inconel 718, Incoloy 800, Incoloy 825, Hastelloy C276, C22, B2, Alloy 20, 904L, Titanium Gr 2, Gr 5, Cu-Ni 90/10 (C70600), Cu-Ni 70/30 (C71500), Brass, Bronze, Titanium, Tantalum, Bismuth, Aluminium, High-Speed Steel, Zinc, Lead"
@@ -101,7 +101,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
           productImages["carbon-steel-sheets-plates7"],
           productImages["carbon-steel-sheets-plates8"]
         ],
-        description: `With years of industry experience, ${companyName} delivers high-quality Carbon Steel Sheets, Plates & Coils manufactured from top-grade raw materials using advanced technology. Our carbon steel range is valued for its excellent weldability and formability, making it suitable for a wide array of structural and industrial applications.`,
+        description: `With years of industry experience, <strong>${companyName}</strong> delivers high-quality Carbon Steel Sheets, Plates & Coils manufactured from top-grade raw materials using advanced technology. Our carbon steel range is valued for its excellent weldability and formability, making it suitable for a wide array of structural and industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A36, IS 2062, CK60, Wear Resistant Steel, Boiler Quality ASTM A516",
           Grades: "ASTM A283, A285, A515, A516, A105, A234, LF1, LF2, A106, A333, A53, API 5L, 400 HB, 450 HB, 500 HB, 60, 70, Corten A, Corten B, Hadfield Manganese Steel"
@@ -119,7 +119,7 @@ Our manufacturing range includes Stainless Steel, Carbon Steel, Hastelloy, and o
       bannerImages["round-bars-rods3"]
     ],
     productShortName: "Round Bars & Rods",
-    description: `${companyName} is a renowned manufacturer, supplier, and stockist of a wide range of Round Bars & Rods in India. Our products are manufactured using premium-grade raw materials and undergo strict quality testing at every stage. Each bar and rod conforms to both national and international standards to ensure performance and reliability.
+    description: `<strong>${companyName}</strong> is a renowned manufacturer, supplier, and stockist of a wide range of Round Bars & Rods in India. Our products are manufactured using premium-grade raw materials and undergo strict quality testing at every stage. Each bar and rod conforms to both national and international standards to ensure performance and reliability.
 
 We stock and supply various types of Round Bars & Rods made from materials such as Stainless Steel, Alloy Steel, Duplex & Super Duplex Steel, Hastelloy, Monel, Inconel, Titanium, Aluminum, and more.`,
 
@@ -157,7 +157,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
           productImages["stainless-steel-bars-rods8"]
         ],
 
-        description: `${companyName} offers premium-grade Stainless Steel Round Bars & Rods known for excellent toughness at cryogenic temperatures, superior strength-to-weight ratio, corrosion resistance, and ease of fabrication. These bars are manufactured in a variety of sizes and grades using advanced processes to ensure consistent performance in demanding environments.`,
+        description: `<strong>${companyName}</strong> offers premium-grade Stainless Steel Round Bars & Rods known for excellent toughness at cryogenic temperatures, superior strength-to-weight ratio, corrosion resistance, and ease of fabrication. These bars are manufactured in a variety of sizes and grades using advanced processes to ensure consistent performance in demanding environments.`,
         materialSpecifications: {
           Standards: "ASTM A276 / A182 / A479",
           Grades: "201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 317L, 321, 330, 347, 405, 409, 410, 416, 420, 430, 431, 440C, 17-4PH, 904L, AL-6XN (N08367), Nitronic 50 / 60, 422, 416, 446, Nimonic 80 (N07080), A286 (S66286), 15-5PH, Alloy 28 (N08028)"
@@ -176,7 +176,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
           productImages["alloy-steel-bars-rods7"],
           productImages["alloy-steel-bars-rods8"]
         ],
-        description: `${companyName} manufactures and supplies top-grade Alloy Steel Round Bars & Rods using high-quality materials and cutting-edge technology. These bars offer superior strength, hardenability, and resistance to wear and pressure. Available in various grades, sizes, and types, they are well-suited for use in multiple industrial applications.`,
+        description: `<strong>${companyName}</strong> manufactures and supplies top-grade Alloy Steel Round Bars & Rods using high-quality materials and cutting-edge technology. These bars offer superior strength, hardenability, and resistance to wear and pressure. Available in various grades, sizes, and types, they are well-suited for use in multiple industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
           Grades: "F11, F12, F22, F5, F9, F91, 4140, 4130, Kanthal A1, Nichrome 80/20"
@@ -195,7 +195,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
           productImages["nickel-alloy-bars-rods7"],
           productImages["nickel-alloy-bars-rods8"]
         ],
-        description: `${companyName} offers high-performance Nickel Alloy Round Bars & Rods with exceptional durability, corrosion resistance, and strength at elevated temperatures. These alloys are highly versatile and can be customized to specific client requirements in terms of size, shape, and specification — all at competitive prices.`,
+        description: `<strong>${companyName}</strong> offers high-performance Nickel Alloy Round Bars & Rods with exceptional durability, corrosion resistance, and strength at elevated temperatures. These alloys are highly versatile and can be customized to specific client requirements in terms of size, shape, and specification — all at competitive prices.`,
         materialSpecifications: {
           Standards: "ASTM B160, B164, B166, B574, B473 / SB160, SB164, SB166, SB574, SB473",
           Grades: "Nickel 200, Nickel 201, Hastelloy C276, C22, B2, Monel 400, Monel K500, Inconel 600, 625, 718, Incoloy 800, 825, Alloy 20, 904L, Titanium Gr 2, Gr 5, Cu-Ni 90/10 (C70600), Cu-Ni 70/30 (C71500), Tantalum, Bismuth, Aluminium, Brass, Bronze, High-Speed Steel, Zinc, Lead"
@@ -215,7 +215,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
           productImages["carbon-steel-bars-rods8"]
         ]
         ,
-        description: `${companyName} is one of India’s largest manufacturers of Carbon Steel Bars & Rods. Using advanced production techniques and high-grade raw materials, we deliver durable and precision-engineered bars in multiple sizes and grades. These bars possess strong mechanical properties such as elongation, density, thermal conductivity, and corrosion resistance — making them ideal for structural and mechanical use.`,
+        description: `<strong>${companyName}</strong> is one of India’s largest manufacturers of Carbon Steel Bars & Rods. Using advanced production techniques and high-grade raw materials, we deliver durable and precision-engineered bars in multiple sizes and grades. These bars possess strong mechanical properties such as elongation, density, thermal conductivity, and corrosion resistance — making them ideal for structural and mechanical use.`,
         materialSpecifications: {
           Standards: "ASTM A105 / ASME SA105, ASTM A350 / ASME SA350",
           Grades: "Gr. LF2, LF3"
@@ -232,7 +232,7 @@ We stock and supply various types of Round Bars & Rods made from materials such 
       bannerImages["pipes-tubes3"]
     ],
     productShortName: "Pipes & Tubes",
-    description: `${companyName} is a trusted manufacturer, supplier, and exporter of a wide range of Pipes & Tubes available in different forms, shapes, dimensions, and material grades. 
+    description: `<strong>${companyName}</strong> is a trusted manufacturer, supplier, and exporter of a wide range of Pipes & Tubes available in different forms, shapes, dimensions, and material grades. 
 
 We utilize high-grade raw materials and advanced machinery to deliver products that meet exact client specifications. Our wide portfolio of Pipes & Tubes is widely used across multiple industries. These products are available in material variants such as Stainless Steel, Duplex & Super Duplex Steel, Hastelloy, Monel, Inconel, Nickel, Carbon Steel, Alloy Steel, and Cupronickel.`,
 
@@ -266,7 +266,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
           productImages["stainless-steel-pipes-tubes7"],
           productImages["stainless-steel-pipes-tubes8"]
         ],
-        description: `${companyName} offers high-quality Stainless Steel Pipes & Tubes in a wide range of grades, sizes, thicknesses, and specifications. We also provide customization options to meet specific client needs. These pipes and tubes are widely used in oil & gas, chemical processing, pulp & paper, boiler, heat exchanger, and nuclear industries.`,
+        description: `<strong>${companyName}</strong> offers high-quality Stainless Steel Pipes & Tubes in a wide range of grades, sizes, thicknesses, and specifications. We also provide customization options to meet specific client needs. These pipes and tubes are widely used in oil & gas, chemical processing, pulp & paper, boiler, heat exchanger, and nuclear industries.`,
         materialSpecifications: {
           Standards: "ASTM A312 / A213 / A269 / A358 / A778",
           Grades: "TP 201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L, AL-6XN (N08367)"
@@ -285,7 +285,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
           productImages["alloy-steel-pipes-tubes7"],
           productImages["alloy-steel-pipes-tubes8"]
         ],
-        description: `${companyName} manufactures Alloy Steel Seamless Pipes & Tubes composed of chromium, molybdenum, and additional elements like silicon and manganese. These pipes are known for excellent strength, corrosion resistance, and durability under high temperatures and pressure. They are highly demanded across numerous industrial sectors for their robustness and weldability.`,
+        description: `<strong>${companyName}</strong> manufactures Alloy Steel Seamless Pipes & Tubes composed of chromium, molybdenum, and additional elements like silicon and manganese. These pipes are known for excellent strength, corrosion resistance, and durability under high temperatures and pressure. They are highly demanded across numerous industrial sectors for their robustness and weldability.`,
         materialSpecifications: {
           Standards: "ASTM A335 / A213",
           Grades: "P11, P12, P22, P5, P9, P91, T11, T12, T22, T5, T9, T91"
@@ -304,7 +304,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
           productImages["nickel-alloy-pipes-tubes7"],
           productImages["nickel-alloy-pipes-tubes8"]
         ],
-        description: `${companyName} supplies Nickel Alloy Pipes & Tubes known for excellent magnetic properties, thermal conductivity, and corrosion resistance. These pipes are ideal for applications requiring cleanliness, purity, and high performance under thermal stress. We provide both standard and custom sizes to meet specific project needs.`,
+        description: `<strong>${companyName}</strong> supplies Nickel Alloy Pipes & Tubes known for excellent magnetic properties, thermal conductivity, and corrosion resistance. These pipes are ideal for applications requiring cleanliness, purity, and high performance under thermal stress. We provide both standard and custom sizes to meet specific project needs.`,
         materialSpecifications: {
           Standards: "ASTM B161, B165, B167, B444, B407, B423 / ASME SB161, SB165, SB167, SB444, SB407, SB423",
           Grades: "Nickel 200, 201, Inconel 600, 625, 718, Incoloy 800, 825, Hastelloy C276, C22, B2, Monel 400, K500, Alloy 20, Titanium Gr 2, Gr 5, Alloy 904L, Cu-Ni 90/10 (C70600), Cu-Ni 70/30 (C71500), Tantalum, Brass, Bronze, Aluminium, Zinc, Lead, Bismuth, HighSpeed Steel"
@@ -324,7 +324,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
           productImages["carbon-steel-pipes-tubes8"]
         ]
         ,
-        description: `${companyName} is a leading provider of Carbon Steel Pipes & Tubes in India. These products are manufactured using high carbon content steel, offering excellent strength, weldability, and formability. Widely used in industrial piping systems, these pipes are available in different grades, sizes, shapes, and specifications.`,
+        description: `<strong>${companyName}</strong> is a leading provider of Carbon Steel Pipes & Tubes in India. These products are manufactured using high carbon content steel, offering excellent strength, weldability, and formability. Widely used in industrial piping systems, these pipes are available in different grades, sizes, shapes, and specifications.`,
         materialSpecifications: {
           Standards: "ASTM A106 / A53 / A179 / A333 / A210",
           Grades: "Gr. B, API 5L X42/X46/X52/X56/X60/X65/X70 PSL-1 / PSL-2, Gr. 3, 6, IS 1239, IS 3589, Boiler Tube – BS 3059 – Gr. 320, 360, Gr. A1, BS 6323"
@@ -341,7 +341,7 @@ We utilize high-grade raw materials and advanced machinery to deliver products t
       bannerImages["pipe-fittings3"]
     ],
     productShortName: "Pipe Fittings",
-    description: `${companyName} is a reputed manufacturer, supplier, and stockist of premium-quality Buttweld Pipe Fittings in India. Known for their high tensile strength, corrosion resistance, and excellent finish, our fittings are widely demanded across industries. We manufacture, export, and supply Buttweld Fittings that conform to national and international quality standards, supported by advanced refining and fabrication equipment.
+    description: `<strong>${companyName}</strong> is a reputed manufacturer, supplier, and stockist of premium-quality Buttweld Pipe Fittings in India. Known for their high tensile strength, corrosion resistance, and excellent finish, our fittings are widely demanded across industries. We manufacture, export, and supply Buttweld Fittings that conform to national and international quality standards, supported by advanced refining and fabrication equipment.
 
 We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, Nipples, and Couplings in various materials including Stainless Steel, Carbon Steel, and High Nickel Alloys.`,
 
@@ -379,7 +379,7 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
           productImages["stainless-steel-pipe-fittings8"]
         ]
         ,
-        description: `${companyName} offers Stainless Steel Buttweld Fittings in a wide range of shapes, sizes, grades, and specifications in compliance with ANSI/ASME and DIN standards. Our SS fittings range includes reducers, elbows, tees, crosses, stub ends, and pipe bends, designed for durability and long-term performance in demanding applications.`,
+        description: `<strong>${companyName}</strong> offers Stainless Steel Buttweld Fittings in a wide range of shapes, sizes, grades, and specifications in compliance with ANSI/ASME and DIN standards. Our SS fittings range includes reducers, elbows, tees, crosses, stub ends, and pipe bends, designed for durability and long-term performance in demanding applications.`,
         materialSpecifications: {
           Standards: "ASTM A403 / ASME SA403",
           Grades: "WP – 201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L"
@@ -418,7 +418,7 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
           productImages["nickel-alloy-pipe-fittings8"]
         ]
         ,
-        description: `${companyName} offers a comprehensive range of Nickel Alloy Buttweld Fittings available in various sizes, grades, and thicknesses. These fittings provide excellent corrosion resistance, strength, and heat resistance, making them suitable for industries like aerospace, chemical processing, and power generation.`,
+        description: `<strong>${companyName}</strong> offers a comprehensive range of Nickel Alloy Buttweld Fittings available in various sizes, grades, and thicknesses. These fittings provide excellent corrosion resistance, strength, and heat resistance, making them suitable for industries like aerospace, chemical processing, and power generation.`,
         materialSpecifications: {
           Standards: "ASTM B366 / ASME SB366",
           Grades: `200 (WPN, N02200), 201 (WPNL, N02201), Alloy 20 (WP20CB, N08020), 600 (WPNCI, N06600), 601 (N06601), 625 (WPNCMC, N06625), 718 (N07718), 800 (WPNIC, N08800), 800H (WPNIC10, N08810), 800HT (WPNIC11, N08811), 825 (WPNICMC, N08825), 904L (N08904), 400 (WPNC, N04400), 500 (N05500), C276 (WPHC276, N10276), C4 (WPHC4, N06455), C22 (WPHC22, N06022), C2000 (WPHC2000, N06200), X (WPHX, N06002), B2 (WPHB-2, N10665), B3 (WPHB-3, N10675), Titanium, Tantalum, Brass, Bronze, Bismuth, High-Speed Steel, Zinc, Aluminium, Lead`
@@ -438,7 +438,7 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
           productImages["carbon-steel-pipe-fittings7"],
           productImages["carbon-steel-pipe-fittings8"]
         ],
-        description: `${companyName} is a leading manufacturer and supplier of Carbon Steel Buttweld Fittings, offering outstanding strength and weldability. These fittings are available in various shapes and dimensions and are widely used in structural and pressure applications. Our CS fittings include elbows, tees, reducers, crosses, nipples, and more.`,
+        description: `<strong>${companyName}</strong> is a leading manufacturer and supplier of Carbon Steel Buttweld Fittings, offering outstanding strength and weldability. These fittings are available in various shapes and dimensions and are widely used in structural and pressure applications. Our CS fittings include elbows, tees, reducers, crosses, nipples, and more.`,
         materialSpecifications: {
           Standards: "ASTM A234 / A420 / A860",
           Grades: "Gr. WPB, Gr. WPL-3, WPL-6, IS 1239, IS 3589, WPHY42, WPHY46, WPHY52, WPHY60, WPHY65, WPHY70"
@@ -457,7 +457,7 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
     ]
     ,
     productShortName: "Flanges",
-    description: `${companyName} is a trusted manufacturer, supplier, and stockist of high-quality steel flanges in India. We offer a wide variety of flanges in different types, shapes, sizes, dimensions, and material grades. Depending on the connection method, our range includes Slip-On Flanges, Orifice Flanges, Spectacle Flanges, Lap Joint Flanges, Raised Face Flanges, Ring Joint Flanges, Weld Neck Flanges, Socket Weld Flanges, and more.
+    description: `<strong>${companyName}</strong> is a trusted manufacturer, supplier, and stockist of high-quality steel flanges in India. We offer a wide variety of flanges in different types, shapes, sizes, dimensions, and material grades. Depending on the connection method, our range includes Slip-On Flanges, Orifice Flanges, Spectacle Flanges, Lap Joint Flanges, Raised Face Flanges, Ring Joint Flanges, Weld Neck Flanges, Socket Weld Flanges, and more.
 
 Flanges are essential components used to connect pipes, valves, pumps, and other equipment to form a complete piping system. These connections are typically made through bolting and welding methods.`,
 
@@ -489,7 +489,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
           productImages["stainless-steel-flanges7"],
           productImages["stainless-steel-flanges8"]
         ],
-        description: `${companyName} offers an extensive range of stainless steel flanges in various sizes and pressure classes to meet your specific project needs, including rare configurations. Our Stainless Steel Pipe Flanges offer excellent corrosion resistance, high strength, and mechanical durability. For example, SS Blind Flanges are ideal for sealing off piping systems or vessel openings with secure and leak-proof connections.`,
+        description: `<strong>${companyName}</strong> offers an extensive range of stainless steel flanges in various sizes and pressure classes to meet your specific project needs, including rare configurations. Our Stainless Steel Pipe Flanges offer excellent corrosion resistance, high strength, and mechanical durability. For example, SS Blind Flanges are ideal for sealing off piping systems or vessel openings with secure and leak-proof connections.`,
         materialSpecifications: {
           Standards: "ASTM A403 / ASME SA403",
           Grades: "WP – 201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L"
@@ -508,7 +508,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
           productImages["alloy-steel-flanges7"],
           productImages["alloy-steel-flanges8"],
         ],
-        description: `${companyName} is a top manufacturer and supplier of Alloy Steel Flanges in India. These flanges offer excellent strength and chemical resistance and are suitable for high-temperature environments (1725–1850°F). The Alloy Steel Slip-On Flanges are resistant to water, atmospheric conditions, and chemicals, making them suitable for various critical applications.`,
+        description: `<strong>${companyName}</strong> is a top manufacturer and supplier of Alloy Steel Flanges in India. These flanges offer excellent strength and chemical resistance and are suitable for high-temperature environments (1725–1850°F). The Alloy Steel Slip-On Flanges are resistant to water, atmospheric conditions, and chemicals, making them suitable for various critical applications.`,
         materialSpecifications: {
           Standards: "ASTM A335 / ASME SA335",
           Grades: "WP11, WP12, WP22, WP5, WP9, WP91"
@@ -527,7 +527,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
           productImages["nickel-alloy-flanges7"],
           productImages["nickel-alloy-flanges8"],
         ],
-        description: `${companyName} has earned a solid reputation for producing high-quality Nickel Alloy Flanges. These flanges offer outstanding thermal and electrical conductivity, low vapor pressure, and excellent weldability. Nickel Alloy 200 and 201 are commonly used in industries requiring high corrosion resistance and formability.`,
+        description: `<strong>${companyName}</strong> has earned a solid reputation for producing high-quality Nickel Alloy Flanges. These flanges offer outstanding thermal and electrical conductivity, low vapor pressure, and excellent weldability. Nickel Alloy 200 and 201 are commonly used in industries requiring high corrosion resistance and formability.`,
         materialSpecifications: {
           Standards: "ASTM B366 / ASME SB366",
           Grades: `200 (WPN, N02200), 201 (WPNL, N02201), Alloy 20 (WP20CB, N08020), 600 (WPNCI, N06600), 601 (N06601), 625 (WPNCMC, N06625), 718 (N07718), 800 (WPNIC, N08800), 800H (WPNIC10, N08810), 800HT (WPNIC11, N08811), 825 (WPNICMC, N08825), 904L (N08904), 400 (WPNC, N04400), 500 (N05500), C276 (WPHC276, N10276), C4 (WPHC4, N06455), C22 (WPHC22, N06022), C2000 (WPHC2000, N06200), X (WPHX, N06002), B2 (WPHB-2, N10665), B3 (WPHB-3, N10675), Titanium, Tantalum, Brass, Bronze, Bismuth, High-Speed Steel, Zinc, Aluminium, Lead`
@@ -546,7 +546,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
           productImages["carbon-steel-flanges7"],
           productImages["carbon-steel-flanges8"],
         ],
-        description: `${companyName} manufactures premium-grade Carbon Steel Flanges that deliver excellent mechanical strength and corrosion resistance. These flanges are designed to withstand high pressures and temperatures, making them ideal for applications in power plants, petrochemical industries, and more.`,
+        description: `<strong>${companyName}</strong> manufactures premium-grade Carbon Steel Flanges that deliver excellent mechanical strength and corrosion resistance. These flanges are designed to withstand high pressures and temperatures, making them ideal for applications in power plants, petrochemical industries, and more.`,
         materialSpecifications: {
           Standards: "ASTM A234 / A420 / A860",
           Grades: "Gr. WPB, Gr. WPL-3, WPL-6, IS 1239, IS 3589, WPHY42, WPHY46, WPHY52, WPHY60, WPHY65, WPHY70"
@@ -563,7 +563,7 @@ Flanges are essential components used to connect pipes, valves, pumps, and other
       bannerImages["forged-fittings3"],
     ],
     productShortName: "Forged Fittings",
-    description: `${companyName} is one of the most preferred manufacturers, suppliers, and exporters of premium-quality Forged Fittings known for their outstanding durability and reliable performance. These fittings are offered in a variety of types, forms, sizes, material grades, and specifications. Known for their long operational life and superior build, our forged pipe fittings include 90° elbows, 45° elbows, half couplings, lateral outlets, unions, crosses, full couplings, and more.
+    description: `<strong>${companyName}</strong> is one of the most preferred manufacturers, suppliers, and exporters of premium-quality Forged Fittings known for their outstanding durability and reliable performance. These fittings are offered in a variety of types, forms, sizes, material grades, and specifications. Known for their long operational life and superior build, our forged pipe fittings include 90° elbows, 45° elbows, half couplings, lateral outlets, unions, crosses, full couplings, and more.
 
 Forged Fittings are a conventional and robust solution for joining pipes, especially suitable for piping systems with sizes up to NPS 2. Engineered to perform under various pressure and temperature conditions, our forged fittings conform to stringent global standards and ensure dependable operation in critical applications.`,
 
@@ -596,7 +596,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
           productImages["stainless-steel-forged-fittings9"],
           productImages["stainless-steel-forged-fittings10"],
         ],
-        description: `${companyName} provides a comprehensive range of stainless steel forged fittings in multiple grades and dimensions. With a reputation for consistent quality and on-time delivery, we manufacture forged fittings that are widely used across industries for their excellent corrosion resistance, strength, and long service life.`,
+        description: `<strong>${companyName}</strong> provides a comprehensive range of stainless steel forged fittings in multiple grades and dimensions. With a reputation for consistent quality and on-time delivery, we manufacture forged fittings that are widely used across industries for their excellent corrosion resistance, strength, and long service life.`,
         materialSpecifications: {
           Standards: "ASTM A182 & ASME SA182",
           Grades: "F201, F202, F301, F302, F304, F304L, F309, F310, F316, F316L, F316LN, F316Ti, F317L, F321, F347, 405, 409, 410, 420, 430, 440C, F904L"
@@ -618,7 +618,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
           productImages["alloy-steel-forged-fittings10"],
         ],
 
-        description: `${companyName} manufactures and supplies an extensive variety of alloy steel forged fittings using advanced machinery and skilled technicians. Designed for high-temperature and high-pressure applications, these fittings are engineered to perform reliably in demanding environments.`,
+        description: `<strong>${companyName}</strong> manufactures and supplies an extensive variety of alloy steel forged fittings using advanced machinery and skilled technicians. Designed for high-temperature and high-pressure applications, these fittings are engineered to perform reliably in demanding environments.`,
         materialSpecifications: {
           Standards: "ASTM A182 & ASME SA182",
           Grades: "F1, F5, F9, F11, F12, F22, F91"
@@ -640,7 +640,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
           productImages["nickel-alloy-forged-fittings10"],
         ],
 
-        description: `As a leading manufacturer and exporter, ${companyName} delivers high-performance Nickel Alloy Forged Fittings known for their exceptional corrosion resistance and strength in extreme environments. These fittings are widely used in industries such as aerospace, marine, petrochemical, and chemical processing.`,
+        description: `As a leading manufacturer and exporter, <strong>${companyName}</strong> delivers high-performance Nickel Alloy Forged Fittings known for their exceptional corrosion resistance and strength in extreme environments. These fittings are widely used in industries such as aerospace, marine, petrochemical, and chemical processing.`,
         materialSpecifications: {
           Standards: "ASTM / ASME SB 564, SB 160, SB 366, SB 472",
           Grades: `Hastelloy B2/B3/C4/C22/C276/C2000/X, Inconel 600/601/625/718/715, Incoloy 800/800H/800HT/825/925, Nickel 200/201, Alloy 36/42/A286, Monel 400/K500, Alloy 2205/2507, UNS N08020, UNS R30605, Cu-Ni 70/30 & 90/10, Titanium, Tantalum, Brass, Bronze, Bismuth, High-Speed Steel, Zinc, Aluminium, Lead`
@@ -662,7 +662,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
           productImages["carbon-steel-forged-fittings10"],
         ],
 
-        description: `${companyName} has been a pioneer in manufacturing Carbon Steel Forged Fittings. These fittings are widely used in high-pressure systems for their strength and mechanical durability. Suitable for extreme temperature conditions—whether cold, annealed, or high-heat—they are produced with precision using state-of-the-art technology.`,
+        description: `<strong>${companyName}</strong> has been a pioneer in manufacturing Carbon Steel Forged Fittings. These fittings are widely used in high-pressure systems for their strength and mechanical durability. Suitable for extreme temperature conditions—whether cold, annealed, or high-heat—they are produced with precision using state-of-the-art technology.`,
         materialSpecifications: {
           Standards: "ASTM A105 / A350",
           Grades: "Gr. LF2, LF3, ASTM A694 – F42, F46, F48, F50, F52, F56, F60, F65, F70"
@@ -680,7 +680,7 @@ Forged Fittings are a conventional and robust solution for joining pipes, especi
     ],
 
     productShortName: "Fasteners",
-    description: `${companyName}, an ISO 9001:2015 Certified Company, is one of the leading manufacturers, stockists, and suppliers of high-quality Fasteners in India. Our fasteners are manufactured in compliance with stringent industrial standards and are available in a comprehensive range of sizes from M2 to M150, with lengths up to 6 meters.
+    description: `<strong>${companyName}</strong>, an ISO 9001:2015 Certified Company, is one of the leading manufacturers, stockists, and suppliers of high-quality Fasteners in India. Our fasteners are manufactured in compliance with stringent industrial standards and are available in a comprehensive range of sizes from M2 to M150, with lengths up to 6 meters.
 
 Renowned for their corrosion resistance, excellent tensile strength, and long-lasting performance, our range includes nuts, bolts, screws, and washers made from a variety of materials such as Stainless Steel, Inconel, Monel, Brass, Duplex, Aluminum, and more.
 
@@ -718,7 +718,7 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
           productImages["stainless-steel-fasteners10"],
         ],
 
-        description: `${companyName} offers a comprehensive inventory of stainless steel fasteners suitable for a wide range of industrial applications. These fasteners are available in multiple grades and provide excellent strength and corrosion resistance. We maintain ready stock of all major grades including SS 304, 316, 310, 904L, and others.`,
+        description: `<strong>${companyName}</strong> offers a comprehensive inventory of stainless steel fasteners suitable for a wide range of industrial applications. These fasteners are available in multiple grades and provide excellent strength and corrosion resistance. We maintain ready stock of all major grades including SS 304, 316, 310, 904L, and others.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
           Grades: "F201, F202, F301, F302, F304, F304L, F309, F310, F316, F316L, F316LN, F317L, F321, F347, 405, 409, 410, 420, 430, 440C, F904L, Al-6XN (N08367), Nitronic 50 / 60, 422, 416, 446, Nimonic 80 (N07080), A286 (S66286), 17-4ph, 15-5ph, Alloy 28 (N08028)"
@@ -740,7 +740,7 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
           productImages["alloy-steel-fasteners10"],
         ],
 
-        description: `${companyName} manufactures alloy steel fasteners in a variety of grades, dimensions, and finishes to meet critical performance requirements. These fasteners are widely used in power plants, petrochemical industries, and high-temperature environments.`,
+        description: `<strong>${companyName}</strong> manufactures alloy steel fasteners in a variety of grades, dimensions, and finishes to meet critical performance requirements. These fasteners are widely used in power plants, petrochemical industries, and high-temperature environments.`,
         materialSpecifications: {
           Standards: "ASTM A182, ASME SA182",
           Grades: "F11, F12, F22, F5, F9, F91"
@@ -784,7 +784,7 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
           productImages["carbon-steel-fasteners10"],
         ],
 
-        description: `${companyName} produces durable and high-strength carbon steel fasteners that are widely used in high-pressure and high-temperature environments. Manufactured in compliance with ASTM and ASME standards, these fasteners are an economical solution for structural and industrial applications.`,
+        description: `<strong>${companyName}</strong> produces durable and high-strength carbon steel fasteners that are widely used in high-pressure and high-temperature environments. Manufactured in compliance with ASTM and ASME standards, these fasteners are an economical solution for structural and industrial applications.`,
         materialSpecifications: {
           Standards: "ASTM A193, A194, ASME SA193, SA194",
           Grades: "MS, Gr. B7, B8, B16, Gr. L7, 4.6, 8.8, 10.9"
@@ -803,7 +803,7 @@ Yes, fasteners are available in stock and ready for immediate delivery. For cust
       bannerImages["valves4"],
       bannerImages["valves5"],
     ],
-    description: `${companyName} is a leading manufacturer and supplier of high-quality industrial valves, catering to both domestic and international markets. Our valves are designed to meet global standards including AISI, BS, IS, ASME, and ANSI. They efficiently regulate, control, and direct fluid flow through mechanisms like full closure, partial opening, or directional changes.
+    description: `<strong>${companyName}</strong> is a leading manufacturer and supplier of high-quality industrial valves, catering to both domestic and international markets. Our valves are designed to meet global standards including AISI, BS, IS, ASME, and ANSI. They efficiently regulate, control, and direct fluid flow through mechanisms like full closure, partial opening, or directional changes.
 
 We offer a diverse range of valves such as Ball Valves, Gate Valves, Needle Valves, Globe Valves, Butterfly Valves, Check Valves, Control Valves, and Safety Valves. Manufactured using premium materials like Stainless Steel, High Nickel Alloys, Carbon Steel, and more, our valves are known for excellent corrosion and wear resistance, making them suitable for high-pressure and high-temperature applications.
 
@@ -838,7 +838,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           productImages["stainless-steel-valves7"],
           productImages["stainless-steel-valves8"],
         ],
-        description: `${companyName} is one of India's largest exporters of stainless steel valves. These valves are widely used in industries such as petrochemicals, chemicals, water treatment, gas distribution, and general engineering. Our Stainless Steel Ball Valves are easy to maintain, highly durable, and corrosion-resistant.`,
+        description: `<strong>${companyName}</strong> is one of India's largest exporters of stainless steel valves. These valves are widely used in industries such as petrochemicals, chemicals, water treatment, gas distribution, and general engineering. Our Stainless Steel Ball Valves are easy to maintain, highly durable, and corrosion-resistant.`,
         materialSpecifications: {
           Grades: "304, 304L, 309, 310, 316, 316L, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L"
         }
@@ -881,7 +881,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           // productImages["nickel-alloy-valves10"],
         ],
 
-        description: `${companyName} manufactures precision-engineered Nickel Alloy Valves ideal for handling corrosive fluids in chemical processing, marine, steam, and gas systems. These valves are engineered for optimal resistance and longevity, available in custom sizes and pressure ratings.`,
+        description: `<strong>${companyName}</strong> manufactures precision-engineered Nickel Alloy Valves ideal for handling corrosive fluids in chemical processing, marine, steam, and gas systems. These valves are engineered for optimal resistance and longevity, available in custom sizes and pressure ratings.`,
         materialSpecifications: {
           Standards: "ASTM B160, B164, B425, B166, B446, B574, B472 / ASME SB160, SB164, SB425, SB166, SB446, SB574, SB472",
           Grades: `Hastelloy (B2, B3, C4, C22, C276, C2000, X), Inconel (600, 601, 625, 715, 718), Incoloy (800, 800H, 800HT, 825, 925), Nickel (200, 201, 36, 42, A286), Monel (400, K500), Alloy 2205, 2507, Cu-Ni 70/30 & 90/10, Titanium, Tantalum, Brass, Bronze, Bismuth, High-Speed Steel, Zinc, Aluminium, Lead`
@@ -903,7 +903,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           productImages["carbon-steel-valves10"],
         ],
 
-        description: `${companyName} offers robust and cost-effective Carbon Steel Valves, including ASTM A105 and A350 grades. Designed for durability and performance under pressure, these valves are widely used in power generation, oil & gas, water treatment, and other heavy-duty applications.`,
+        description: `<strong>${companyName}</strong> offers robust and cost-effective Carbon Steel Valves, including ASTM A105 and A350 grades. Designed for durability and performance under pressure, these valves are widely used in power generation, oil & gas, water treatment, and other heavy-duty applications.`,
         materialSpecifications: {
           Standards: "ASTM A105 / A350",
           Grades: "Cast Iron, Gr. LF2, LF3"
@@ -914,11 +914,15 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
   {
     id: 9,
     productShortName: "Angles, Channels & Flat",
-    images: ["", "", ""],
+    images: [
+      bannerImages["angles-channels-flats1"],
+      bannerImages["angles-channels-flats2"],
+      bannerImages["angles-channels-flats3"],
+    ],
     name: "Angles, Channels & Flat Manufacturers, Suppliers & Stockist in India",
-    description: `Metal-Link Steel & Alloys mainly use high-quality raw material and advanced machinery to produced world class products. Our production unit manufactured these Angles, Channels & Flats as per Indian and International Standards. Various types of angles & channels including Equal Angles, Unequal Angles, C-Channels, and U-Channels are provided with excellent surface finish and dimensional accuracy.
+    description: `<strong>${companyName}</strong> mainly use high-quality raw material and advanced machinery to produced world class products. Our production unit manufactured these Angles, Channels & Flats as per Indian and International Standards. Various types of angles & channels including Equal Angles, Unequal Angles, C-Channels, and U-Channels are provided with excellent surface finish and dimensional accuracy.
 
-The different types of industries where our high-quality angles & channels used are paper & pulp, construction, piping, water treatment applications, raceways, braces and frames for machinery and housing in corrosive environments, etc.`,
+  The different types of industries where our high-quality angles & channels used are paper & pulp, construction, piping, water treatment applications, raceways, braces and frames for machinery and housing in corrosive environments, etc.`,
     productDetails: {
       tableData: {
         tableName: "Specifications for Angles, Channels & Flat",
@@ -943,7 +947,22 @@ The different types of industries where our high-quality angles & channels used 
         id: 1,
         productShortName: "Angles",
         name: "Angles Specifications",
-        images: ["", "", ""],
+        imagesWithLabel: [
+          {
+            image: productImages["steel-equal-angles"],
+            label: "Equal Angles",
+          },
+          {
+            image: productImages["steel-unequal-angles"],
+            label: "Unequal Angles",
+          },
+          {
+            image: productImages["steel-bulb-angles"],
+            label: "Bulb Angles",
+          },
+        ],
+
+
         description: `The most commonly found steel angles are formed at a 90 degree angle and has two legs of equal length. The sides are either equal or of different sizes, if one leg is longer than the other then it is known as UNEQUAL angle. The steel angles of various strength like HT/MS are formed as required by different applications. The steel angle are used in various applications like reinforcement, transmission towers, Bridges, Sheds etc.`,
         materialSpecifications: {
           Standards: "",
@@ -953,18 +972,46 @@ The different types of industries where our high-quality angles & channels used 
       {
         id: 2,
         name: "Channels Specifications",
-        images: ["", "", "", "", "", ""],
-        description: `A channel is a right angle "C" section. They are also called C Channels. Along with beams, channels are mainly used in structural applications. Mostly MS Channels are used as supports and guide. These are roll-formed products. MS Channels has wide range of applications like Purling for Sheds, Scaffoldings in construction Industries, and Supporting frames for Structures, Base frames of heavy machinery and automotives etc.
+        imagesWithLabel: [
+          {
+            image: productImages["steel-u-channels"],
+            label: "U-Steel channels",
+          },
+          {
+            image: productImages["steel-c-channels"],
+            label: "C-Steel channels",
+          },
+          {
+            image: productImages["steel-z-channels"],
+            label: "Z-Steel channels",
+          },
+          {
+            image: productImages["steel-h-channels"],
+            label: "Hat-Steel channels",
+          },
+          {
+            image: productImages["steel-t-channels"],
+            label: "T-Steel channels",
+          },
+          {
+            image: productImages["steel-j-channels"],
+            label: "J-Steel channels",
+          },
+        ],
+        description: `
+  A channel is a right angle "C" section. They are also called C Channels. Along with beams, channels are mainly used in structural applications. Mostly MS Channels are used as supports and guide. These are roll-formed products. MS Channels has wide range of applications like Purling for Sheds, Scaffoldings in construction Industries, and Supporting frames for Structures, Base frames of heavy machinery and automotives etc.
+  <br><br>
+  U-steel channels sport a simple ‘U’ shape with two flanges that are parallel and perpendicular to the base. They are great materials for manufacturing since they are made to assist heavy machinery and equipment, especially in metal rolling. They are often used to support windows, doors, and flat panels.
+  <br><br>
+  <strong>C-STEEL CHANNELS</strong> are the most common type of channels. They are similar to the shape of U-steel channels with the only difference being that they have two parallel flanges. This is a result of continuous rolling during their production. They have a consistent size from the web to the tip of the flange, sporting a flatter profile.
+  <br><br>
+  <strong>Z-STEEL CHANNELS</strong> are known as purlins. Apart from construction, they are often used in DIY projects, such as shelving units, workbenches, plant hangers, and more. Their main purposes in projects are as supports, slides, tracks, and framing. That’s why they are typically found in garage doors, window frames, store fixtures, toolboxes, or fences.
+  <br><br>
+  <strong>HAT-STEEL CHANNEL</strong> resembles a hat when turned upside down. They are steel channels with outward flanges that are perpendicular to the usual steel channel flanges. This design makes them ideal for framing roofs. Besides that, they make a good addition as supports in ceilings or floors, ensuring the durability of these constructions. Their shape makes them a good furring material or channels in wall construction.
+  <br><br>
+  Like many other steel channels, the <strong>J-STEEL CHANNEL</strong> sport the letter that they are named after with one side longer than the other. They have a wide range of sizes and can be customized to any project specifications. They come in hemmed, hemless, and with nailer variations that are manufactured to make construction more secure. Their shape makes them ideal for mounting siding or roofing materials. That’s why they are used in installations of windows and doors to support and secure the panel edges. They hide the cut lines or cover the gaps of panels such as glass, mirrors, or thin laminates, making your project more seamless.
+  `,
 
-U-steel channels sport a simple ‘U’ shape with two flanges that are parallel and perpendicular to the base. They are great materials for manufacturing since they are made to assist heavy machinery and equipment, especially in metal rolling. They are often used to support windows, doors, and flat panels.
-
-C-steel channels are the most common type of channels. They are similar to the shape of U-steel channels with the only difference being that they have two parallel flanges. This is a result of continuous rolling during their production. They have a consistent size from the web to the tip of the flange, sporting a flatter profile.
-
-Z-steel channels are known as purlins. Apart from construction, they are often used in DIY projects, such as shelving units, workbenches, plant hangers, and more. Their main purposes in projects are as supports, slides, tracks, and framing. That’s why they are typically found in garage doors, window frames, store fixtures, toolboxes, or fences.
-
-Hat-steel channel resembles a hat when turned upside down. They are steel channels with outward flanges that are perpendicular to the usual steel channel flanges. This design makes them ideal for framing roofs. Besides that, they make a good addition as supports in ceilings or floors, ensuring the durability of these constructions. Their shape makes them a good furring material or channels in wall construction.
-
-Like many other steel channels, the J-steel channel sport the letter that they are named after with one side longer than the other. They have a wide range of sizes and can be customized to any project specifications. They come in hemmed, hemless, and with nailer variations that are manufactured to make construction more secure. Their shape makes them ideal for mounting siding or roofing materials. That’s why they are used in installations of windows and doors to support and secure the panel edges. They hide the cut lines or cover the gaps of panels such as glass, mirrors, or thin laminates, making your project more seamless.`,
         materialSpecifications: {
           Standards: "",
           Grades: ""
@@ -973,12 +1020,621 @@ Like many other steel channels, the J-steel channel sport the letter that they a
       {
         id: 3,
         name: "Flat Specifications",
-        images: ["", "", ""],
+        images: [
+          productImages["steel-flats1"],
+          productImages["steel-flats2"],
+          productImages["steel-flats3"],
+        ],
         description: `The Stainless Steel Flat Bars can be manufactured using different types of ss including ferritic, austenitic, martensitic and duplex. The material of the flat bars can vary according to its composition, however, the most used among them is the austenitic type. Depending on the steel grade with which the flat bars are made, it can be used in a wide range of applications. For example, the 316 grade ss helps to resist chloride ion corrosion and hence they are widely used in several marine applications. They are also used in applications that require higher structural strength. They can withstand elevated temperatures of up to 870 degrees C.`,
         materialSpecifications: {
           Standards: "",
           Grades: "Stainless steel: 201, 202, 304, 304l, 310, 310s, 316, 316l, 317, 317l, 321, 321h, 347, 347h, 410 | Nickel Alloy: UNS 2200 (NICKEL 200), UNS 2201 (NICKEL 201) | Aluminium: 1050,1100, 2017, 7150, 7178, 7575, 2050, 7085, 2011 A92011, 2014A A92014, 2024 A92024, 2219, 5052 A95052, 5083 A95083, 5754, 6061 A96061 A86061, 6063, 6082 A96082, 7071 7020, 7050 A97050, 7075 A97075 A87075, 7175 | Titanium: Grade 1, Grade 4, Grade 5(Ti 6Al-4V), Grade 6(Ti 5Al-2.5Sn), Grade 7, Grade 11, Grade 12, 8Ai-1Mo-1V, Grade 9(3Al-2.5V), 6Al-6V-25n, 6Al-2Sn-4Zr-2Mo, 6Al-7Nb, Grade 23(Ti 6AL-4V ELI), Grade 5 ELI"
         }
+      }
+    ]
+  },
+  {
+    id: 10,
+    productShortName: "Stainless Steel",
+    images: [
+      bannerImages["stainless-steel1"],
+      bannerImages["stainless-steel2"],
+      bannerImages["stainless-steel3"]
+    ],
+    name: "Stainless Steel Manufacturer & Supplier in India - ForgInox India",
+    description: `
+      <p>ForgInox India is a Leading <strong>Stainless Steel Manufacturer in India</strong>. We offer a wide selection of Stainless Steel Products in different sizes, shapes, and specifications to meet our clients' needs. Our Stainless Steel is recognized globally for its reliability and high quality. Our High-quality Stainless Steel Products meet the needs of various industries and applications.</p>
+      <p>We are a top-notch Stainless Steel Supplier in India and other countries worldwide. We offer <strong>Stainless Steel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings</strong>.</p>
+      <p>These Stainless Steel are tested through a series of quality tests before delivery. Our products are known for ultimate performance, precise design, high-grade materials, and robust build. They are widely used in power, engineering, construction, and other industries.</p>
+    `,
+    productDetails: {
+      tableData: {
+        tableName: "Stainless Steel - Specifications",
+        materialSpecifications: {
+          "Stainless Steel Grades": "201, 202, 205, 301, 302, 303, 304, 304l, 308, 309, 309s, 310, 310s, 314, 316, 316l, 316ti, 317, 317l, 321, 347, 405, 409, 429, 430, 430f, 430fse, 434, 436, 442, 446, 403, 410, 414, 416, 416se, 420, 420f, 422, 431, 440a, 440b, 440c, 501, 502, 630",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Available Products": "Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Stainless Steel",
+        name: "Stainless Steel Pipe Fittings",
+        imagesWithLabel: [
+          {
+            label: "Stainless Steel Pipe Fittings",
+            image: productImages["stainless-steel-pipe-fittings1"]
+          },
+          {
+            label: "Stainless Steel Fasteners",
+            image: productImages["stainless-steel-fasteners1"]
+          },
+          {
+            label: "Stainless Steel Pipe & Tube",
+            image: productImages["stainless-steel-pipe-tube1"]
+          },
+          {
+            label: "Stainless Steel Round Bar",
+            image: productImages["stainless-steel-round-bar1"]
+          },
+          {
+            label: "Stainless Steel Sheet & Plate",
+            image: productImages["stainless-steel-sheet-plate1"]
+          },
+          {
+            label: "Stainless Steel Forged Fitting",
+            image: productImages["stainless-steel-forged-fitting1"]
+          },
+          {
+            label: "Stainless Steel Flanges",
+            image: productImages["stainless-steel-flanges1"]
+          },
+          {
+            label: "Stainless Steel Angle & Channels",
+            image: productImages["stainless-steel-angle-channel1"]
+          },
+          {
+            label: "Stainless Steel Wire Mesh",
+            image: productImages["stainless-steel-wire-mesh1"]
+          }
+        ],
+        description: "",
+        materialSpecifications: {}
+      }
+    ]
+  },
+  {
+    id: 11,
+    productShortName: "Carbon Steel",
+    images: [
+      productImages["carbon-steel1"],
+      productImages["carbon-steel2"],
+      productImages["carbon-steel3"],
+    ],
+    name: "Carbon Steel Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a leading Carbon Steel Manufacturer in India offering a wide range of Carbon Steel products in various sizes, shapes, and specifications. Our products are known for their durability, precision design, and superior surface finish. Used across power, engineering, construction, and other industries, our Carbon Steel offerings are quality tested and performance-driven.`,
+    productDetails: {
+      tableData: {
+        tableName: "Carbon Steel - Specifications",
+        materialSpecifications: {
+          "Carbon Steel Grades": "ASTM / ASME A 335 GRP 1 , P5 , P9 , P11 , P12 , P22 , P23 , P91",
+          "Standards": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Available Products": "Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Carbon Steel",
+        name: "Carbon Steel Products",
+        imagesWithLabel: [
+          {
+            label: "Carbon Steel Pipe Fittings",
+            image: productImages["carbon-steel-pipe-fittings1"]
+          },
+          {
+            label: "Carbon Steel Fasteners",
+            image: productImages["carbon-steel-fasteners1"]
+          },
+          {
+            label: "Carbon Steel Pipes & Tubes",
+            image: productImages["carbon-steel-pipes-tubes1"]
+          },
+          {
+            label: "Carbon Steel Round Bar",
+            image: productImages["carbon-steel-round-bar1"]
+          },
+          {
+            label: "Carbon Steel Sheet & Plate",
+            image: productImages["carbon-steel-sheet-plate1"]
+          },
+          {
+            label: "Carbon Steel Forged Fittings",
+            image: productImages["carbon-steel-forged-fittings1"]
+          },
+          {
+            label: "Carbon Steel Flanges",
+            image: productImages["carbon-steel-flanges1"]
+          },
+          {
+            label: "Carbon Steel Angle & Channels",
+            image: productImages["carbon-steel-angle-channels1"]
+          },
+          {
+            label: "Carbon Steel Wire Mesh",
+            image: productImages["carbon-steel-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 12,
+    productShortName: "Hastelloy",
+    images: [
+      productImages["hastelloy1"],
+      productImages["hastelloy2"],
+      productImages["hastelloy3"],
+    ],
+    name: "Hastelloy Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a leading Hastelloy Manufacturer in India, offering a wide range of Hastelloy products in various shapes, sizes, and grades. Our products are known for their reliability, high quality, and performance. We provide Hastelloy Pipe Fittings, Round Bars, Flanges, Angles & Channels, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings to industries across the globe.`,
+    productDetails: {
+      tableData: {
+        tableName: "Hastelloy - Specifications",
+        materialSpecifications: {
+          "Hastelloy Grades": "Hastelloy C-22, Hastelloy C-276, Hastelloy C-2000, Hastelloy C-4, Hastelloy X, Hastelloy B, Hastelloy N, Hastelloy G",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Hastelloy Products": "Hastelloy Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Hastelloy",
+        name: "Hastelloy Products",
+        imagesWithLabel: [
+          {
+            label: "Hastelloy Pipe Fittings",
+            image: productImages["hastelloy-pipe-fittings1"]
+          },
+          {
+            label: "Hastelloy Fasteners",
+            image: productImages["hastelloy-fasteners1"]
+          },
+          {
+            label: "Hastelloy Pipes & Tubes",
+            image: productImages["hastelloy-pipes-tubes1"]
+          },
+          {
+            label: "Hastelloy Round Bar",
+            image: productImages["hastelloy-round-bar1"]
+          },
+          {
+            label: "Hastelloy Sheet & Plate",
+            image: productImages["hastelloy-sheet-plate1"]
+          },
+          {
+            label: "Hastelloy Forged Fittings",
+            image: productImages["hastelloy-forged-fittings1"]
+          },
+          {
+            label: "Hastelloy Flanges",
+            image: productImages["hastelloy-flanges1"]
+          },
+          {
+            label: "Hastelloy Angle & Channels",
+            image: productImages["hastelloy-angle-channels1"]
+          },
+          {
+            label: "Hastelloy Wire Mesh",
+            image: productImages["hastelloy-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 13,
+    productShortName: "Titanium",
+    images: [
+      productImages["titanium1"],
+      productImages["titanium2"],
+      productImages["titanium3"],
+    ],
+    name: "Titanium Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a trusted Titanium Manufacturer and Supplier based in India, offering a broad range of Titanium products tailored to industrial requirements. Known for their strength, corrosion resistance, and durability, our Titanium offerings include Pipe Fittings, Round Bars, Flanges, Pipes & Tubes, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We serve clients across India and export globally.`,
+    productDetails: {
+      tableData: {
+        tableName: "Titanium - Specifications",
+        materialSpecifications: {
+          "Titanium Grades": "Grade 1, Grade 4, Grade 5 (Ti 6Al-4V), Grade 6 (Ti 5Al-2.5Sn), Grade 7, Grade 11, Grade 12, 8Al-1Mo-1V, Grade 9 (3Al-2.5V), 6Al-6V-2Sn, 6Al-2Sn-4Zr-2Mo, 6Al-7Nb, Grade 23 (Ti 6AL-4V ELI), Grade 5 ELI",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Titanium Products": "Titanium Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Titanium",
+        name: "Titanium Products",
+        imagesWithLabel: [
+          {
+            label: "Titanium Pipe Fittings",
+            image: productImages["titanium-pipe-fittings1"]
+          },
+          {
+            label: "Titanium Fasteners",
+            image: productImages["titanium-fasteners1"]
+          },
+          {
+            label: "Titanium Pipes & Tubes",
+            image: productImages["titanium-pipes-tubes1"]
+          },
+          {
+            label: "Titanium Round Bar",
+            image: productImages["titanium-round-bar1"]
+          },
+          {
+            label: "Titanium Sheet & Plate",
+            image: productImages["titanium-sheet-plate1"]
+          },
+          {
+            label: "Titanium Forged Fittings",
+            image: productImages["titanium-forged-fittings1"]
+          },
+          {
+            label: "Titanium Flanges",
+            image: productImages["titanium-flanges1"]
+          },
+          {
+            label: "Titanium Angle & Channels",
+            image: productImages["titanium-angle-channels1"]
+          },
+          {
+            label: "Titanium Wire Mesh",
+            image: productImages["titanium-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 14,
+    productShortName: "Inconel",
+    images: [
+      productImages["inconel1"],
+      productImages["inconel2"],
+      productImages["inconel3"],
+    ],
+    name: "Inconel Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a reputed Inconel Manufacturer and Supplier in India, offering premium-grade Inconel products in various dimensions and forms. Known for their exceptional strength and resistance to high temperatures and corrosion, our Inconel range includes Pipe Fittings, Flanges, Pipes & Tubes, Fasteners, Round Bars, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We cater to both domestic and international clients across various industries.`,
+    productDetails: {
+      tableData: {
+        tableName: "Inconel - Specifications",
+        materialSpecifications: {
+          "Inconel Grades": "Inconel 600, Inconel 601, Inconel 625, Inconel 625LCF, Inconel 686, Inconel 718, Inconel 800, Inconel 825, Inconel X-750, Inconel 690, Inconel 602, Inconel 617, Inconel 925, Inconel A-289, Inconel AL-6XN, AL-904L",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Inconel Products": "Inconel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Inconel",
+        name: "Inconel Products",
+        imagesWithLabel: [
+          {
+            label: "Inconel Pipe Fittings",
+            image: productImages["inconel-pipe-fittings1"]
+          },
+          {
+            label: "Inconel Fasteners",
+            image: productImages["inconel-fasteners1"]
+          },
+          {
+            label: "Inconel Pipes & Tubes",
+            image: productImages["inconel-pipes-tubes1"]
+          },
+          {
+            label: "Inconel Round Bar",
+            image: productImages["inconel-round-bar1"]
+          },
+          {
+            label: "Inconel Sheet & Plate",
+            image: productImages["inconel-sheet-plate1"]
+          },
+          {
+            label: "Inconel Forged Fittings",
+            image: productImages["inconel-forged-fittings1"]
+          },
+          {
+            label: "Inconel Flanges",
+            image: productImages["inconel-flanges1"]
+          },
+          {
+            label: "Inconel Angle & Channels",
+            image: productImages["inconel-angle-channels1"]
+          },
+          {
+            label: "Inconel Wire Mesh",
+            image: productImages["inconel-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 15,
+    productShortName: "Monel",
+    images: [
+      productImages["monel1"],
+      productImages["monel2"],
+      productImages["monel3"],
+    ],
+    name: "Monel Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a well-known Monel Manufacturer and Supplier in India, delivering a wide array of Monel products engineered to meet various industrial needs. Our Monel products are recognized for their strength, corrosion resistance, and long-lasting performance. We supply Pipe Fittings, Flanges, Pipes & Tubes, Round Bars, Fasteners, Sheet & Plates, Forged Fittings, Angles & Channels, and Wire Mesh across India and export to multiple countries.`,
+    productDetails: {
+      tableData: {
+        tableName: "Monel - Specifications",
+        materialSpecifications: {
+          "Monel Grades": "Monel 400, Monel K500",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Monel Products": "Monel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Monel",
+        name: "Monel Products",
+        imagesWithLabel: [
+          {
+            label: "Monel Pipe Fittings",
+            image: productImages["monel-pipe-fittings1"]
+          },
+          {
+            label: "Monel Fasteners",
+            image: productImages["monel-fasteners1"]
+          },
+          {
+            label: "Monel Pipes & Tubes",
+            image: productImages["monel-pipes-tubes1"]
+          },
+          {
+            label: "Monel Round Bar",
+            image: productImages["monel-round-bar1"]
+          },
+          {
+            label: "Monel Sheet & Plate",
+            image: productImages["monel-sheet-plate1"]
+          },
+          {
+            label: "Monel Forged Fittings",
+            image: productImages["monel-forged-fittings1"]
+          },
+          {
+            label: "Monel Flanges",
+            image: productImages["monel-flanges1"]
+          },
+          {
+            label: "Monel Angle & Channels",
+            image: productImages["monel-angle-channels1"]
+          },
+          {
+            label: "Monel Wire Mesh",
+            image: productImages["monel-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 16,
+    productShortName: "Alloy Steel",
+    images: [
+      productImages["alloy-steel1"],
+      productImages["alloy-steel2"],
+      productImages["alloy-steel3"],
+    ],
+    name: "Alloy Steel Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a renowned Alloy Steel Manufacturer and Supplier in India, offering a wide variety of Alloy Steel products in multiple forms and specifications. Our products are known for their high strength, excellent surface finish, and resistance to wear and pressure. We supply Alloy Steel Pipe Fittings, Round Bars, Pipes & Tubes, Flanges, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh to both domestic and global markets.`,
+    productDetails: {
+      tableData: {
+        tableName: "Alloy Steel - Specifications",
+        materialSpecifications: {
+          "Alloy Steel Grades": "ASTM / ASME A 691 GRP1 CR, 1 1/4 CR, 2 1/4 CR, 5 CR, 9 CR, 91",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and all International Standards",
+          "Alloy Steel Products": "Alloy Steel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Alloy Steel",
+        name: "Alloy Steel Products",
+        imagesWithLabel: [
+          {
+            label: "Alloy Steel Pipe Fittings",
+            image: productImages["alloy-steel-pipe-fittings1"]
+          },
+          {
+            label: "Alloy Steel Fasteners",
+            image: productImages["alloy-steel-fasteners1"]
+          },
+          {
+            label: "Alloy Steel Pipes & Tubes",
+            image: productImages["alloy-steel-pipes-tubes1"]
+          },
+          {
+            label: "Alloy Steel Round Bar",
+            image: productImages["alloy-steel-round-bar1"]
+          },
+          {
+            label: "Alloy Steel Sheet & Plate",
+            image: productImages["alloy-steel-sheet-plate1"]
+          },
+          {
+            label: "Alloy Steel Forged Fittings",
+            image: productImages["alloy-steel-forged-fittings1"]
+          },
+          {
+            label: "Alloy Steel Flanges",
+            image: productImages["alloy-steel-flanges1"]
+          },
+          {
+            label: "Alloy Steel Angle & Channels",
+            image: productImages["alloy-steel-angle-channels1"]
+          },
+          {
+            label: "Alloy Steel Wire Mesh",
+            image: productImages["alloy-steel-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 17,
+    productShortName: "Copper",
+    images: [
+      productImages["copper1"],
+      productImages["copper2"],
+      productImages["copper3"],
+    ],
+    name: "Copper Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a prominent Copper Manufacturer and Supplier based in India, offering a wide range of copper products in various dimensions, grades, and standards. Known for their excellent electrical conductivity and corrosion resistance, our copper products are widely used in electrical, construction, and industrial sectors. Our range includes Copper Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Round Bars, Sheets & Plates, Forged Fittings, Angle & Channel, and Wire Mesh.`,
+    productDetails: {
+      tableData: {
+        tableName: "Copper - Specifications",
+        materialSpecifications: {
+          "Copper Grades": "Grade 1 (A) Copper, Grade 2 (B) Copper, Grade 3 (C) Copper, Grade 4 (D) Copper",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and other International Standards",
+          "Copper Products": "Copper Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Copper",
+        name: "Copper Products",
+        imagesWithLabel: [
+          {
+            label: "Copper Pipe Fittings",
+            image: productImages["copper-pipe-fittings1"]
+          },
+          {
+            label: "Copper Fasteners",
+            image: productImages["copper-fasteners1"]
+          },
+          {
+            label: "Copper Pipes & Tubes",
+            image: productImages["copper-pipes-tubes1"]
+          },
+          {
+            label: "Copper Round Bar",
+            image: productImages["copper-round-bar1"]
+          },
+          {
+            label: "Copper Sheet & Plate",
+            image: productImages["copper-sheet-plate1"]
+          },
+          {
+            label: "Copper Forged Fittings",
+            image: productImages["copper-forged-fittings1"]
+          },
+          {
+            label: "Copper Flanges",
+            image: productImages["copper-flanges1"]
+          },
+          {
+            label: "Copper Angle & Channels",
+            image: productImages["copper-angle-channels1"]
+          },
+          {
+            label: "Copper Wire Mesh",
+            image: productImages["copper-wire-mesh1"]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 18,
+    productShortName: "Super Duplex Steel",
+    images: [
+      productImages["super-duplex-steel1"],
+      productImages["super-duplex-steel2"],
+      productImages["super-duplex-steel3"],
+    ],
+    name: "Super Duplex Steel Manufacturer & Supplier in India - ForgInox India",
+    description: `ForgInox India is a well-established manufacturer and supplier of Super Duplex Steel in India, offering a wide range of products in various grades, shapes, and dimensions. Known for superior strength, excellent corrosion resistance, and durability, our Super Duplex Steel is widely used in marine, oil & gas, chemical processing, and construction industries. Our offerings include Super Duplex Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings, Round Bars, Angles & Channels, and Wire Mesh.`,
+    productDetails: {
+      tableData: {
+        tableName: "Super Duplex Steel - Specifications",
+        materialSpecifications: {
+          "Super Duplex Steel Grades": "ASTM / ASME SA 790 UNS NO S31803, S32205, S32550, S32750, S32760",
+          "Standard": "ASTM, ASME, DIN, JIS, BS, and other International Standards",
+          "Super Duplex Steel Products": "Super Duplex Steel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings"
+        }
+      }
+    },
+    subProducts: [
+      {
+        id: null,
+        productShortName: "Types of Super Duplex Steel",
+        name: "Super Duplex Steel Products",
+        imagesWithLabel: [
+          {
+            label: "Super Duplex Steel Pipe Fittings",
+            image: productImages["super-duplex-pipe-fittings1"]
+          },
+          {
+            label: "Super Duplex Steel Fasteners",
+            image: productImages["super-duplex-fasteners1"]
+          },
+          {
+            label: "Super Duplex Steel Pipes & Tubes",
+            image: productImages["super-duplex-pipes-tubes1"]
+          },
+          {
+            label: "Super Duplex Steel Round Bar",
+            image: productImages["super-duplex-round-bar1"]
+          },
+          {
+            label: "Super Duplex Steel Sheet & Plate",
+            image: productImages["super-duplex-sheet-plate1"]
+          },
+          {
+            label: "Super Duplex Steel Forged Fittings",
+            image: productImages["super-duplex-forged-fittings1"]
+          },
+          {
+            label: "Super Duplex Steel Flanges",
+            image: productImages["super-duplex-flanges1"]
+          },
+          {
+            label: "Super Duplex Steel Angle & Channels",
+            image: productImages["super-duplex-angle-channels1"]
+          },
+          {
+            label: "Super Duplex Steel Wire Mesh",
+            image: productImages["super-duplex-wire-mesh1"]
+          }
+        ]
       }
     ]
   }
