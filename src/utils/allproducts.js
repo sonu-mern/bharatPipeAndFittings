@@ -1038,12 +1038,12 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     productShortName: "Stainless Steel",
     images: [
       bannerImages["stainless-steel1"],
-      bannerImages["stainless-steel2"],
-      bannerImages["stainless-steel3"]
+      // bannerImages["stainless-steel2"],
+      // bannerImages["stainless-steel3"]
     ],
-    name: "Stainless Steel Manufacturer & Supplier in India - ForgInox India",
+    name: "Stainless Steel Manufacturer & Supplier in India ",
     description: `
-      <p>ForgInox India is a Leading <strong>Stainless Steel Manufacturer in India</strong>. We offer a wide selection of Stainless Steel Products in different sizes, shapes, and specifications to meet our clients' needs. Our Stainless Steel is recognized globally for its reliability and high quality. Our High-quality Stainless Steel Products meet the needs of various industries and applications.</p>
+      <p><strong>${companyName}</strong> is a Leading <strong>Stainless Steel Manufacturer in India</strong>. We offer a wide selection of Stainless Steel Products in different sizes, shapes, and specifications to meet our clients' needs. Our Stainless Steel is recognized globally for its reliability and high quality. Our High-quality Stainless Steel Products meet the needs of various industries and applications.</p>
       <p>We are a top-notch Stainless Steel Supplier in India and other countries worldwide. We offer <strong>Stainless Steel Pipe Fittings, Round Bar, Flanges, Angle & Channel, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings</strong>.</p>
       <p>These Stainless Steel are tested through a series of quality tests before delivery. Our products are known for ultimate performance, precise design, high-grade materials, and robust build. They are widely used in power, engineering, construction, and other industries.</p>
     `,
@@ -1073,19 +1073,19 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Stainless Steel Pipe & Tube",
-            image: productImages["stainless-steel-pipe-tube1"]
+            image: productImages["stainless-steel-pipe-tube-manufa"]
           },
           {
             label: "Stainless Steel Round Bar",
-            image: productImages["stainless-steel-round-bar1"]
+            image: productImages["ss-round-bar-manufacturer-india"]
           },
           {
             label: "Stainless Steel Sheet & Plate",
-            image: productImages["stainless-steel-sheet-plate1"]
+            image: productImages["stainless-steel-sheet-plate-manu"]
           },
           {
             label: "Stainless Steel Forged Fitting",
-            image: productImages["stainless-steel-forged-fitting1"]
+            image: productImages["stainless-steel-forged-fittings"]
           },
           {
             label: "Stainless Steel Flanges",
@@ -1093,11 +1093,11 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Stainless Steel Angle & Channels",
-            image: productImages["stainless-steel-angle-channel1"]
+            image: productImages["ss-angle-channel-manufacturer-in"]
           },
           {
             label: "Stainless Steel Wire Mesh",
-            image: productImages["stainless-steel-wire-mesh1"]
+            image: productImages["ss-wire-mesh-manufacturer-india"]
           }
         ],
         description: "",
@@ -1109,12 +1109,10 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 11,
     productShortName: "Carbon Steel",
     images: [
-      productImages["carbon-steel1"],
-      productImages["carbon-steel2"],
-      productImages["carbon-steel3"],
+      bannerImages["carbon-steel-manufacturer-india"],
     ],
-    name: "Carbon Steel Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a leading Carbon Steel Manufacturer in India offering a wide range of Carbon Steel products in various sizes, shapes, and specifications. Our products are known for their durability, precision design, and superior surface finish. Used across power, engineering, construction, and other industries, our Carbon Steel offerings are quality tested and performance-driven.`,
+    name: "Carbon Steel Manufacturer & Supplier in India ",
+    description: `<strong>${companyName}</strong> is a leading Carbon Steel Manufacturer in India offering a wide range of Carbon Steel products in various sizes, shapes, and specifications. Our products are known for their durability, precision design, and superior surface finish. Used across power, engineering, construction, and other industries, our Carbon Steel offerings are quality tested and performance-driven.`,
     productDetails: {
       tableData: {
         tableName: "Carbon Steel - Specifications",
@@ -1145,11 +1143,11 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Carbon Steel Round Bar",
-            image: productImages["carbon-steel-round-bar1"]
+            image: productImages["carbon-steel-round-bar-manufactu"]
           },
           {
             label: "Carbon Steel Sheet & Plate",
-            image: productImages["carbon-steel-sheet-plate1"]
+            image: productImages["carbon-steel-sheet-plate-manufac"]
           },
           {
             label: "Carbon Steel Forged Fittings",
@@ -1161,11 +1159,11 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Carbon Steel Angle & Channels",
-            image: productImages["carbon-steel-angle-channels1"]
+            image: productImages["carbon-steel-angle-manufacturer"]
           },
           {
             label: "Carbon Steel Wire Mesh",
-            image: productImages["carbon-steel-wire-mesh1"]
+            image: productImages["carbon-steel-wire-mesh-manufactu"]
           }
         ]
       }
@@ -1179,8 +1177,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["hastelloy2"],
       productImages["hastelloy3"],
     ],
-    name: "Hastelloy Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a leading Hastelloy Manufacturer in India, offering a wide range of Hastelloy products in various shapes, sizes, and grades. Our products are known for their reliability, high quality, and performance. We provide Hastelloy Pipe Fittings, Round Bars, Flanges, Angles & Channels, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings to industries across the globe.`,
+    name: "Hastelloy Manufacturer & Supplier in India",
+    description: `<strong>${companyName}</strong> is a leading Hastelloy Manufacturer in India, offering a wide range of Hastelloy products in various shapes, sizes, and grades. Our products are known for their reliability, high quality, and performance. We provide Hastelloy Pipe Fittings, Round Bars, Flanges, Angles & Channels, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings to industries across the globe.`,
     productDetails: {
       tableData: {
         tableName: "Hastelloy - Specifications",
@@ -1246,8 +1244,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["titanium2"],
       productImages["titanium3"],
     ],
-    name: "Titanium Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a trusted Titanium Manufacturer and Supplier based in India, offering a broad range of Titanium products tailored to industrial requirements. Known for their strength, corrosion resistance, and durability, our Titanium offerings include Pipe Fittings, Round Bars, Flanges, Pipes & Tubes, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We serve clients across India and export globally.`,
+    name: "Titanium Manufacturer & Supplier in India",
+    description: `<strong>${companyName}</strong> is a trusted Titanium Manufacturer and Supplier based in India, offering a broad range of Titanium products tailored to industrial requirements. Known for their strength, corrosion resistance, and durability, our Titanium offerings include Pipe Fittings, Round Bars, Flanges, Pipes & Tubes, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We serve clients across India and export globally.`,
     productDetails: {
       tableData: {
         tableName: "Titanium - Specifications",
@@ -1312,8 +1310,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["inconel2"],
       productImages["inconel3"],
     ],
-    name: "Inconel Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a reputed Inconel Manufacturer and Supplier in India, offering premium-grade Inconel products in various dimensions and forms. Known for their exceptional strength and resistance to high temperatures and corrosion, our Inconel range includes Pipe Fittings, Flanges, Pipes & Tubes, Fasteners, Round Bars, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We cater to both domestic and international clients across various industries.`,
+    name: "Inconel Manufacturer & Supplier in India",
+    description: `<strong>${companyName}</strong> is a reputed Inconel Manufacturer and Supplier in India, offering premium-grade Inconel products in various dimensions and forms. Known for their exceptional strength and resistance to high temperatures and corrosion, our Inconel range includes Pipe Fittings, Flanges, Pipes & Tubes, Fasteners, Round Bars, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We cater to both domestic and international clients across various industries.`,
     productDetails: {
       tableData: {
         tableName: "Inconel - Specifications",
@@ -1379,8 +1377,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["monel2"],
       productImages["monel3"],
     ],
-    name: "Monel Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a well-known Monel Manufacturer and Supplier in India, delivering a wide array of Monel products engineered to meet various industrial needs. Our Monel products are recognized for their strength, corrosion resistance, and long-lasting performance. We supply Pipe Fittings, Flanges, Pipes & Tubes, Round Bars, Fasteners, Sheet & Plates, Forged Fittings, Angles & Channels, and Wire Mesh across India and export to multiple countries.`,
+    name: "Monel Manufacturer & Supplier in India ",
+    description: `<strong>${companyName}</strong> is a well-known Monel Manufacturer and Supplier in India, delivering a wide array of Monel products engineered to meet various industrial needs. Our Monel products are recognized for their strength, corrosion resistance, and long-lasting performance. We supply Pipe Fittings, Flanges, Pipes & Tubes, Round Bars, Fasteners, Sheet & Plates, Forged Fittings, Angles & Channels, and Wire Mesh across India and export to multiple countries.`,
     productDetails: {
       tableData: {
         tableName: "Monel - Specifications",
@@ -1446,8 +1444,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["alloy-steel2"],
       productImages["alloy-steel3"],
     ],
-    name: "Alloy Steel Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a renowned Alloy Steel Manufacturer and Supplier in India, offering a wide variety of Alloy Steel products in multiple forms and specifications. Our products are known for their high strength, excellent surface finish, and resistance to wear and pressure. We supply Alloy Steel Pipe Fittings, Round Bars, Pipes & Tubes, Flanges, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh to both domestic and global markets.`,
+    name: "Alloy Steel Manufacturer & Supplier in India ",
+    description: `<strong>${companyName}</strong> is a renowned Alloy Steel Manufacturer and Supplier in India, offering a wide variety of Alloy Steel products in multiple forms and specifications. Our products are known for their high strength, excellent surface finish, and resistance to wear and pressure. We supply Alloy Steel Pipe Fittings, Round Bars, Pipes & Tubes, Flanges, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh to both domestic and global markets.`,
     productDetails: {
       tableData: {
         tableName: "Alloy Steel - Specifications",
@@ -1513,8 +1511,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["copper2"],
       productImages["copper3"],
     ],
-    name: "Copper Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a prominent Copper Manufacturer and Supplier based in India, offering a wide range of copper products in various dimensions, grades, and standards. Known for their excellent electrical conductivity and corrosion resistance, our copper products are widely used in electrical, construction, and industrial sectors. Our range includes Copper Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Round Bars, Sheets & Plates, Forged Fittings, Angle & Channel, and Wire Mesh.`,
+    name: "Copper Manufacturer & Supplier in India ",
+    description: `<strong>${companyName}</strong> is a prominent Copper Manufacturer and Supplier based in India, offering a wide range of copper products in various dimensions, grades, and standards. Known for their excellent electrical conductivity and corrosion resistance, our copper products are widely used in electrical, construction, and industrial sectors. Our range includes Copper Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Round Bars, Sheets & Plates, Forged Fittings, Angle & Channel, and Wire Mesh.`,
     productDetails: {
       tableData: {
         tableName: "Copper - Specifications",
@@ -1580,8 +1578,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
       productImages["super-duplex-steel2"],
       productImages["super-duplex-steel3"],
     ],
-    name: "Super Duplex Steel Manufacturer & Supplier in India - ForgInox India",
-    description: `ForgInox India is a well-established manufacturer and supplier of Super Duplex Steel in India, offering a wide range of products in various grades, shapes, and dimensions. Known for superior strength, excellent corrosion resistance, and durability, our Super Duplex Steel is widely used in marine, oil & gas, chemical processing, and construction industries. Our offerings include Super Duplex Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings, Round Bars, Angles & Channels, and Wire Mesh.`,
+    name: "Super Duplex Steel Manufacturer & Supplier in India ",
+    description: `<strong>${companyName}</strong> is a well-established manufacturer and supplier of Super Duplex Steel in India, offering a wide range of products in various grades, shapes, and dimensions. Known for superior strength, excellent corrosion resistance, and durability, our Super Duplex Steel is widely used in marine, oil & gas, chemical processing, and construction industries. Our offerings include Super Duplex Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings, Round Bars, Angles & Channels, and Wire Mesh.`,
     productDetails: {
       tableData: {
         tableName: "Super Duplex Steel - Specifications",

@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./ThirdPartyInspection.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const ThirdPartyInspection = ({ img }) => {
+const ThirdPartyInspection = ({ img, title }) => {
   return (
     <section
       style={{
@@ -16,6 +17,7 @@ const ThirdPartyInspection = ({ img }) => {
       }}
       className="third-party-section"
     >
+      <h2 className={styles.title}>{title}</h2>
       <Swiper
         modules={[Autoplay, FreeMode, Navigation, Pagination]}
         autoplay={{ delay: 2000 }}

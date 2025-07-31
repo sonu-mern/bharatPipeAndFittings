@@ -138,7 +138,9 @@
   color: #333;
   padding: 5px;
 }
-
+.toggleIcon {
+  display: none;
+}
 @media (max-width: 768px) {
   .menuToggle {
     display: block;
@@ -228,6 +230,9 @@
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
+  .toggleIcon {
+    display: block;
+  }
   .dropdownMenu {
     display: block;
     position: static;

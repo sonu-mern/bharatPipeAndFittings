@@ -7,6 +7,7 @@ import ProductSection from "../components/ProductSection/ProductSection";
 import Footer from "../components/Footer/Footer";
 import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
 import { useLocation } from "react-router-dom";
+import TrustedClientsHeader from "../components/TrustedClientsHeader/TrustedClientsHeader";
 
 const Index = () => {
   console.log("Index page rendering");
@@ -30,7 +31,12 @@ const Index = () => {
       <HeroSlider />
       <AboutSection />
       <ProductSection />
-      {/* <ThirdPartyInspection /> */}
+      <TrustedClientsHeader
+        label="Most Valuable"
+        heading="Trusted Clients"
+        description="We are proud to have earned the trust of numerous esteemed clients across various industries. Our commitment to excellence and personalized service has fostered long-lasting."
+      />
+      <ThirdPartyInspection />
       <Footer />
     </div>
   );
