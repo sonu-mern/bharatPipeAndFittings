@@ -1,6 +1,6 @@
 import { constantValue } from "./constantValue"
 import { productImages, bannerImages } from "../utils/loadImages";
-
+//hii
 let companyName = constantValue.companyName;
 export const allProducts = [
   {
