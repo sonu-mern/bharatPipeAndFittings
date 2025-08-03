@@ -6,14 +6,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const ThirdPartyInspection = ({ img, title }) => {
+const ThirdPartyInspection = ({ img, title, customWidth }) => {
   return (
     <section
       style={{
         padding: "20px 0",
-        width: "60vw",
+        width: customWidth || "60vw",
         maxWidth: "100%",
         // borderRadius: "8px",
+        // border: "2px solid #ccc",
       }}
       className="third-party-section"
     >

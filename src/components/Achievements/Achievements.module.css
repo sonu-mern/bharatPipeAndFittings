@@ -1,0 +1,59 @@
+.achievementsSection {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #0073e6;
+  margin-bottom: 15px;
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 1.1rem;
+  color: #555;
+}

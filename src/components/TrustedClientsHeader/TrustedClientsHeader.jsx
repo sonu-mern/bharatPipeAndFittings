@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./TrustedClientsHeader.module.css";
+import ThirdPartyInspection from "../ThirdPartyInspection/ThirdPartyInspection";
 
-const TrustedClientsHeader = ({ label, heading, description }) => {
+const TrustedClientsHeader = ({ label, heading, description, images }) => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
@@ -18,6 +19,7 @@ const TrustedClientsHeader = ({ label, heading, description }) => {
       <div className={styles.rightSection}>
         <p>{description}</p>
       </div>
+      <ThirdPartyInspection img={images} customWidth={"80vw"} />
     </div>
   );
 };

@@ -126,10 +126,24 @@ ${formData.message}
                 <div className={styles.contactDetail}>
                   <h3 className={styles.contactDetailTitle}>📞 Phone</h3>
                   <p>{constantValue.companyPhone}</p>
+
+                  <p>{constantValue.alternativePhone}</p>
                 </div>
                 <div className={styles.contactDetail}>
                   <h3 className={styles.contactDetailTitle}>🏢 Address</h3>
                   <p>{constantValue.companyAddress}</p>
+                </div>
+                <div className={styles.contactDetail}>
+                  <h3 className={styles.contactDetailTitle}>
+                    🏭 Manufacturing Plant 1
+                  </h3>
+                  <p>{constantValue.ManufacturingPlant1}</p>
+                </div>
+                <div className={styles.contactDetail}>
+                  <h3 className={styles.contactDetailTitle}>
+                    🏭 Manufacturing Plant 2
+                  </h3>
+                  <p>{constantValue.ManufacturingPlant2}</p>
                 </div>
                 <div className={styles.contactDetail}>
                   <h3 className={styles.contactDetailTitle}>🕒 Hours</h3>

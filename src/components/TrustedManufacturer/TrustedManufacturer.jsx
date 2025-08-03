@@ -5,7 +5,7 @@ import { constantValue } from "../../utils/constantValue";
 
 const TrustedManufacturer = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = constantValue.companyPhone; // Change this to your WhatsApp number (with country code)
+    const phoneNumber = constantValue.phone; // Change this to your WhatsApp number (with country code)
     const message = constantValue.whatsAppMessage;
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

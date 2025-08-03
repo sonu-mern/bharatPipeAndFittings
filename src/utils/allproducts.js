@@ -1037,7 +1037,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 10,
     productShortName: "Stainless Steel",
     images: [
-      bannerImages["stainless-steel1"],
+      bannerImages["Stainless-Steel-316-316L-Round-B"],
       // bannerImages["stainless-steel2"],
       // bannerImages["stainless-steel3"]
     ],
@@ -1109,7 +1109,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 11,
     productShortName: "Carbon Steel",
     images: [
-      bannerImages["carbon-steel-manufacturer-india"],
+      bannerImages["Carbon-Steel-Bars"],
     ],
     name: "Carbon Steel Manufacturer & Supplier in India ",
     description: `<strong>${companyName}</strong> is a leading Carbon Steel Manufacturer in India offering a wide range of Carbon Steel products in various sizes, shapes, and specifications. Our products are known for their durability, precision design, and superior surface finish. Used across power, engineering, construction, and other industries, our Carbon Steel offerings are quality tested and performance-driven.`,

@@ -16,6 +16,7 @@ import { slugify } from "../utils/helperFunction";
 const ProductPage = () => {
   const { id } = useParams();
   const [isMobile, setIsMobile] = useState(false);
+  const [product, setProduct] = useState(allProducts[0]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -30,9 +31,12 @@ const ProductPage = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const product = allProducts.find(
-    (p) => slugify(p.productShortName) === slugify(id)
-  );
+  useEffect(() => {
+    const foundProduct = allProducts.find(
+      (p) => slugify(p.productShortName) === slugify(id)
+    );
+    setProduct(foundProduct);
+  }, [id]);
 
   if (!product) {
     return (
@@ -60,7 +64,7 @@ const ProductPage = () => {
         <title>{product.name} | Bharat Pipe & Fittings</title>
         <meta
           name="description"
-          content={product.description.replace(/<[^>]+>/g, "").slice(0, 155)}
+          content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
         />
         <link
           rel="canonical"
