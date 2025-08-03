@@ -1173,9 +1173,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 12,
     productShortName: "Hastelloy",
     images: [
-      productImages["hastelloy1"],
-      productImages["hastelloy2"],
-      productImages["hastelloy3"],
+      bannerImages["hastelloy-manufacturer-india"],
     ],
     name: "Hastelloy Manufacturer & Supplier in India",
     description: `<strong>${companyName}</strong> is a leading Hastelloy Manufacturer in India, offering a wide range of Hastelloy products in various shapes, sizes, and grades. Our products are known for their reliability, high quality, and performance. We provide Hastelloy Pipe Fittings, Round Bars, Flanges, Angles & Channels, Wire Mesh, Fasteners, Pipes & Tubes, Sheet & Plates, and Forged Fittings to industries across the globe.`,
@@ -1197,39 +1195,39 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Hastelloy Pipe Fittings",
-            image: productImages["hastelloy-pipe-fittings1"]
+            image: productImages["hastelloy-pipe-fitting-manufactu"]
           },
           {
             label: "Hastelloy Fasteners",
-            image: productImages["hastelloy-fasteners1"]
+            image: productImages["hastelloy-fastener-manufacturer"]
           },
           {
             label: "Hastelloy Pipes & Tubes",
-            image: productImages["hastelloy-pipes-tubes1"]
+            image: productImages["hastelloy-pipe-manufacturer-indi"]
           },
           {
             label: "Hastelloy Round Bar",
-            image: productImages["hastelloy-round-bar1"]
+            image: productImages["hastelloy-round-bar-manufacturer"]
           },
           {
             label: "Hastelloy Sheet & Plate",
-            image: productImages["hastelloy-sheet-plate1"]
+            image: productImages["hastelloy-sheet-plate-manufactur"]
           },
           {
             label: "Hastelloy Forged Fittings",
-            image: productImages["hastelloy-forged-fittings1"]
+            image: productImages["hastelloy-forged-fittings-manufa"]
           },
           {
             label: "Hastelloy Flanges",
-            image: productImages["hastelloy-flanges1"]
+            image: productImages["hastelloy-flange-manufacturer-in"]
           },
           {
             label: "Hastelloy Angle & Channels",
-            image: productImages["hastelloy-angle-channels1"]
+            image: productImages["hastelloy-angle-channel-manufact"]
           },
           {
             label: "Hastelloy Wire Mesh",
-            image: productImages["hastelloy-wire-mesh1"]
+            image: productImages["hastelloy-wire-mesh-manufacturer"]
           }
         ]
       }
@@ -1240,9 +1238,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 13,
     productShortName: "Titanium",
     images: [
-      productImages["titanium1"],
-      productImages["titanium2"],
-      productImages["titanium3"],
+      bannerImages["titanium-manufacturer-india"],
+
     ],
     name: "Titanium Manufacturer & Supplier in India",
     description: `<strong>${companyName}</strong> is a trusted Titanium Manufacturer and Supplier based in India, offering a broad range of Titanium products tailored to industrial requirements. Known for their strength, corrosion resistance, and durability, our Titanium offerings include Pipe Fittings, Round Bars, Flanges, Pipes & Tubes, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We serve clients across India and export globally.`,
@@ -1264,39 +1261,41 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Titanium Pipe Fittings",
-            image: productImages["titanium-pipe-fittings1"]
+            image: productImages["titanium-pipe-fittings-manufactu"]
           },
           {
             label: "Titanium Fasteners",
-            image: productImages["titanium-fasteners1"]
+            image: productImages["titanium-fasteners-manufacturer"]
+
           },
           {
             label: "Titanium Pipes & Tubes",
-            image: productImages["titanium-pipes-tubes1"]
+
+            image: productImages["titanium-pipe-tube-manufacturer"]
           },
           {
             label: "Titanium Round Bar",
-            image: productImages["titanium-round-bar1"]
+            image: productImages["titanium-round-bar-manufacturer"]
           },
           {
             label: "Titanium Sheet & Plate",
-            image: productImages["titanium-sheet-plate1"]
+            image: productImages["titanium-sheet-plate-manufacture"]
           },
           {
             label: "Titanium Forged Fittings",
-            image: productImages["titanium-forged-fittings1"]
+            image: productImages["titanium-forged-fittings-manufac"]
           },
           {
             label: "Titanium Flanges",
-            image: productImages["titanium-flanges1"]
+            image: productImages["titanium-flange-manufacturer-ind"]
           },
           {
             label: "Titanium Angle & Channels",
-            image: productImages["titanium-angle-channels1"]
+            image: productImages["titanium--angle-channel-manufact"]
           },
           {
             label: "Titanium Wire Mesh",
-            image: productImages["titanium-wire-mesh1"]
+            image: productImages["titanium-wire-mesh-manufacturer"]
           }
         ]
       }
@@ -1306,9 +1305,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 14,
     productShortName: "Inconel",
     images: [
-      productImages["inconel1"],
-      productImages["inconel2"],
-      productImages["inconel3"],
+      bannerImages["inconel-manufacturer-india"],
+
     ],
     name: "Inconel Manufacturer & Supplier in India",
     description: `<strong>${companyName}</strong> is a reputed Inconel Manufacturer and Supplier in India, offering premium-grade Inconel products in various dimensions and forms. Known for their exceptional strength and resistance to high temperatures and corrosion, our Inconel range includes Pipe Fittings, Flanges, Pipes & Tubes, Fasteners, Round Bars, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh. We cater to both domestic and international clients across various industries.`,
@@ -1330,39 +1328,39 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Inconel Pipe Fittings",
-            image: productImages["inconel-pipe-fittings1"]
+            image: productImages["titanium-pipe-fittings-manufactu"]
           },
           {
             label: "Inconel Fasteners",
-            image: productImages["inconel-fasteners1"]
+            image: productImages["titanium-fasteners-manufacturer"]
           },
           {
             label: "Inconel Pipes & Tubes",
-            image: productImages["inconel-pipes-tubes1"]
+            image: productImages["titanium-pipe-tube-manufacturer"]
           },
           {
             label: "Inconel Round Bar",
-            image: productImages["inconel-round-bar1"]
+            image: productImages["titanium-round-bar-manufacturer"]
           },
           {
             label: "Inconel Sheet & Plate",
-            image: productImages["inconel-sheet-plate1"]
+            image: productImages["titanium-sheet-plate-manufacture"]
           },
           {
             label: "Inconel Forged Fittings",
-            image: productImages["inconel-forged-fittings1"]
+            image: productImages["titanium-forged-fittings-manufac"]
           },
           {
             label: "Inconel Flanges",
-            image: productImages["inconel-flanges1"]
+            image: productImages["titanium-flange-manufacturer-ind"]
           },
           {
             label: "Inconel Angle & Channels",
-            image: productImages["inconel-angle-channels1"]
+            image: productImages["titanium--angle-channel-manufact"]
           },
           {
             label: "Inconel Wire Mesh",
-            image: productImages["inconel-wire-mesh1"]
+            image: productImages["titanium-wire-mesh-manufacturer"]
           }
         ]
       }
@@ -1373,9 +1371,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 15,
     productShortName: "Monel",
     images: [
-      productImages["monel1"],
-      productImages["monel2"],
-      productImages["monel3"],
+      bannerImages["monel-manufacturer-india"],
+
     ],
     name: "Monel Manufacturer & Supplier in India ",
     description: `<strong>${companyName}</strong> is a well-known Monel Manufacturer and Supplier in India, delivering a wide array of Monel products engineered to meet various industrial needs. Our Monel products are recognized for their strength, corrosion resistance, and long-lasting performance. We supply Pipe Fittings, Flanges, Pipes & Tubes, Round Bars, Fasteners, Sheet & Plates, Forged Fittings, Angles & Channels, and Wire Mesh across India and export to multiple countries.`,
@@ -1397,39 +1394,39 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Monel Pipe Fittings",
-            image: productImages["monel-pipe-fittings1"]
+            image: productImages["monel-pipe-fitting-manufacturer"]
           },
           {
             label: "Monel Fasteners",
-            image: productImages["monel-fasteners1"]
+            image: productImages["monel-fasteners-manufacturer-ind"]
           },
           {
             label: "Monel Pipes & Tubes",
-            image: productImages["monel-pipes-tubes1"]
+            image: productImages["monel-pipe-tube-manufacturer-ind"]
           },
           {
             label: "Monel Round Bar",
-            image: productImages["monel-round-bar1"]
+            image: productImages["monel-round-bar-manufacturer-ind"]
           },
           {
             label: "Monel Sheet & Plate",
-            image: productImages["monel-sheet-plate1"]
+            image: productImages["monel-sheet-plate-manufacturer-i"]
           },
           {
             label: "Monel Forged Fittings",
-            image: productImages["monel-forged-fittings1"]
+            image: productImages["monel-forged-fittings-manufactur"]
           },
           {
             label: "Monel Flanges",
-            image: productImages["monel-flanges1"]
+            image: productImages["monel-flange-manufacturer-india"]
           },
           {
             label: "Monel Angle & Channels",
-            image: productImages["monel-angle-channels1"]
+            image: productImages["monel-angle-channel-manufacturer"]
           },
           {
             label: "Monel Wire Mesh",
-            image: productImages["monel-wire-mesh1"]
+            image: productImages["monel-wire-mesh-manufacturer-ind"]
           }
         ]
       }
@@ -1440,9 +1437,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 16,
     productShortName: "Alloy Steel",
     images: [
-      productImages["alloy-steel1"],
-      productImages["alloy-steel2"],
-      productImages["alloy-steel3"],
+      bannerImages["alloy-steel-manufacturer-india"],
+
     ],
     name: "Alloy Steel Manufacturer & Supplier in India ",
     description: `<strong>${companyName}</strong> is a renowned Alloy Steel Manufacturer and Supplier in India, offering a wide variety of Alloy Steel products in multiple forms and specifications. Our products are known for their high strength, excellent surface finish, and resistance to wear and pressure. We supply Alloy Steel Pipe Fittings, Round Bars, Pipes & Tubes, Flanges, Fasteners, Angles & Channels, Sheet & Plates, Forged Fittings, and Wire Mesh to both domestic and global markets.`,
@@ -1476,11 +1472,11 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Alloy Steel Round Bar",
-            image: productImages["alloy-steel-round-bar1"]
+            image: productImages["alloy-steel-round-bar-manufactur"]
           },
           {
             label: "Alloy Steel Sheet & Plate",
-            image: productImages["alloy-steel-sheet-plate1"]
+            image: productImages["alloy-steel-sheet-plate-manufact"]
           },
           {
             label: "Alloy Steel Forged Fittings",
@@ -1492,11 +1488,11 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
           },
           {
             label: "Alloy Steel Angle & Channels",
-            image: productImages["alloy-steel-angle-channels1"]
+            image: productImages["alloy-steel-angle-channel-manufa"]
           },
           {
             label: "Alloy Steel Wire Mesh",
-            image: productImages["alloy-steel-wire-mesh1"]
+            image: productImages["alloy-steel-wire-mesh-manufactur"]
           }
         ]
       }
@@ -1507,9 +1503,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 17,
     productShortName: "Copper",
     images: [
-      productImages["copper1"],
-      productImages["copper2"],
-      productImages["copper3"],
+      bannerImages["copper-manufacturer-india"],
+
     ],
     name: "Copper Manufacturer & Supplier in India ",
     description: `<strong>${companyName}</strong> is a prominent Copper Manufacturer and Supplier based in India, offering a wide range of copper products in various dimensions, grades, and standards. Known for their excellent electrical conductivity and corrosion resistance, our copper products are widely used in electrical, construction, and industrial sectors. Our range includes Copper Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Round Bars, Sheets & Plates, Forged Fittings, Angle & Channel, and Wire Mesh.`,
@@ -1531,39 +1526,39 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Copper Pipe Fittings",
-            image: productImages["copper-pipe-fittings1"]
+            image: productImages["copper-pipe-fitting-manufacturer"]
           },
           {
             label: "Copper Fasteners",
-            image: productImages["copper-fasteners1"]
+            image: productImages["copper-fastener-manufacturer-ind"]
           },
           {
             label: "Copper Pipes & Tubes",
-            image: productImages["copper-pipes-tubes1"]
+            image: productImages["copper-pipe-tube-manufacturer-in"]
           },
           {
             label: "Copper Round Bar",
-            image: productImages["copper-round-bar1"]
+            image: productImages["copper-round-bar-manufacturer-in"]
           },
           {
             label: "Copper Sheet & Plate",
-            image: productImages["copper-sheet-plate1"]
+            image: productImages["copper-sheet-plate-manufacturer"]
           },
           {
             label: "Copper Forged Fittings",
-            image: productImages["copper-forged-fittings1"]
+            image: productImages["copper-forged-fitting-manufactur"]
           },
           {
             label: "Copper Flanges",
-            image: productImages["copper-flanges1"]
+            image: productImages["copper-flanges-manufacturer-indi"]
           },
           {
             label: "Copper Angle & Channels",
-            image: productImages["copper-angle-channels1"]
+            image: productImages["copper-angle-channel-manufacture"]
           },
           {
             label: "Copper Wire Mesh",
-            image: productImages["copper-wire-mesh1"]
+            image: productImages["copper-wire-mesh-manufacturer-in"]
           }
         ]
       }
@@ -1574,9 +1569,8 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
     id: 18,
     productShortName: "Super Duplex Steel",
     images: [
-      productImages["super-duplex-steel1"],
-      productImages["super-duplex-steel2"],
-      productImages["super-duplex-steel3"],
+      bannerImages["super-duplex-steel-manufacturer"],
+
     ],
     name: "Super Duplex Steel Manufacturer & Supplier in India ",
     description: `<strong>${companyName}</strong> is a well-established manufacturer and supplier of Super Duplex Steel in India, offering a wide range of products in various grades, shapes, and dimensions. Known for superior strength, excellent corrosion resistance, and durability, our Super Duplex Steel is widely used in marine, oil & gas, chemical processing, and construction industries. Our offerings include Super Duplex Pipe Fittings, Flanges, Fasteners, Pipes & Tubes, Sheet & Plates, Forged Fittings, Round Bars, Angles & Channels, and Wire Mesh.`,
@@ -1598,39 +1592,39 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Super Duplex Steel Pipe Fittings",
-            image: productImages["super-duplex-pipe-fittings1"]
+            image: productImages["super-duplex-steel-pipe-fitting"]
           },
           {
             label: "Super Duplex Steel Fasteners",
-            image: productImages["super-duplex-fasteners1"]
+            image: productImages["super-duplex-steel-fastener-manu"]
           },
           {
             label: "Super Duplex Steel Pipes & Tubes",
-            image: productImages["super-duplex-pipes-tubes1"]
+            image: productImages["super-duplex-steel-pipe-manufact"]
           },
           {
             label: "Super Duplex Steel Round Bar",
-            image: productImages["super-duplex-round-bar1"]
+            image: productImages["super-duplex-steel-round-bar-man"]
           },
           {
             label: "Super Duplex Steel Sheet & Plate",
-            image: productImages["super-duplex-sheet-plate1"]
+            image: productImages["super-duplex-steel-sheet-plate-m"]
           },
           {
             label: "Super Duplex Steel Forged Fittings",
-            image: productImages["super-duplex-forged-fittings1"]
+            image: productImages["super-duplex-steel-forged-fittin"]
           },
           {
             label: "Super Duplex Steel Flanges",
-            image: productImages["super-duplex-flanges1"]
+            image: productImages["super-duplex-steel-flange-manufa"]
           },
           {
             label: "Super Duplex Steel Angle & Channels",
-            image: productImages["super-duplex-angle-channels1"]
+            image: productImages["super-duplex-steel-angle-channel"]
           },
           {
             label: "Super Duplex Steel Wire Mesh",
-            image: productImages["super-duplex-wire-mesh1"]
+            image: productImages["super-duplex-steel-wire-mesh-man"]
           }
         ]
       }

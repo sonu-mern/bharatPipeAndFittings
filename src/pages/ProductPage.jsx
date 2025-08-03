@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import styles from "./ProductPage.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
@@ -9,28 +10,9 @@ import KeyValueTable from "../components/ui/KeyValueTable";
 import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
 import ProductImageCarousel from "../components/ProductImageCarousel/ProductImageCarousel";
 import ImageGridWithLabel from "../components/ImageGridWithTitle/ImageGridWithLabel";
-const services = [
-  { label: "Sheets, Plates & Coils" },
-  { label: "Angles, Channels & Flat" },
-  { label: "Pipes & Tubes" },
-  { label: "Pipe Fittings" },
-  { label: "Flanges" },
-  { label: "Forged Fittings" },
-  { label: "Fasteners" },
-  { label: "Valves" },
-  { label: "Round Bars & Rods" },
-];
-const material = [
-  { label: "Stainless Steel" },
-  { label: "Carbon Steel" },
-  { label: "Hastelloy" },
-  { label: "Titanium" },
-  { label: "Inconel" },
-  { label: "Monel" },
-  { label: "Alloy Steel" },
-  { label: "Copper" },
-  { label: "Super Duplex Steel" },
-];
+import { mainProducts, materials } from "../utils/ProductsShortList";
+import { slugify } from "../utils/helperFunction";
+
 const ProductPage = () => {
   const { id } = useParams();
   const [isMobile, setIsMobile] = useState(false);
@@ -49,7 +31,7 @@ const ProductPage = () => {
   }, []);
 
   const product = allProducts.find(
-    (p) => p.productShortName.toLowerCase() === id.toLowerCase()
+    (p) => slugify(p.productShortName) === slugify(id)
   );
 
   if (!product) {
@@ -74,30 +56,67 @@ const ProductPage = () => {
 
   return (
     <div className={styles.pageContainer}>
+      <Helmet>
+        <title>{product.name} | Bharat Pipe & Fittings</title>
+        <meta
+          name="description"
+          content={product.description.replace(/<[^>]+>/g, "").slice(0, 155)}
+        />
+        <link
+          rel="canonical"
+          href={`https://www.yourwebsite.com/products/${id}`}
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.yourwebsite.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Products",
+                item: "https://www.yourwebsite.com/#products",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: product.name,
+                item: `https://www.yourwebsite.com/products/${id}`,
+              },
+            ],
+          })}
+        </script>
+      </Helmet>
+
       <Navbar />
       <main className={styles.main}>
-        <div className={styles.container}>
-          <div className={styles.breadcrumb}>
+        <section className={styles.container}>
+          <nav className={styles.breadcrumb} aria-label="breadcrumb">
             <Link to="/">Home</Link>
             <span> / </span>
             <Link to="/#products">Products</Link>
             <span> / </span>
             <span>{product.name}</span>
-          </div>
+          </nav>
 
-          <div className={styles.productPageHeader}>
+          <header className={styles.productPageHeader}>
             <div className={styles.responsiveLayout}>
               {!isMobile && (
                 <aside className={styles.sidebarResponsive}>
-                  <ServiceSidebar data={services} title="Our Products" />
+                  <ServiceSidebar data={mainProducts} title="Our Products" />
                   <br />
-
-                  <ServiceSidebar data={material} title="Our Materials" />
+                  <ServiceSidebar data={materials} title="Our Materials" />
                 </aside>
               )}
 
-              <div className={styles.productPageContent}>
-                <div className={styles.productDetails}>
+              <article className={styles.productPageContent}>
+                <section className={styles.productDetails}>
                   <div className={styles.productImage}>
                     <ProductImageCarousel
                       images={product.images}
@@ -118,18 +137,17 @@ const ProductPage = () => {
                   </div>
 
                   <div className={styles.productInfo}>
-                    <h6 className={styles.productTitle}>{product.name}</h6>
+                    <h1 className={styles.productTitle}>{product.name}</h1>
                     <hr />
                     <br />
-                    <div className={styles.productDescription}>
+                    <section className={styles.productDescription}>
                       <h3>Description</h3>
-                      {/* 🔥 Allow bold and inline HTML */}
                       <p
                         dangerouslySetInnerHTML={{
                           __html: product.description,
                         }}
                       />
-                    </div>
+                    </section>
                     <br />
                     {isMobile && (
                       <div className={styles.connectDiv}>
@@ -143,9 +161,9 @@ const ProductPage = () => {
                       </div>
                     )}
                   </div>
-                </div>
+                </section>
 
-                <div className={styles.productFeatures}>
+                <section className={styles.productFeatures}>
                   <h3>
                     <span
                       style={{
@@ -173,8 +191,8 @@ const ProductPage = () => {
                   <div>
                     <br />
                     {product?.subProducts?.map((subProduct, index) => (
-                      <div key={subProduct.id || index}>
-                        <h1 className={styles.subProductHeading}>
+                      <section key={subProduct.id || index}>
+                        <h2 className={styles.subProductHeading}>
                           <span
                             style={{
                               color: "#22c55e",
@@ -186,17 +204,19 @@ const ProductPage = () => {
                             ✓
                           </span>
                           {subProduct.name}
-                        </h1>
+                        </h2>
 
                         {subProduct?.images?.length > 0 ? (
-                          <ThirdPartyInspection img={subProduct.images} />
+                          <ThirdPartyInspection
+                            img={subProduct.images}
+                            alt={`${subProduct.name} inspection images`}
+                          />
                         ) : (
                           <ImageGridWithLabel
                             imagesWithLabel={subProduct.imagesWithLabel}
                           />
                         )}
 
-                        {/* 🔥 Allow bold headings in subProduct description */}
                         <p
                           dangerouslySetInnerHTML={{
                             __html: subProduct.description,
@@ -206,22 +226,22 @@ const ProductPage = () => {
                         <KeyValueTable
                           tableData={subProduct.materialSpecifications}
                         />
-                      </div>
+                      </section>
                     ))}
                   </div>
-                </div>
-              </div>
+                </section>
+              </article>
+
               {isMobile && (
                 <aside className={styles.sidebarResponsive}>
-                  <ServiceSidebar data={services} title="Our Products" />
+                  <ServiceSidebar data={mainProducts} title="Our Products" />
                   <br />
-
-                  <ServiceSidebar data={material} title="Our Materials" />
+                  <ServiceSidebar data={materials} title="Our Materials" />
                 </aside>
               )}
             </div>
-          </div>
-        </div>
+          </header>
+        </section>
       </main>
       <Footer />
     </div>

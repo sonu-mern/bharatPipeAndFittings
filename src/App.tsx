@@ -7,7 +7,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
-
+import Loader from "./components/loader/Loader";
+import { HelmetProvider } from 'react-helmet-async';
 theme.setThemeColors();
 
 const queryClient = new QueryClient();
@@ -25,12 +26,15 @@ const App = () => {
     document.title = constantValue.companyName;
   }, []);
   return (
+    <HelmetProvider>
+
+
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<Loader />}>
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/product/:id" element={<ProductPage />} />
@@ -43,6 +47,7 @@ const App = () => {
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
+    </HelmetProvider>
   );
 };
 

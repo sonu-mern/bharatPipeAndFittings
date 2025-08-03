@@ -3,24 +3,13 @@ import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
 import logo from "../../assets/images/logo/comanylogo2.jpeg";
+import { materials } from "../../utils/ProductsShortList";
+import { slugify } from "../../utils/helperFunction";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMaterialsOpen, setIsMaterialsOpen] = useState(false);
-
-  const material = [
-    { label: "Stainless Steel" },
-    { label: "Carbon Steel" },
-    { label: "Hastelloy" },
-    { label: "Titanium" },
-    { label: "Inconel" },
-    { label: "Monel" },
-    { label: "Alloy Steel" },
-    { label: "Copper" },
-    { label: "Super Duplex Steel" },
-  ];
-
   const navLinks = [
     { name: "Home", href: "/", isRoute: true },
     { name: "About", href: "/about", isRoute: true },
@@ -86,10 +75,10 @@ const Navbar = () => {
 
                   {(isMaterialsOpen || window.innerWidth >= 769) && (
                     <div className={styles.dropdownMenu}>
-                      {material.map((item, idx) => (
+                      {materials.map((item, idx) => (
                         <a
                           key={idx}
-                          href={`/product/${item.label.toLowerCase()}`}
+                          href={`/product/${slugify(item.label)}`}
                           className={styles.dropdownItem}
                           onClick={() => {
                             setIsMenuOpen(false);

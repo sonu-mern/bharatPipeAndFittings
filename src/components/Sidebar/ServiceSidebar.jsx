@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./ServiceSidebar.module.css";
 import { FiChevronRight } from "react-icons/fi";
+import { slugify } from "../../utils/helperFunction";
 
 const ServiceSidebar = ({ data, title = "Our Services" }) => {
   const { id: location } = useParams();
@@ -12,14 +13,17 @@ const ServiceSidebar = ({ data, title = "Our Services" }) => {
       <div className={styles.sidebarContainer}>
         <ul className={styles.serviceList}>
           {data.map((service, index) => {
-            const slug = service.label.toLowerCase(); // same as ProductSection
+            const slug = slugify(service.label);
             const path = `/product/${slug}`;
-            const isActive = location?.toLowerCase() === slug;
+            const isActive = location === slug;
 
             return (
               <li key={index} className={styles.serviceItem}>
                 <Link
                   to={path}
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "instant" })
+                  } // ✅ scroll on click
                   className={`${styles.serviceLink} ${
                     isActive ? styles.active : ""
                   }`}

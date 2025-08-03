@@ -12,6 +12,7 @@ import flanges from "../../assets/images/products/flanges.jpg";
 import forged from "../../assets/images/products/forged-fittings.jpg";
 import fasteners from "../../assets/images/products/fasteners.jpg";
 import valves from "../../assets/images/products/valves.jpg";
+import { slugify } from "../../utils/helperFunction";
 const products = [
   {
     id: 6,
@@ -85,7 +86,7 @@ const ProductSection = () => {
                 <img src={product.image} alt={product.name} />
                 <div className={styles.productOverlay}>
                   <Link
-                    to={`/product/${product.name.toLowerCase()}`}
+                    to={`/product/${slugify(product.name)}`}
                     className={styles.viewButton}
                   >
                     View Details
