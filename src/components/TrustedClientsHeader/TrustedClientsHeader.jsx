@@ -1,8 +1,15 @@
 import React from "react";
 import styles from "./TrustedClientsHeader.module.css";
 import ThirdPartyInspection from "../ThirdPartyInspection/ThirdPartyInspection";
+import IndustryCards from "../IndustryCards/IndustryCards";
 
-const TrustedClientsHeader = ({ label, heading, description, images }) => {
+const TrustedClientsHeader = ({
+  label,
+  heading,
+  description,
+  images,
+  showIndustryCards = false,
+}) => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
@@ -19,7 +26,11 @@ const TrustedClientsHeader = ({ label, heading, description, images }) => {
       <div className={styles.rightSection}>
         <p>{description}</p>
       </div>
-      <ThirdPartyInspection img={images} customWidth={"80vw"} />
+      {showIndustryCards ? (
+        <IndustryCards />
+      ) : (
+        <ThirdPartyInspection img={images} customWidth={"80vw"} />
+      )}
     </div>
   );
 };

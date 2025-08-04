@@ -41,7 +41,7 @@ const ProductImageCarousel = ({ images, name }) => {
             maxWidth: "100%",
             maxHeight: 400,
             borderRadius: 8,
-            objectFit: "contain",
+            objectFit: "cover",
           }}
         />
       </div>

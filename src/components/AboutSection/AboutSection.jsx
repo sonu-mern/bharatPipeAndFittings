@@ -53,16 +53,16 @@ const aboutCards = [
   },
   {
     id: 8,
-    title: "Pan-India Presence",
+    title: "Global Reach",
     description:
-      "With clients across multiple states, we deliver trust and quality beyond city boundaries.",
-    icon: "🗺️",
+      "With clients across various countries and regions, we deliver trust and quality beyond borders.",
+    icon: "🌍",
   },
   {
     id: 9,
     title: "Decades of Experience",
     description:
-      "We bring over 15+ years of expertise in supplying quality pipe solutions to various sectors.",
+      "We bring over 30+ years of expertise in supplying quality pipe solutions to various sectors.",
     icon: "⏳",
   },
 ];

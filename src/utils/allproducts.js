@@ -382,7 +382,8 @@ We offer ASME B16.9 Buttweld Fittings such as Elbows, Tees, Crosses, Reducers, N
         description: `<strong>${companyName}</strong> offers Stainless Steel Buttweld Fittings in a wide range of shapes, sizes, grades, and specifications in compliance with ANSI/ASME and DIN standards. Our SS fittings range includes reducers, elbows, tees, crosses, stub ends, and pipe bends, designed for durability and long-term performance in demanding applications.`,
         materialSpecifications: {
           Standards: "ASTM A403 / ASME SA403",
-          Grades: "WP – 201, 202, 301, 302, 304, 304L, 309, 310, 316, 316L, 316LN, 316Ti, 317L, 321, 347, 405, 409, 410, 420, 430, 440C, 904L"
+          Grades: "WP – 201, 202, 301, 302, 304, 304L, 304H, 309, 309S, 310, 310S, 316, 316L, 316LN, 316Ti, 317, 317L, 321, 321H, 347, 347H, 405, 409, 410, 410S, 420, 430, 434, 436, 440A, 440B, 440C, 904L, UNS S31803, S32205 (2205), UNS S32750, S32760 (Super Duplex), 254 SMO (UNS S31254), Alloy 20 (UNS N08020), Incoloy 800/800H/800HT, Inconel 600/625/718, Hastelloy C22/C276",
+
         }
       },
       {
@@ -1065,7 +1066,7 @@ Yes, our valves are available in stock and ready for dispatch. For custom soluti
         imagesWithLabel: [
           {
             label: "Stainless Steel Pipe Fittings",
-            image: productImages["stainless-steel-pipe-fittings1"]
+            image: bannerImages["pipe-fittings1"],
           },
           {
             label: "Stainless Steel Fasteners",

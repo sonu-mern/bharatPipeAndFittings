@@ -22,7 +22,24 @@ const Footer = () => {
     // { name: "Privacy Policy", href: "#privacy" },
     // { name: "Terms of Service", href: "#terms" },
   ];
-
+  const applicationIndustries = [
+    // { name: "Chemical Industry", href: "" },
+    // { name: "Energy & Power Industry", href: "" },
+    { name: "Oil & Gas Industry", href: "" },
+    { name: "Pharmaceutical Industry", href: "" },
+    { name: "Petrochemical Industry", href: "" },
+    { name: "Sugar Industry", href: "" },
+    { name: "Refineries", href: "" },
+    { name: "Paper & Pulp Industry", href: "" },
+    { name: "Automobile Industry", href: "" },
+    { name: "Engineering", href: "" },
+    // { name: "Agriculture Industry", href: "" },
+    // { name: "Marine Industry", href: "" },
+    { name: "Shipbuilding Industry", href: "" },
+    { name: "Furnace Industry", href: "" },
+    { name: "Nuclear Power Industry", href: "" },
+    { name: "Water Piping Systems", href: "" },
+  ];
   const socialLinks = [
     { icon: <Facebook size={20} />, href: "#", name: "Facebook" },
     { icon: <Twitter size={20} />, href: "#", name: "Twitter" },
@@ -104,13 +121,52 @@ const Footer = () => {
                 </div>
               </div> */}
             </div>
+            <div className={styles.column}>
+              <h3 className={styles.columnTitle}>Dealers & Distributors</h3>
+              <p className={styles.aboutText}>
+                Gujarat, Haryana, Karnataka, Jharkhand, Tamil Nadu, Maharashtra,
+                Kerala, Rajasthan, Uttar Pradesh, Madhya Pradesh, Andhra
+                Pradesh, Mumbai, Bangalore, Bhavnagar, Hyderabad, Ahmedabad,
+                Chennai, Baroda, Pune, Nashik, Surat, Rajkot, Coimbatore,
+                Bhubaneswar, Thane, Rajkot, Assam, Delhi, Bhiwandi, Bikaner,
+                Indore.
+              </p>
+            </div>
+            <div className={styles.column}>
+              <h3 className={styles.columnTitle}>Countries We Export</h3>
+              <p className={styles.aboutText}>
+                Peru, Iran, Puerto Rico, Ukraine, Kuwait, Qatar, Bolivia, Iraq,
+                New Zealand, Libya, Austria, Denmark, Namibia, Afghanistan,
+                Lithuania, Finland, Egypt, Nigeria, Netherlands, Poland,
+                Singapore, Venezuela, France, Turkey, Hungary, Serbia, Nigeria,
+                Philippines, Malaysia, Pakistan, Taiwan, South Africa, Zimbabwe,
+                Bhutan, Portugal, Kenya, Mexico, Australia, Japan.
+              </p>
+            </div>
+            <div className={styles.column}>
+              <h3 className={styles.columnTitle}>Application Industry</h3>
+              <ul className={styles.linksList}>
+                {applicationIndustries.map((industry, index) => (
+                  <li key={index}>
+                    <p className={styles.footerLink}>{industry.name}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           <div className={styles.footerBottom}>
             <div className={styles.copyright}>
               <p>
                 &copy; {new Date().getFullYear()} Bharat Pipe & Fittings. All
-                rights reserved.
+                rights reserved | Designed and developed by{" "}
+                <a
+                  href="https://sonumahto.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sonu Mahto
+                </a>
               </p>
             </div>
             <div className={styles.paymentMethods}>

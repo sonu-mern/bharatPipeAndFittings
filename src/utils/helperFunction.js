@@ -1,3 +1,5 @@
+import { constantValue } from "./constantValue";
+
 //check if an object has any empty keys
 const hasEmptyKey = (obj) => {
   if (typeof obj !== 'object' || obj === null) return false;
@@ -10,4 +12,12 @@ const slugify = (text) => {
     .replace(/\s+/g, "-")       // Replace spaces with hyphens
     .trim();                    // Remove leading/trailing whitespace
 };
-export { hasEmptyKey, slugify };
+const handleWhatsAppClick = () => {
+  const phoneNumber = constantValue.phone; // Change this to your WhatsApp number (with country code)
+  const message = constantValue.whatsAppMessage;
+  const encodedMessage = encodeURIComponent(message);
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
+};
+export { hasEmptyKey, slugify, handleWhatsAppClick };

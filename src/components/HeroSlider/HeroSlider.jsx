@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./HeroSlider.module.css";
-// import c1 from "../../assets/images/heroSlider/bharat-factory2.jpg";
+
 import c0 from "../../assets/images/heroSlider/bharat-factory.jpg";
 import c1 from "../../assets/images/heroSlider/c1.jpg";
 import c2 from "../../assets/images/heroSlider/c2.jpg";
@@ -10,37 +10,38 @@ import c4 from "../../assets/images/heroSlider/c4.jpg";
 const slides = [
   {
     id: 1,
-    title: "",
-    subtitle: "",
-    description: "",
-    buttonText: "",
+    title: "Pipe Fittings That Outlast",
+    subtitle: "Tee • Elbow • Reducer • Cross",
+    description:
+      "Precision-crafted pipe fittings made to handle pressure, corrosion, and tough industrial environments.",
+    buttonText: "View Pipe Fittings",
     backgroundImage: c0,
   },
   {
     id: 2,
-    title: "Welcome to Bharat Pipe & Fittings",
-    subtitle: "Your Trusted Industrial Partner",
+    title: "Fasteners Built for Strength",
+    subtitle: "Bolt • Nut • Screw • Washer",
     description:
-      "Supplying high-quality pipes and fittings to industries across India with guaranteed durability.",
-    buttonText: "Explore Products",
+      "From heavy-duty bolts to precision screws, our fasteners are engineered for performance and durability.",
+    buttonText: "Explore Fasteners",
     backgroundImage: c1,
   },
   {
     id: 3,
-    title: "ISO Certified Products",
-    subtitle: "Quality You Can Rely On",
+    title: "Certified. Trusted. Reliable.",
+    subtitle: "ISO 9001:2015 Certified",
     description:
-      "All our products are ISO 9001:2015 certified and tested to meet industrial standards.",
-    buttonText: "View Certifications",
+      "Quality you can trust — every product we ship meets global standards and customer expectations.",
+    buttonText: "View Certification",
     backgroundImage: c2,
   },
   {
     id: 4,
-    title: "Nationwide Delivery",
-    subtitle: "Fast & Reliable Logistics",
+    title: "Worldwide Delivery, On Time",
+    subtitle: "Supplying Across the Globe",
     description:
-      "We ensure timely delivery to your doorstep, no matter where your project site is located.",
-    buttonText: "Get a Quote",
+      "We ensure safe and timely delivery of industrial products — wherever your site is, we reach you.",
+    buttonText: "Request a Quote",
     backgroundImage: c4,
   },
 ];
@@ -48,8 +49,6 @@ const slides = [
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-
-  // console.log("HeroSlider rendering, currentSlide:", currentSlide);
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -89,10 +88,7 @@ const HeroSlider = () => {
               index === currentSlide ? styles.active : ""
             }`}
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${slide.backgroundImage})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              // backdropFilter: "blur(5px)",
+              backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url(${slide.backgroundImage})`,
             }}
           >
             <div className={styles.slideContent}>
@@ -108,13 +104,13 @@ const HeroSlider = () => {
       </div>
 
       <button
-        className={styles.navButton + " " + styles.prevButton}
+        className={`${styles.navButton} ${styles.prevButton}`}
         onClick={prevSlide}
       >
         &#8249;
       </button>
       <button
-        className={styles.navButton + " " + styles.nextButton}
+        className={`${styles.navButton} ${styles.nextButton}`}
         onClick={nextSlide}
       >
         &#8250;
