@@ -59,20 +59,35 @@ const ProductPage = () => {
     );
   }
 
+  const metaDescription = product?.description
+    ? product.description.replace(/<[^>]+>/g, "").slice(0, 155)
+    : `Buy ${product.name} at best price from ${constantValue.companyName}. Trusted suppliers of industrial metal products.`;
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description?.replace(/<[^>]+>/g, "") || "",
+    brand: {
+      "@type": "Brand",
+      name: constantValue.companyName,
+    },
+    url: `${constantValue.companyUrl}/product/${id}`,
+  };
+
   return (
     <div className={styles.pageContainer}>
       <Helmet>
         <title>
-          {product.name} | {constantValue.companyName}
+          {product.name} | {product.productShortName} |{" "}
+          {constantValue.companyName}
         </title>
-        <meta
-          name="description"
-          content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
-        />
+        <meta name="description" content={metaDescription} />
         <link
           rel="canonical"
-          href={`https://www.yourwebsite.com/products/${id}`}
+          href={`https://www.bharatpipeandfittings.com/product/${id}`}
         />
+        {/* Breadcrumb schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -94,10 +109,14 @@ const ProductPage = () => {
                 "@type": "ListItem",
                 position: 3,
                 name: product.name,
-                item: `${constantValue.companyUrl}/products/${id}`,
+                item: `${constantValue.companyUrl}/product/${id}`,
               },
             ],
           })}
+        </script>
+        {/* Product schema for Google Rich Results */}
+        <script type="application/ld+json">
+          {JSON.stringify(productSchema)}
         </script>
       </Helmet>
 
