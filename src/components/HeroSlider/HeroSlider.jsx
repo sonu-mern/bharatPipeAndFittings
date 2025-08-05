@@ -6,6 +6,8 @@ import c1 from "../../assets/images/heroSlider/c1.jpg";
 import c2 from "../../assets/images/heroSlider/c2.jpg";
 import c3 from "../../assets/images/heroSlider/c3.jpg";
 import c4 from "../../assets/images/heroSlider/c4.jpg";
+import { useNavigate } from "react-router-dom";
+import { handleWhatsAppClick } from "../../utils/helperFunction";
 
 const slides = [
   {
@@ -16,6 +18,7 @@ const slides = [
       "Precision-crafted pipe fittings made to handle pressure, corrosion, and tough industrial environments.",
     buttonText: "View Pipe Fittings",
     backgroundImage: c0,
+    navigate: "/product/pipe-fittings"
   },
   {
     id: 2,
@@ -25,16 +28,17 @@ const slides = [
       "From heavy-duty bolts to precision screws, our fasteners are engineered for performance and durability.",
     buttonText: "Explore Fasteners",
     backgroundImage: c1,
+    navigate: "/product/fasteners"
   },
-  {
-    id: 3,
-    title: "Certified. Trusted. Reliable.",
-    subtitle: "ISO 9001:2015 Certified",
-    description:
-      "Quality you can trust — every product we ship meets global standards and customer expectations.",
-    buttonText: "View Certification",
-    backgroundImage: c2,
-  },
+  // {
+  //   id: 3,
+  //   title: "Certified. Trusted. Reliable.",
+  //   subtitle: "ISO 9001:2015 Certified",
+  //   description:
+  //     "Quality you can trust — every product we ship meets global standards and customer expectations.",
+  //   buttonText: "View Certification",
+  //   backgroundImage: c2,
+  // },
   {
     id: 4,
     title: "Worldwide Delivery, On Time",
@@ -43,12 +47,17 @@ const slides = [
       "We ensure safe and timely delivery of industrial products — wherever your site is, we reach you.",
     buttonText: "Request a Quote",
     backgroundImage: c4,
+    navigate: "/contact",
+    ContactToWhatsApp: ()=> handleWhatsAppClick(),
+
+
   },
 ];
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  let navigate = useNavigate();
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -96,7 +105,7 @@ const HeroSlider = () => {
               <h2 className={styles.subtitle}>{slide.subtitle}</h2>
               <p className={styles.description}>{slide.description}</p>
               {slide.buttonText && (
-                <button className={styles.ctaButton}>{slide.buttonText}</button>
+                <button className={styles.ctaButton} onClick={slide.id === 4 ? slide.ContactToWhatsApp : ()=>navigate(slide.navigate)}>{slide.buttonText}</button>
               )}
             </div>
           </div>

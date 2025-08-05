@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./FloatingWhatsappButton.module.css";
 import { FaWhatsapp } from "react-icons/fa";
+import { constantValue } from "../../utils/constantValue";
 
 const FloatingWhatsappButton = () => {
   const phoneNumber =
-    import.meta.env.VITE_WHATSAPP_PHONE_NUMBER || "919876543210"; // Replace with your number
-  const message = import.meta.env.VITE_WHATSAPP_MESSAGE || "Hello";
+    constantValue.phone || "919876543210"; // Replace with your number
+  const message = constantValue.whatsAppMessage || "Hello";
   const encodedMessage = encodeURIComponent(message);
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
