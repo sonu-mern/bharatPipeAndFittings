@@ -20,8 +20,7 @@ const TopBar = () => {
               href={`mailto:${constantValue.companyEmail}`}
               className={styles.link}
             >
-              <FaEnvelope className={styles.icon} />{" "}
-              {constantValue.companyEmail}
+              <FaEnvelope className={styles.icon} /> {constantValue.salesEmail}
             </a>
           </div>
         </div>

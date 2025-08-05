@@ -4,7 +4,7 @@ export const constantValue = {
 PRABHUDAS BUILDING, DR. MITRASEN MAHIMTURA
 MARG, DURGADEVI UDYAN, 3RD KUMBHARWADA,
 GIRGAON, Mumbai, Mumbai, Maharashtra, 400004`,
-  companyPhone: "Mukesh Parajapati :  +917877399226",
+  companyPhone: "Mukesh Prajapati :  +917877399226",
   phone: "+917877399226",
   alternativePhone: "Alternate : +917021187849 / +918369684934",
   companyEmail: "bharatpipeandfittings@gmail.com",
@@ -17,6 +17,7 @@ Palghar, Maharashtra, 401208.`,
 Waliv Road, Khairpada, Bilalapada,
 Vasai East, Vasai Virar, Palghar,
 Maharashtra, 401208.`,
+  salesEmail: "sales@bharatpipeandfittings.com",
 
   companyUrl: "http://www.bharatpipeandfittings.com/",
 
