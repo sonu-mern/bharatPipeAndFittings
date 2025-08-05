@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
 import logo from "../../assets/images/logo/comanylogo2.jpeg";
-import { materials } from "../../utils/ProductsShortList";
+import { materials } from "../../utils/productsShortList";
 import { slugify } from "../../utils/helperFunction";
 
 const Navbar = () => {
