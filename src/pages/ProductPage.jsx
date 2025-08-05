@@ -10,8 +10,8 @@ import KeyValueTable from "../components/ui/KeyValueTable";
 import ThirdPartyInspection from "../components/ThirdPartyInspection/ThirdPartyInspection";
 import ProductImageCarousel from "../components/ProductImageCarousel/ProductImageCarousel";
 import ImageGridWithLabel from "../components/ImageGridWithTitle/ImageGridWithLabel";
-import { mainProducts, materials } from "../utils/ProductsShortList";
 import { slugify } from "../utils/helperFunction";
+import { mainProducts, materials } from "../utils/productsShortList";
 
 const ProductPage = () => {
   const { id } = useParams();
