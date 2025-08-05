@@ -83,6 +83,7 @@ const Navbar = () => {
                           onClick={() => {
                             setIsMenuOpen(false);
                             setIsMaterialsOpen(false);
+                            window.scrollTo({ top: 0, behavior: "instant" });
                           }}
                         >
                           {item.label}
