@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
 import logo from "../../assets/images/logo/comanylogo2.jpeg";
 import { materials } from "../../utils/productsShortList";
 import { slugify } from "../../utils/helperFunction";
+import { constantValue } from "../../utils/constantValue";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMaterialsOpen, setIsMaterialsOpen] = useState(false);
+
   const navLinks = [
     { name: "Home", href: "/", isRoute: true },
     { name: "About", href: "/about", isRoute: true },
@@ -20,9 +22,7 @@ const Navbar = () => {
   ];
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -48,8 +48,8 @@ const Navbar = () => {
       <div className={styles.container}>
         <NavLink to="/" className={styles.logo}>
           <span>
-            <img src={logo} alt="Bharat Pipe & Fittings Logo" /> Bharat Pipe &
-            Fittings
+            <img src={logo} alt="Bharat Pipe & Fittings Logo" />
+            {constantValue.companyName}
           </span>
         </NavLink>
 
@@ -76,9 +76,9 @@ const Navbar = () => {
                   {(isMaterialsOpen || window.innerWidth >= 769) && (
                     <div className={styles.dropdownMenu}>
                       {materials.map((item, idx) => (
-                        <a
+                        <Link
                           key={idx}
-                          href={`/product/${slugify(item.label)}`}
+                          to={`/product/${slugify(item.label)}`}
                           className={styles.dropdownItem}
                           onClick={() => {
                             setIsMenuOpen(false);
@@ -86,7 +86,7 @@ const Navbar = () => {
                           }}
                         >
                           {item.label}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   )}
@@ -118,6 +118,7 @@ const Navbar = () => {
                 </NavLink>
               );
             } else {
+              // For in-page anchors like #products, still use <a href>
               return (
                 <a
                   key={index}

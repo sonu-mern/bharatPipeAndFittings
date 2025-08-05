@@ -12,6 +12,7 @@ import ProductImageCarousel from "../components/ProductImageCarousel/ProductImag
 import ImageGridWithLabel from "../components/ImageGridWithTitle/ImageGridWithLabel";
 import { slugify } from "../utils/helperFunction";
 import { mainProducts, materials } from "../utils/productsShortList";
+import { constantValue } from "../utils/constantValue";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -61,7 +62,9 @@ const ProductPage = () => {
   return (
     <div className={styles.pageContainer}>
       <Helmet>
-        <title>{product.name} | Bharat Pipe & Fittings</title>
+        <title>
+          {product.name} | {constantValue.companyName}
+        </title>
         <meta
           name="description"
           content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
@@ -79,19 +82,19 @@ const ProductPage = () => {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.yourwebsite.com",
+                item: constantValue.companyUrl,
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Products",
-                item: "https://www.yourwebsite.com/#products",
+                item: `${constantValue.companyUrl}#products`,
               },
               {
                 "@type": "ListItem",
                 position: 3,
                 name: product.name,
-                item: `https://www.yourwebsite.com/products/${id}`,
+                item: `${constantValue.companyUrl}/products/${id}`,
               },
             ],
           })}

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import TopBar from "../components/TopBar/TopBar";
 import Navbar from "../components/Navbar/Navbar";
 import HeroSlider from "../components/HeroSlider/HeroSlider";
@@ -68,8 +69,33 @@ const Index = () => {
       }
     }
   }, [location]);
+
+  // SEO meta description for homepage
+  const metaDescription = `${constantValue.companyName}: Leading manufacturer and supplier of industrial pipes, tubes, and fittings in India. Explore our wide range of quality products and trusted services.`;
+
   return (
     <div>
+      <Helmet>
+        <title>
+          {constantValue.companyName} | Leading Pipe & Fittings Manufacturer
+          India
+        </title>
+        <meta name="description" content={metaDescription} />
+        <link rel="canonical" href={constantValue.companyUrl} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: constantValue.companyName,
+            url: constantValue.companyUrl,
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `${constantValue.companyUrl}/search?q={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
+          })}
+        </script>
+      </Helmet>
       <TopBar />
       <Navbar />
       <HeroSlider />

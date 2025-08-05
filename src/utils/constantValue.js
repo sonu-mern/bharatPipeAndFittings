@@ -18,6 +18,8 @@ Waliv Road, Khairpada, Bilalapada,
 Vasai East, Vasai Virar, Palghar,
 Maharashtra, 401208.`,
 
+  companyUrl: "http://www.bharatpipeandfittings.com/",
+
 
 
 
