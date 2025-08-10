@@ -53,6 +53,14 @@ const slides = [
 ];
 
 const HeroSlider = () => {
+  // Detect mobile view
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   let navigate = useNavigate();
@@ -143,18 +151,22 @@ const HeroSlider = () => {
         ))}
       </div>
 
-      <button
-        className={`${styles.navButton} ${styles.prevButton}`}
-        onClick={prevSlide}
-      >
-        &#8249;
-      </button>
-      <button
-        className={`${styles.navButton} ${styles.nextButton}`}
-        onClick={nextSlide}
-      >
-        &#8250;
-      </button>
+      {!isMobile && (
+        <>
+          <button
+            className={`${styles.navButton} ${styles.prevButton}`}
+            onClick={prevSlide}
+          >
+            &#8249;
+          </button>
+          <button
+            className={`${styles.navButton} ${styles.nextButton}`}
+            onClick={nextSlide}
+          >
+            &#8250;
+          </button>
+        </>
+      )}
 
       <div className={styles.indicators}>
         {slides.map((_, index) => (
