@@ -72,9 +72,9 @@ const AboutSection = () => {
     <section className={styles.aboutSection} id="about">
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.title}>Why Choose Bharat Pipe & Fittings?</h2>
+          <h2 className={styles.title}>Why Choose Bharat pipe and fittings?</h2>
           <p className={styles.subtitle}>
-            At Bharat Pipe & Fittings, we combine industrial-grade quality,
+            At Bharat pipe and fittings, we combine industrial-grade quality,
             certified standards, and exceptional service to support your project
             needs with confidence.
           </p>

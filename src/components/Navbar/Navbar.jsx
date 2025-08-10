@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className={styles.container}>
         <NavLink to="/" className={styles.logo}>
           <span>
-            <img src={logo} alt="Bharat Pipe & Fittings Logo" />
+            <img src={logo} alt="Bharat pipe and fittings Logo" />
             {constantValue.companyName}
           </span>
         </NavLink>

@@ -56,10 +56,10 @@ const Footer = () => {
           <div className={styles.footerContent}>
             <div className={styles.column}>
               <h3 className={styles.columnTitle}>
-                About Bharat Pipe & Fittings
+                About Bharat pipe and fittings
               </h3>
               <p className={styles.aboutText}>
-                Bharat Pipe & Fittings is a trusted name in the manufacturing
+                Bharat pipe and fittings is a trusted name in the manufacturing
                 and supply of industrial pipes, fittings, rods, plates, and
                 structural products across India. We are committed to delivering
                 top-quality solutions with unmatched service.
@@ -158,7 +158,7 @@ const Footer = () => {
           <div className={styles.footerBottom}>
             <div className={styles.copyright}>
               <p>
-                &copy; {new Date().getFullYear()} Bharat Pipe & Fittings. All
+                &copy; {new Date().getFullYear()} Bharat pipe and fittings. All
                 rights reserved | Designed and developed by{" "}
                 <a
                   href="https://sonumahto.netlify.app/"
