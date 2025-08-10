@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
-import logo from "../../assets/images/logo/comanylogo2.jpeg";
+import logo from "../../assets/images/logo/bharatpipeandfittingslogo.jpeg";
 import { materials } from "../../utils/productsShortList";
 import { slugify } from "../../utils/helperFunction";
 import { constantValue } from "../../utils/constantValue";

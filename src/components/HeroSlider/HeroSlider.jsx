@@ -18,7 +18,7 @@ const slides = [
       "Precision-crafted pipe fittings made to handle pressure, corrosion, and tough industrial environments.",
     buttonText: "View Pipe Fittings",
     backgroundImage: c0,
-    navigate: "/product/pipe-fittings"
+    navigate: "/product/pipe-fittings",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const slides = [
       "From heavy-duty bolts to precision screws, our fasteners are engineered for performance and durability.",
     buttonText: "Explore Fasteners",
     backgroundImage: c1,
-    navigate: "/product/fasteners"
+    navigate: "/product/fasteners",
   },
   // {
   //   id: 3,
@@ -48,9 +48,7 @@ const slides = [
     buttonText: "Request a Quote",
     backgroundImage: c4,
     navigate: "/contact",
-    ContactToWhatsApp: ()=> handleWhatsAppClick(),
-
-
+    ContactToWhatsApp: () => handleWhatsAppClick(),
   },
 ];
 
@@ -58,6 +56,12 @@ const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   let navigate = useNavigate();
+  // Touch state for swipe
+  const [touchStartX, setTouchStartX] = useState(null);
+  const [touchEndX, setTouchEndX] = useState(null);
+
+  // Minimum swipe distance in px
+  const minSwipeDistance = 50;
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -88,7 +92,25 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className={styles.heroSlider}>
+    <div
+      className={styles.heroSlider}
+      onTouchStart={(e) => setTouchStartX(e.touches[0].clientX)}
+      onTouchMove={(e) => setTouchEndX(e.touches[0].clientX)}
+      onTouchEnd={() => {
+        if (touchStartX !== null && touchEndX !== null) {
+          const distance = touchStartX - touchEndX;
+          if (Math.abs(distance) > minSwipeDistance) {
+            if (distance > 0) {
+              nextSlide(); // swipe left
+            } else {
+              prevSlide(); // swipe right
+            }
+          }
+        }
+        setTouchStartX(null);
+        setTouchEndX(null);
+      }}
+    >
       <div className={styles.slider}>
         {slides.map((slide, index) => (
           <div
@@ -105,7 +127,16 @@ const HeroSlider = () => {
               <h2 className={styles.subtitle}>{slide.subtitle}</h2>
               <p className={styles.description}>{slide.description}</p>
               {slide.buttonText && (
-                <button className={styles.ctaButton} onClick={slide.id === 4 ? slide.ContactToWhatsApp : ()=>navigate(slide.navigate)}>{slide.buttonText}</button>
+                <button
+                  className={styles.ctaButton}
+                  onClick={
+                    slide.id === 4
+                      ? slide.ContactToWhatsApp
+                      : () => navigate(slide.navigate)
+                  }
+                >
+                  {slide.buttonText}
+                </button>
               )}
             </div>
           </div>
