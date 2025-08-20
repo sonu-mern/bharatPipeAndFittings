@@ -58,10 +58,12 @@ if (fs.existsSync(distDir)) {
   copyDir(distDir, vercelStaticDir);
 }
 
-// Create serverless function for API
-const serverlessDir = path.resolve(vercelFunctionsDir, 'api', 'serverless.js');
-if (!fs.existsSync(path.dirname(serverlessDir))) {
-  fs.mkdirSync(path.dirname(serverlessDir), { recursive: true });
+// Copy api directory to Vercel functions output
+const apiSourceDir = path.resolve(__dirname, 'api');
+const apiDestDir = path.resolve(vercelFunctionsDir, 'api');
+if (fs.existsSync(apiSourceDir)) {
+  console.log('Copying api directory to Vercel functions output...');
+  copyDir(apiSourceDir, apiDestDir);
 }
 
 console.log('Vercel build completed successfully!');
