@@ -3,7 +3,7 @@
   "installCommand": "npm install",
   "buildCommand": "node vercel.build.js",
   "outputDirectory": ".vercel/output",
-  "cache": false,
+
   "routes": [
     {
       "src": "/assets/(.*)",
