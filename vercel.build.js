@@ -1,14 +1,9 @@
 // This file is used by Vercel to build the project
 // It ensures that the server-side rendering works correctly
 
-import { execSync } from 'child_process';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 // Helper function to copy directory recursively
 function copyDir(src, dest) {
   if (!fs.existsSync(dest)) {
@@ -36,11 +31,16 @@ execSync('npm run build:client', { stdio: 'inherit' });
 execSync('npm run build:server', { stdio: 'inherit' });
 
 console.log('Listing contents of dist directory:');
-execSync('ls -R dist', { stdio: 'inherit' });
+execSync('dir /s /b dist', { stdio: 'inherit' });
 
+
+// Clean up previous Vercel output directory if it exists
+const vercelOutputDir = path.resolve(__dirname, '.vercel', 'output');
+if (fs.existsSync(vercelOutputDir)) {
+  fs.rmSync(vercelOutputDir, { recursive: true, force: true });
+}
 
 // Ensure the Vercel output directories exist
-const vercelOutputDir = path.resolve(__dirname, '.vercel', 'output');
 const vercelStaticDir = path.resolve(vercelOutputDir, 'static');
 const vercelFunctionsDir = path.resolve(vercelOutputDir, 'functions');
 
