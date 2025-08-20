@@ -19,14 +19,14 @@
     "dest": "/assets/$1"
     },
   {
-    "src": "/(.+\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js))"
+    "src": "/(.+\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js))",
     "dest": "/$1"
     },
   {
     "handle": "filesystem"
     },
   {
-    "src": "/(.*)"
+    "src": "/(.*)",
     "dest": "dist/server/entry-server.mjs"
     }
   ]
