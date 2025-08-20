@@ -34,6 +34,10 @@ console.log('Building client and server bundles...');
 execSync('npm run build:client', { stdio: 'inherit' });
 execSync('npm run build:server', { stdio: 'inherit' });
 
+console.log('Listing contents of dist directory:');
+execSync('ls -R dist', { stdio: 'inherit' });
+
+
 // Ensure the Vercel output directories exist
 const vercelOutputDir = path.resolve(__dirname, '.vercel', 'output');
 const vercelStaticDir = path.resolve(vercelOutputDir, 'static');
