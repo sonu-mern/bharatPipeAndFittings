@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "node vercel.build.js",
-  "outputDirectory": ".vercel/output",
+  "version": 3,
   "routes": [
     {
       "src": "/assets/(.*)",

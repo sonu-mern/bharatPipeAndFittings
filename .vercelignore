@@ -7,7 +7,7 @@ node_modules
 # Development files
 .git
 .github
-.gitignore
+# .gitignore - commented out to ensure dist directory is included
 .env.local
 .env.development
 

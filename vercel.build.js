@@ -4,16 +4,64 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Helper function to copy directory recursively
+function copyDir(src, dest) {
+  if (!fs.existsSync(dest)) {
+    fs.mkdirSync(dest, { recursive: true });
+  }
+
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+
+    if (entry.isDirectory()) {
+      copyDir(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+}
 
 // Run the build commands
 console.log('Building client and server bundles...');
 execSync('npm run build:client', { stdio: 'inherit' });
 execSync('npm run build:server', { stdio: 'inherit' });
 
-// Ensure the api directory exists
-const apiDir = path.resolve(process.cwd(), 'api');
-if (!fs.existsSync(apiDir)) {
-  fs.mkdirSync(apiDir, { recursive: true });
+// Ensure the Vercel output directories exist
+const vercelOutputDir = path.resolve(__dirname, '.vercel', 'output');
+const vercelStaticDir = path.resolve(vercelOutputDir, 'static');
+const vercelFunctionsDir = path.resolve(vercelOutputDir, 'functions');
+
+if (!fs.existsSync(vercelOutputDir)) {
+  fs.mkdirSync(vercelOutputDir, { recursive: true });
+}
+
+if (!fs.existsSync(vercelStaticDir)) {
+  fs.mkdirSync(vercelStaticDir, { recursive: true });
+}
+
+if (!fs.existsSync(vercelFunctionsDir)) {
+  fs.mkdirSync(vercelFunctionsDir, { recursive: true });
+}
+
+// Copy dist directory to Vercel static output
+const distDir = path.resolve(__dirname, 'dist');
+if (fs.existsSync(distDir)) {
+  console.log('Copying dist directory to Vercel static output...');
+  copyDir(distDir, vercelStaticDir);
+}
+
+// Create serverless function for API
+const serverlessDir = path.resolve(vercelFunctionsDir, 'api', 'serverless.js');
+if (!fs.existsSync(path.dirname(serverlessDir))) {
+  fs.mkdirSync(path.dirname(serverlessDir), { recursive: true });
 }
 
 console.log('Vercel build completed successfully!');
