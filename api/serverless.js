@@ -14,16 +14,16 @@ const require = createRequire(import.meta.url);
 const app = express();
 
 // Helper function to resolve paths
-const resolve = (p) => path.resolve(__dirname, p);
+const staticRoot = path.resolve(__dirname, '../../static');
 
 // Serve static assets
-app.use('/assets', express.static(resolve('dist/assets')));
+app.use('/assets', express.static(path.join(staticRoot, 'assets')));
 
 // Serve public files
-app.use(express.static(resolve('dist')));
+app.use(express.static(staticRoot));
 
 // Ensure dist directory exists
-const distDir = resolve('dist');
+const distDir = staticRoot;
 if (!fs.existsSync(distDir)) {
   console.warn('Warning: dist directory not found at', distDir);
   // Create dist directory if it doesn't exist
@@ -36,8 +36,10 @@ app.use(async (req, res) => {
     const url = req.originalUrl;
     
     let template;
+    const indexPath = path.join(staticRoot, 'index.html');
+    console.log('Attempting to read index.html from:', indexPath);
     try {
-      template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
+      template = fs.readFileSync(indexPath, 'utf-8');
     } catch (error) {
       console.error('Error reading index.html:', error);
       return res.status(500).send('Error: Could not find index.html. Please ensure the build process completed successfully.');
@@ -45,7 +47,7 @@ app.use(async (req, res) => {
     
     let render;
     try {
-      render = (await import(`${resolve('dist/server/entry-server.mjs')}`)).render;
+      render = (await import(`${path.join(staticRoot, 'server/entry-server.mjs')}`)).render;
     } catch (error) {
       console.error('Error importing entry-server.mjs:', error);
       return res.status(500).send('Error: Could not load server renderer. Please ensure the build process completed successfully.');

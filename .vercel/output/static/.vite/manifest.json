@@ -1,0 +1,2087 @@
+{
+  "index.html": {
+    "file": "assets/index-xybpL7B1.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index-tSO354GM.css"
+    ],
+    "assets": [
+      "assets/bharatpipeandfittingslogo-BofpSmJH.jpeg",
+      "assets/bharat-factory-BOMPMkVz.jpg",
+      "assets/c1-DE5xusl3.jpg",
+      "assets/c4-BY7YpYTr.jpg",
+      "assets/sheets-plates-coils-BfMfjB8X.jpg",
+      "assets/angles-channel-flats-Cw2uxfZG.jpg",
+      "assets/round-bars-rods-CMqiU-6Z.jpg",
+      "assets/pipes-tubes-1LtWOIRC.jpg",
+      "assets/pipe-fittings-C5PdtigS.jpg",
+      "assets/flanges-KC_CNCrK.jpg",
+      "assets/forged-fittings-ByzvyO_1.jpg",
+      "assets/fasteners-Ddd75VDb.jpg",
+      "assets/valves-YWyvwCLA.jpg",
+      "assets/power-Bor28kqu.jpg",
+      "assets/oilgas-Hjil7Kpj.jpg",
+      "assets/petrochemical-CAn3gDmP.jpg",
+      "assets/automotive-moQTMmi9.jpg",
+      "assets/lt-BTgwl4Eh.png",
+      "assets/indiaoil-CZ_2CwaQ.png",
+      "assets/bhel-bGmwcIf5.png",
+      "assets/godrej-C1NzYE6t.png",
+      "assets/adityaBirla-D7UOzX2l.png",
+      "assets/npcil-jo63x7iC.jpg",
+      "assets/eil-DLnNAnx-.jpg",
+      "assets/ibr-DLWzKnRt.jpg",
+      "assets/deputy-of-atomic-energy-B4pS3Upr.jpg",
+      "assets/dnv-BIKWMfDI.jpg",
+      "assets/tuv-DVEXtkRC.jpg",
+      "assets/tata-BjSntPH5.jpg",
+      "assets/lr-BMdapR-r.jpg",
+      "assets/alloy-steel-angle-channel-manufa-DQqAylKd.jpg",
+      "assets/alloy-steel-bars-rods1-BdtVR3WR.jpg",
+      "assets/alloy-steel-bars-rods2-BrGMZBtg.jpg",
+      "assets/alloy-steel-bars-rods3-DSxL6nbA.jpg",
+      "assets/alloy-steel-bars-rods4-BcNT7XA0.jpg",
+      "assets/alloy-steel-bars-rods5-DEXk5i-w.jpg",
+      "assets/alloy-steel-bars-rods6-BV2wGnPn.jpg",
+      "assets/alloy-steel-bars-rods7-jqSEf-Uy.jpg",
+      "assets/alloy-steel-bars-rods8-DulooJE5.jpg",
+      "assets/alloy-steel-fasteners1-VyvEffc0.jpg",
+      "assets/alloy-steel-fasteners10-CWsscu_q.jpg",
+      "assets/alloy-steel-fasteners2-CYSRfht6.jpg",
+      "assets/alloy-steel-fasteners3-BCGSJalf.jpg",
+      "assets/alloy-steel-fasteners4-CDAQ_byC.jpg",
+      "assets/alloy-steel-fasteners5-BtY8GAbk.jpg",
+      "assets/alloy-steel-fasteners7-vfD59qS3.jpg",
+      "assets/alloy-steel-fasteners8-DdmHkLGy.jpg",
+      "assets/alloy-steel-fasteners9-CFouBCqN.jpg",
+      "assets/alloy-steel-flanges1-EtUACJLb.jpg",
+      "assets/alloy-steel-flanges2-CM8cZ0KG.jpg",
+      "assets/alloy-steel-flanges3-oe9uhWJH.jpg",
+      "assets/alloy-steel-flanges4-Cx_wjX9U.jpg",
+      "assets/alloy-steel-flanges5-DQRigM-r.jpg",
+      "assets/alloy-steel-flanges6-AUtCKkp3.jpg",
+      "assets/alloy-steel-flanges7-mFRJJEBc.jpg",
+      "assets/alloy-steel-flanges8-BynZa3de.jpg",
+      "assets/alloy-steel-forged-fittings10-Cb6u9jAx.jpg",
+      "assets/alloy-steel-forged-fittings3-B70VPA29.jpg",
+      "assets/alloy-steel-forged-fittings4-JI19s8sg.jpg",
+      "assets/alloy-steel-forged-fittings5-DOihby5z.jpg",
+      "assets/alloy-steel-forged-fittings7-jxQ48dgg.jpg",
+      "assets/alloy-steel-forged-fittings8-DRYZYLR3.jpg",
+      "assets/alloy-steel-forged-fittings9-DZtSYm9G.jpg",
+      "assets/alloy-steel-pipe-fittings1-Mv9azAjk.jpg",
+      "assets/alloy-steel-pipe-fittings2-2ieDQ_P5.jpg",
+      "assets/alloy-steel-pipe-fittings3-CB64-bh8.jpg",
+      "assets/alloy-steel-pipe-fittings4-DAwhnvLQ.jpg",
+      "assets/alloy-steel-pipe-fittings5-wNHO-fQW.jpg",
+      "assets/alloy-steel-pipe-fittings6-CWe8_p5-.jpg",
+      "assets/alloy-steel-pipe-fittings7-CpgDQgYh.jpg",
+      "assets/alloy-steel-pipe-fittings8-CExlIk15.jpg",
+      "assets/alloy-steel-pipes-tubes1-CE_-2NFL.jpg",
+      "assets/alloy-steel-pipes-tubes2-CtFUI4gk.jpg",
+      "assets/alloy-steel-pipes-tubes3-WFw1VnAS.jpg",
+      "assets/alloy-steel-pipes-tubes4-C1d1NA59.jpg",
+      "assets/alloy-steel-pipes-tubes5-CRjZvbyJ.jpg",
+      "assets/alloy-steel-pipes-tubes6-Dz_IZr0e.jpg",
+      "assets/alloy-steel-pipes-tubes7-DbdMq49X.jpg",
+      "assets/alloy-steel-pipes-tubes8-1IZ90nDQ.jpg",
+      "assets/alloy-steel-round-bar-manufactur-BrYWGn5L.jpg",
+      "assets/alloy-steel-sheet-plate-manufact-BJIHLgwo.jpg",
+      "assets/alloy-steel-sheets-plates1-DJPZrAEt.jpg",
+      "assets/alloy-steel-sheets-plates2-CKPzAqy4.jpg",
+      "assets/alloy-steel-sheets-plates3-DhX7eLKr.jpg",
+      "assets/alloy-steel-sheets-plates4-DgCSR_KK.jpg",
+      "assets/alloy-steel-sheets-plates5-CL3Pw2mu.jpg",
+      "assets/alloy-steel-sheets-plates6-BaIo9gzJ.jpg",
+      "assets/alloy-steel-sheets-plates7-DcM8Pkq2.jpg",
+      "assets/alloy-steel-sheets-plates8-BDqN05Is.jpg",
+      "assets/alloy-steel-valves1-CNrgpSIB.jpg",
+      "assets/alloy-steel-valves10-DEQpokNZ.jpg",
+      "assets/alloy-steel-valves2-Dv2c7RAx.jpg",
+      "assets/alloy-steel-valves3-BquKWKHb.jpg",
+      "assets/alloy-steel-valves4-C2BXpFCj.jpg",
+      "assets/alloy-steel-valves5-C43jsvSL.jpg",
+      "assets/alloy-steel-valves6-BTsUDwON.jpg",
+      "assets/alloy-steel-valves7-CuIcDrRa.jpg",
+      "assets/alloy-steel-valves8-DaXvG6jO.jpg",
+      "assets/alloy-steel-valves9-BDa4PfyI.jpg",
+      "assets/alloy-steel-wire-mesh-manufactur-Dyh0BUGT.jpg",
+      "assets/carbon-steel-angle-manufacturer-DBVP1efT.jpg",
+      "assets/carbon-steel-bars-rods1-CtMeuHFe.jpg",
+      "assets/carbon-steel-bars-rods2-QqA5ZRQ9.jpg",
+      "assets/carbon-steel-bars-rods3-BfntUvpF.jpg",
+      "assets/carbon-steel-bars-rods4-Ifm84DNn.jpg",
+      "assets/carbon-steel-bars-rods5-BQDDrrp3.jpg",
+      "assets/carbon-steel-bars-rods6-C8M-agdh.jpg",
+      "assets/carbon-steel-bars-rods7-DffLnAuS.jpg",
+      "assets/carbon-steel-bars-rods8-DnVTzJVH.jpg",
+      "assets/carbon-steel-fasteners1-D0eeodUr.jpg",
+      "assets/carbon-steel-fasteners10-ic2-wplU.jpg",
+      "assets/carbon-steel-fasteners2-TtV4FGdX.jpg",
+      "assets/carbon-steel-fasteners3-BdY-KNxH.jpg",
+      "assets/carbon-steel-fasteners4-B79xK6Cb.jpg",
+      "assets/carbon-steel-fasteners5-CDOEo_-c.jpg",
+      "assets/carbon-steel-fasteners6-ClZMW_Cf.jpg",
+      "assets/carbon-steel-fasteners7-dA4NucP9.jpg",
+      "assets/carbon-steel-fasteners8-C6imNfaa.jpg",
+      "assets/carbon-steel-fasteners9-DQx00nk8.jpg",
+      "assets/carbon-steel-flanges1-BN3DkAZz.jpg",
+      "assets/carbon-steel-flanges2-iLJc-TQE.jpg",
+      "assets/carbon-steel-flanges3-Bts1wsLD.jpg",
+      "assets/carbon-steel-flanges4-Ii3esT1n.jpg",
+      "assets/carbon-steel-flanges5-Bbaz-OTc.jpg",
+      "assets/carbon-steel-flanges6-iOK7qzL9.jpg",
+      "assets/carbon-steel-flanges7-BreZSeVF.jpg",
+      "assets/carbon-steel-flanges8-CRWkT71H.jpg",
+      "assets/carbon-steel-forged-fittings1-dpktc63V.jpg",
+      "assets/carbon-steel-forged-fittings10-CGrPrn61.jpg",
+      "assets/carbon-steel-forged-fittings2-BbSNv5AP.jpg",
+      "assets/carbon-steel-forged-fittings3-Cgf7fncn.jpg",
+      "assets/carbon-steel-forged-fittings4-BzKlbkcI.jpg",
+      "assets/carbon-steel-forged-fittings5-BeBzxheN.jpg",
+      "assets/carbon-steel-forged-fittings6-CRDINhEv.jpg",
+      "assets/carbon-steel-forged-fittings7-CqGP9fYU.jpg",
+      "assets/carbon-steel-forged-fittings8-BYam37_Y.jpg",
+      "assets/carbon-steel-forged-fittings9-K2eNI9WE.jpg",
+      "assets/carbon-steel-pipe-fittings1-CBIPQb8W.jpg",
+      "assets/carbon-steel-pipe-fittings2-ZaDjg7oa.jpg",
+      "assets/carbon-steel-pipe-fittings3-DwKfGH15.jpg",
+      "assets/carbon-steel-pipe-fittings4-CTx20hZi.jpg",
+      "assets/carbon-steel-pipe-fittings5-sthOg1Nb.jpg",
+      "assets/carbon-steel-pipe-fittings6-DjtFg1bo.jpg",
+      "assets/carbon-steel-pipe-fittings8-CvH4Oph5.jpg",
+      "assets/carbon-steel-pipes-tubes1-CsXUdydV.jpg",
+      "assets/carbon-steel-pipes-tubes2-Dguv0mkn.jpg",
+      "assets/carbon-steel-pipes-tubes3-COwur1yR.jpg",
+      "assets/carbon-steel-pipes-tubes4-Cp7GCS3b.jpg",
+      "assets/carbon-steel-pipes-tubes5-DgoQlFCM.jpg",
+      "assets/carbon-steel-pipes-tubes6-G-WTyuF3.jpg",
+      "assets/carbon-steel-pipes-tubes7-CfJnAyTF.jpg",
+      "assets/carbon-steel-pipes-tubes8-CpjY3ubS.jpg",
+      "assets/carbon-steel-round-bar-manufactu-CIJjz5Mu.jpg",
+      "assets/carbon-steel-sheet-plate-manufac-DcSF31Ax.jpg",
+      "assets/carbon-steel-sheets-plates1-ByiGwTO_.jpg",
+      "assets/carbon-steel-sheets-plates2-B-uMllf3.jpg",
+      "assets/carbon-steel-sheets-plates3-CfnkoPym.jpg",
+      "assets/carbon-steel-sheets-plates4-CDSJkTs8.jpg",
+      "assets/carbon-steel-sheets-plates5-Dvj335Cf.jpg",
+      "assets/carbon-steel-sheets-plates6-BD6f-9hs.jpg",
+      "assets/carbon-steel-sheets-plates7-DqdUhH-e.jpg",
+      "assets/carbon-steel-sheets-plates8-BZyyBbV2.jpg",
+      "assets/carbon-steel-valves1-22Ayfqy4.jpg",
+      "assets/carbon-steel-valves10-BOFpt2lw.jpg",
+      "assets/carbon-steel-valves2-rKaxAcR0.jpg",
+      "assets/carbon-steel-valves3-CxgsY_3n.jpg",
+      "assets/carbon-steel-valves4-DUsSn59p.jpg",
+      "assets/carbon-steel-valves5-OB3peUZz.jpg",
+      "assets/carbon-steel-valves6-BWZtptiC.jpg",
+      "assets/carbon-steel-valves7-BIauKgaO.jpg",
+      "assets/carbon-steel-valves8-BV-034pr.jpg",
+      "assets/carbon-steel-valves9-BWbhEnie.jpg",
+      "assets/carbon-steel-wire-mesh-manufactu-C8URqsFj.jpg",
+      "assets/copper-angle-channel-manufacture-Dg6sYek2.jpg",
+      "assets/copper-fastener-manufacturer-ind-RO25pFKd.jpg",
+      "assets/copper-flanges-manufacturer-indi-DUL_DGbh.jpg",
+      "assets/copper-forged-fitting-manufactur-D_L0x-V0.jpg",
+      "assets/copper-pipe-fitting-manufacturer-D12de72Y.jpg",
+      "assets/copper-pipe-tube-manufacturer-in-DG8AQ0Mr.jpg",
+      "assets/copper-round-bar-manufacturer-in-Dw3-O_7U.jpg",
+      "assets/copper-sheet-plate-manufacturer-qC8ZT5ew.jpg",
+      "assets/copper-wire-mesh-manufacturer-in-BtFJDTjp.jpg",
+      "assets/hastelloy-angle-channel-manufact-BzSHoRNZ.jpg",
+      "assets/hastelloy-fastener-manufacturer-DliaGJHp.jpg",
+      "assets/hastelloy-flange-manufacturer-in-Dabk4I_J.jpg",
+      "assets/hastelloy-forged-fittings-manufa-CXloSSxs.jpg",
+      "assets/hastelloy-pipe-fitting-manufactu-B6Ouy7_K.jpg",
+      "assets/hastelloy-pipe-manufacturer-indi-Be7q3Bzc.jpg",
+      "assets/hastelloy-round-bar-manufacturer-OSgGdwy4.jpg",
+      "assets/hastelloy-sheet-plate-manufactur-CJoo0Gjs.jpg",
+      "assets/hastelloy-wire-mesh-manufacturer-humHfgYi.jpg",
+      "assets/monel-angle-channel-manufacturer-HgLpdo3g.jpg",
+      "assets/titanium-fasteners-manufacturer-B2JvURxh.jpg",
+      "assets/monel-flange-manufacturer-india-BfRMAbGo.jpg",
+      "assets/monel-forged-fittings-manufactur-BT4t7pbr.jpg",
+      "assets/monel-pipe-fitting-manufacturer-D5rhAd6o.jpg",
+      "assets/monel-pipe-tube-manufacturer-ind-BEi3YJet.jpg",
+      "assets/nickel-alloy-bars-rods1-BY4Cj8xX.jpg",
+      "assets/nickel-alloy-bars-rods2-Cy-MiRHq.jpg",
+      "assets/nickel-alloy-bars-rods3-Cm5x_vSO.jpg",
+      "assets/nickel-alloy-bars-rods4-C3GGYh_2.jpg",
+      "assets/nickel-alloy-bars-rods5-B3-IAXgh.jpg",
+      "assets/nickel-alloy-bars-rods6-PXjFKcSm.jpg",
+      "assets/nickel-alloy-bars-rods7-D8UdabWD.jpg",
+      "assets/nickel-alloy-bars-rods8-C4gtxTN8.jpg",
+      "assets/nickel-alloy-fasteners1-DxDqpd-C.jpg",
+      "assets/nickel-alloy-fasteners10-1g0EI78z.jpg",
+      "assets/nickel-alloy-fasteners2-A5pl9uNI.jpg",
+      "assets/nickel-alloy-fasteners3-BF5LlwGt.jpg",
+      "assets/nickel-alloy-fasteners4-CimVcdlD.jpg",
+      "assets/nickel-alloy-fasteners5-DPAJVK1L.jpg",
+      "assets/nickel-alloy-fasteners6-CPdhof4K.jpg",
+      "assets/nickel-alloy-fasteners7-WjVloXVD.jpg",
+      "assets/nickel-alloy-fasteners8-DP4hXN9Y.jpg",
+      "assets/nickel-alloy-fasteners9-D8WEcxlM.jpg",
+      "assets/nickel-alloy-flanges1-C-YrDCX_.jpg",
+      "assets/nickel-alloy-flanges2-Dw4qmyf3.jpg",
+      "assets/nickel-alloy-flanges3-CmVQVmaq.jpg",
+      "assets/nickel-alloy-flanges4-DrcpIoSF.jpg",
+      "assets/nickel-alloy-flanges5-CL6WcWqk.jpg",
+      "assets/nickel-alloy-flanges6-CIn4nozL.jpg",
+      "assets/nickel-alloy-flanges7-CBGU4G4q.jpg",
+      "assets/nickel-alloy-flanges8-6xA7gO9-.jpg",
+      "assets/nickel-alloy-forged-fittings1-D-vxK1V6.jpg",
+      "assets/nickel-alloy-forged-fittings10-Det4MOZa.jpg",
+      "assets/nickel-alloy-forged-fittings2-DFj0TJKV.jpg",
+      "assets/nickel-alloy-forged-fittings4-ByGdUaVL.jpg",
+      "assets/nickel-alloy-forged-fittings5-CBQGGSOW.jpg",
+      "assets/nickel-alloy-forged-fittings6-IO8DkEwk.jpg",
+      "assets/nickel-alloy-forged-fittings7-V51dvReo.jpg",
+      "assets/nickel-alloy-forged-fittings8-1vG5KcK5.jpg",
+      "assets/nickel-alloy-forged-fittings9-CB47rY9Y.jpg",
+      "assets/nickel-alloy-pipe-fittings1-Bh7_xSu5.jpg",
+      "assets/nickel-alloy-pipe-fittings2-D3EVAutL.jpg",
+      "assets/nickel-alloy-pipe-fittings3-B50j6JQ7.jpg",
+      "assets/nickel-alloy-pipe-fittings4-BNVAxC6-.jpg",
+      "assets/nickel-alloy-pipe-fittings5-D0KePZ4c.jpg",
+      "assets/nickel-alloy-pipe-fittings6-HGKNt_v2.jpg",
+      "assets/nickel-alloy-pipe-fittings7-Dy2LkwZL.jpg",
+      "assets/nickel-alloy-pipe-fittings8-BeTS0xHH.jpg",
+      "assets/nickel-alloy-pipes-tubes1-DsVNJpWa.jpg",
+      "assets/nickel-alloy-pipes-tubes2-De-qiolw.jpg",
+      "assets/nickel-alloy-pipes-tubes3-avFEijlj.jpg",
+      "assets/nickel-alloy-pipes-tubes4-CiXnjXw0.jpg",
+      "assets/nickel-alloy-pipes-tubes5-BSDlekj1.jpg",
+      "assets/nickel-alloy-pipes-tubes6-BK_2vPq_.jpg",
+      "assets/nickel-alloy-pipes-tubes7-B9WFeOHC.jpg",
+      "assets/nickel-alloy-pipes-tubes8-DZ9DG1gC.jpg",
+      "assets/nickel-alloy-sheets-plates1-s5WPdwN-.jpg",
+      "assets/nickel-alloy-sheets-plates2-C-4MdZmk.jpg",
+      "assets/nickel-alloy-sheets-plates3-BfoQUU4_.jpg",
+      "assets/nickel-alloy-sheets-plates4-B8mve_xN.jpg",
+      "assets/nickel-alloy-sheets-plates5-Dl0ThAgw.jpg",
+      "assets/nickel-alloy-sheets-plates6-CXYfxDKX.jpg",
+      "assets/nickel-alloy-sheets-plates7-7rXO5BNZ.jpg",
+      "assets/nickel-alloy-sheets-plates8-CBcjPXmq.jpg",
+      "assets/nickel-alloy-valves1-A1Rm2DZN.jpg",
+      "assets/nickel-alloy-valves10-Dabc8yUX.jpg",
+      "assets/nickel-alloy-valves2-DAAIa-xI.jpg",
+      "assets/nickel-alloy-valves3-DtRyfrTm.jpg",
+      "assets/nickel-alloy-valves4-Csgpsrwc.jpg",
+      "assets/nickel-alloy-valves5-Drjnr6z4.jpg",
+      "assets/nickel-alloy-valves6-CH_BJ8bt.jpg",
+      "assets/nickel-alloy-valves7-D8nvNI7K.jpg",
+      "assets/nickel-alloy-valves8-uAH0FHlR.jpg",
+      "assets/nickel-alloy-valves9-XeRPoJnh.jpg",
+      "assets/ss-angle-channel-manufacturer-in-DT1t3t9j.jpg",
+      "assets/ss-round-bar-manufacturer-india-CliTJRbb.jpg",
+      "assets/ss-wire-mesh-manufacturer-india-BJgImJ73.jpg",
+      "assets/stainless-steel-bars-rods1-DS9NzdWt.jpg",
+      "assets/stainless-steel-bars-rods2-CEv4mSHC.jpg",
+      "assets/stainless-steel-bars-rods3-lr41W2xn.jpg",
+      "assets/stainless-steel-bars-rods4-DvUMbhXx.jpg",
+      "assets/stainless-steel-bars-rods5-DOJ-Iu0x.jpg",
+      "assets/stainless-steel-bars-rods6-qQCaXQuU.jpg",
+      "assets/stainless-steel-bars-rods7-_lFIgUDX.jpg",
+      "assets/stainless-steel-bars-rods8-B72ttd5Z.jpg",
+      "assets/stainless-steel-fasteners1-BvMa8OUi.jpg",
+      "assets/stainless-steel-fasteners10-B-Et1W2C.jpg",
+      "assets/stainless-steel-fasteners2-DD5TXsFr.jpg",
+      "assets/stainless-steel-fasteners3-BPOGZS15.jpg",
+      "assets/stainless-steel-fasteners4-Di010Q5W.jpg",
+      "assets/stainless-steel-fasteners5-DSy7yvos.jpg",
+      "assets/stainless-steel-fasteners6-CKAxlEBv.jpg",
+      "assets/stainless-steel-fasteners7-BPQHFcgP.jpg",
+      "assets/stainless-steel-fasteners8-CVhI4Kyz.jpg",
+      "assets/stainless-steel-fasteners9-Dv1VpEYN.jpg",
+      "assets/stainless-steel-flanges1-2o9Fae9d.jpg",
+      "assets/stainless-steel-flanges2-BI7P3d3Q.jpg",
+      "assets/stainless-steel-flanges3-BvjBuCD2.jpg",
+      "assets/stainless-steel-flanges4-DtuDQYxJ.jpg",
+      "assets/stainless-steel-flanges5-BjwgjgDH.jpg",
+      "assets/stainless-steel-flanges6-Dj1u43RH.jpg",
+      "assets/stainless-steel-flanges7-c8Ddu7Te.jpg",
+      "assets/stainless-steel-flanges8-Y9hfpTPd.jpg",
+      "assets/stainless-steel-forged-fittings-FAPmpp6q.jpg",
+      "assets/stainless-steel-forged-fittings1-CCaJz0XF.jpg",
+      "assets/stainless-steel-forged-fittings10-Br_QAR97.jpg",
+      "assets/stainless-steel-forged-fittings2-CUj7ZB0J.jpg",
+      "assets/stainless-steel-forged-fittings3-BTHMITcT.jpg",
+      "assets/stainless-steel-forged-fittings4-7L42goUQ.jpg",
+      "assets/stainless-steel-forged-fittings5-BfrNsRJS.jpg",
+      "assets/stainless-steel-forged-fittings6-ClGtBi0K.jpg",
+      "assets/stainless-steel-forged-fittings7-CxNDD4iK.jpg",
+      "assets/stainless-steel-forged-fittings8-C2YDUKU5.jpg",
+      "assets/stainless-steel-forged-fittings9-C2rEkICq.jpg",
+      "assets/stainless-steel-pipe-fittings2-JMncp-zs.jpg",
+      "assets/stainless-steel-pipe-fittings3-CobrQQF5.jpg",
+      "assets/stainless-steel-pipe-fittings4-CB9r2joX.jpg",
+      "assets/stainless-steel-pipe-fittings5-BalrWyNq.jpg",
+      "assets/stainless-steel-pipe-fittings6-DbNuk1_U.jpg",
+      "assets/stainless-steel-pipe-fittings7-BvtckvDZ.jpg",
+      "assets/stainless-steel-pipe-fittings8-Cpqk79Rl.jpg",
+      "assets/titanium-pipe-tube-manufacturer-ByNTsfzu.jpg",
+      "assets/stainless-steel-pipes-tubes1-Wv6-ZUY4.jpg",
+      "assets/stainless-steel-pipes-tubes2-1fH3scq8.jpg",
+      "assets/stainless-steel-pipes-tubes3--0hnmrvg.jpg",
+      "assets/stainless-steel-pipes-tubes4-C6ru5GRe.jpg",
+      "assets/stainless-steel-pipes-tubes5-CKixrDwU.jpg",
+      "assets/stainless-steel-pipes-tubes6-DvlesZ5Y.jpg",
+      "assets/stainless-steel-pipes-tubes7-D2Gt2bto.jpg",
+      "assets/stainless-steel-pipes-tubes8-CtyaPGs1.jpg",
+      "assets/stainless-steel-sheet-plate-manu-Qy4-2QbC.jpg",
+      "assets/stainless-steel-sheets-plates1-B2O2tlHB.jpg",
+      "assets/stainless-steel-sheets-plates2-BE7YkcBn.jpg",
+      "assets/stainless-steel-sheets-plates3-DlO18T1L.jpg",
+      "assets/stainless-steel-sheets-plates4-B5uMGuVT.jpg",
+      "assets/stainless-steel-sheets-plates5-BjFwsBag.jpg",
+      "assets/stainless-steel-sheets-plates6-1ct4Vmkx.jpg",
+      "assets/stainless-steel-sheets-plates7-Cvci4C4D.jpg",
+      "assets/stainless-steel-sheets-plates8-BmjiMCKD.jpg",
+      "assets/stainless-steel-valves1-ChWralyr.jpg",
+      "assets/stainless-steel-valves3-DuPcQ3z3.jpg",
+      "assets/stainless-steel-valves4-CXvP5wrb.jpg",
+      "assets/stainless-steel-valves5-zTJ1Eqgt.jpg",
+      "assets/stainless-steel-valves6-D7I5Jkyu.jpg",
+      "assets/stainless-steel-valves7-BnUx1jfP.jpg",
+      "assets/stainless-steel-valves8-C0dOZNpI.jpg",
+      "assets/steel-bulb-angles-CzkfStfh.jpg",
+      "assets/steel-c-channels-C7V7SW4S.jpg",
+      "assets/steel-equal-angles-DuJfrG0g.jpg",
+      "assets/steel-flats1-CbsBI0TG.jpg",
+      "assets/steel-flats2-DMJty_DF.jpg",
+      "assets/steel-flats3-jvouX0a_.jpg",
+      "assets/steel-h-channels-B4uWui7K.jpg",
+      "assets/steel-j-channels-Bn3Up72B.jpg",
+      "assets/steel-t-channels-CB5mpvBC.jpg",
+      "assets/steel-u-channels-DuL8SimU.jpg",
+      "assets/steel-unequal-angles-AhRpV8tV.jpg",
+      "assets/steel-z-channels-Byp9OMcU.jpg",
+      "assets/super-duplex-steel-angle-channel-k32n3NaD.jpg",
+      "assets/super-duplex-steel-fastener-manu-ZW3EnDOa.jpg",
+      "assets/super-duplex-steel-flange-manufa-49gQ_475.jpg",
+      "assets/super-duplex-steel-forged-fittin-Qx27DSW6.jpg",
+      "assets/super-duplex-steel-pipe-fitting-DBa4eJDU.jpg",
+      "assets/super-duplex-steel-pipe-manufact-D7KT8Dqg.jpg",
+      "assets/super-duplex-steel-round-bar-man-6aBAxP1v.jpg",
+      "assets/super-duplex-steel-sheet-plate-m-OBLEUVTK.jpg",
+      "assets/super-duplex-steel-wire-mesh-man-OdZA-j0M.jpg",
+      "assets/titanium--angle-channel-manufact-DqtSizef.jpg",
+      "assets/titanium-flange-manufacturer-ind-Da5YLYcU.jpg",
+      "assets/titanium-pipe-fittings-manufactu-BnSa1P5R.jpg",
+      "assets/titanium-wire-mesh-manufacturer-DZ8seNcm.jpg",
+      "assets/Carbon-Steel-Bars-C-dkxHdw.jpg",
+      "assets/Stainless-Steel-316-316L-Round-B-DKgwmwG9.jpg",
+      "assets/alloy-steel-manufacturer-india-D-y4_CdP.jpg",
+      "assets/angles-channels-flats1-Jed1T96k.jpg",
+      "assets/angles-channels-flats2-nrcXmUt5.jpg",
+      "assets/angles-channels-flats3-BfiRuGiD.jpg",
+      "assets/copper-manufacturer-india-CZ1L3gFS.jpg",
+      "assets/fasteners1-D5t6Qi5y.jpg",
+      "assets/fasteners2-CXjc-usZ.jpg",
+      "assets/fasteners3-s2qXYF3C.jpg",
+      "assets/flanges1-DqK2qGgk.jpg",
+      "assets/flanges2-CYrh2BUJ.jpg",
+      "assets/flanges3-Wkyv8_e9.jpg",
+      "assets/forged-fittings1-DJ83L6LS.jpg",
+      "assets/forged-fittings2-BD38m2fH.jpg",
+      "assets/forged-fittings3-C_hDLLHW.jpg",
+      "assets/hastelloy-manufacturer-india-5ufbchx4.jpg",
+      "assets/inconel-manufacturer-india-DhUv_tgc.jpg",
+      "assets/monel-manufacturer-india-CmzkxeeN.jpg",
+      "assets/pipe-fittings1-hvAqj1b8.jpg",
+      "assets/pipe-fittings2-iVXG8R9E.jpg",
+      "assets/pipe-fittings3-Diu-1PUS.jpg",
+      "assets/pipes-tubes1-DzgfQvhg.jpg",
+      "assets/pipes-tubes2-dNcV51bR.jpg",
+      "assets/pipes-tubes3-DzvwjQBh.jpg",
+      "assets/round-bars-rods1-Diq7c8xw.jpg",
+      "assets/round-bars-rods2-CxanR4a0.jpg",
+      "assets/round-bars-rods3-BGIJwMcG.jpg",
+      "assets/sheets-plates-coils1-s2cfEtoa.jpg",
+      "assets/sheets-plates-coils2-C5EbKhGo.jpg",
+      "assets/sheets-plates-coils3-C5dScncG.jpg",
+      "assets/stainless-steel1-BNnSiwT7.jpg",
+      "assets/super-duplex-steel-manufacturer-Bv8SR5QS.jpg",
+      "assets/titanium-manufacturer-india-BGwKZMMO.jpg",
+      "assets/valves1-DL9EZCc2.jpg",
+      "assets/valves2-3udU4229.jpg",
+      "assets/valves3-DQro-jrk.jpg",
+      "assets/valves4-C_XNgNhx.jpg",
+      "assets/valves5-BkjOCrT_.jpg"
+    ]
+  },
+  "src/assets/images/ThirdParty/deputy-of-atomic-energy.jpg": {
+    "file": "assets/deputy-of-atomic-energy-B4pS3Upr.jpg",
+    "src": "src/assets/images/ThirdParty/deputy-of-atomic-energy.jpg"
+  },
+  "src/assets/images/ThirdParty/dnv.jpg": {
+    "file": "assets/dnv-BIKWMfDI.jpg",
+    "src": "src/assets/images/ThirdParty/dnv.jpg"
+  },
+  "src/assets/images/ThirdParty/eil.jpg": {
+    "file": "assets/eil-DLnNAnx-.jpg",
+    "src": "src/assets/images/ThirdParty/eil.jpg"
+  },
+  "src/assets/images/ThirdParty/ibr.jpg": {
+    "file": "assets/ibr-DLWzKnRt.jpg",
+    "src": "src/assets/images/ThirdParty/ibr.jpg"
+  },
+  "src/assets/images/ThirdParty/lr.jpg": {
+    "file": "assets/lr-BMdapR-r.jpg",
+    "src": "src/assets/images/ThirdParty/lr.jpg"
+  },
+  "src/assets/images/ThirdParty/npcil.jpg": {
+    "file": "assets/npcil-jo63x7iC.jpg",
+    "src": "src/assets/images/ThirdParty/npcil.jpg"
+  },
+  "src/assets/images/ThirdParty/tata.jpg": {
+    "file": "assets/tata-BjSntPH5.jpg",
+    "src": "src/assets/images/ThirdParty/tata.jpg"
+  },
+  "src/assets/images/ThirdParty/tuv.jpg": {
+    "file": "assets/tuv-DVEXtkRC.jpg",
+    "src": "src/assets/images/ThirdParty/tuv.jpg"
+  },
+  "src/assets/images/banners/Carbon-Steel-Bars.jpg": {
+    "file": "assets/Carbon-Steel-Bars-C-dkxHdw.jpg",
+    "src": "src/assets/images/banners/Carbon-Steel-Bars.jpg"
+  },
+  "src/assets/images/banners/Stainless-Steel-316-316L-Round-B.jpg": {
+    "file": "assets/Stainless-Steel-316-316L-Round-B-DKgwmwG9.jpg",
+    "src": "src/assets/images/banners/Stainless-Steel-316-316L-Round-B.jpg"
+  },
+  "src/assets/images/banners/alloy-steel-manufacturer-india.jpg": {
+    "file": "assets/alloy-steel-manufacturer-india-D-y4_CdP.jpg",
+    "src": "src/assets/images/banners/alloy-steel-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/angles-channels-flats1.jpg": {
+    "file": "assets/angles-channels-flats1-Jed1T96k.jpg",
+    "src": "src/assets/images/banners/angles-channels-flats1.jpg"
+  },
+  "src/assets/images/banners/angles-channels-flats2.jpg": {
+    "file": "assets/angles-channels-flats2-nrcXmUt5.jpg",
+    "src": "src/assets/images/banners/angles-channels-flats2.jpg"
+  },
+  "src/assets/images/banners/angles-channels-flats3.jpg": {
+    "file": "assets/angles-channels-flats3-BfiRuGiD.jpg",
+    "src": "src/assets/images/banners/angles-channels-flats3.jpg"
+  },
+  "src/assets/images/banners/copper-manufacturer-india.jpg": {
+    "file": "assets/copper-manufacturer-india-CZ1L3gFS.jpg",
+    "src": "src/assets/images/banners/copper-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/fasteners1.jpg": {
+    "file": "assets/fasteners1-D5t6Qi5y.jpg",
+    "src": "src/assets/images/banners/fasteners1.jpg"
+  },
+  "src/assets/images/banners/fasteners2.jpg": {
+    "file": "assets/fasteners2-CXjc-usZ.jpg",
+    "src": "src/assets/images/banners/fasteners2.jpg"
+  },
+  "src/assets/images/banners/fasteners3.jpg": {
+    "file": "assets/fasteners3-s2qXYF3C.jpg",
+    "src": "src/assets/images/banners/fasteners3.jpg"
+  },
+  "src/assets/images/banners/flanges1.jpg": {
+    "file": "assets/flanges1-DqK2qGgk.jpg",
+    "src": "src/assets/images/banners/flanges1.jpg"
+  },
+  "src/assets/images/banners/flanges2.jpg": {
+    "file": "assets/flanges2-CYrh2BUJ.jpg",
+    "src": "src/assets/images/banners/flanges2.jpg"
+  },
+  "src/assets/images/banners/flanges3.jpg": {
+    "file": "assets/flanges3-Wkyv8_e9.jpg",
+    "src": "src/assets/images/banners/flanges3.jpg"
+  },
+  "src/assets/images/banners/forged-fittings1.jpg": {
+    "file": "assets/forged-fittings1-DJ83L6LS.jpg",
+    "src": "src/assets/images/banners/forged-fittings1.jpg"
+  },
+  "src/assets/images/banners/forged-fittings2.jpg": {
+    "file": "assets/forged-fittings2-BD38m2fH.jpg",
+    "src": "src/assets/images/banners/forged-fittings2.jpg"
+  },
+  "src/assets/images/banners/forged-fittings3.jpg": {
+    "file": "assets/forged-fittings3-C_hDLLHW.jpg",
+    "src": "src/assets/images/banners/forged-fittings3.jpg"
+  },
+  "src/assets/images/banners/hastelloy-manufacturer-india.jpg": {
+    "file": "assets/hastelloy-manufacturer-india-5ufbchx4.jpg",
+    "src": "src/assets/images/banners/hastelloy-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/inconel-manufacturer-india.jpg": {
+    "file": "assets/inconel-manufacturer-india-DhUv_tgc.jpg",
+    "src": "src/assets/images/banners/inconel-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/monel-manufacturer-india.jpg": {
+    "file": "assets/monel-manufacturer-india-CmzkxeeN.jpg",
+    "src": "src/assets/images/banners/monel-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/pipe-fittings1.jpg": {
+    "file": "assets/pipe-fittings1-hvAqj1b8.jpg",
+    "src": "src/assets/images/banners/pipe-fittings1.jpg"
+  },
+  "src/assets/images/banners/pipe-fittings2.jpg": {
+    "file": "assets/pipe-fittings2-iVXG8R9E.jpg",
+    "src": "src/assets/images/banners/pipe-fittings2.jpg"
+  },
+  "src/assets/images/banners/pipe-fittings3.jpg": {
+    "file": "assets/pipe-fittings3-Diu-1PUS.jpg",
+    "src": "src/assets/images/banners/pipe-fittings3.jpg"
+  },
+  "src/assets/images/banners/pipes-tubes1.jpg": {
+    "file": "assets/pipes-tubes1-DzgfQvhg.jpg",
+    "src": "src/assets/images/banners/pipes-tubes1.jpg"
+  },
+  "src/assets/images/banners/pipes-tubes2.jpg": {
+    "file": "assets/pipes-tubes2-dNcV51bR.jpg",
+    "src": "src/assets/images/banners/pipes-tubes2.jpg"
+  },
+  "src/assets/images/banners/pipes-tubes3.jpg": {
+    "file": "assets/pipes-tubes3-DzvwjQBh.jpg",
+    "src": "src/assets/images/banners/pipes-tubes3.jpg"
+  },
+  "src/assets/images/banners/round-bars-rods1.jpg": {
+    "file": "assets/round-bars-rods1-Diq7c8xw.jpg",
+    "src": "src/assets/images/banners/round-bars-rods1.jpg"
+  },
+  "src/assets/images/banners/round-bars-rods2.jpg": {
+    "file": "assets/round-bars-rods2-CxanR4a0.jpg",
+    "src": "src/assets/images/banners/round-bars-rods2.jpg"
+  },
+  "src/assets/images/banners/round-bars-rods3.jpg": {
+    "file": "assets/round-bars-rods3-BGIJwMcG.jpg",
+    "src": "src/assets/images/banners/round-bars-rods3.jpg"
+  },
+  "src/assets/images/banners/sheets-plates-coils1.jpg": {
+    "file": "assets/sheets-plates-coils1-s2cfEtoa.jpg",
+    "src": "src/assets/images/banners/sheets-plates-coils1.jpg"
+  },
+  "src/assets/images/banners/sheets-plates-coils2.jpg": {
+    "file": "assets/sheets-plates-coils2-C5EbKhGo.jpg",
+    "src": "src/assets/images/banners/sheets-plates-coils2.jpg"
+  },
+  "src/assets/images/banners/sheets-plates-coils3.jpg": {
+    "file": "assets/sheets-plates-coils3-C5dScncG.jpg",
+    "src": "src/assets/images/banners/sheets-plates-coils3.jpg"
+  },
+  "src/assets/images/banners/stainless-steel-manufacturer-ind.jpg": {
+    "file": "assets/stainless-steel1-BNnSiwT7.jpg",
+    "src": "src/assets/images/banners/stainless-steel1.jpg"
+  },
+  "src/assets/images/banners/stainless-steel1.jpg": {
+    "file": "assets/stainless-steel1-BNnSiwT7.jpg",
+    "src": "src/assets/images/banners/stainless-steel1.jpg"
+  },
+  "src/assets/images/banners/super-duplex-steel-manufacturer.jpg": {
+    "file": "assets/super-duplex-steel-manufacturer-Bv8SR5QS.jpg",
+    "src": "src/assets/images/banners/super-duplex-steel-manufacturer.jpg"
+  },
+  "src/assets/images/banners/titanium-manufacturer-india.jpg": {
+    "file": "assets/titanium-manufacturer-india-BGwKZMMO.jpg",
+    "src": "src/assets/images/banners/titanium-manufacturer-india.jpg"
+  },
+  "src/assets/images/banners/titanium-pipe-tube-manufacturer.jpg": {
+    "file": "assets/titanium-pipe-tube-manufacturer-ByNTsfzu.jpg",
+    "src": "src/assets/images/products/titanium-pipe-tube-manufacturer.jpg"
+  },
+  "src/assets/images/banners/valves1.jpg": {
+    "file": "assets/valves1-DL9EZCc2.jpg",
+    "src": "src/assets/images/banners/valves1.jpg"
+  },
+  "src/assets/images/banners/valves2.jpg": {
+    "file": "assets/valves2-3udU4229.jpg",
+    "src": "src/assets/images/banners/valves2.jpg"
+  },
+  "src/assets/images/banners/valves3.jpg": {
+    "file": "assets/valves3-DQro-jrk.jpg",
+    "src": "src/assets/images/banners/valves3.jpg"
+  },
+  "src/assets/images/banners/valves4.jpg": {
+    "file": "assets/valves4-C_XNgNhx.jpg",
+    "src": "src/assets/images/banners/valves4.jpg"
+  },
+  "src/assets/images/banners/valves5.jpg": {
+    "file": "assets/valves5-BkjOCrT_.jpg",
+    "src": "src/assets/images/banners/valves5.jpg"
+  },
+  "src/assets/images/heroSlider/bharat-factory.jpg": {
+    "file": "assets/bharat-factory-BOMPMkVz.jpg",
+    "src": "src/assets/images/heroSlider/bharat-factory.jpg"
+  },
+  "src/assets/images/heroSlider/c1.jpg": {
+    "file": "assets/c1-DE5xusl3.jpg",
+    "src": "src/assets/images/heroSlider/c1.jpg"
+  },
+  "src/assets/images/heroSlider/c2.jpg": {
+    "file": "assets/c2-b81EA2Dp.jpg",
+    "src": "src/assets/images/heroSlider/c2.jpg"
+  },
+  "src/assets/images/heroSlider/c3.jpg": {
+    "file": "assets/c3-Cmnlc5fd.jpg",
+    "src": "src/assets/images/heroSlider/c3.jpg"
+  },
+  "src/assets/images/heroSlider/c4.jpg": {
+    "file": "assets/c4-BY7YpYTr.jpg",
+    "src": "src/assets/images/heroSlider/c4.jpg"
+  },
+  "src/assets/images/industries/automotive.jpg": {
+    "file": "assets/automotive-moQTMmi9.jpg",
+    "src": "src/assets/images/industries/automotive.jpg"
+  },
+  "src/assets/images/industries/oilgas.jpg": {
+    "file": "assets/oilgas-Hjil7Kpj.jpg",
+    "src": "src/assets/images/industries/oilgas.jpg"
+  },
+  "src/assets/images/industries/petrochemical.jpg": {
+    "file": "assets/petrochemical-CAn3gDmP.jpg",
+    "src": "src/assets/images/industries/petrochemical.jpg"
+  },
+  "src/assets/images/industries/power.jpg": {
+    "file": "assets/power-Bor28kqu.jpg",
+    "src": "src/assets/images/industries/power.jpg"
+  },
+  "src/assets/images/logo/bharatpipeandfittingslogo.jpeg": {
+    "file": "assets/bharatpipeandfittingslogo-BofpSmJH.jpeg",
+    "src": "src/assets/images/logo/bharatpipeandfittingslogo.jpeg"
+  },
+  "src/assets/images/products/alloy-steel-angle-channel-manufa.jpg": {
+    "file": "assets/alloy-steel-angle-channel-manufa-DQqAylKd.jpg",
+    "src": "src/assets/images/products/alloy-steel-angle-channel-manufa.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods1.jpg": {
+    "file": "assets/alloy-steel-bars-rods1-BdtVR3WR.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods2.jpg": {
+    "file": "assets/alloy-steel-bars-rods2-BrGMZBtg.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods3.jpg": {
+    "file": "assets/alloy-steel-bars-rods3-DSxL6nbA.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods4.jpg": {
+    "file": "assets/alloy-steel-bars-rods4-BcNT7XA0.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods5.jpg": {
+    "file": "assets/alloy-steel-bars-rods5-DEXk5i-w.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods6.jpg": {
+    "file": "assets/alloy-steel-bars-rods6-BV2wGnPn.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods7.jpg": {
+    "file": "assets/alloy-steel-bars-rods7-jqSEf-Uy.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-bars-rods8.jpg": {
+    "file": "assets/alloy-steel-bars-rods8-DulooJE5.jpg",
+    "src": "src/assets/images/products/alloy-steel-bars-rods8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners1.jpg": {
+    "file": "assets/alloy-steel-fasteners1-VyvEffc0.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners10.jpg": {
+    "file": "assets/alloy-steel-fasteners10-CWsscu_q.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners10.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners2.jpg": {
+    "file": "assets/alloy-steel-fasteners2-CYSRfht6.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners3.jpg": {
+    "file": "assets/alloy-steel-fasteners3-BCGSJalf.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners4.jpg": {
+    "file": "assets/alloy-steel-fasteners4-CDAQ_byC.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners5.jpg": {
+    "file": "assets/alloy-steel-fasteners5-BtY8GAbk.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners6.jpg": {
+    "file": "assets/alloy-steel-fasteners1-VyvEffc0.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners7.jpg": {
+    "file": "assets/alloy-steel-fasteners7-vfD59qS3.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners8.jpg": {
+    "file": "assets/alloy-steel-fasteners8-DdmHkLGy.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-fasteners9.jpg": {
+    "file": "assets/alloy-steel-fasteners9-CFouBCqN.jpg",
+    "src": "src/assets/images/products/alloy-steel-fasteners9.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges1.jpg": {
+    "file": "assets/alloy-steel-flanges1-EtUACJLb.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges2.jpg": {
+    "file": "assets/alloy-steel-flanges2-CM8cZ0KG.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges3.jpg": {
+    "file": "assets/alloy-steel-flanges3-oe9uhWJH.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges4.jpg": {
+    "file": "assets/alloy-steel-flanges4-Cx_wjX9U.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges5.jpg": {
+    "file": "assets/alloy-steel-flanges5-DQRigM-r.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges6.jpg": {
+    "file": "assets/alloy-steel-flanges6-AUtCKkp3.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges7.jpg": {
+    "file": "assets/alloy-steel-flanges7-mFRJJEBc.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-flanges8.jpg": {
+    "file": "assets/alloy-steel-flanges8-BynZa3de.jpg",
+    "src": "src/assets/images/products/alloy-steel-flanges8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings10.jpg": {
+    "file": "assets/alloy-steel-forged-fittings10-Cb6u9jAx.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings10.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings3.jpg": {
+    "file": "assets/alloy-steel-forged-fittings3-B70VPA29.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings4.jpg": {
+    "file": "assets/alloy-steel-forged-fittings4-JI19s8sg.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings5.jpg": {
+    "file": "assets/alloy-steel-forged-fittings5-DOihby5z.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings7.jpg": {
+    "file": "assets/alloy-steel-forged-fittings7-jxQ48dgg.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings8.jpg": {
+    "file": "assets/alloy-steel-forged-fittings8-DRYZYLR3.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-forged-fittings9.jpg": {
+    "file": "assets/alloy-steel-forged-fittings9-DZtSYm9G.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings9.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings1.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings1-Mv9azAjk.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings2.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings2-2ieDQ_P5.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings3.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings3-CB64-bh8.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings4.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings4-DAwhnvLQ.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings5.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings5-wNHO-fQW.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings6.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings6-CWe8_p5-.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings7.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings7-CpgDQgYh.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipe-fittings8.jpg": {
+    "file": "assets/alloy-steel-pipe-fittings8-CExlIk15.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipe-fittings8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes1.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes1-CE_-2NFL.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes2.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes2-CtFUI4gk.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes3.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes3-WFw1VnAS.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes4.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes4-C1d1NA59.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes5.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes5-CRjZvbyJ.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes6.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes6-Dz_IZr0e.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes7.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes7-DbdMq49X.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-pipes-tubes8.jpg": {
+    "file": "assets/alloy-steel-pipes-tubes8-1IZ90nDQ.jpg",
+    "src": "src/assets/images/products/alloy-steel-pipes-tubes8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-round-bar-manufactur.jpg": {
+    "file": "assets/alloy-steel-round-bar-manufactur-BrYWGn5L.jpg",
+    "src": "src/assets/images/products/alloy-steel-round-bar-manufactur.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheet-plate-manufact.jpg": {
+    "file": "assets/alloy-steel-sheet-plate-manufact-BJIHLgwo.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheet-plate-manufact.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates1.jpg": {
+    "file": "assets/alloy-steel-sheets-plates1-DJPZrAEt.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates2.jpg": {
+    "file": "assets/alloy-steel-sheets-plates2-CKPzAqy4.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates3.jpg": {
+    "file": "assets/alloy-steel-sheets-plates3-DhX7eLKr.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates4.jpg": {
+    "file": "assets/alloy-steel-sheets-plates4-DgCSR_KK.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates5.jpg": {
+    "file": "assets/alloy-steel-sheets-plates5-CL3Pw2mu.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates6.jpg": {
+    "file": "assets/alloy-steel-sheets-plates6-BaIo9gzJ.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates7.jpg": {
+    "file": "assets/alloy-steel-sheets-plates7-DcM8Pkq2.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-sheets-plates8.jpg": {
+    "file": "assets/alloy-steel-sheets-plates8-BDqN05Is.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheets-plates8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves1.jpg": {
+    "file": "assets/alloy-steel-valves1-CNrgpSIB.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves1.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves10.jpg": {
+    "file": "assets/alloy-steel-valves10-DEQpokNZ.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves10.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves2.jpg": {
+    "file": "assets/alloy-steel-valves2-Dv2c7RAx.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves2.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves3.jpg": {
+    "file": "assets/alloy-steel-valves3-BquKWKHb.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves3.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves4.jpg": {
+    "file": "assets/alloy-steel-valves4-C2BXpFCj.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves4.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves5.jpg": {
+    "file": "assets/alloy-steel-valves5-C43jsvSL.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves5.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves6.jpg": {
+    "file": "assets/alloy-steel-valves6-BTsUDwON.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves6.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves7.jpg": {
+    "file": "assets/alloy-steel-valves7-CuIcDrRa.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves7.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves8.jpg": {
+    "file": "assets/alloy-steel-valves8-DaXvG6jO.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves8.jpg"
+  },
+  "src/assets/images/products/alloy-steel-valves9.jpg": {
+    "file": "assets/alloy-steel-valves9-BDa4PfyI.jpg",
+    "src": "src/assets/images/products/alloy-steel-valves9.jpg"
+  },
+  "src/assets/images/products/alloy-steel-wire-mesh-manufactur.jpg": {
+    "file": "assets/alloy-steel-wire-mesh-manufactur-Dyh0BUGT.jpg",
+    "src": "src/assets/images/products/alloy-steel-wire-mesh-manufactur.jpg"
+  },
+  "src/assets/images/products/angles-channel-flats.jpg": {
+    "file": "assets/angles-channel-flats-Cw2uxfZG.jpg",
+    "src": "src/assets/images/products/angles-channel-flats.jpg"
+  },
+  "src/assets/images/products/carbon-steel-angle-manufacturer.jpg": {
+    "file": "assets/carbon-steel-angle-manufacturer-DBVP1efT.jpg",
+    "src": "src/assets/images/products/carbon-steel-angle-manufacturer.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods1.jpg": {
+    "file": "assets/carbon-steel-bars-rods1-CtMeuHFe.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods2.jpg": {
+    "file": "assets/carbon-steel-bars-rods2-QqA5ZRQ9.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods3.jpg": {
+    "file": "assets/carbon-steel-bars-rods3-BfntUvpF.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods4.jpg": {
+    "file": "assets/carbon-steel-bars-rods4-Ifm84DNn.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods5.jpg": {
+    "file": "assets/carbon-steel-bars-rods5-BQDDrrp3.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods6.jpg": {
+    "file": "assets/carbon-steel-bars-rods6-C8M-agdh.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods7.jpg": {
+    "file": "assets/carbon-steel-bars-rods7-DffLnAuS.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-bars-rods8.jpg": {
+    "file": "assets/carbon-steel-bars-rods8-DnVTzJVH.jpg",
+    "src": "src/assets/images/products/carbon-steel-bars-rods8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners1.jpg": {
+    "file": "assets/carbon-steel-fasteners1-D0eeodUr.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners10.jpg": {
+    "file": "assets/carbon-steel-fasteners10-ic2-wplU.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners10.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners2.jpg": {
+    "file": "assets/carbon-steel-fasteners2-TtV4FGdX.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners3.jpg": {
+    "file": "assets/carbon-steel-fasteners3-BdY-KNxH.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners4.jpg": {
+    "file": "assets/carbon-steel-fasteners4-B79xK6Cb.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners5.jpg": {
+    "file": "assets/carbon-steel-fasteners5-CDOEo_-c.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners6.jpg": {
+    "file": "assets/carbon-steel-fasteners6-ClZMW_Cf.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners7.jpg": {
+    "file": "assets/carbon-steel-fasteners7-dA4NucP9.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners8.jpg": {
+    "file": "assets/carbon-steel-fasteners8-C6imNfaa.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-fasteners9.jpg": {
+    "file": "assets/carbon-steel-fasteners9-DQx00nk8.jpg",
+    "src": "src/assets/images/products/carbon-steel-fasteners9.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges1.jpg": {
+    "file": "assets/carbon-steel-flanges1-BN3DkAZz.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges2.jpg": {
+    "file": "assets/carbon-steel-flanges2-iLJc-TQE.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges3.jpg": {
+    "file": "assets/carbon-steel-flanges3-Bts1wsLD.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges4.jpg": {
+    "file": "assets/carbon-steel-flanges4-Ii3esT1n.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges5.jpg": {
+    "file": "assets/carbon-steel-flanges5-Bbaz-OTc.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges6.jpg": {
+    "file": "assets/carbon-steel-flanges6-iOK7qzL9.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges7.jpg": {
+    "file": "assets/carbon-steel-flanges7-BreZSeVF.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-flanges8.jpg": {
+    "file": "assets/carbon-steel-flanges8-CRWkT71H.jpg",
+    "src": "src/assets/images/products/carbon-steel-flanges8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings1.jpg": {
+    "file": "assets/carbon-steel-forged-fittings1-dpktc63V.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings10.jpg": {
+    "file": "assets/carbon-steel-forged-fittings10-CGrPrn61.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings10.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings2.jpg": {
+    "file": "assets/carbon-steel-forged-fittings2-BbSNv5AP.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings3.jpg": {
+    "file": "assets/carbon-steel-forged-fittings3-Cgf7fncn.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings4.jpg": {
+    "file": "assets/carbon-steel-forged-fittings4-BzKlbkcI.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings5.jpg": {
+    "file": "assets/carbon-steel-forged-fittings5-BeBzxheN.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings6.jpg": {
+    "file": "assets/carbon-steel-forged-fittings6-CRDINhEv.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings7.jpg": {
+    "file": "assets/carbon-steel-forged-fittings7-CqGP9fYU.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings8.jpg": {
+    "file": "assets/carbon-steel-forged-fittings8-BYam37_Y.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-forged-fittings9.jpg": {
+    "file": "assets/carbon-steel-forged-fittings9-K2eNI9WE.jpg",
+    "src": "src/assets/images/products/carbon-steel-forged-fittings9.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings1.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings1-CBIPQb8W.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings2.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings2-ZaDjg7oa.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings3.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings3-DwKfGH15.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings4.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings4-CTx20hZi.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings5.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings5-sthOg1Nb.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings6.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings6-DjtFg1bo.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipe-fittings8.jpg": {
+    "file": "assets/carbon-steel-pipe-fittings8-CvH4Oph5.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipe-fittings8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes1.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes1-CsXUdydV.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes2.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes2-Dguv0mkn.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes3.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes3-COwur1yR.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes4.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes4-Cp7GCS3b.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes5.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes5-DgoQlFCM.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes6.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes6-G-WTyuF3.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes7.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes7-CfJnAyTF.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-pipes-tubes8.jpg": {
+    "file": "assets/carbon-steel-pipes-tubes8-CpjY3ubS.jpg",
+    "src": "src/assets/images/products/carbon-steel-pipes-tubes8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-round-bar-manufactu.jpg": {
+    "file": "assets/carbon-steel-round-bar-manufactu-CIJjz5Mu.jpg",
+    "src": "src/assets/images/products/carbon-steel-round-bar-manufactu.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheet-plate-manufac.jpg": {
+    "file": "assets/carbon-steel-sheet-plate-manufac-DcSF31Ax.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheet-plate-manufac.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates1.jpg": {
+    "file": "assets/carbon-steel-sheets-plates1-ByiGwTO_.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates2.jpg": {
+    "file": "assets/carbon-steel-sheets-plates2-B-uMllf3.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates3.jpg": {
+    "file": "assets/carbon-steel-sheets-plates3-CfnkoPym.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates4.jpg": {
+    "file": "assets/carbon-steel-sheets-plates4-CDSJkTs8.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates5.jpg": {
+    "file": "assets/carbon-steel-sheets-plates5-Dvj335Cf.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates6.jpg": {
+    "file": "assets/carbon-steel-sheets-plates6-BD6f-9hs.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates7.jpg": {
+    "file": "assets/carbon-steel-sheets-plates7-DqdUhH-e.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-sheets-plates8.jpg": {
+    "file": "assets/carbon-steel-sheets-plates8-BZyyBbV2.jpg",
+    "src": "src/assets/images/products/carbon-steel-sheets-plates8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves1.jpg": {
+    "file": "assets/carbon-steel-valves1-22Ayfqy4.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves1.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves10.jpg": {
+    "file": "assets/carbon-steel-valves10-BOFpt2lw.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves10.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves2.jpg": {
+    "file": "assets/carbon-steel-valves2-rKaxAcR0.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves2.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves3.jpg": {
+    "file": "assets/carbon-steel-valves3-CxgsY_3n.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves3.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves4.jpg": {
+    "file": "assets/carbon-steel-valves4-DUsSn59p.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves4.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves5.jpg": {
+    "file": "assets/carbon-steel-valves5-OB3peUZz.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves5.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves6.jpg": {
+    "file": "assets/carbon-steel-valves6-BWZtptiC.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves6.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves7.jpg": {
+    "file": "assets/carbon-steel-valves7-BIauKgaO.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves7.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves8.jpg": {
+    "file": "assets/carbon-steel-valves8-BV-034pr.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves8.jpg"
+  },
+  "src/assets/images/products/carbon-steel-valves9.jpg": {
+    "file": "assets/carbon-steel-valves9-BWbhEnie.jpg",
+    "src": "src/assets/images/products/carbon-steel-valves9.jpg"
+  },
+  "src/assets/images/products/carbon-steel-wire-mesh-manufactu.jpg": {
+    "file": "assets/carbon-steel-wire-mesh-manufactu-C8URqsFj.jpg",
+    "src": "src/assets/images/products/carbon-steel-wire-mesh-manufactu.jpg"
+  },
+  "src/assets/images/products/copper-angle-channel-manufacture.jpg": {
+    "file": "assets/copper-angle-channel-manufacture-Dg6sYek2.jpg",
+    "src": "src/assets/images/products/copper-angle-channel-manufacture.jpg"
+  },
+  "src/assets/images/products/copper-fastener-manufacturer-ind.jpg": {
+    "file": "assets/copper-fastener-manufacturer-ind-RO25pFKd.jpg",
+    "src": "src/assets/images/products/copper-fastener-manufacturer-ind.jpg"
+  },
+  "src/assets/images/products/copper-flanges-manufacturer-indi.jpg": {
+    "file": "assets/copper-flanges-manufacturer-indi-DUL_DGbh.jpg",
+    "src": "src/assets/images/products/copper-flanges-manufacturer-indi.jpg"
+  },
+  "src/assets/images/products/copper-forged-fitting-manufactur.jpg": {
+    "file": "assets/copper-forged-fitting-manufactur-D_L0x-V0.jpg",
+    "src": "src/assets/images/products/copper-forged-fitting-manufactur.jpg"
+  },
+  "src/assets/images/products/copper-pipe-fitting-manufacturer.jpg": {
+    "file": "assets/copper-pipe-fitting-manufacturer-D12de72Y.jpg",
+    "src": "src/assets/images/products/copper-pipe-fitting-manufacturer.jpg"
+  },
+  "src/assets/images/products/copper-pipe-tube-manufacturer-in.jpg": {
+    "file": "assets/copper-pipe-tube-manufacturer-in-DG8AQ0Mr.jpg",
+    "src": "src/assets/images/products/copper-pipe-tube-manufacturer-in.jpg"
+  },
+  "src/assets/images/products/copper-round-bar-manufacturer-in.jpg": {
+    "file": "assets/copper-round-bar-manufacturer-in-Dw3-O_7U.jpg",
+    "src": "src/assets/images/products/copper-round-bar-manufacturer-in.jpg"
+  },
+  "src/assets/images/products/copper-sheet-plate-manufacturer.jpg": {
+    "file": "assets/copper-sheet-plate-manufacturer-qC8ZT5ew.jpg",
+    "src": "src/assets/images/products/copper-sheet-plate-manufacturer.jpg"
+  },
+  "src/assets/images/products/copper-wire-mesh-manufacturer-in.jpg": {
+    "file": "assets/copper-wire-mesh-manufacturer-in-BtFJDTjp.jpg",
+    "src": "src/assets/images/products/copper-wire-mesh-manufacturer-in.jpg"
+  },
+  "src/assets/images/products/fasteners.jpg": {
+    "file": "assets/fasteners-Ddd75VDb.jpg",
+    "src": "src/assets/images/products/fasteners.jpg"
+  },
+  "src/assets/images/products/flanges.jpg": {
+    "file": "assets/flanges-KC_CNCrK.jpg",
+    "src": "src/assets/images/products/flanges.jpg"
+  },
+  "src/assets/images/products/forged-fittings.jpg": {
+    "file": "assets/forged-fittings-ByzvyO_1.jpg",
+    "src": "src/assets/images/products/forged-fittings.jpg"
+  },
+  "src/assets/images/products/hastelloy-angle-channel-manufact.jpg": {
+    "file": "assets/hastelloy-angle-channel-manufact-BzSHoRNZ.jpg",
+    "src": "src/assets/images/products/hastelloy-angle-channel-manufact.jpg"
+  },
+  "src/assets/images/products/hastelloy-fastener-manufacturer.jpg": {
+    "file": "assets/hastelloy-fastener-manufacturer-DliaGJHp.jpg",
+    "src": "src/assets/images/products/hastelloy-fastener-manufacturer.jpg"
+  },
+  "src/assets/images/products/hastelloy-flange-manufacturer-in.jpg": {
+    "file": "assets/hastelloy-flange-manufacturer-in-Dabk4I_J.jpg",
+    "src": "src/assets/images/products/hastelloy-flange-manufacturer-in.jpg"
+  },
+  "src/assets/images/products/hastelloy-forged-fittings-manufa.jpg": {
+    "file": "assets/hastelloy-forged-fittings-manufa-CXloSSxs.jpg",
+    "src": "src/assets/images/products/hastelloy-forged-fittings-manufa.jpg"
+  },
+  "src/assets/images/products/hastelloy-pipe-fitting-manufactu.jpg": {
+    "file": "assets/hastelloy-pipe-fitting-manufactu-B6Ouy7_K.jpg",
+    "src": "src/assets/images/products/hastelloy-pipe-fitting-manufactu.jpg"
+  },
+  "src/assets/images/products/hastelloy-pipe-manufacturer-indi.jpg": {
+    "file": "assets/hastelloy-pipe-manufacturer-indi-Be7q3Bzc.jpg",
+    "src": "src/assets/images/products/hastelloy-pipe-manufacturer-indi.jpg"
+  },
+  "src/assets/images/products/hastelloy-round-bar-manufacturer.jpg": {
+    "file": "assets/hastelloy-round-bar-manufacturer-OSgGdwy4.jpg",
+    "src": "src/assets/images/products/hastelloy-round-bar-manufacturer.jpg"
+  },
+  "src/assets/images/products/hastelloy-sheet-plate-manufactur.jpg": {
+    "file": "assets/hastelloy-sheet-plate-manufactur-CJoo0Gjs.jpg",
+    "src": "src/assets/images/products/hastelloy-sheet-plate-manufactur.jpg"
+  },
+  "src/assets/images/products/hastelloy-wire-mesh-manufacturer.jpg": {
+    "file": "assets/hastelloy-wire-mesh-manufacturer-humHfgYi.jpg",
+    "src": "src/assets/images/products/hastelloy-wire-mesh-manufacturer.jpg"
+  },
+  "src/assets/images/products/monel-angle-channel-manufacturer.jpg": {
+    "file": "assets/monel-angle-channel-manufacturer-HgLpdo3g.jpg",
+    "src": "src/assets/images/products/monel-angle-channel-manufacturer.jpg"
+  },
+  "src/assets/images/products/monel-fasteners-manufacturer-ind.jpg": {
+    "file": "assets/titanium-fasteners-manufacturer-B2JvURxh.jpg",
+    "src": "src/assets/images/products/titanium-fasteners-manufacturer.jpg"
+  },
+  "src/assets/images/products/monel-flange-manufacturer-india.jpg": {
+    "file": "assets/monel-flange-manufacturer-india-BfRMAbGo.jpg",
+    "src": "src/assets/images/products/monel-flange-manufacturer-india.jpg"
+  },
+  "src/assets/images/products/monel-forged-fittings-manufactur.jpg": {
+    "file": "assets/monel-forged-fittings-manufactur-BT4t7pbr.jpg",
+    "src": "src/assets/images/products/monel-forged-fittings-manufactur.jpg"
+  },
+  "src/assets/images/products/monel-pipe-fitting-manufacturer.jpg": {
+    "file": "assets/monel-pipe-fitting-manufacturer-D5rhAd6o.jpg",
+    "src": "src/assets/images/products/monel-pipe-fitting-manufacturer.jpg"
+  },
+  "src/assets/images/products/monel-pipe-tube-manufacturer-ind.jpg": {
+    "file": "assets/monel-pipe-tube-manufacturer-ind-BEi3YJet.jpg",
+    "src": "src/assets/images/products/monel-pipe-tube-manufacturer-ind.jpg"
+  },
+  "src/assets/images/products/monel-round-bar-manufacturer-ind.jpg": {
+    "file": "assets/alloy-steel-round-bar-manufactur-BrYWGn5L.jpg",
+    "src": "src/assets/images/products/alloy-steel-round-bar-manufactur.jpg"
+  },
+  "src/assets/images/products/monel-sheet-plate-manufacturer-i.jpg": {
+    "file": "assets/alloy-steel-sheet-plate-manufact-BJIHLgwo.jpg",
+    "src": "src/assets/images/products/alloy-steel-sheet-plate-manufact.jpg"
+  },
+  "src/assets/images/products/monel-wire-mesh-manufacturer-ind.jpg": {
+    "file": "assets/alloy-steel-wire-mesh-manufactur-Dyh0BUGT.jpg",
+    "src": "src/assets/images/products/alloy-steel-wire-mesh-manufactur.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods1.jpg": {
+    "file": "assets/nickel-alloy-bars-rods1-BY4Cj8xX.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods2.jpg": {
+    "file": "assets/nickel-alloy-bars-rods2-Cy-MiRHq.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods3.jpg": {
+    "file": "assets/nickel-alloy-bars-rods3-Cm5x_vSO.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods4.jpg": {
+    "file": "assets/nickel-alloy-bars-rods4-C3GGYh_2.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods5.jpg": {
+    "file": "assets/nickel-alloy-bars-rods5-B3-IAXgh.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods6.jpg": {
+    "file": "assets/nickel-alloy-bars-rods6-PXjFKcSm.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods7.jpg": {
+    "file": "assets/nickel-alloy-bars-rods7-D8UdabWD.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-bars-rods8.jpg": {
+    "file": "assets/nickel-alloy-bars-rods8-C4gtxTN8.jpg",
+    "src": "src/assets/images/products/nickel-alloy-bars-rods8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners1.jpg": {
+    "file": "assets/nickel-alloy-fasteners1-DxDqpd-C.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners10.jpg": {
+    "file": "assets/nickel-alloy-fasteners10-1g0EI78z.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners10.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners2.jpg": {
+    "file": "assets/nickel-alloy-fasteners2-A5pl9uNI.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners3.jpg": {
+    "file": "assets/nickel-alloy-fasteners3-BF5LlwGt.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners4.jpg": {
+    "file": "assets/nickel-alloy-fasteners4-CimVcdlD.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners5.jpg": {
+    "file": "assets/nickel-alloy-fasteners5-DPAJVK1L.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners6.jpg": {
+    "file": "assets/nickel-alloy-fasteners6-CPdhof4K.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners7.jpg": {
+    "file": "assets/nickel-alloy-fasteners7-WjVloXVD.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners8.jpg": {
+    "file": "assets/nickel-alloy-fasteners8-DP4hXN9Y.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-fasteners9.jpg": {
+    "file": "assets/nickel-alloy-fasteners9-D8WEcxlM.jpg",
+    "src": "src/assets/images/products/nickel-alloy-fasteners9.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges1.jpg": {
+    "file": "assets/nickel-alloy-flanges1-C-YrDCX_.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges2.jpg": {
+    "file": "assets/nickel-alloy-flanges2-Dw4qmyf3.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges3.jpg": {
+    "file": "assets/nickel-alloy-flanges3-CmVQVmaq.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges4.jpg": {
+    "file": "assets/nickel-alloy-flanges4-DrcpIoSF.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges5.jpg": {
+    "file": "assets/nickel-alloy-flanges5-CL6WcWqk.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges6.jpg": {
+    "file": "assets/nickel-alloy-flanges6-CIn4nozL.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges7.jpg": {
+    "file": "assets/nickel-alloy-flanges7-CBGU4G4q.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-flanges8.jpg": {
+    "file": "assets/nickel-alloy-flanges8-6xA7gO9-.jpg",
+    "src": "src/assets/images/products/nickel-alloy-flanges8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings1.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings1-D-vxK1V6.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings10.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings10-Det4MOZa.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings10.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings2.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings2-DFj0TJKV.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings3.jpg": {
+    "file": "assets/alloy-steel-forged-fittings4-JI19s8sg.jpg",
+    "src": "src/assets/images/products/alloy-steel-forged-fittings4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings4.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings4-ByGdUaVL.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings5.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings5-CBQGGSOW.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings6.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings6-IO8DkEwk.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings7.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings7-V51dvReo.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings8.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings8-1vG5KcK5.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-forged-fittings9.jpg": {
+    "file": "assets/nickel-alloy-forged-fittings9-CB47rY9Y.jpg",
+    "src": "src/assets/images/products/nickel-alloy-forged-fittings9.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings1.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings1-Bh7_xSu5.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings2.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings2-D3EVAutL.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings3.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings3-B50j6JQ7.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings4.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings4-BNVAxC6-.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings5.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings5-D0KePZ4c.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings6.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings6-HGKNt_v2.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings7.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings7-Dy2LkwZL.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipe-fittings8.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings8-BeTS0xHH.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes1.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes1-DsVNJpWa.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes2.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes2-De-qiolw.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes3.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes3-avFEijlj.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes4.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes4-CiXnjXw0.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes5.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes5-BSDlekj1.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes6.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes6-BK_2vPq_.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes7.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes7-B9WFeOHC.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-pipes-tubes8.jpg": {
+    "file": "assets/nickel-alloy-pipes-tubes8-DZ9DG1gC.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipes-tubes8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates1.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates1-s5WPdwN-.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates2.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates2-C-4MdZmk.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates3.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates3-BfoQUU4_.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates4.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates4-B8mve_xN.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates5.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates5-Dl0ThAgw.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates6.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates6-CXYfxDKX.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates7.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates7-7rXO5BNZ.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-sheets-plates8.jpg": {
+    "file": "assets/nickel-alloy-sheets-plates8-CBcjPXmq.jpg",
+    "src": "src/assets/images/products/nickel-alloy-sheets-plates8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves1.jpg": {
+    "file": "assets/nickel-alloy-valves1-A1Rm2DZN.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves1.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves10.jpg": {
+    "file": "assets/nickel-alloy-valves10-Dabc8yUX.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves10.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves2.jpg": {
+    "file": "assets/nickel-alloy-valves2-DAAIa-xI.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves2.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves3.jpg": {
+    "file": "assets/nickel-alloy-valves3-DtRyfrTm.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves3.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves4.jpg": {
+    "file": "assets/nickel-alloy-valves4-Csgpsrwc.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves4.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves5.jpg": {
+    "file": "assets/nickel-alloy-valves5-Drjnr6z4.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves5.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves6.jpg": {
+    "file": "assets/nickel-alloy-valves6-CH_BJ8bt.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves6.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves7.jpg": {
+    "file": "assets/nickel-alloy-valves7-D8nvNI7K.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves7.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves8.jpg": {
+    "file": "assets/nickel-alloy-valves8-uAH0FHlR.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves8.jpg"
+  },
+  "src/assets/images/products/nickel-alloy-valves9.jpg": {
+    "file": "assets/nickel-alloy-valves9-XeRPoJnh.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves9.jpg"
+  },
+  "src/assets/images/products/pipe-fittings.jpg": {
+    "file": "assets/pipe-fittings-C5PdtigS.jpg",
+    "src": "src/assets/images/products/pipe-fittings.jpg"
+  },
+  "src/assets/images/products/pipes-tubes.jpg": {
+    "file": "assets/pipes-tubes-1LtWOIRC.jpg",
+    "src": "src/assets/images/products/pipes-tubes.jpg"
+  },
+  "src/assets/images/products/round-bars-rods.jpg": {
+    "file": "assets/round-bars-rods-CMqiU-6Z.jpg",
+    "src": "src/assets/images/products/round-bars-rods.jpg"
+  },
+  "src/assets/images/products/sheets-plates-coils.jpg": {
+    "file": "assets/sheets-plates-coils-BfMfjB8X.jpg",
+    "src": "src/assets/images/products/sheets-plates-coils.jpg"
+  },
+  "src/assets/images/products/ss-angle-channel-manufacturer-in.jpg": {
+    "file": "assets/ss-angle-channel-manufacturer-in-DT1t3t9j.jpg",
+    "src": "src/assets/images/products/ss-angle-channel-manufacturer-in.jpg"
+  },
+  "src/assets/images/products/ss-round-bar-manufacturer-india.jpg": {
+    "file": "assets/ss-round-bar-manufacturer-india-CliTJRbb.jpg",
+    "src": "src/assets/images/products/ss-round-bar-manufacturer-india.jpg"
+  },
+  "src/assets/images/products/ss-wire-mesh-manufacturer-india.jpg": {
+    "file": "assets/ss-wire-mesh-manufacturer-india-BJgImJ73.jpg",
+    "src": "src/assets/images/products/ss-wire-mesh-manufacturer-india.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods1.jpg": {
+    "file": "assets/stainless-steel-bars-rods1-DS9NzdWt.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods2.jpg": {
+    "file": "assets/stainless-steel-bars-rods2-CEv4mSHC.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods3.jpg": {
+    "file": "assets/stainless-steel-bars-rods3-lr41W2xn.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods4.jpg": {
+    "file": "assets/stainless-steel-bars-rods4-DvUMbhXx.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods5.jpg": {
+    "file": "assets/stainless-steel-bars-rods5-DOJ-Iu0x.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods6.jpg": {
+    "file": "assets/stainless-steel-bars-rods6-qQCaXQuU.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods7.jpg": {
+    "file": "assets/stainless-steel-bars-rods7-_lFIgUDX.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-bars-rods8.jpg": {
+    "file": "assets/stainless-steel-bars-rods8-B72ttd5Z.jpg",
+    "src": "src/assets/images/products/stainless-steel-bars-rods8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners1.jpg": {
+    "file": "assets/stainless-steel-fasteners1-BvMa8OUi.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners10.jpg": {
+    "file": "assets/stainless-steel-fasteners10-B-Et1W2C.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners10.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners2.jpg": {
+    "file": "assets/stainless-steel-fasteners2-DD5TXsFr.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners3.jpg": {
+    "file": "assets/stainless-steel-fasteners3-BPOGZS15.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners4.jpg": {
+    "file": "assets/stainless-steel-fasteners4-Di010Q5W.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners5.jpg": {
+    "file": "assets/stainless-steel-fasteners5-DSy7yvos.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners6.jpg": {
+    "file": "assets/stainless-steel-fasteners6-CKAxlEBv.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners7.jpg": {
+    "file": "assets/stainless-steel-fasteners7-BPQHFcgP.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners8.jpg": {
+    "file": "assets/stainless-steel-fasteners8-CVhI4Kyz.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-fasteners9.jpg": {
+    "file": "assets/stainless-steel-fasteners9-Dv1VpEYN.jpg",
+    "src": "src/assets/images/products/stainless-steel-fasteners9.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges1.jpg": {
+    "file": "assets/stainless-steel-flanges1-2o9Fae9d.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges2.jpg": {
+    "file": "assets/stainless-steel-flanges2-BI7P3d3Q.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges3.jpg": {
+    "file": "assets/stainless-steel-flanges3-BvjBuCD2.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges4.jpg": {
+    "file": "assets/stainless-steel-flanges4-DtuDQYxJ.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges5.jpg": {
+    "file": "assets/stainless-steel-flanges5-BjwgjgDH.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges6.jpg": {
+    "file": "assets/stainless-steel-flanges6-Dj1u43RH.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges7.jpg": {
+    "file": "assets/stainless-steel-flanges7-c8Ddu7Te.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-flanges8.jpg": {
+    "file": "assets/stainless-steel-flanges8-Y9hfpTPd.jpg",
+    "src": "src/assets/images/products/stainless-steel-flanges8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings.jpg": {
+    "file": "assets/stainless-steel-forged-fittings-FAPmpp6q.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings1.jpg": {
+    "file": "assets/stainless-steel-forged-fittings1-CCaJz0XF.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings10.jpg": {
+    "file": "assets/stainless-steel-forged-fittings10-Br_QAR97.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings10.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings2.jpg": {
+    "file": "assets/stainless-steel-forged-fittings2-CUj7ZB0J.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings3.jpg": {
+    "file": "assets/stainless-steel-forged-fittings3-BTHMITcT.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings4.jpg": {
+    "file": "assets/stainless-steel-forged-fittings4-7L42goUQ.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings5.jpg": {
+    "file": "assets/stainless-steel-forged-fittings5-BfrNsRJS.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings6.jpg": {
+    "file": "assets/stainless-steel-forged-fittings6-ClGtBi0K.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings7.jpg": {
+    "file": "assets/stainless-steel-forged-fittings7-CxNDD4iK.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings8.jpg": {
+    "file": "assets/stainless-steel-forged-fittings8-C2YDUKU5.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-forged-fittings9.jpg": {
+    "file": "assets/stainless-steel-forged-fittings9-C2rEkICq.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings9.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings1.jpg": {
+    "file": "assets/nickel-alloy-pipe-fittings1-Bh7_xSu5.jpg",
+    "src": "src/assets/images/products/nickel-alloy-pipe-fittings1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings2.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings2-JMncp-zs.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings3.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings3-CobrQQF5.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings4.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings4-CB9r2joX.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings5.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings5-BalrWyNq.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings6.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings6-DbNuk1_U.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings7.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings7-BvtckvDZ.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-fittings8.jpg": {
+    "file": "assets/stainless-steel-pipe-fittings8-Cpqk79Rl.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipe-fittings8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipe-tube-manufa.jpg": {
+    "file": "assets/titanium-pipe-tube-manufacturer-ByNTsfzu.jpg",
+    "src": "src/assets/images/products/titanium-pipe-tube-manufacturer.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes1.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes1-Wv6-ZUY4.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes2.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes2-1fH3scq8.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes3.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes3--0hnmrvg.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes4.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes4-C6ru5GRe.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes5.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes5-CKixrDwU.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes6.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes6-DvlesZ5Y.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes7.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes7-D2Gt2bto.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-pipes-tubes8.jpg": {
+    "file": "assets/stainless-steel-pipes-tubes8-CtyaPGs1.jpg",
+    "src": "src/assets/images/products/stainless-steel-pipes-tubes8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheet-plate-manu.jpg": {
+    "file": "assets/stainless-steel-sheet-plate-manu-Qy4-2QbC.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheet-plate-manu.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates1.jpg": {
+    "file": "assets/stainless-steel-sheets-plates1-B2O2tlHB.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates2.jpg": {
+    "file": "assets/stainless-steel-sheets-plates2-BE7YkcBn.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates3.jpg": {
+    "file": "assets/stainless-steel-sheets-plates3-DlO18T1L.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates4.jpg": {
+    "file": "assets/stainless-steel-sheets-plates4-B5uMGuVT.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates5.jpg": {
+    "file": "assets/stainless-steel-sheets-plates5-BjFwsBag.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates6.jpg": {
+    "file": "assets/stainless-steel-sheets-plates6-1ct4Vmkx.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates7.jpg": {
+    "file": "assets/stainless-steel-sheets-plates7-Cvci4C4D.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-sheets-plates8.jpg": {
+    "file": "assets/stainless-steel-sheets-plates8-BmjiMCKD.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheets-plates8.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves1.jpg": {
+    "file": "assets/stainless-steel-valves1-ChWralyr.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves1.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves2.jpg": {
+    "file": "assets/nickel-alloy-valves2-DAAIa-xI.jpg",
+    "src": "src/assets/images/products/nickel-alloy-valves2.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves3.jpg": {
+    "file": "assets/stainless-steel-valves3-DuPcQ3z3.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves3.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves4.jpg": {
+    "file": "assets/stainless-steel-valves4-CXvP5wrb.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves4.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves5.jpg": {
+    "file": "assets/stainless-steel-valves5-zTJ1Eqgt.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves5.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves6.jpg": {
+    "file": "assets/stainless-steel-valves6-D7I5Jkyu.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves6.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves7.jpg": {
+    "file": "assets/stainless-steel-valves7-BnUx1jfP.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves7.jpg"
+  },
+  "src/assets/images/products/stainless-steel-valves8.jpg": {
+    "file": "assets/stainless-steel-valves8-C0dOZNpI.jpg",
+    "src": "src/assets/images/products/stainless-steel-valves8.jpg"
+  },
+  "src/assets/images/products/steel-bulb-angles.jpg": {
+    "file": "assets/steel-bulb-angles-CzkfStfh.jpg",
+    "src": "src/assets/images/products/steel-bulb-angles.jpg"
+  },
+  "src/assets/images/products/steel-c-channels.jpg": {
+    "file": "assets/steel-c-channels-C7V7SW4S.jpg",
+    "src": "src/assets/images/products/steel-c-channels.jpg"
+  },
+  "src/assets/images/products/steel-equal-angles.jpg": {
+    "file": "assets/steel-equal-angles-DuJfrG0g.jpg",
+    "src": "src/assets/images/products/steel-equal-angles.jpg"
+  },
+  "src/assets/images/products/steel-flats1.jpg": {
+    "file": "assets/steel-flats1-CbsBI0TG.jpg",
+    "src": "src/assets/images/products/steel-flats1.jpg"
+  },
+  "src/assets/images/products/steel-flats2.jpg": {
+    "file": "assets/steel-flats2-DMJty_DF.jpg",
+    "src": "src/assets/images/products/steel-flats2.jpg"
+  },
+  "src/assets/images/products/steel-flats3.jpg": {
+    "file": "assets/steel-flats3-jvouX0a_.jpg",
+    "src": "src/assets/images/products/steel-flats3.jpg"
+  },
+  "src/assets/images/products/steel-h-channels.jpg": {
+    "file": "assets/steel-h-channels-B4uWui7K.jpg",
+    "src": "src/assets/images/products/steel-h-channels.jpg"
+  },
+  "src/assets/images/products/steel-j-channels.jpg": {
+    "file": "assets/steel-j-channels-Bn3Up72B.jpg",
+    "src": "src/assets/images/products/steel-j-channels.jpg"
+  },
+  "src/assets/images/products/steel-t-channels.jpg": {
+    "file": "assets/steel-t-channels-CB5mpvBC.jpg",
+    "src": "src/assets/images/products/steel-t-channels.jpg"
+  },
+  "src/assets/images/products/steel-u-channels.jpg": {
+    "file": "assets/steel-u-channels-DuL8SimU.jpg",
+    "src": "src/assets/images/products/steel-u-channels.jpg"
+  },
+  "src/assets/images/products/steel-unequal-angles.jpg": {
+    "file": "assets/steel-unequal-angles-AhRpV8tV.jpg",
+    "src": "src/assets/images/products/steel-unequal-angles.jpg"
+  },
+  "src/assets/images/products/steel-z-channels.jpg": {
+    "file": "assets/steel-z-channels-Byp9OMcU.jpg",
+    "src": "src/assets/images/products/steel-z-channels.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-angle-channel.jpg": {
+    "file": "assets/super-duplex-steel-angle-channel-k32n3NaD.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-angle-channel.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-fastener-manu.jpg": {
+    "file": "assets/super-duplex-steel-fastener-manu-ZW3EnDOa.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-fastener-manu.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-flange-manufa.jpg": {
+    "file": "assets/super-duplex-steel-flange-manufa-49gQ_475.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-flange-manufa.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-forged-fittin.jpg": {
+    "file": "assets/super-duplex-steel-forged-fittin-Qx27DSW6.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-forged-fittin.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-pipe-fitting.jpg": {
+    "file": "assets/super-duplex-steel-pipe-fitting-DBa4eJDU.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-pipe-fitting.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-pipe-manufact.jpg": {
+    "file": "assets/super-duplex-steel-pipe-manufact-D7KT8Dqg.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-pipe-manufact.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-round-bar-man.jpg": {
+    "file": "assets/super-duplex-steel-round-bar-man-6aBAxP1v.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-round-bar-man.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-sheet-plate-m.jpg": {
+    "file": "assets/super-duplex-steel-sheet-plate-m-OBLEUVTK.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-sheet-plate-m.jpg"
+  },
+  "src/assets/images/products/super-duplex-steel-wire-mesh-man.jpg": {
+    "file": "assets/super-duplex-steel-wire-mesh-man-OdZA-j0M.jpg",
+    "src": "src/assets/images/products/super-duplex-steel-wire-mesh-man.jpg"
+  },
+  "src/assets/images/products/titanium--angle-channel-manufact.jpg": {
+    "file": "assets/titanium--angle-channel-manufact-DqtSizef.jpg",
+    "src": "src/assets/images/products/titanium--angle-channel-manufact.jpg"
+  },
+  "src/assets/images/products/titanium-fasteners-manufacturer.jpg": {
+    "file": "assets/titanium-fasteners-manufacturer-B2JvURxh.jpg",
+    "src": "src/assets/images/products/titanium-fasteners-manufacturer.jpg"
+  },
+  "src/assets/images/products/titanium-flange-manufacturer-ind.jpg": {
+    "file": "assets/titanium-flange-manufacturer-ind-Da5YLYcU.jpg",
+    "src": "src/assets/images/products/titanium-flange-manufacturer-ind.jpg"
+  },
+  "src/assets/images/products/titanium-forged-fittings-manufac.jpg": {
+    "file": "assets/stainless-steel-forged-fittings-FAPmpp6q.jpg",
+    "src": "src/assets/images/products/stainless-steel-forged-fittings.jpg"
+  },
+  "src/assets/images/products/titanium-pipe-fittings-manufactu.jpg": {
+    "file": "assets/titanium-pipe-fittings-manufactu-BnSa1P5R.jpg",
+    "src": "src/assets/images/products/titanium-pipe-fittings-manufactu.jpg"
+  },
+  "src/assets/images/products/titanium-pipe-tube-manufacturer.jpg": {
+    "file": "assets/titanium-pipe-tube-manufacturer-ByNTsfzu.jpg",
+    "src": "src/assets/images/products/titanium-pipe-tube-manufacturer.jpg"
+  },
+  "src/assets/images/products/titanium-round-bar-manufacturer.jpg": {
+    "file": "assets/ss-round-bar-manufacturer-india-CliTJRbb.jpg",
+    "src": "src/assets/images/products/ss-round-bar-manufacturer-india.jpg"
+  },
+  "src/assets/images/products/titanium-sheet-plate-manufacture.jpg": {
+    "file": "assets/stainless-steel-sheet-plate-manu-Qy4-2QbC.jpg",
+    "src": "src/assets/images/products/stainless-steel-sheet-plate-manu.jpg"
+  },
+  "src/assets/images/products/titanium-wire-mesh-manufacturer.jpg": {
+    "file": "assets/titanium-wire-mesh-manufacturer-DZ8seNcm.jpg",
+    "src": "src/assets/images/products/titanium-wire-mesh-manufacturer.jpg"
+  },
+  "src/assets/images/products/valves.jpg": {
+    "file": "assets/valves-YWyvwCLA.jpg",
+    "src": "src/assets/images/products/valves.jpg"
+  },
+  "src/assets/images/trustedClient/adityaBirla.png": {
+    "file": "assets/adityaBirla-D7UOzX2l.png",
+    "src": "src/assets/images/trustedClient/adityaBirla.png"
+  },
+  "src/assets/images/trustedClient/bhel.png": {
+    "file": "assets/bhel-bGmwcIf5.png",
+    "src": "src/assets/images/trustedClient/bhel.png"
+  },
+  "src/assets/images/trustedClient/godrej.png": {
+    "file": "assets/godrej-C1NzYE6t.png",
+    "src": "src/assets/images/trustedClient/godrej.png"
+  },
+  "src/assets/images/trustedClient/indiaoil.png": {
+    "file": "assets/indiaoil-CZ_2CwaQ.png",
+    "src": "src/assets/images/trustedClient/indiaoil.png"
+  },
+  "src/assets/images/trustedClient/lt.png": {
+    "file": "assets/lt-BTgwl4Eh.png",
+    "src": "src/assets/images/trustedClient/lt.png"
+  }
+}

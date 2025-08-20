@@ -2,19 +2,15 @@
   "version": 3,
   "routes": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.+\\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js))",
-      "dest": "/$1"
+      "src": "/api/(.*)",
+      "dest": "/api"
     },
     {
       "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/api/serverless.js"
+      "dest": "/index.html"
     }
   ]
 }

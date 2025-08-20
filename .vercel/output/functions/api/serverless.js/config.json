@@ -1,8 +1,0 @@
-{
-  "runtime": "nodejs18.x",
-  "handler": "api/serverless.js",
-  "launcherType": "Nodejs",
-  "regions": ["iad1"],
-  "memory": 1024,
-  "maxDuration": 10
-}
