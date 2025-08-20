@@ -14,7 +14,7 @@ const require = createRequire(import.meta.url);
 const app = express();
 
 // Helper function to resolve paths
-const resolve = (p) => path.resolve(__dirname, '../static', p);
+const resolve = (p) => path.resolve(__dirname, '../../static', p);
 
 // Serve static assets
 app.use('/assets', express.static(resolve('dist/assets')));

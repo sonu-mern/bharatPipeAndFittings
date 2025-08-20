@@ -33,7 +33,10 @@ export default defineConfig(({ command, mode }) => {
       manifest: true,
       rollupOptions: {
         // Use index.html as the entry point
-        input: path.resolve(__dirname, 'index.html'),
+        input: {
+          main: path.resolve(__dirname, 'index.html'),
+          'entry-server': path.resolve(__dirname, 'src/entry-server.jsx'),
+        },
       },
       outDir: 'dist',
       emptyOutDir: true,
