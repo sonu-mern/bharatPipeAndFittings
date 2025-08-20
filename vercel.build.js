@@ -54,7 +54,7 @@ if (!fs.existsSync(vercelFunctionsDir)) {
 // Copy dist directory to Vercel static output
 const distDir = path.resolve(__dirname, 'dist');
 if (fs.existsSync(distDir)) {
-  console.log('Copying dist directory to Vercel static output...');
+  console.log('Copying dist directory from:', distDir, 'to:', vercelStaticDir);
   copyDir(distDir, vercelStaticDir);
 }
 
