@@ -18,6 +18,9 @@ const handleWhatsAppClick = () => {
   const encodedMessage = encodeURIComponent(message);
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
-  window.open(whatsappURL, "_blank");
+  // Only use window.open in browser environment
+  if (typeof window !== 'undefined') {
+    window.open(whatsappURL, "_blank");
+  }
 };
 export { hasEmptyKey, slugify, handleWhatsAppClick };

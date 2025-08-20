@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "SSR server for Bharat Pipe & Fittings",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

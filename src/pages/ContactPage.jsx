@@ -79,8 +79,10 @@ ${formData.message}
         subject
       )}&body=${encodeURIComponent(body)}`;
 
-      // Redirect to default mail client
-      window.location.href = mailtoLink;
+      // Redirect to default mail client - only in browser environment
+      if (typeof window !== 'undefined') {
+        window.location.href = mailtoLink;
+      }
 
       // Reset form after short delay
       setTimeout(() => {

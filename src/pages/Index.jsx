@@ -59,7 +59,8 @@ const Index = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.hash) {
+    // Only run in browser environment
+    if (typeof document !== 'undefined' && location.hash) {
       const element = document.querySelector(location.hash);
       if (element) {
         // Delay slightly to make sure rendering is complete

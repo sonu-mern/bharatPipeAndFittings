@@ -21,9 +21,12 @@ const ServiceSidebar = ({ data, title = "Our Services" }) => {
               <li key={index} className={styles.serviceItem}>
                 <Link
                   to={path}
-                  onClick={() =>
-                    window.scrollTo({ top: 0, behavior: "instant" })
-                  } // ✅ scroll on click
+                  onClick={() => {
+                    // Only use window.scrollTo in browser environment
+                    if (typeof window !== 'undefined') {
+                      window.scrollTo({ top: 0, behavior: "instant" });
+                    }
+                  }} // ✅ scroll on click
                   className={`${styles.serviceLink} ${
                     isActive ? styles.active : ""
                   }`}

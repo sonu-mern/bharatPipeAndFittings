@@ -20,16 +20,22 @@ const ProductPage = () => {
   const [product, setProduct] = useState(allProducts[0]);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Only use window.scrollTo in browser environment
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0);
+    }
   }, []);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 900);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    // Only run in browser environment
+    if (typeof window !== 'undefined') {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 900);
+      };
+      handleResize();
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
 
   useEffect(() => {

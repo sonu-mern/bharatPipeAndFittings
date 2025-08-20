@@ -1,5 +1,4 @@
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
+import './entry-client.jsx'
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Client entry point is now in entry-client.jsx

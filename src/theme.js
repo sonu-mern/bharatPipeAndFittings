@@ -12,7 +12,9 @@ export const theme = {
     primaryAccentLight: '#a4b7f5',
   },
 
-  setThemeColors: (root = document.documentElement) => {
+  setThemeColors: (root) => {
+    // Skip in server environment where document doesn't exist
+    if (typeof document === 'undefined' || !root) return;
     root.style.setProperty('--color-primary', theme.colors.primary);
     root.style.setProperty('--color-secondary', theme.colors.secondary);
     root.style.setProperty('--color-secondary-dark', theme.colors.secondaryDark);

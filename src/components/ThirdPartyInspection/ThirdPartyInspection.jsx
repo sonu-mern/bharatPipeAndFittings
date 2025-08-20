@@ -69,18 +69,41 @@ const ThirdPartyInspection = ({ img, title, customWidth }) => {
   );
 };
 
-export default ThirdPartyInspection;
-
-// Responsive style for full width on mobile
-const style = document.createElement("style");
-style.innerHTML = `
-  @media (max-width: 576px) {
-    .third-party-section {
-      width: 90vw !important;
-      max-width: 90vw !important;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
+// Add responsive styles using useEffect to avoid SSR issues
+const ResponsiveStyles = () => {
+  React.useEffect(() => {
+    if (typeof document !== 'undefined') {
+      const style = document.createElement("style");
+      style.innerHTML = `
+        @media (max-width: 576px) {
+          .third-party-section {
+            width: 90vw !important;
+            max-width: 90vw !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
+        }
+      `;
+      document.head.appendChild(style);
+      
+      // Cleanup function to remove the style when component unmounts
+      return () => {
+        document.head.removeChild(style);
+      };
     }
-  }
-`;
-document.head.appendChild(style);
+  }, []);
+  
+  return null;
+};
+
+// Wrap the component to include the responsive styles
+const ThirdPartyInspectionWithStyles = () => {
+  return (
+    <>
+      <ThirdPartyInspection />
+      <ResponsiveStyles />
+    </>
+  );
+};
+
+export default ThirdPartyInspectionWithStyles;

@@ -1,53 +1,41 @@
-import React, { Suspense, lazy, useEffect } from "react";
+import React, { useEffect } from "react";
 import { constantValue } from "./utils/constantValue";
 
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { theme } from "./theme";
-import Loader from "./components/loader/Loader";
+import { Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
-theme.setThemeColors();
 
-const queryClient = new QueryClient();
+// queryClient is now provided by entry points
 
-// ✅ Lazy loaded components
-const Index = lazy(() => import("./pages/Index"));
-const ProductPage = lazy(() => import("./pages/ProductPage"));
-const AboutPage = lazy(() => import("./pages/AboutPage"));
-const ContactPage = lazy(() => import("./pages/ContactPage"));
-const NotFound = lazy(() => import("./pages/NotFound"));
+// Import components directly for server-side rendering
+import Index from "./pages/Index";
+import ProductPage from "./pages/ProductPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   console.log("App rendering");
   useEffect(() => {
-    document.title = constantValue.companyName;
+    // Only set document.title in browser environment
+    if (typeof document !== 'undefined') {
+      document.title = constantValue.companyName;
+    }
   }, []);
   return (
-    <HelmetProvider>
-
-
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Suspense fallback={<Loader />}>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/product/:id" element={<ProductPage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              {/* Catch-all route for 404 */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </BrowserRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
-    </HelmetProvider>
+    <>
+      <Toaster />
+      <Sonner />
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        {/* Catch-all route for 404 */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 };
 

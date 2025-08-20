@@ -8,7 +8,8 @@ const Achievements = ({ heading, description, achievements }) => {
 
   useEffect(() => {
     let observer;
-    if (sectionRef.current) {
+    // Only run in browser environment
+    if (typeof window !== 'undefined' && sectionRef.current) {
       observer = new window.IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting && !hasAnimated) {

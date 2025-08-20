@@ -22,9 +22,12 @@ const Navbar = () => {
   ];
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    // Only run in browser environment
+    if (typeof window !== 'undefined') {
+      const handleScroll = () => setIsScrolled(window.scrollY > 50);
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
   }, []);
 
   const toggleMenu = () => {
@@ -39,7 +42,10 @@ const Navbar = () => {
 
   const handlePdfOpen = (e, href) => {
     e.preventDefault();
-    window.open(href, "_blank");
+    // Only use window.open in browser environment
+    if (typeof window !== 'undefined') {
+      window.open(href, "_blank");
+    }
     setIsMenuOpen(false);
   };
 
@@ -73,7 +79,7 @@ const Navbar = () => {
                     </span>
                   </button>
 
-                  {(isMaterialsOpen || window.innerWidth >= 769) && (
+                  {(isMaterialsOpen || (typeof window !== 'undefined' && window.innerWidth >= 769)) && (
                     <div className={styles.dropdownMenu}>
                       {materials.map((item, idx) => (
                         <Link
@@ -83,7 +89,9 @@ const Navbar = () => {
                           onClick={() => {
                             setIsMenuOpen(false);
                             setIsMaterialsOpen(false);
-                            window.scrollTo({ top: 0, behavior: "instant" });
+                            if (typeof window !== 'undefined') {
+                              window.scrollTo({ top: 0, behavior: "instant" });
+                            }
                           }}
                         >
                           {item.label}
