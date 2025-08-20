@@ -78,7 +78,7 @@ const configContent = {
   routes: [
     { "src": "/api/(.*)", "dest": "/api" },
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/functions/api/serverless.js" }
   ]
 };
 
