@@ -11,7 +11,7 @@ const require = createRequire(import.meta.url);
 const isProduction = process.env.NODE_ENV === 'production';
 const app = express();
 const port = process.env.PORT || 8010;
-const resolve = (p) => path.resolve(__dirname, '..', p);
+const resolve = (p) => path.resolve(process.cwd(), p);
 
 // Serve static assets
 app.use('/assets', express.static(resolve('dist/assets'), { maxAge: '1y' }));
