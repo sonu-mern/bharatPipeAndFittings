@@ -22,13 +22,34 @@ app.use('/assets', express.static(resolve('dist/assets')));
 // Serve public files
 app.use(express.static(resolve('dist')));
 
+// Ensure dist directory exists
+const distDir = resolve('dist');
+if (!fs.existsSync(distDir)) {
+  console.warn('Warning: dist directory not found at', distDir);
+  // Create dist directory if it doesn't exist
+  fs.mkdirSync(distDir, { recursive: true });
+}
+
 // Handle all other routes with SSR
 app.use(async (req, res) => {
   try {
     const url = req.originalUrl;
     
-    const template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
-    const render = (await import(`${resolve('dist/server/entry-server.mjs')}`)).render;
+    let template;
+    try {
+      template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
+    } catch (error) {
+      console.error('Error reading index.html:', error);
+      return res.status(500).send('Error: Could not find index.html. Please ensure the build process completed successfully.');
+    }
+    
+    let render;
+    try {
+      render = (await import(`${resolve('dist/server/entry-server.mjs')}`)).render;
+    } catch (error) {
+      console.error('Error importing entry-server.mjs:', error);
+      return res.status(500).send('Error: Could not load server renderer. Please ensure the build process completed successfully.');
+    }
     
     const context = {};
     const { html: appHtml, helmetContext } = await render(url, context);

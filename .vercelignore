@@ -2,7 +2,7 @@ node_modules
 .vite
 .git
 .github
-.gitignore
+# .gitignore - commented out to ensure dist directory is included
 .env.local
 .env.development
 npm-debug.log*
