@@ -14,7 +14,7 @@ const require = createRequire(import.meta.url);
 const app = express();
 
 // Helper function to resolve paths
-const resolve = (p) => path.resolve(__dirname, '..', p);
+const resolve = (p) => path.resolve(__dirname, '../static', p);
 
 // Serve static assets
 app.use('/assets', express.static(resolve('dist/assets')));
@@ -36,6 +36,8 @@ app.use(async (req, res) => {
     const url = req.originalUrl;
     
     let template;
+    const indexPath = resolve('dist/index.html');
+    console.log('Attempting to read index.html from:', indexPath);
     try {
       template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
     } catch (error) {

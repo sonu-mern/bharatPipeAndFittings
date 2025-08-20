@@ -1,0 +1,9 @@
+{
+  "runtime": "nodejs18.x",
+  "handler": "serverless.js",
+  "launcherType": "Nodejs",
+  "shouldAddHelpers": true,
+  "shouldAddSourcemaps": true,
+  "maxDuration": 10,
+  "memory": 1024
+}
