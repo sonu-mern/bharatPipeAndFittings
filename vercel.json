@@ -1,33 +1,32 @@
 {
-"version": 2,
-"installCommand": "npm install",
-"buildCommand": "node vercel.build.js",
-"outputDirectory": ".vercel/output",
-
-"functions": {
-  "dist/server/entry-server.mjs": {
-    "runtime": "nodejs18.x"
+  "version": 2,
+  "installCommand": "npm install",
+  "buildCommand": "node vercel.build.js",
+  "outputDirectory": ".vercel/output",
+  "functions": {
+    "dist/server/entry-server.mjs": {
+      "runtime": "nodejs18.x"
     }
   },
-"routes": [
-  {
-    "src": "/api/(.*)",
-    "dest": "/api/serverless.js"
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/serverless.js"
     },
-  {
-    "src": "/assets/(.*)",
-    "dest": "/assets/$1"
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
     },
-  {
-    "src": "/(.+\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js))",
-    "dest": "/$1"
+    {
+      "src": "/(.+\\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js))",
+      "dest": "/$1"
     },
-  {
-    "handle": "filesystem"
+    {
+      "handle": "filesystem"
     },
-  {
-    "src": "/(.*)",
-    "dest": "dist/server/entry-server.mjs"
+    {
+      "src": "/(.*)",
+      "dest": "dist/server/entry-server.mjs"
     }
   ]
 }
