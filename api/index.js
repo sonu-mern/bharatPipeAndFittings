@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
+import express from 'express';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,9 +12,6 @@ const require = createRequire(import.meta.url);
 const isProduction = process.env.NODE_ENV === 'production';
 const app = express();
 
-// Helper function to resolve paths
-const resolve = (p) => path.resolve(__dirname, '..', p);
-
 // Create serverless function handler
 export default async function handler(req, res) {
   try {
@@ -21,21 +19,21 @@ export default async function handler(req, res) {
     
     // Serve static assets if the request is for a static file
     if (url.startsWith('/assets/')) {
-      const filePath = resolve(`dist${url}`);
+      const filePath = path.join(process.cwd(), `dist${url}`);
       return res.sendFile(filePath);
     }
     
     // Serve public files
     if (url.match(/\.(ico|png|jpg|jpeg|svg|webp|gif|pdf|txt|css|js)$/)) {
-      const publicPath = resolve(`dist${url}`);
+      const publicPath = path.join(process.cwd(), `dist${url}`);
       if (fs.existsSync(publicPath)) {
         return res.sendFile(publicPath);
       }
     }
     
     // For all other requests, use SSR
-    const template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
-    const render = (await import(`${resolve('dist/server/entry-server.mjs')}`)).render;
+    const template = fs.readFileSync(path.join(process.cwd(), 'dist', 'index.html'), 'utf-8');
+    const render = (await import(path.join(process.cwd(), 'dist', 'server', 'entry-server.mjs'))).render;
     
     const context = {};
     const { html: appHtml, helmetContext } = await render(url, context);

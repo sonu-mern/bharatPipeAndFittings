@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/index.js",
+      "src": "api/index.js",
       "use": "@vercel/node"
     },
     {
@@ -24,11 +24,11 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/server/index.js"
+      "dest": "/api/index.js"
     }
   ],
   "functions": {
-    "server/index.js": {
+    "api/index.js": {
       "includeFiles": "dist/**"
     }
   }
