@@ -30,6 +30,7 @@ function copyDir(src, dest) {
 }
 
 // Run the build commands
+console.log('Executing vercel.build.js...');
 console.log('Building client and server bundles...');
 execSync('npm run build:client', { stdio: 'inherit' });
 execSync('npm run build:server', { stdio: 'inherit' });

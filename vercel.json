@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "installCommand": "npm install",
   "buildCommand": "node vercel.build.js",
   "outputDirectory": ".vercel/output",
   "routes": [
