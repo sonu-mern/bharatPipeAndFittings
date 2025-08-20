@@ -71,4 +71,19 @@ if (fs.existsSync(apiSourceDir)) {
   copyDir(apiSourceDir, apiDestDir);
 }
 
+
+// Create config.json for Vercel output
+const configContent = {
+  version: 3,
+  routes: [
+    { "src": "/api/(.*)", "dest": "/api" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+};
+
+const configFilePath = path.resolve(vercelOutputDir, 'config.json');
+fs.writeFileSync(configFilePath, JSON.stringify(configContent, null, 2));
+console.log('Created config.json at:', configFilePath);
+
 console.log('Vercel build completed successfully!');
