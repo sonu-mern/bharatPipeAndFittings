@@ -35,7 +35,7 @@ export default defineConfig(({ command, mode }) => {
         // Use index.html as the entry point
         input: path.resolve(__dirname, 'index.html'),
       },
-      outDir: 'dist',
+      outDir: 'dist/client', // <-- Fix here!
       emptyOutDir: true,
       ssrManifest: true,
     },
