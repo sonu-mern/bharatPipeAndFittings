@@ -6,7 +6,7 @@
   ],
   "routes": [
     { "src": "/assets/(.*)", "dest": "/dist/client/assets/$1" },
-    { "src": "/(.*)", "dest": "/server/index.js" }
+    { "src": "/(.*)", "dest": "/server/server.js" }
   ],
   "buildCommand": "npm run build"
 }
