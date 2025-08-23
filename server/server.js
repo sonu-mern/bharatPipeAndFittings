@@ -32,6 +32,7 @@ app.use(async (req, res) => {
 
     if (isProduction) {
       // check dist/client first, otherwise fallback dist/
+      //test
       const clientIndex = resolve('dist/client/index.html');
       if (!fs.existsSync(clientIndex)) {
         throw new Error('dist/client/index.html not found. Did you run `npm run build`?');
