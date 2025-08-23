@@ -30,7 +30,7 @@ app.use(async (req, res) => {
     let render;
 
     if (isProduction) {
-      template = fs.readFileSync(resolve('dist/index.html'), 'utf-8');
+      template = fs.readFileSync(resolve('dist/client/index.html'), 'utf-8');
       render = (await import(`file://${resolve('dist/server/entry-server.mjs')}`)).render;
     } else {
       template = fs.readFileSync(resolve('index.html'), 'utf-8');
