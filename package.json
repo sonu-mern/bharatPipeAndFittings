@@ -5,14 +5,18 @@
 
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:server",
+    "build": "vite build && vite build --ssr src/entry-server.jsx",
+
+    "build2": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist",
     "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "cross-env NODE_ENV=production node server",
-    "start": "node server"
+    "serve2": "cross-env NODE_ENV=production node server",
+    "start2": "node server",
+    "start": "node server/server.js",
+    "serve": "node server/index.js"
   },
   "dependencies": {
     "@babel/preset-env": "^7.28.3",
