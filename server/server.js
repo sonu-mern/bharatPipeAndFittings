@@ -33,10 +33,10 @@ app.use(async (req, res) => {
     if (isProduction) {
       // check dist/client first, otherwise fallback dist/
       const clientIndex = resolve('dist/client/index.html');
-      const rootIndex = resolve('dist/index.html');
-      const templatePath = fs.existsSync(clientIndex) ? clientIndex : rootIndex;
-
-      template = fs.readFileSync(templatePath, 'utf-8');
+      if (!fs.existsSync(clientIndex)) {
+        throw new Error('dist/client/index.html not found. Did you run `npm run build`?');
+      }
+      template = fs.readFileSync(clientIndex, 'utf-8');
       render = (await import(`file://${resolve('dist/server/entry-server.mjs')}`)).render;
     } else {
       template = fs.readFileSync(resolve('index.html'), 'utf-8');
