@@ -5,7 +5,8 @@
     { "src": "dist/client/**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "server/server.js" }
+    { "src": "/assets/(.*)", "dest": "/dist/client/assets/$1" },
+    { "src": "/(.*)", "dest": "/server/index.js" }
   ],
   "buildCommand": "npm run build"
 }

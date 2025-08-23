@@ -1,3 +1,4 @@
+// server/server.js
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
@@ -18,10 +19,10 @@ app.use('/assets', express.static(resolve('dist/assets'), { maxAge: '1y' }));
 // Serve public files
 app.use(express.static(resolve('public'), { maxAge: '30d' }));
 
-// Serve index.html for root path
+// Serve dist folder (no index by default)
 app.use(express.static(resolve('dist'), { index: false }));
 
-// Everything else is handled by the SSR
+// SSR handling
 app.use(async (req, res) => {
   try {
     const url = req.originalUrl;
@@ -30,7 +31,12 @@ app.use(async (req, res) => {
     let render;
 
     if (isProduction) {
-      template = fs.readFileSync(resolve('dist/client/index.html'), 'utf-8');
+      // check dist/client first, otherwise fallback dist/
+      const clientIndex = resolve('dist/client/index.html');
+      const rootIndex = resolve('dist/index.html');
+      const templatePath = fs.existsSync(clientIndex) ? clientIndex : rootIndex;
+
+      template = fs.readFileSync(templatePath, 'utf-8');
       render = (await import(`file://${resolve('dist/server/entry-server.mjs')}`)).render;
     } else {
       template = fs.readFileSync(resolve('index.html'), 'utf-8');
@@ -44,21 +50,23 @@ app.use(async (req, res) => {
       return res.redirect(301, context.url);
     }
 
-    const { helmet } = helmetContext;
+    const { helmet } = helmetContext || {};
 
     const html = template
       .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
       .replace(
         '<!--head-tags-->',
-        helmet ? `${helmet.title.toString()}${helmet.meta.toString()}${helmet.link.toString()}` : ''
+        helmet
+          ? `${helmet.title.toString()}${helmet.meta.toString()}${helmet.link.toString()}`
+          : ''
       );
 
     res.status(200).set({ 'Content-Type': 'text/html' }).end(html);
   } catch (e) {
-    console.error(e);
+    console.error('❌ SSR Error:', e);
     res.status(500).end(e.stack);
   }
 });
 
-// 👇 Ye add karo for Vercel
+// 👉 For Vercel (no app.listen)
 export default app;
