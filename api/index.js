@@ -48,13 +48,40 @@ app.use(express.static(resolve('public'), { maxAge: '30d' }));
 // Serve client files
 app.use(express.static(resolve('dist/client'), { index: false }));
 
+// Handle static files explicitly
+app.get('/catalog.pdf', (req, res) => {
+  console.log('Handling catalog.pdf request');
+
+  const possiblePaths = [
+    resolve('public/catalog.pdf'),
+    resolve('dist/client/catalog.pdf'),
+    path.resolve(process.cwd(), 'public/catalog.pdf'),
+    path.resolve(process.cwd(), 'dist/client/catalog.pdf'),
+    path.resolve(__dirname, '..', 'public/catalog.pdf'),
+    path.resolve(__dirname, '..', 'dist/client/catalog.pdf'),
+    path.resolve(process.cwd(), 'catalog.pdf'),
+    path.resolve(__dirname, '..', 'catalog.pdf')
+  ];
+
+  for (const filePath of possiblePaths) {
+    console.log(`Checking for catalog.pdf at: ${filePath}`);
+    if (fs.existsSync(filePath)) {
+      console.log(`Found catalog.pdf at: ${filePath}`);
+      return res.sendFile(filePath);
+    }
+  }
+
+  console.log('catalog.pdf not found in any location');
+  res.status(404).end('Catalog PDF not found');
+});
+
 // Check for static files before SSR
 app.use((req, res, next) => {
   const url = req.originalUrl;
   console.log(`Checking request for: ${url}`);
 
-  // Check if it's a static file request
-  if (url.match(/\.(pdf|jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot)$/i)) {
+  // Check if it's a static file request (but not catalog.pdf which we handle above)
+  if (url.match(/\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot)$/i)) {
     console.log(`Static file request detected: ${url}`);
 
     // Try to find the file in public directory
