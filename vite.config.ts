@@ -7,13 +7,6 @@ import { fileURLToPath } from 'url';
 export default defineConfig(({ command, mode }) => {
   const plugins = [react()];
 
-  // Only in development, dynamically import lovable-tagger
-  if (mode === "development") {
-    import("lovable-tagger").then(({ componentTagger }) => {
-      plugins.push(componentTagger());
-    });
-  }
-
   return {
     server: {
       host: "::",
@@ -35,7 +28,7 @@ export default defineConfig(({ command, mode }) => {
         // Use index.html as the entry point
         input: path.resolve(__dirname, 'index.html'),
       },
-      outDir: 'dist/client', // <-- Fix here!
+      outDir: 'dist',
       emptyOutDir: true,
       ssrManifest: true,
     },
