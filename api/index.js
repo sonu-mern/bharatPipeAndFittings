@@ -11,7 +11,13 @@ const require = createRequire(import.meta.url);
 
 const isProduction = process.env.NODE_ENV === 'production';
 const app = express();
-const resolve = (p) => path.resolve(__dirname, '..', p);
+
+// Fix path resolution for Vercel
+const resolve = (p) => {
+  const resolvedPath = path.resolve(__dirname, '..', p);
+  console.log(`Resolving path: ${p} -> ${resolvedPath}`);
+  return resolvedPath;
+};
 
 // Serve static assets
 app.use('/assets', express.static(resolve('dist/client/assets'), { maxAge: '1y' }));
@@ -26,6 +32,7 @@ app.use(express.static(resolve('dist/client'), { index: false }));
 app.use(async (req, res) => {
   try {
     const url = req.originalUrl;
+    console.log(`Handling request for: ${url}`);
 
     let template;
     let render;
@@ -33,11 +40,17 @@ app.use(async (req, res) => {
     if (isProduction) {
       // check dist/client first, otherwise fallback dist/
       const clientIndex = resolve('dist/client/index.html');
+      console.log(`Looking for client index at: ${clientIndex}`);
+
       if (!fs.existsSync(clientIndex)) {
+        console.error(`Client index not found at: ${clientIndex}`);
         throw new Error('dist/client/index.html not found. Did you run `npm run build`?');
       }
+
       template = fs.readFileSync(clientIndex, 'utf-8');
-      render = (await import(`file://${resolve('dist/server/entry-server.mjs')}`)).render;
+      const serverEntry = resolve('dist/server/entry-server.js');
+      console.log(`Loading server entry from: ${serverEntry}`);
+      render = (await import(`file://${serverEntry}`)).render;
     } else {
       template = fs.readFileSync(resolve('index.html'), 'utf-8');
       render = (await import(`file://${resolve('src/entry-server.jsx')}`)).render;
@@ -64,7 +77,8 @@ app.use(async (req, res) => {
     res.status(200).set({ 'Content-Type': 'text/html' }).end(html);
   } catch (e) {
     console.error('❌ SSR Error:', e);
-    res.status(500).end(e.stack);
+    console.error('Stack trace:', e.stack);
+    res.status(500).end(`SSR Error: ${e.message}`);
   }
 });
 
