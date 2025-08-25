@@ -14,19 +14,20 @@ const app = express();
 
 // Fix path resolution for Vercel
 const resolve = (p) => {
+  // In Vercel, the working directory is set to dist, so we need to go up one level
   const resolvedPath = path.resolve(__dirname, '..', p);
   console.log(`Resolving path: ${p} -> ${resolvedPath}`);
   return resolvedPath;
 };
 
 // Serve static assets
-app.use('/assets', express.static(resolve('dist/client/assets'), { maxAge: '1y' }));
+app.use('/assets', express.static(resolve('client/assets'), { maxAge: '1y' }));
 
 // Serve public files
 app.use(express.static(resolve('public'), { maxAge: '30d' }));
 
-// Serve dist folder (no index by default)
-app.use(express.static(resolve('dist/client'), { index: false }));
+// Serve client files
+app.use(express.static(resolve('client'), { index: false }));
 
 // SSR handling
 app.use(async (req, res) => {
@@ -38,17 +39,17 @@ app.use(async (req, res) => {
     let render;
 
     if (isProduction) {
-      // check dist/client first, otherwise fallback dist/
-      const clientIndex = resolve('dist/client/index.html');
+      // In Vercel, we're in the dist directory
+      const clientIndex = resolve('client/index.html');
       console.log(`Looking for client index at: ${clientIndex}`);
-
+      
       if (!fs.existsSync(clientIndex)) {
         console.error(`Client index not found at: ${clientIndex}`);
-        throw new Error('dist/client/index.html not found. Did you run `npm run build`?');
+        throw new Error('client/index.html not found. Did you run `npm run build`?');
       }
-
+      
       template = fs.readFileSync(clientIndex, 'utf-8');
-      const serverEntry = resolve('dist/server/entry-server.js');
+      const serverEntry = resolve('server/entry-server.js');
       console.log(`Loading server entry from: ${serverEntry}`);
       render = (await import(`file://${serverEntry}`)).render;
     } else {
