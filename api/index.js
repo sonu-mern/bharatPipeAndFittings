@@ -40,13 +40,13 @@ const resolve = (p) => {
 };
 
 // Serve static assets
-app.use('/assets', express.static(resolve('client/assets'), { maxAge: '1y' }));
+app.use('/assets', express.static(resolve('dist/client/assets'), { maxAge: '1y' }));
 
 // Serve public files
 app.use(express.static(resolve('public'), { maxAge: '30d' }));
 
 // Serve client files
-app.use(express.static(resolve('client'), { index: false }));
+app.use(express.static(resolve('dist/client'), { index: false }));
 
 // SSR handling
 app.use(async (req, res) => {
@@ -60,9 +60,9 @@ app.use(async (req, res) => {
     if (isProduction) {
       // Try to find the client index file
       const possiblePaths = [
-        resolve('client/index.html'),
-        path.resolve(process.cwd(), 'client/index.html'),
-        path.resolve(__dirname, '..', 'client/index.html'),
+        resolve('dist/client/index.html'),
+        path.resolve(process.cwd(), 'dist/client/index.html'),
+        path.resolve(__dirname, '..', 'dist/client/index.html'),
         path.resolve(process.cwd(), 'index.html'),
         path.resolve(__dirname, '..', 'index.html')
       ];
@@ -85,7 +85,29 @@ app.use(async (req, res) => {
       template = fs.readFileSync(clientIndex, 'utf-8');
       
       // Try to find the server entry file
-      const serverEntry = resolve('server/entry-server.js');
+      const serverEntryPaths = [
+        resolve('dist/server/entry-server.js'),
+        path.resolve(process.cwd(), 'dist/server/entry-server.js'),
+        path.resolve(__dirname, '..', 'dist/server/entry-server.js'),
+        path.resolve(process.cwd(), 'server/entry-server.js'),
+        path.resolve(__dirname, '..', 'server/entry-server.js')
+      ];
+      
+      let serverEntry = null;
+      for (const possiblePath of serverEntryPaths) {
+        console.log(`Checking for server entry at: ${possiblePath}`);
+        if (fs.existsSync(possiblePath)) {
+          serverEntry = possiblePath;
+          console.log(`Found server entry at: ${serverEntry}`);
+          break;
+        }
+      }
+      
+      if (!serverEntry) {
+        console.error('Server entry not found in any of the expected locations');
+        throw new Error('entry-server.js not found. Did you run `npm run build`?');
+      }
+      
       console.log(`Loading server entry from: ${serverEntry}`);
       render = (await import(`file://${serverEntry}`)).render;
     } else {
