@@ -12,12 +12,31 @@ const require = createRequire(import.meta.url);
 const isProduction = process.env.NODE_ENV === 'production';
 const app = express();
 
+// Debug current directory structure
+console.log('Current directory:', process.cwd());
+console.log('API function directory:', __dirname);
+console.log('Files in current directory:', fs.readdirSync('.'));
+
 // Fix path resolution for Vercel
 const resolve = (p) => {
-  // In Vercel, the working directory is set to dist, so we need to go up one level
-  const resolvedPath = path.resolve(__dirname, '..', p);
-  console.log(`Resolving path: ${p} -> ${resolvedPath}`);
-  return resolvedPath;
+  // Try different path strategies
+  const paths = [
+    path.resolve(__dirname, '..', p),
+    path.resolve(process.cwd(), p),
+    path.resolve(__dirname, '..', '..', p),
+    path.resolve(process.cwd(), '..', p)
+  ];
+  
+  for (const resolvedPath of paths) {
+    console.log(`Trying path: ${p} -> ${resolvedPath}`);
+    if (fs.existsSync(resolvedPath)) {
+      console.log(`Found path: ${resolvedPath}`);
+      return resolvedPath;
+    }
+  }
+  
+  console.log(`No path found for: ${p}`);
+  return path.resolve(__dirname, '..', p); // fallback
 };
 
 // Serve static assets
@@ -39,16 +58,33 @@ app.use(async (req, res) => {
     let render;
 
     if (isProduction) {
-      // In Vercel, we're in the dist directory
-      const clientIndex = resolve('client/index.html');
-      console.log(`Looking for client index at: ${clientIndex}`);
+      // Try to find the client index file
+      const possiblePaths = [
+        resolve('client/index.html'),
+        path.resolve(process.cwd(), 'client/index.html'),
+        path.resolve(__dirname, '..', 'client/index.html'),
+        path.resolve(process.cwd(), 'index.html'),
+        path.resolve(__dirname, '..', 'index.html')
+      ];
       
-      if (!fs.existsSync(clientIndex)) {
-        console.error(`Client index not found at: ${clientIndex}`);
-        throw new Error('client/index.html not found. Did you run `npm run build`?');
+      let clientIndex = null;
+      for (const possiblePath of possiblePaths) {
+        console.log(`Checking for client index at: ${possiblePath}`);
+        if (fs.existsSync(possiblePath)) {
+          clientIndex = possiblePath;
+          console.log(`Found client index at: ${clientIndex}`);
+          break;
+        }
+      }
+      
+      if (!clientIndex) {
+        console.error('Client index not found in any of the expected locations');
+        throw new Error('index.html not found. Did you run `npm run build`?');
       }
       
       template = fs.readFileSync(clientIndex, 'utf-8');
+      
+      // Try to find the server entry file
       const serverEntry = resolve('server/entry-server.js');
       console.log(`Loading server entry from: ${serverEntry}`);
       render = (await import(`file://${serverEntry}`)).render;
