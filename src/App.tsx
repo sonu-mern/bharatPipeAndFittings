@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { constantValue } from "./utils/constantValue";
 
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Routes, Route } from "react-router-dom";
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 // queryClient is now provided by entry points
 
@@ -17,14 +17,12 @@ import NotFound from "./pages/NotFound";
 
 const App = () => {
   console.log("App rendering");
-  useEffect(() => {
-    // Only set document.title in browser environment
-    if (typeof document !== 'undefined') {
-      document.title = constantValue.companyName;
-    }
-  }, []);
+  
   return (
     <>
+      <Helmet>
+        <title>{constantValue.companyName}</title>
+      </Helmet>
       <Toaster />
       <Sonner />
       <Routes>

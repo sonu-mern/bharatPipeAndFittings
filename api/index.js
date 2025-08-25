@@ -48,7 +48,7 @@ app.use(express.static(resolve('public'), { maxAge: '30d' }));
 // Serve client files
 app.use(express.static(resolve('dist/client'), { index: false }));
 
-// Handle static files explicitly
+// Handle static files explicitly with proper content types
 app.get('/catalog.pdf', (req, res) => {
   console.log('Handling catalog.pdf request');
 
@@ -67,6 +67,7 @@ app.get('/catalog.pdf', (req, res) => {
     console.log(`Checking for catalog.pdf at: ${filePath}`);
     if (fs.existsSync(filePath)) {
       console.log(`Found catalog.pdf at: ${filePath}`);
+      res.setHeader('Content-Type', 'application/pdf');
       return res.sendFile(filePath);
     }
   }
@@ -75,13 +76,39 @@ app.get('/catalog.pdf', (req, res) => {
   res.status(404).end('Catalog PDF not found');
 });
 
+// Handle site.webmanifest with proper content type
+app.get('/site.webmanifest', (req, res) => {
+  console.log('Handling site.webmanifest request');
+
+  const possiblePaths = [
+    resolve('public/site.webmanifest'),
+    resolve('dist/client/site.webmanifest'),
+    path.resolve(process.cwd(), 'public/site.webmanifest'),
+    path.resolve(process.cwd(), 'dist/client/site.webmanifest'),
+    path.resolve(__dirname, '..', 'public/site.webmanifest'),
+    path.resolve(__dirname, '..', 'dist/client/site.webmanifest')
+  ];
+
+  for (const filePath of possiblePaths) {
+    console.log(`Checking for site.webmanifest at: ${filePath}`);
+    if (fs.existsSync(filePath)) {
+      console.log(`Found site.webmanifest at: ${filePath}`);
+      res.setHeader('Content-Type', 'application/manifest+json');
+      return res.sendFile(filePath);
+    }
+  }
+
+  console.log('site.webmanifest not found in any location');
+  res.status(404).end('Manifest not found');
+});
+
 // Check for static files before SSR
 app.use((req, res, next) => {
   const url = req.originalUrl;
   console.log(`Checking request for: ${url}`);
 
-  // Check if it's a static file request (but not catalog.pdf which we handle above)
-  if (url.match(/\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot)$/i)) {
+  // Check if it's a static file request (but not catalog.pdf or site.webmanifest which we handle above)
+  if (url.match(/\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot|xml|txt)$/i)) {
     console.log(`Static file request detected: ${url}`);
 
     // Try to find the file in public directory
@@ -104,6 +131,17 @@ app.use((req, res, next) => {
     if (fs.existsSync(clientFilePath)) {
       console.log(`Serving client asset: ${clientFilePath}`);
       return res.sendFile(clientFilePath);
+    }
+
+    // Try in client root
+    const clientRootPath = resolve('dist/client');
+    const clientRootFilePath = path.join(clientRootPath, url);
+
+    console.log(`Looking for file in client root: ${clientRootFilePath}`);
+
+    if (fs.existsSync(clientRootFilePath)) {
+      console.log(`Serving client root file: ${clientRootFilePath}`);
+      return res.sendFile(clientRootFilePath);
     }
 
     console.log(`Static file not found: ${url}`);

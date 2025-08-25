@@ -59,15 +59,17 @@ const Index = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Only run in browser environment
-    if (typeof document !== 'undefined' && location.hash) {
-      const element = document.querySelector(location.hash);
-      if (element) {
-        // Delay slightly to make sure rendering is complete
-        setTimeout(() => {
+    // Only run in browser environment and after hydration
+    if (typeof window !== "undefined" && location.hash) {
+      // Use a small delay to ensure hydration is complete
+      const timer = setTimeout(() => {
+        const element = document.querySelector(location.hash);
+        if (element) {
           element.scrollIntoView({ behavior: "smooth" });
-        }, 100);
-      }
+        }
+      }, 100);
+
+      return () => clearTimeout(timer);
     }
   }, [location]);
 
