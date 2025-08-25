@@ -26,7 +26,7 @@ const resolve = (p) => {
     path.resolve(__dirname, '..', '..', p),
     path.resolve(process.cwd(), '..', p)
   ];
-  
+
   for (const resolvedPath of paths) {
     console.log(`Trying path: ${p} -> ${resolvedPath}`);
     if (fs.existsSync(resolvedPath)) {
@@ -34,25 +34,63 @@ const resolve = (p) => {
       return resolvedPath;
     }
   }
-  
+
   console.log(`No path found for: ${p}`);
   return path.resolve(__dirname, '..', p); // fallback
 };
 
-// Serve static assets
+// Serve static assets from client build
 app.use('/assets', express.static(resolve('dist/client/assets'), { maxAge: '1y' }));
 
-// Serve public files
+// Serve public files (including catalog.pdf)
 app.use(express.static(resolve('public'), { maxAge: '30d' }));
 
 // Serve client files
 app.use(express.static(resolve('dist/client'), { index: false }));
 
-// SSR handling
+// Check for static files before SSR
+app.use((req, res, next) => {
+  const url = req.originalUrl;
+  console.log(`Checking request for: ${url}`);
+
+  // Check if it's a static file request
+  if (url.match(/\.(pdf|jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot)$/i)) {
+    console.log(`Static file request detected: ${url}`);
+
+    // Try to find the file in public directory
+    const publicPath = resolve('public');
+    const filePath = path.join(publicPath, url);
+
+    console.log(`Looking for file at: ${filePath}`);
+
+    if (fs.existsSync(filePath)) {
+      console.log(`Serving static file: ${filePath}`);
+      return res.sendFile(filePath);
+    }
+
+    // Try in client assets
+    const clientAssetsPath = resolve('dist/client/assets');
+    const clientFilePath = path.join(clientAssetsPath, url.replace('/assets/', ''));
+
+    console.log(`Looking for file in client assets: ${clientFilePath}`);
+
+    if (fs.existsSync(clientFilePath)) {
+      console.log(`Serving client asset: ${clientFilePath}`);
+      return res.sendFile(clientFilePath);
+    }
+
+    console.log(`Static file not found: ${url}`);
+    return res.status(404).end('File not found');
+  }
+
+  next();
+});
+
+// SSR handling - only for HTML routes
 app.use(async (req, res) => {
   try {
     const url = req.originalUrl;
-    console.log(`Handling request for: ${url}`);
+    console.log(`Handling SSR request for: ${url}`);
 
     let template;
     let render;
@@ -66,7 +104,7 @@ app.use(async (req, res) => {
         path.resolve(process.cwd(), 'index.html'),
         path.resolve(__dirname, '..', 'index.html')
       ];
-      
+
       let clientIndex = null;
       for (const possiblePath of possiblePaths) {
         console.log(`Checking for client index at: ${possiblePath}`);
@@ -76,14 +114,14 @@ app.use(async (req, res) => {
           break;
         }
       }
-      
+
       if (!clientIndex) {
         console.error('Client index not found in any of the expected locations');
         throw new Error('index.html not found. Did you run `npm run build`?');
       }
-      
+
       template = fs.readFileSync(clientIndex, 'utf-8');
-      
+
       // Try to find the server entry file
       const serverEntryPaths = [
         resolve('dist/server/entry-server.js'),
@@ -92,7 +130,7 @@ app.use(async (req, res) => {
         path.resolve(process.cwd(), 'server/entry-server.js'),
         path.resolve(__dirname, '..', 'server/entry-server.js')
       ];
-      
+
       let serverEntry = null;
       for (const possiblePath of serverEntryPaths) {
         console.log(`Checking for server entry at: ${possiblePath}`);
@@ -102,12 +140,12 @@ app.use(async (req, res) => {
           break;
         }
       }
-      
+
       if (!serverEntry) {
         console.error('Server entry not found in any of the expected locations');
         throw new Error('entry-server.js not found. Did you run `npm run build`?');
       }
-      
+
       console.log(`Loading server entry from: ${serverEntry}`);
       render = (await import(`file://${serverEntry}`)).render;
     } else {
