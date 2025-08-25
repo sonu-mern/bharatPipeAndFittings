@@ -15,7 +15,7 @@ import bhel from "../assets/images/trustedClient/bhel.png";
 import godrej from "../assets/images/trustedClient/godrej.png";
 import adityaBirla from "../assets/images/trustedClient/adityaBirla.png";
 
-import lt2 from "../assets/images/trustedClient/lt.png";
+import lt2 from "../assets/images/ThirdParty/lt.png";
 import npcil from "../assets/images/ThirdParty/npcil.jpg";
 import eil from "../assets/images/ThirdParty/eil.jpg";
 import ibr from "../assets/images/ThirdParty/ibr.jpg";
