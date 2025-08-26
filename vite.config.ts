@@ -32,6 +32,7 @@ export default defineConfig(({ command, mode }) => {
       emptyOutDir: true,
       ssrManifest: true,
     },
+    publicDir: 'public', // Ensure public files are copied to dist
     ssr: {
       // List of dependencies to externalize for SSR
       noExternal: ['react-helmet-async'],
