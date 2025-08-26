@@ -21,14 +21,14 @@ const ProductPage = () => {
 
   useEffect(() => {
     // Only use window.scrollTo in browser environment
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       window.scrollTo(0, 0);
     }
   }, []);
 
   useEffect(() => {
     // Only run in browser environment
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const handleResize = () => {
         setIsMobile(window.innerWidth <= 900);
       };
@@ -75,10 +75,95 @@ const ProductPage = () => {
           name="description"
           content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
         />
+        <meta
+          name="keywords"
+          content={`${product.name}, ${product.productShortName}, pipe manufacturer India, ${product.material} products, industrial supplies, ${constantValue.companyName}`}
+        />
+        <meta name="author" content={constantValue.companyName} />
+        <meta
+          name="robots"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+
+        {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content={`${product.name} | ${constantValue.companyName}`}
+        />
+        <meta
+          property="og:description"
+          content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
+        />
+        <meta property="og:type" content="product" />
+        <meta
+          property="og:url"
+          content={`${constantValue.companyUrl}/product/${id}`}
+        />
+        <meta
+          property="og:image"
+          content={
+            product.images?.[0] || `${constantValue.companyUrl}/logo.jpeg`
+          }
+        />
+        <meta property="og:site_name" content={constantValue.companyName} />
+        <meta property="og:locale" content="en_US" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`${product.name} | ${constantValue.companyName}`}
+        />
+        <meta
+          name="twitter:description"
+          content={product?.description?.replace(/<[^>]+>/g, "").slice(0, 155)}
+        />
+        <meta
+          name="twitter:image"
+          content={
+            product.images?.[0] || `${constantValue.companyUrl}/logo.jpeg`
+          }
+        />
+
         <link
           rel="canonical"
-          href={`https://www.yourwebsite.com/products/${id}`}
+          href={`${constantValue.companyUrl}/product/${id}`}
         />
+
+        {/* Structured Data - Product */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.name,
+            description: product?.description?.replace(/<[^>]+>/g, ""),
+            image:
+              product.images?.[0] || `${constantValue.companyUrl}/logo.jpeg`,
+            brand: {
+              "@type": "Brand",
+              name: constantValue.companyName,
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: constantValue.companyName,
+              url: constantValue.companyUrl,
+            },
+            category: "Industrial Supplies",
+            material: product.material,
+            url: `${constantValue.companyUrl}/product/${id}`,
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "INR",
+              price: "Contact for quote",
+              seller: {
+                "@type": "Organization",
+                name: constantValue.companyName,
+              },
+            },
+          })}
+        </script>
+
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -100,7 +185,7 @@ const ProductPage = () => {
                 "@type": "ListItem",
                 position: 3,
                 name: product.name,
-                item: `${constantValue.companyUrl}/products/${id}`,
+                item: `${constantValue.companyUrl}/product/${id}`,
               },
             ],
           })}
