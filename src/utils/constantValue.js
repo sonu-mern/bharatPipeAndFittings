@@ -19,7 +19,7 @@ Vasai East, Vasai Virar, Palghar,
 Maharashtra, 401208.`,
   salesEmail: "sales@bharatpipeandfittings.com",
 
-  companyUrl: "http://www.bharatpipeandfittings.com/",
+  companyUrl: "https://www.bharatpipeandfittings.com",
 
 
 

@@ -84,7 +84,78 @@ const Index = () => {
           India
         </title>
         <meta name="description" content={metaDescription} />
+        <meta
+          name="keywords"
+          content="pipe manufacturer India, stainless steel pipes, alloy steel fittings, carbon steel flanges, industrial valves, steel fasteners, round bars, pipe fittings supplier, Mumbai"
+        />
+        <meta name="author" content={constantValue.companyName} />
+        <meta
+          name="robots"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+
+        {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content={`${constantValue.companyName} | Leading Pipe & Fittings Manufacturer India`}
+        />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={constantValue.companyUrl} />
+        <meta
+          property="og:image"
+          content={`${constantValue.companyUrl}/logo.jpeg`}
+        />
+        <meta property="og:site_name" content={constantValue.companyName} />
+        <meta property="og:locale" content="en_US" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`${constantValue.companyName} | Leading Pipe & Fittings Manufacturer India`}
+        />
+        <meta name="twitter:description" content={metaDescription} />
+        <meta
+          name="twitter:image"
+          content={`${constantValue.companyUrl}/logo.jpeg`}
+        />
+
         <link rel="canonical" href={constantValue.companyUrl} />
+
+        {/* Structured Data - Organization */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: constantValue.companyName,
+            url: constantValue.companyUrl,
+            logo: `${constantValue.companyUrl}/logo.jpeg`,
+            description:
+              "Leading manufacturer of stainless steel, alloy steel, carbon steel pipes, fittings, flanges, valves, fasteners, and round bars in India.",
+            foundingDate: "1994",
+            numberOfEmployees: "100+",
+            address: {
+              "@type": "PostalAddress",
+              addressCountry: "IN",
+              addressLocality: "Mumbai",
+              addressRegion: "Maharashtra",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              contactType: "customer service",
+              telephone: "+91-XXXXXXXXXX",
+              email: "info@bharatpipe.com",
+            },
+            sameAs: [
+              "https://www.facebook.com/bharatpipe",
+              "https://www.linkedin.com/company/bharatpipe",
+              "https://twitter.com/bharatpipe",
+            ],
+          })}
+        </script>
+
+        {/* Structured Data - WebSite */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -96,6 +167,47 @@ const Index = () => {
               target: `${constantValue.companyUrl}/search?q={search_term_string}`,
               "query-input": "required name=search_term_string",
             },
+          })}
+        </script>
+
+        {/* Structured Data - Local Business */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: constantValue.companyName,
+            image: `${constantValue.companyUrl}/logo.jpeg`,
+            description:
+              "Leading manufacturer of stainless steel, alloy steel, carbon steel pipes, fittings, flanges, valves, fasteners, and round bars in India.",
+            url: constantValue.companyUrl,
+            telephone: "+91-XXXXXXXXXX",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Industrial Area",
+              addressLocality: "Mumbai",
+              addressRegion: "Maharashtra",
+              postalCode: "400001",
+              addressCountry: "IN",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "19.0760",
+              longitude: "72.8777",
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              opens: "09:00",
+              closes: "18:00",
+            },
+            priceRange: "$$",
+            servesCuisine: "Industrial Manufacturing",
           })}
         </script>
       </Helmet>

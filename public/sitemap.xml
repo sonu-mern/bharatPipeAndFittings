@@ -1,99 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage -->
   <url>
     <loc>https://www.bharatpipeandfittings.com/</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+  
+  <!-- About Page -->
   <url>
     <loc>https://www.bharatpipeandfittings.com/about</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+  
+  <!-- Contact Page -->
   <url>
     <loc>https://www.bharatpipeandfittings.com/contact</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+  
+  <!-- Product Pages -->
   <url>
-    <loc>https://www.bharatpipeandfittings.com/products</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/stainless-steel-pipes</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/services</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/alloy-steel-pipes</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/gallery</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/carbon-steel-pipes</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://www.bharatpipeandfittings.com/product/sheets-plates-coils</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.bharatpipeandfittings.com/product/angles-channels-flat</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.bharatpipeandfittings.com/product/pipes-tubes</loc>
-    <priority>0.80</priority>
-  </url>
+  
   <url>
     <loc>https://www.bharatpipeandfittings.com/product/pipe-fittings</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
     <loc>https://www.bharatpipeandfittings.com/product/flanges</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://www.bharatpipeandfittings.com/product/forged-fittings</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.bharatpipeandfittings.com/product/fasteners</loc>
-    <priority>0.80</priority>
-  </url>
+  
   <url>
     <loc>https://www.bharatpipeandfittings.com/product/valves</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/round-bars-rods</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/fasteners</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/stainless-steel</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/round-bars</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/carbon-steel</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/sheets-plates</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/hastelloy</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/angles-channels</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/titanium</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/copper-products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/inconel</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/titanium-products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/monel</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/hastelloy-products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/alloy-steel</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/inconel-products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://www.bharatpipeandfittings.com/product/copper</loc>
-    <priority>0.80</priority>
+    <loc>https://www.bharatpipeandfittings.com/product/monel-products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
   <url>
     <loc>https://www.bharatpipeandfittings.com/product/super-duplex-steel</loc>
-    <priority>0.80</priority>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
 </urlset>
