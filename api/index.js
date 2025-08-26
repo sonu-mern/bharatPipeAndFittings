@@ -94,12 +94,67 @@ app.get('/site.webmanifest', (req, res) => {
     if (fs.existsSync(filePath)) {
       console.log(`Found site.webmanifest at: ${filePath}`);
       res.setHeader('Content-Type', 'application/manifest+json');
+      res.setHeader('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
       return res.sendFile(filePath);
     }
   }
 
   console.log('site.webmanifest not found in any location');
-  res.status(404).end('Manifest not found');
+  res.status(404).json({ error: 'Manifest not found' });
+});
+
+// Handle sitemap.xml with proper content type
+app.get('/sitemap.xml', (req, res) => {
+  console.log('Handling sitemap.xml request');
+
+  const possiblePaths = [
+    resolve('public/sitemap.xml'),
+    resolve('dist/client/sitemap.xml'),
+    path.resolve(process.cwd(), 'public/sitemap.xml'),
+    path.resolve(process.cwd(), 'dist/client/sitemap.xml'),
+    path.resolve(__dirname, '..', 'public/sitemap.xml'),
+    path.resolve(__dirname, '..', 'dist/client/sitemap.xml')
+  ];
+
+  for (const filePath of possiblePaths) {
+    console.log(`Checking for sitemap.xml at: ${filePath}`);
+    if (fs.existsSync(filePath)) {
+      console.log(`Found sitemap.xml at: ${filePath}`);
+      res.setHeader('Content-Type', 'application/xml');
+      res.setHeader('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
+      return res.sendFile(filePath);
+    }
+  }
+
+  console.log('sitemap.xml not found in any location');
+  res.status(404).json({ error: 'Sitemap not found' });
+});
+
+// Handle robots.txt with proper content type
+app.get('/robots.txt', (req, res) => {
+  console.log('Handling robots.txt request');
+
+  const possiblePaths = [
+    resolve('public/robots.txt'),
+    resolve('dist/client/robots.txt'),
+    path.resolve(process.cwd(), 'public/robots.txt'),
+    path.resolve(process.cwd(), 'dist/client/robots.txt'),
+    path.resolve(__dirname, '..', 'public/robots.txt'),
+    path.resolve(__dirname, '..', 'dist/client/robots.txt')
+  ];
+
+  for (const filePath of possiblePaths) {
+    console.log(`Checking for robots.txt at: ${filePath}`);
+    if (fs.existsSync(filePath)) {
+      console.log(`Found robots.txt at: ${filePath}`);
+      res.setHeader('Content-Type', 'text/plain');
+      res.setHeader('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
+      return res.sendFile(filePath);
+    }
+  }
+
+  console.log('robots.txt not found in any location');
+  res.status(404).json({ error: 'Robots.txt not found' });
 });
 
 // Check for static files before SSR
@@ -107,8 +162,12 @@ app.use((req, res, next) => {
   const url = req.originalUrl;
   console.log(`Checking request for: ${url}`);
 
-  // Check if it's a static file request (but not catalog.pdf or site.webmanifest which we handle above)
-  if (url.match(/\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot|xml|txt)$/i)) {
+  // Check if it's a static file request (but not catalog.pdf, site.webmanifest, sitemap.xml, or robots.txt which we handle above)
+  if (url.match(/\.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|eot|xml|txt)$/i) &&
+    !url.includes('catalog.pdf') &&
+    !url.includes('site.webmanifest') &&
+    !url.includes('sitemap.xml') &&
+    !url.includes('robots.txt')) {
     console.log(`Static file request detected: ${url}`);
 
     // Try to find the file in public directory
