@@ -12,7 +12,8 @@ const TopBar = () => {
             <FaMapMarkerAlt className={styles.icon} /> India, Mumbai
           </span>
           <div className={styles.links}>
-            <a href="tel:+919119171675" className={styles.link}>
+            
+            <a href={`tel:+${constantValue.phone}`} className={styles.link}>
               <FaPhoneAlt className={styles.icon} />{" "}
               {constantValue.companyPhone}
             </a>
