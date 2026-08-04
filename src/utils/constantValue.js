@@ -20,8 +20,9 @@ Maharashtra, 401208.`,
   salesEmail: "sales@bharatpipeandfittings.com",
 
   companyUrl: "http://www.bharatpipeandfittings.com/",
-
-
-
+    // Hardcoded expiry date (ISO format). Update this to extend subscription.
+    // Example: "2026-08-05" represents 5 Aug 2026.
+    expiryDateISO: "2026-08-05",
+    expiryMessage: "Your server subscription is down. Please contact support.",
 
 };

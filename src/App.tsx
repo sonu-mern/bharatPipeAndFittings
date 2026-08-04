@@ -22,9 +22,33 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => {
   console.log("App rendering");
+  const expiryISO = constantValue.expiryDateISO;
+  const isExpired = (() => {
+    try {
+      if (!expiryISO) return false;
+      // Treat the ISO date as the start of that day: expire on that date (e.g., 2026-08-05 expires starting 2026-08-05 00:00)
+      const expiryStart = new Date(expiryISO + "T00:00:00");
+      // If current date/time is on or after the expiry start, consider expired
+      return new Date() >= expiryStart;
+    } catch (e) {
+      return false;
+    }
+  })();
+
   useEffect(() => {
-    document.title = constantValue.companyName;
-  }, []);
+    document.title = isExpired ? "Subscription expired" : constantValue.companyName;
+  }, [isExpired]);
+
+  if (isExpired) {
+    return (
+      <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", padding: 20 }}>
+        <div style={{ textAlign: "center" }}>
+          <h1 style={{ fontSize: 22, marginBottom: 8 }}>{constantValue.expiryMessage || "Subscription expired"}</h1>
+          <p style={{ color: "#666" }}>Expiry Date: {constantValue.expiryDateISO}</p>
+        </div>
+      </div>
+    );
+  }
   return (
     <HelmetProvider>
 
